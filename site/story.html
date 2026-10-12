@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Battle Rhythm · Story</title>
+<meta name="theme-color" content="#141112">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="wordmark">BATTLE <span>RHYTHM</span></span>
+      <span class="tagline">The daily watch for those who served and serve</span>
+    </a>
+    <div class="clocks" aria-label="Current time">
+      <div class="clock z"><span class="lbl">ZULU · DTG</span><span class="t" id="cz">--</span></div>
+      <div class="clock ct"><span class="lbl">CENTRAL</span><span class="t" id="cc">--</span></div>
+    </div>
+    <div class="tools">
+      <a class="btn-ghost" href="about.html">About</a>
+      <button class="btn-ghost" id="hcBtn" type="button" aria-pressed="false">High contrast</button>
+    </div>
+  </div>
+</header>
+
+<main class="article" id="article">
+  <div class="empty"><b>Loading the story…</b></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Battle Rhythm is a pilot run by veterans. AI helps find and draft stories; every item is reviewed, edited, and approved by a named editor. Takes are opinion.</p>
+    <p><a href="about.html">About and disclosures</a></p>
+  </div>
+</footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/geo.js"></script>
+<script>
+(function () {
+  var BR = window.BR, esc = BR.esc;
+  var id = new URLSearchParams(location.search).get("id");
+  var main = document.getElementById("article");
+  BR.fetchJSON("data/published.json").then(function (list) {
+    var p = (list || []).filter(function (x) { return x.id === id; })[0];
+    if (!p) {
+      main.innerHTML = '<a class="back" href="./">← Back to the board</a><div class="empty"><b>This story is no longer on the board.</b><span>It may have been removed by an editor. Head back to see today\'s Sitrep.</span></div>';
+      return;
+    }
+    document.title = p.headline + " · Battle Rhythm";
+    var url = BR.storyUrl(p.id);
+    var xText = encodeURIComponent(p.headline + " via Battle Rhythm");
+    var crisis = p.suicide_safe && !/988/.test(p.summary + p.take)
+      ? '<div class="crisis">If you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1. You can also text 838255.</div>' : "";
+    main.innerHTML =
+      '<a class="back" href="./">← Back to the board</a>' +
+      '<div class="story-meta"><span class="lane-chip">' + BR.laneDot(p.lane) + esc(p.lane_label) + "</span>" +
+      (p.policy ? '<span class="policy-chip">POLICY</span>' : "") +
+      (p.state && BR_GEO.states[p.state] ? "<span>" + esc(BR_GEO.states[p.state][0]) + "</span>" : "") +
+      "<span>Approved " + esc(BR.ct(new Date(p.approved_at), { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + " CT</span></div>" +
+      "<h1>" + esc(p.headline) + "</h1>" +
+      '<p class="lede">' + esc(p.summary) + "</p>" +
+      (p.why_it_matters ? '<div class="wim"><b>Why it matters</b>' + esc(p.why_it_matters) + "</div>" : "") +
+      (p.take ? '<div class="take"><span class="take-label">Our take · ' + esc(p.take_by) + " · opinion</span><p>" + esc(p.take) + "</p></div>" : "") +
+      crisis +
+      (p.disclosures || []).map(function (d) { return '<p class="disclosure">' + esc(d) + "</p>"; }).join("") +
+      '<div class="source-card"><span class="take-label">Original reporting</span>' +
+      '<a class="source-link" href="' + esc(p.source_url) + '" target="_blank" rel="noopener">Read the full story at ' + esc(p.source) + " ↗</a>" +
+      '<span class="meta">Battle Rhythm summarizes and links to the original. We do not republish articles.</span></div>' +
+      '<div class="share"><button class="btn-ghost" type="button" id="copyLink">Copy link</button>' +
+      '<a class="btn-ghost" target="_blank" rel="noopener" href="https://x.com/intent/post?text=' + xText + "&url=" + encodeURIComponent(url) + '">Share on X</a>' +
+      '<a class="btn-ghost" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '">Share on Facebook</a></div>';
+    document.getElementById("copyLink").onclick = function () { BR.copy(url, this); };
+  }).catch(function () {
+    main.innerHTML = '<div class="empty"><b>The board could not be loaded.</b><span>Check your connection and refresh.</span></div>';
+  });
+})();
+</script>
+</body>
+</html>

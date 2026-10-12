@@ -1,0 +1,31 @@
+# Battle Rhythm pipeline settings. Safe to edit.
+
+site_name: Battle Rhythm
+
+# Claude models. The scorer reads every new story, so it uses the faster, cheaper model.
+# The drafter writes only for stories that clear the draft threshold.
+models:
+  scorer: claude-haiku-5-5
+  drafter: claude-sonnet-5-5
+
+# Scoring thresholds (out of 100)
+thresholds:
+  sitrep: 85      # tagged as a Sitrep candidate
+  draft: 70       # gets a full draft (summary, take, posts) and enters the approval queue
+  browse: 50      # kept in the queue as a low-priority "browse" item without a draft
+
+limits:
+  max_items_per_feed: 25        # newest items read from each feed per run
+  max_age_hours: 72             # ignore stories older than this
+  max_drafts_per_run: 15        # cost cap: the top N stories get drafted each run
+  score_batch_size: 20          # stories per scoring call
+  article_chars: 6000           # how much article text the drafter may read
+
+queue:
+  pending_ttl_hours: 72         # undecided items expire after this
+  keep_decided_days: 14         # decided items move to the archive after this
+  max_published: 500            # newest approved items kept on the public site
+
+editors:
+  - Will Wisner
+  - Anthony Canania

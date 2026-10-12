@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Battle Rhythm</title>
+<meta name="description" content="A daily news watch for service members, veterans, first responders, and their families. Every story reviewed by a veteran editor.">
+<meta property="og:title" content="Battle Rhythm">
+<meta property="og:description" content="The daily news watch for those who served and serve. Every story reviewed by a veteran editor.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#141112">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="wordmark">BATTLE <span>RHYTHM</span></span>
+      <span class="tagline">The daily watch for those who served and serve</span>
+    </a>
+    <div class="clocks" aria-label="Current time">
+      <div class="clock z"><span class="lbl">ZULU · DTG</span><span class="t" id="cz">--</span></div>
+      <div class="clock ct"><span class="lbl">CENTRAL</span><span class="t" id="cc">--</span></div>
+    </div>
+    <div class="tools">
+      <a class="btn-ghost" href="about.html">About</a>
+      <button class="btn-ghost" id="hcBtn" type="button" aria-pressed="false">High contrast</button>
+    </div>
+  </div>
+</header>
+<div class="statusline" role="status">
+  <div class="wrap">
+    <span class="live">ON WATCH</span>
+    <span>Last sweep <b id="lastSweep">--</b></span>
+    <span>Stories on the board <b id="pubCount">--</b></span>
+    <span>Every item approved by a named editor</span>
+  </div>
+</div>
+
+<main>
+  <section class="sitrep wrap" aria-labelledby="sitrepTitle">
+    <div class="sitrep-head">
+      <div>
+        <p class="label">Daily Sitrep</p>
+        <h1 class="sitrep-title" id="sitrepTitle">What you need to know today</h1>
+      </div>
+      <span class="sitrep-date" id="sitrepDate"></span>
+    </div>
+    <ol class="sitrep-list" id="sitrep"></ol>
+  </section>
+
+  <div class="board wrap">
+    <section class="panel" aria-labelledby="feedTitle">
+      <h2 class="label" id="feedTitle">The Feed <small id="feedCount"></small></h2>
+      <div class="tabs" id="laneTabs" role="group" aria-label="Filter by lane"></div>
+      <p class="filter-note" id="filterNote" hidden></p>
+      <div class="feed" id="feed"></div>
+    </section>
+
+    <div class="side">
+      <section class="panel" aria-labelledby="mapTitle">
+        <h2 class="label" id="mapTitle">Map <small>stories by state</small></h2>
+        <div class="map-wrap">
+          <canvas id="map" width="800" height="500" role="img" aria-label="Map of the United States with a marker for each state that has stories on the board"></canvas>
+          <div class="map-tip" id="mapTip" hidden></div>
+        </div>
+        <div class="legend" id="legend"></div>
+        <p class="map-note">Tap a marker to see that state's stories. National stories are not mapped.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="policyTitle">
+        <h2 class="label" id="policyTitle">Policy Watch <small>bills, rules, rulings</small></h2>
+        <ul class="policy-list" id="policy"></ul>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Battle Rhythm is a pilot run by veterans. AI helps find and draft stories; every item is reviewed, edited, and approved by a named editor. Summaries are our own and link to the original reporting. Takes are opinion.</p>
+    <p><a href="about.html">About and disclosures</a></p>
+  </div>
+</footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/geo.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

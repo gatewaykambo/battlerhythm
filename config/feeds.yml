@@ -1,0 +1,67 @@
+# Battle Rhythm source list.
+# Each feed has a name, a URL, and a lane hint the scorer uses as a starting point.
+# Lanes: active_duty, veterans, first_responders, plant_medicine, mixed
+# kind: "news" (default) or "policy" (official rulemaking, bills, court and agency actions)
+# weight: multiplies the final score slightly (1.0 = normal). Use 1.1 for sources you trust most.
+#
+# Every run logs which feeds failed, so a dead URL shows up in the run summary on GitHub.
+# Add, remove, or reweight sources here; no code changes needed.
+
+feeds:
+  # ---------- Active duty and defense ----------
+  - name: Military Times
+    url: https://www.militarytimes.com/arc/outboundfeeds/rss/?outputType=xml
+    lane: mixed
+    weight: 1.1
+  - name: Defense News
+    url: https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml
+    lane: active_duty
+  - name: Task & Purpose
+    url: https://taskandpurpose.com/feed/
+    lane: mixed
+  - name: News search · service members
+    url: https://news.google.com/rss/search?q=%22service+members%22+OR+troops+OR+%22military+families%22+when:1d&hl=en-US&gl=US&ceid=US:en
+    lane: active_duty
+
+  # ---------- Veterans and the VA ----------
+  - name: The War Horse
+    url: https://thewarhorse.org/feed/
+    lane: veterans
+    weight: 1.1
+  - name: VA News
+    url: https://news.va.gov/feed/
+    lane: veterans
+  - name: Federal Register · VA documents
+    url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=veterans-affairs-department
+    lane: veterans
+    kind: policy
+  - name: News search · veterans and VA
+    url: https://news.google.com/rss/search?q=veterans+%28VA+OR+%22Veterans+Affairs%22%29+when:1d&hl=en-US&gl=US&ceid=US:en
+    lane: veterans
+  - name: News search · toxic exposure
+    url: https://news.google.com/rss/search?q=%28%22burn+pits%22+OR+%22PACT+Act%22+OR+%22toxic+exposure%22%29+veterans+when:3d&hl=en-US&gl=US&ceid=US:en
+    lane: veterans
+
+  # ---------- First responders ----------
+  - name: News search · firefighters
+    url: https://news.google.com/rss/search?q=firefighters+%28PTSD+OR+cancer+OR+benefits+OR+staffing+OR+legislation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: first_responders
+  - name: News search · police and EMS wellness
+    url: https://news.google.com/rss/search?q=%28police+OR+EMS+OR+paramedics+OR+dispatchers%29+%28%22mental+health%22+OR+PTSD+OR+%22peer+support%22+OR+benefits%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: first_responders
+  - name: News search · first responder policy
+    url: https://news.google.com/rss/search?q=%22first+responders%22+%28bill+OR+law+OR+legislation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: first_responders
+    kind: policy
+
+  # ---------- Plant medicine and policy ----------
+  - name: Marijuana Moment
+    url: https://www.marijuanamoment.net/feed/
+    lane: plant_medicine
+  - name: News search · psychedelic therapy and veterans
+    url: https://news.google.com/rss/search?q=%28psilocybin+OR+MDMA+OR+ibogaine+OR+psychedelic%29+%28veterans+OR+%22first+responders%22+OR+PTSD%29+when:7d&hl=en-US&gl=US&ceid=US:en
+    lane: plant_medicine
+  - name: News search · hemp and THC law
+    url: https://news.google.com/rss/search?q=hemp+%28THC+OR+ban+OR+law+OR+regulation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: plant_medicine
+    kind: policy

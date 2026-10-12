@@ -1,0 +1,37 @@
+# Terms that force a human look and a disclosure. Matching is case-insensitive.
+# A flag never changes a story's score; it shows on the approval card so the
+# approver knows a disclosure or a recusal may be needed.
+#
+# REVIEW THIS LIST. It was seeded from the War Party client and partner names
+# discussed so far. Add new clients the day they sign.
+
+client_conflict:
+  label: War Party client or partner
+  disclosure: "Disclosure: War Party, Inc., whose founders edit Battle Rhythm, works with an organization named in this story."
+  terms:
+    - American Healthy Alternatives Association
+    - AHAA
+    - Dr. Monroe's CBD
+    - Alterna Therapies
+    - imaware
+    - Mission Within
+    - Burn Pits 360
+    - BurnPits 360
+    - Rage Six Games
+
+foundation:
+  label: Grunt Style / Foundation mention
+  # Both pilot editors serve on the Foundation board, so the approval desk recommends killing these.
+  disclosure: "Disclosure: Battle Rhythm's editors serve on the board of the Grunt Style Foundation."
+  terms:
+    - Grunt Style
+    - Grunt Style Foundation
+    - War Cry for Change
+
+war_party:
+  label: Mentions War Party
+  disclosure: "Disclosure: Battle Rhythm is edited by founders of War Party, Inc."
+  terms:
+    - War Party, Inc
+    - War Party Inc
+    - War Party Network

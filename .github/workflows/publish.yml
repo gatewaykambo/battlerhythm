@@ -1,0 +1,39 @@
+# Runs whenever an editor approves, kills, or unpublishes a story from the approval desk.
+name: Publish
+
+on:
+  push:
+    paths:
+      - "data/decisions/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt
+      - name: Apply decisions
+        run: python pipeline/publish.py
+      - name: Save results
+        run: |
+          git config user.name "battle-rhythm-bot"
+          git config user.email "battle-rhythm-bot@users.noreply.github.com"
+          git add -A data site/data
+          git diff --cached --quiet && { echo "Nothing to publish."; exit 0; }
+          git commit -m "Publish editor decisions"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
