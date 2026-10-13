@@ -504,7 +504,7 @@
  },
  {
   "id": "20108fde8ced",
-  "status": "pending",
+  "status": "approved",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -552,6 +552,12 @@
     "hemp",
     "HempPolicy"
    ]
+  },
+  "decision": {
+   "status": "approved",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:34:50Z"
   }
  },
  {
