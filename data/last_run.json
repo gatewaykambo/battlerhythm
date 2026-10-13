@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-13T02:30:13Z",
+ "started_at": "2026-10-13T02:33:30Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (25)",
@@ -9,29 +9,34 @@
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
+  "GDELT · U.S. forces worldwide (0)",
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (15)",
+  "GDELT · veterans (0)",
   "Marijuana Moment (10)",
-  "Lucid News (10)"
+  "Lucid News (10)",
+  "GDELT · psychedelic therapy (0)",
+  "GDELT · hemp and cannabis policy (0)",
+  "News search · service members (25)",
+  "News search · veterans and VA (25)",
+  "News search · firefighters (25)",
+  "News search · police and EMS wellness (25)",
+  "News search · psychedelic therapy and veterans (25)",
+  "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "Stars and Stripes: HTTPError: 404 Client Error: Not Found for url: https://www.stripes.com/arc/outboundfeeds/rss/?outputType=xml",
-  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
-  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
   "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
-  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
-  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA",
-  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi"
  ],
- "new": 27,
- "scored": 27,
- "wired": 1,
+ "new": 8,
+ "scored": 8,
+ "wired": 5,
  "queued": 0,
  "drafted": 0,
  "no_article": 0,
  "duplicates_merged": 0,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-10-13T02:32:31Z"
+ "finished_at": "2026-10-13T02:40:55Z"
 }
