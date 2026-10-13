@@ -148,7 +148,7 @@
  },
  {
   "id": "0b50627de7b4",
-  "status": "pending",
+  "status": "approved",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -192,6 +192,12 @@
     "Firefighters",
     "FirstResponders"
    ]
+  },
+  "decision": {
+   "status": "approved",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:17:10Z"
   }
  },
  {
