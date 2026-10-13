@@ -562,7 +562,7 @@
  },
  {
   "id": "dbdffb5a37c1",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -594,6 +594,12 @@
   "found_at": "2026-10-13T00:51:35Z",
   "feed": "News search · veterans and VA",
   "also_covered_by": [],
-  "draft": null
+  "draft": null,
+  "decision": {
+   "status": "expired",
+   "editor": "system",
+   "decided_at": null,
+   "reason": "Drafted before the full-article rule"
+  }
  }
 ]
