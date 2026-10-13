@@ -18,7 +18,7 @@ limits:
   max_items_per_feed: 25        # newest items read from each feed per run
   max_age_hours: 72             # ignore stories older than this
   max_drafts_per_run: 15        # cost cap: the top N stories get drafted each run
-  score_batch_size: 20          # stories per scoring call
+  score_batch_size: 15          # stories per scoring call
   article_chars: 6000           # how much article text the drafter may read
 
 queue:

@@ -26,7 +26,7 @@ def has_key() -> bool:
     return bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def _call(model: str, system: str, user: str, max_tokens: int = 4000) -> str:
+def _call(model: str, system: str, user: str, max_tokens: int = 4000, tool: dict | None = None):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise AIError("ANTHROPIC_API_KEY is not set")
@@ -36,6 +36,9 @@ def _call(model: str, system: str, user: str, max_tokens: int = 4000) -> str:
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }
+    if tool:
+        body["tools"] = [tool]
+        body["tool_choice"] = {"type": "tool", "name": tool["name"]}
     headers = {"x-api-key": key, "anthropic-version": API_VERSION, "content-type": "application/json"}
     workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
     if workspace:  # needed only for keys that are not tied to a workspace
@@ -55,6 +58,13 @@ def _call(model: str, system: str, user: str, max_tokens: int = 4000) -> str:
         if r.status_code != 200:
             raise AIError(f"HTTP {r.status_code}: {r.text[:500]}")
         data = r.json()
+        if data.get("stop_reason") == "max_tokens":
+            raise AIError("Reply was cut off at the length limit")
+        if tool:
+            for block in data.get("content", []):
+                if block.get("type") == "tool_use":
+                    return block.get("input") or {}
+            raise AIError("Claude did not fill in the form")
         return "".join(block.get("text", "") for block in data.get("content", []) if block.get("type") == "text")
     raise AIError(f"Claude API failed after retries: {last}")
 
@@ -103,8 +113,38 @@ Also return:
 - flags: any of "medical_claim" (makes or repeats a treatment or health claim), "suicide" (involves suicide or self-harm), "thin_source" (headline only or unclear sourcing), "opinion_source" (the source item is itself an opinion piece), "graphic" (violence or graphic content). Empty list if none.
 - why: one short line explaining the score
 
-Reply with ONLY a JSON array, one object per item, in the same order:
-[{"i": 0, "lane": "veterans", "relevance": 0, "impact": 0, "traction": 0, "angle": 0, "timeliness": 0, "policy": false, "state": null, "flags": [], "why": "..."}]"""
+Record one score for every item with the record_scores tool, using each item's "i" number."""
+
+SCORE_TOOL = {
+    "name": "record_scores",
+    "description": "Record the triage score for every item in the batch.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "scores": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "i": {"type": "integer"},
+                        "lane": {"type": "string", "enum": ["active_duty", "veterans", "first_responders", "plant_medicine"]},
+                        "relevance": {"type": "integer"},
+                        "impact": {"type": "integer"},
+                        "traction": {"type": "integer"},
+                        "angle": {"type": "integer"},
+                        "timeliness": {"type": "integer"},
+                        "policy": {"type": "boolean"},
+                        "state": {"type": ["string", "null"]},
+                        "flags": {"type": "array", "items": {"type": "string"}},
+                        "why": {"type": "string"},
+                    },
+                    "required": ["i", "lane", "relevance", "impact", "traction", "angle", "timeliness", "policy", "flags", "why"],
+                },
+            }
+        },
+        "required": ["scores"],
+    },
+}
 
 
 def score_batch(items: list[dict], model: str, dry: bool = False) -> list[dict]:
@@ -120,7 +160,7 @@ def score_batch(items: list[dict], model: str, dry: bool = False) -> list[dict]:
             "snippet": (it.get("snippet") or "")[:500],
         }, ensure_ascii=False))
     user = "Score these items:\n" + "\n".join(lines)
-    out = _json_from(_call(model, SCORE_SYSTEM, user, max_tokens=300 + 180 * len(items)))
+    out = (_call(model, SCORE_SYSTEM, user, max_tokens=1000 + 250 * len(items), tool=SCORE_TOOL) or {}).get("scores")
     if not isinstance(out, list):
         raise AIError("Scorer did not return a list")
     by_i = {o.get("i"): o for o in out if isinstance(o, dict)}
@@ -167,17 +207,30 @@ Follow the editorial guide below exactly. Above all:
 EDITORIAL GUIDE:
 {guide}
 
-Reply with ONLY a JSON object with these keys:
-{{
- "headline": "our own headline, plain and specific, under 90 characters, no clickbait",
- "summary": "2-3 sentences, 40-80 words, what happened, in our words",
- "why_it_matters": "one sentence on what it means for the lane's audience",
- "take": "2-4 sentences of opinion in Battle Rhythm's voice, first person plural (we)",
- "x_post": "a post for X under 230 characters, no link and no hashtags (both are added later)",
- "fb_post": "a Facebook post of 2-4 short paragraphs: the news, why it matters, our view, and one question that invites comments. No link (added later).",
- "hashtags": ["at most two relevant hashtags without the # sign"],
- "open_questions": "what the source does not answer yet, or an empty string"
-}}"""
+Record the draft with the record_draft tool."""
+
+DRAFT_FIELDS = {
+    "headline": "Our own headline, plain and specific, under 90 characters, no clickbait.",
+    "summary": "2-3 sentences, 40-80 words: what happened, in our own words.",
+    "why_it_matters": "One sentence on what it means for the lane's audience.",
+    "take": "2-4 sentences of opinion in Battle Rhythm's voice, first person plural (we).",
+    "x_post": "A post for X under 230 characters. No link and no hashtags; both are added later.",
+    "fb_post": "A Facebook post of 2-4 short paragraphs: the news, why it matters, our view, and one question that invites comments. No link; it is added later.",
+    "open_questions": "What the source does not answer yet, or an empty string.",
+}
+
+DRAFT_TOOL = {
+    "name": "record_draft",
+    "description": "Record the first draft for the editor to review.",
+    "input_schema": {
+        "type": "object",
+        "properties": dict(
+            {k: {"type": "string", "description": v} for k, v in DRAFT_FIELDS.items()},
+            hashtags={"type": "array", "items": {"type": "string"}, "description": "At most two relevant hashtags without the # sign."},
+        ),
+        "required": list(DRAFT_FIELDS) + ["hashtags"],
+    },
+}
 
 
 def draft_item(item: dict, article_text: str, guide: str, model: str, dry: bool = False) -> dict:
@@ -202,7 +255,7 @@ def draft_item(item: dict, article_text: str, guide: str, model: str, dry: bool 
         article_text or "(not available; rely on the headline and snippet only, and keep the draft short)",
     ]
     user = "SOURCE MATERIAL\n" + "\n".join(material)
-    out = _json_from(_call(model, DRAFT_SYSTEM.format(guide=guide), user, max_tokens=1500))
+    out = _call(model, DRAFT_SYSTEM.replace("{guide}", guide), user, max_tokens=3000, tool=DRAFT_TOOL)
     if not isinstance(out, dict):
         raise AIError("Drafter did not return an object")
     tags = out.get("hashtags") or []
