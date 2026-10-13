@@ -1,1 +1,533 @@
-[]
+[
+ {
+  "id": "a9210863a727",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 89,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 22,
+   "traction": 13,
+   "angle": 11,
+   "timeliness": 13
+  },
+  "score_why": "Projected COLA hike affects millions of veterans' checks; high share and argument potential.",
+  "policy": true,
+  "state": null,
+  "flags": [],
+  "source": "AL.com",
+  "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNa053TXEwaEJLUTI4X2tQUUVzWmtrRnNBME5RUHd1OGZiVEQzaDlGd2JsYUl1NG10bm81S3ZyMVRIbVV0YktPN051Ri1rZ29kQWs5eDZNay1SZ0VkMkQ5Nm9xYWV2NGVXZ2ZyaWhqbzYtTG5HQzFmSTRWTEwwSk9jRzFrd0VsOG13a0l5aUR0ODJQQWh3X3NVbE5WelhpTFdISFZBcFI1MVlmY01FSW01QzZyYjJIdXdQajJCWGsxMUNYNTRRUWdVMVdlMFdEYXpyVnVV0gHnAUFVX3lxTE51a0VlcEJNRGFUM25fcDltdnhENUJqZ2hVdlc3aUVLdzlHTW9WNEJ5WWZxNC1Ya015UWxBakJSU2MxdmE1N3I4QTFTREI1TjJNS0VTWUhyUDExc0JtZ2J5MjRLYjVlclBCaFNuUVRmZVVEMFNSSmdtSFMtc1Vhel9scEo5ei10OWtBN1NYN2hXN3NBazZXOWF1N2lLVkJPXzlSMVZ0N1JWdWdhOUN6TTBmU1FzbElhRmhjT2JUcE5xSURNRUdiS0t4QXJDRkE1UUhVM3lYV0tPcTlVVDBSZEs0d0hURWMyYw?oc=5",
+  "source_title": "VA disability payments could see biggest COLA increase in 4 years — here’s what it means for your check",
+  "snippet": "VA disability payments could see biggest COLA increase in 4 years — here’s what it means for your check AL.com",
+  "published_at": "2026-10-12T18:09:00Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · veterans and VA",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "VA disability COLA may be the largest raise in four years, AL.com reports",
+   "summary": "AL.com reports that VA disability payments could get their biggest cost-of-living adjustment (COLA) in four years. COLA is the yearly raise meant to help benefit checks keep up with rising prices. The piece we could access was only a headline and snippet. We have no percentage, no dollar amounts, and no start date yet, so treat this as a heads-up, not a final number.",
+   "why_it_matters": "Disabled veterans and their families budget around this check, so the size and timing of the raise affect real household decisions.",
+   "take": "A bigger COLA would be good news, but the word that matters in this headline is \"could.\" Nothing is final until the official figure is out. We hold that disability pay is an earned benefit, not a gift, and it should keep pace with what groceries, rent, and gas actually cost. Until we see the real number and the date, plan around what you are paid today.",
+   "x_post": "AL.com reports VA disability payments could get their biggest COLA raise in four years. No percentage or start date in what we've seen yet. We're watching for the official number. Plan on today's rate until then.",
+   "fb_post": "AL.com reports that VA disability payments could see their biggest cost-of-living adjustment (COLA) in four years.\n\nHere's the catch: what we have is a headline and a snippet. We don't yet have the percentage, the dollar amounts, or the effective date. So this is a heads-up, not a final answer.\n\nOur view: disability pay is an earned benefit, and it should keep up with real prices. A bigger raise would help. But \"could\" isn't \"will,\" so budget on your current payment until the official numbers are out.\n\nWhat would a larger COLA change most for your household?",
+   "open_questions": "What is the actual COLA percentage? What is the effective date? What would the raise be at common disability rating levels? What is the basis for the \"could\" in the headline? The article text was unavailable, so all of this needs to be confirmed from the full AL.com story or official sources.",
+   "hashtags": [
+    "VABenefits",
+    "COLA"
+   ]
+  }
+ },
+ {
+  "id": "c0fe69f9816f",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 88,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 14,
+   "angle": 12,
+   "timeliness": 14
+  },
+  "score_why": "Breaking: Pentagon quietly revising U.S. troop death toll in Iran war; direct impact on service members and families.",
+  "policy": false,
+  "state": null,
+  "flags": [],
+  "source": "Democracy Now!",
+  "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdWN5ZHVxOWd5WkpDdzAwRm1SRFVkbm5WX29FNFdYMWJIbmxkRTBhSk1RZTVuWm1mczZtOGJGa1ZCbWR5M21jbnhELW00U19uc0tkNFA3X2dBelg2d0NGVWZpQ1Z6dXpOMzdJZmhTdE54bmk4M0xVbVFfR0VBeEV3TkVjeXZqVXVycTJoMlZaYXRVTUV3ckdaYUgxVGVUbVBFMmo0MUlQVWdoSGpQNEl6UQ?oc=5",
+  "source_title": "Pentagon Quietly Raises Count of U.S. Troops Killed in Iran War",
+  "snippet": "Pentagon Quietly Raises Count of U.S. Troops Killed in Iran War Democracy Now!",
+  "published_at": "2026-10-12T14:48:24Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "Task & Purpose",
+    "url": "https://taskandpurpose.com/news/pentagon-iran-war-death-toll-21/",
+    "title": "Pentagon raises Iran war death toll to 21"
+   }
+  ],
+  "draft": {
+   "headline": "Pentagon reportedly raises count of U.S. troops killed in Iran war",
+   "summary": "Democracy Now! reports that the Pentagon has raised its official count of U.S. troops killed in the Iran war, and that it did so without a public announcement. The material we have is only a headline. It does not give the new total, the old total, or the reason for the change. We are flagging it now and will need the primary source to say more.",
+   "why_it_matters": "Casualty counts are how families, troops, and the public know what a war is costing, so any quiet change to them deserves a close look.",
+   "take": "A casualty count is not a press-release talking point. It is a list of names, and each name has a family waiting on the truth. If the Pentagon revised the number, it should say so plainly, show what changed, and explain why. Quiet updates breed distrust, and the people who served and their families have earned better than that. We will hold judgment until we see the actual figures and the Pentagon's own explanation.",
+   "x_post": "Democracy Now! reports the Pentagon has raised its count of U.S. troops killed in the Iran war, without announcing it. We don't yet have the numbers or the reason. Families deserve a plain accounting. We're watching for the primary source.",
+   "fb_post": "Democracy Now! reports that the Pentagon has raised its official count of U.S. troops killed in the Iran war, and did it without a public announcement.\n\nHere is what we don't know yet: the new number, the old number, and why it changed. The report we have is just a headline, so we're not going to guess.\n\nOur view is simple. A casualty count is a list of names, and every one of them has a family. If the number changes, the Pentagon should say so openly and explain the change. Quiet edits make people wonder what else is being left unsaid.\n\nIf you've seen the Pentagon's own figures or statement, what did it say?",
+   "open_questions": "What is the new total, and what was it before? Which deaths were added, and when did they occur? Why did the count change (late reporting, a new category, a correction)? Did the Pentagon issue any statement or update its own website? Has the Defense Department confirmed the Democracy Now! account? We need the full article or the Pentagon's own data to answer these.",
+   "hashtags": [
+    "Pentagon",
+    "ActiveDuty"
+   ]
+  }
+ },
+ {
+  "id": "263031bcf2cb",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 81,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 16,
+   "traction": 13,
+   "angle": 10,
+   "timeliness": 14
+  },
+  "score_why": "Breaking DOD casualty disclosure from the Iran war; directly affects troops and families.",
+  "policy": false,
+  "state": null,
+  "flags": [],
+  "source": "Central Oregon Daily",
+  "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbWZJRFBfWGREMEx4bGhBeEt5eXBBNXFkZERaT0ZISDFwSTRsaGR1ZHhZRmE3RnFjYUZZaTNaSHlrTTJrRnk1ZUxnbG1BejlJdFFNZTBfNEV5TjMySTlLVlZ0RkxwTUlJVlktTFRnVFhseEx6RDJlSDBhRHZJVE9xNTBzY1hfdUUweE5QVktuYl9veEQ3Y3pOai10OEhGTVhEOXVHU0duY2E1X29PQkxmdE1BdlhTODc5a0l3R1ktd3p4TVRTd2lQREExWExrMlVSUXUxNWE1TjNYZFRfRUM4OVc3dUJhdVBQdEhIVUFXcld0MjFV?oc=5",
+  "source_title": "DOD reveals 21 U.S. service members have died in war with Iran",
+  "snippet": "DOD reveals 21 U.S. service members have died in war with Iran Central Oregon Daily",
+  "published_at": "2026-10-12T19:06:32Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "DOD says 21 U.S. service members have died in war with Iran",
+   "summary": "The Department of Defense (DOD) has disclosed that 21 U.S. service members have died in a war with Iran, according to a Central Oregon Daily report published October 12, 2026. The headline is all we have so far. The material we reviewed does not include names, branches, dates, locations, or how the deaths occurred.",
+   "why_it_matters": "A confirmed U.S. death toll in a war with Iran affects every service member and family who may deploy, wait on a deployed loved one, or care for survivors.",
+   "take": "Twenty-one is not a statistic. It is 21 families, and each one is owed clear, timely, accurate information from the Pentagon. We will wait for the details before drawing conclusions about the operation itself. We will hold the line on one thing now: the survivors and the wounded must get every benefit they have earned, without a fight.",
+   "x_post": "DOD has disclosed that 21 U.S. service members have died in a war with Iran, per Central Oregon Daily. Names, units, and circumstances are not in the report we reviewed. We're watching for more official detail.",
+   "fb_post": "The Department of Defense has revealed that 21 U.S. service members have died in a war with Iran, according to a Central Oregon Daily report from October 12, 2026.\n\nThat is all the source tells us so far. We don't have names, branches, dates, locations, or how the deaths happened, and we won't guess.\n\nOur view: behind that number are 21 families who are owed clear and timely information. Survivors and the wounded must also get every benefit they have earned, with no fight required. We will update as official details come out.\n\nIf you serve or have a loved one in the fight, what information do you most want from DOD right now?",
+   "open_questions": "Who were the 21 service members, and which branches did they serve in? When and where did the deaths occur, and how? Has next of kin been notified, and when will names be released? Is 21 the total since the war began, or a figure for a set period? What is the scope of the war, and what did DOD say in its own announcement? The source we reviewed is only a headline.",
+   "hashtags": [
+    "ActiveDuty",
+    "Iran"
+   ]
+  }
+ },
+ {
+  "id": "0b50627de7b4",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 80,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 11,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Cleveland firefighters' union says 163 jobs already cut; developing staffing story, source is a UK outlet with truncated headline.",
+  "policy": false,
+  "state": "OH",
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "https://www.teesdurhampost.co.uk/",
+  "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNajBuaU5LVWh1LWhYTFl5Z3Rka2ZoVDE3eXU5dGZRdjRmT0JLLXBjLW9LUExvaDczbzBJMDZvSEhfclVFQ1BrS2hDaDQzb1ktM3VuVm5fN0dLenZ4T1hFU1pKM0o3dlI5VnE5Q2s1R09WUW1RaVBTNXdmc1FDM2NmamZobGdSWENZLWR2X0RXNHZQWkJrT2ZVYWVNbjFWU1QydXE5OU96djFNZzNTbkZ3Y1ZOdlJLQVk?oc=5",
+  "source_title": "Cleveland Firefighters' union claims workforce has already been cut by 163 jobs...",
+  "snippet": "Cleveland Firefighters' union claims workforce has already been cut by 163 jobs... https://www.teesdurhampost.co.uk/",
+  "published_at": "2026-10-12T18:29:00Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Cleveland firefighters' union says 163 jobs already cut from workforce",
+   "summary": "A headline from the Tees Durham Post reports that the Cleveland Firefighters' union claims the workforce has already been cut by 163 jobs. We only have the headline, not the full article. We can't say over what period the cuts happened, what caused them, or how the fire service responds. This is a union claim, not a confirmed figure.",
+   "why_it_matters": "Staffing levels are one of the most basic issues for firefighters and the communities they protect, so a claim of 163 lost jobs deserves a close look.",
+   "take": "We're not ready to draw conclusions from one headline. A union number is a claim, and the fire service's side needs to be heard. But 163 jobs is a large figure for any department, and the public should get a clear, checkable accounting of it. Staffing decisions are made by budget-holders, and they should be able to explain them plainly to the crews who answer the call.",
+   "x_post": "A Cleveland firefighters' union claims the workforce has already been cut by 163 jobs, per the Tees Durham Post. It's a union claim, and we only have the headline so far. We'll watch for the fire service's response and the full numbers.",
+   "fb_post": "A firefighters' union in Cleveland says the workforce has already been cut by 163 jobs. That's the claim in a Tees Durham Post headline.\n\nWe only have the headline for now. We don't know the time frame, the reasons behind the cuts, or what the fire service says in response. So treat the number as a union claim until it's confirmed.\n\nStill, staffing is about as basic as it gets for first responders. Whatever the cause, the people making these decisions owe crews and the public a clear explanation.\n\nIf you've worked in a department that went through staffing cuts, what did you see change on the ground?",
+   "open_questions": "The full article was not available. Unknown: which Cleveland this is (the source is a UK outlet, so likely Cleveland in northeast England, but the text doesn't say), which union made the claim, the time period of the cuts, the cause, whether the 163 figure is verified, and what the fire service or its governing body says.",
+   "hashtags": [
+    "Firefighters",
+    "FirstResponders"
+   ]
+  }
+ },
+ {
+  "id": "5fc0b48a676e",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 74,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 14,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Ongoing Iran war with at least 21 U.S. deaths; major, developing, directly affects troops and families.",
+  "policy": false,
+  "state": null,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/iran-war-timeline/",
+  "source_title": "Tracking America’s latest conflict: The Iran war timeline",
+  "snippet": "To date, at least 21 American service members have been killed and hundreds more wounded. The post Tracking America’s latest conflict: The Iran war timeline appeared first on Task & Purpose .",
+  "published_at": "2026-10-12T13:09:37Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Iran war toll: at least 21 U.S. troops dead, 860-plus wounded, Task & Purpose reports",
+   "summary": "Task & Purpose has updated its running timeline of the U.S.-Iran war, which began Feb. 28, 2026. The outlet says fighting has swung between heavy combat and lulls but never fully stopped. It reports at least 21 American service members killed and more than 860 wounded in action. The timeline is still being updated.",
+   "why_it_matters": "For service members and families, the numbers show this is a sustained conflict with real casualties, not a one-time strike, and the ceasefire label may not match conditions on the ground.",
+   "take": "We'd put the wounded number up front. More than 860 hurt means a lot of troops and families heading into long recoveries, and some will need the VA for years. A \"ceasefire in name only\" is also the kind of spin we watch closely. Troops are still taking fire whatever the press releases call it. The country owes them clear answers on the mission and care that is ready when they come home.",
+   "x_post": "Task & Purpose's updated Iran war timeline: the conflict began Feb. 28, 2026. At least 21 U.S. service members are dead and more than 860 wounded in action. The outlet says fighting has never truly stopped, despite a nominal ceasefire.",
+   "fb_post": "Task & Purpose has updated its running timeline of the U.S.-Iran war, which began Feb. 28, 2026.\n\nThe outlet reports at least 21 American service members killed and more than 860 wounded in action. It says the fighting has moved between open conflict and lulls, and has never truly stopped. A ceasefire existed in name only, with exchanges of fire continuing and Iran striking targets across the region.\n\nWhy it matters: those wounded numbers mean many troops and families facing long recoveries and years of VA care. We think the country owes them straight answers about the mission, and care that is ready before they need it.\n\nFor those serving or with someone deployed: what information do you wish you were getting more clearly?",
+   "open_questions": "The source text we have is just the intro and doesn't include the timeline entries. It doesn't give the names of the dead, where or how they were killed or wounded, or the current status of the ceasefire. It doesn't explain what the U.S. aims are or how the casualty figures were counted beyond citing official sources.",
+   "hashtags": [
+    "Iran",
+    "ActiveDuty"
+   ]
+  }
+ },
+ {
+  "id": "15a79f075742",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 74,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 12,
+   "angle": 7,
+   "timeliness": 13
+  },
+  "score_why": "Proposed $7.1M cut to firefighter overtime in Seattle budget; developing and contested.",
+  "policy": true,
+  "state": "WA",
+  "flags": [],
+  "source": "MyNorthwest.com",
+  "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKVmRQdllBOFF2d1I4eW80ZmpJWEt1aE5SUG5POXdJRWctZVdDUFVNeGs2SVdXQURYYkVrRnB3NFJMVjA4b1d4UERlM20wc0Nxdm52RlBuSnlyNWNweWY4c3JKalEzdnNvSGJUODFXb2tYdE9veUNyMjY1RWFjQQ?oc=5",
+  "source_title": "‘Why is it always public safety?’: Jake and Spike push back on Seattle’s proposed $7.1M cut to firefighter overtime",
+  "snippet": "‘Why is it always public safety?’: Jake and Spike push back on Seattle’s proposed $7.1M cut to firefighter overtime MyNorthwest.com",
+  "published_at": "2026-10-11T12:00:50Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Seattle's proposed $7.1M cut to firefighter overtime draws pushback",
+   "summary": "Seattle has a proposal on the table to cut $7.1 million from firefighter overtime. MyNorthwest.com reports that commentators Jake and Spike are pushing back and asking why public safety so often takes the hit. The details of the proposal were not available to us, only the headline.",
+   "why_it_matters": "Overtime pay is tied to how fire departments staff shifts and cover gaps, so a cut this size is worth watching for firefighters and the neighborhoods they cover.",
+   "take": "We don't have the full proposal yet, so we won't pretend to know what this cut does on the ground. Here is what we do know: $7.1 million is a real number, and the people who answer the call deserve a straight explanation of what it means for staffing and response times. If a city trims overtime, it should say plainly where the work goes instead. Pushing back is fair. So is asking the city to show its math.",
+   "x_post": "Seattle has proposed cutting $7.1M from firefighter overtime, and local commentators Jake and Spike are pushing back. Details are thin so far. The key question: what does it mean for staffing and response times?",
+   "fb_post": "Seattle has proposed cutting $7.1 million from firefighter overtime. MyNorthwest.com reports that Jake and Spike are pushing back and asking why public safety is so often where cuts land.\n\nWhy it matters: overtime is tied to how fire departments staff shifts and cover gaps. A cut this size deserves a close look from firefighters, their families, and the neighborhoods they protect.\n\nOur view: we don't have the full proposal yet, so we're not calling it good or bad. But the city owes the public a plain explanation of what the cut means for staffing and response times, and where the work goes if the overtime goes away.\n\nIf you work in or near Seattle fire service, what's your read? What should the city explain first?",
+   "open_questions": "Who proposed the cut, and is it part of a larger budget plan? What is the reason given? How would it change staffing, shift coverage, or response times? Has the fire department or the firefighters' union responded? Is the proposal final or still open for amendment? We only had the headline, not the full article.",
+   "hashtags": [
+    "Firefighters",
+    "Seattle"
+   ]
+  }
+ },
+ {
+  "id": "9f79fbf967a4",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 72,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 14,
+   "traction": 12,
+   "angle": 11,
+   "timeliness": 5
+  },
+  "score_why": "Firefighter's PTSD story and advocacy; strong human feature with veteran-editor angle on mental health.",
+  "policy": false,
+  "state": null,
+  "flags": [],
+  "source": "CBC",
+  "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWlJHcm53cC12WUUtSDAyYVY4S1hjMFZKQ09hdi1PcWFFUWlUUW1DR2tmOHJjZnQyR0p2LTJYQ1lXTlhhSkFQMnpqazlIVm9FU2g0VzdjeEV6d2R1bkk0RVlIVDlNMDZyZFJJcEp1TThxOVA2VnFuSzdZV1QxWEE0RjN2cmh5ZXFnVzlpSllYMEk4dzAyMTR5S1JCWi0?oc=5",
+  "source_title": "After 20 years as a P.E.I. firefighter, something snapped. Now he's teaching others about PTSD",
+  "snippet": "After 20 years as a P.E.I. firefighter, something snapped. Now he's teaching others about PTSD CBC",
+  "published_at": "2026-10-11T09:00:00Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "P.E.I. firefighter, 20 years in, now teaches others about PTSD",
+   "summary": "CBC reports on a firefighter from Prince Edward Island who served about 20 years before something gave way. He now teaches others about post-traumatic stress disorder (PTSD). The material we have is only the headline and a short snippet, so details of his story and his program are not yet available to us.",
+   "why_it_matters": "Firefighters and other first responders often carry the job home, and hearing from someone who has been through it can make asking for help feel less like a risk.",
+   "take": "We like what we can see here: someone who lived it is now the one teaching it. Peer voices carry weight in a firehouse in ways a pamphlet never will. Mental health support for first responders should be easy to reach and free of stigma, and stories like this help push that along. We'd want to read the full piece before saying more about the program itself.",
+   "x_post": "A P.E.I. firefighter spent 20 years on the job, hit a breaking point, and now teaches others about PTSD. Peer voices matter in the fire service. We're watching for more detail on his work. via CBC",
+   "fb_post": "CBC is reporting on a Prince Edward Island firefighter who spent 20 years on the job before something gave way. He now teaches others about PTSD.\n\nWhy it matters: first responders often carry the calls with them long after the shift ends. When someone from your own ranks speaks up, it can make reaching out feel a lot less like a career risk.\n\nOur view: peer-led education is one of the best tools we have for cutting stigma. Help should be easy to find and easy to ask for.\n\nWe only have the headline and a short snippet so far, so we don't know the details of his program yet. Have you seen peer-led mental health training work in your department or unit?",
+   "open_questions": "The source text was not available beyond the headline and snippet. We don't know his name, department, what happened, what his teaching program involves, who it serves, or whether it is funded or offered outside P.E.I. Read the full CBC article before publishing.",
+   "hashtags": [
+    "FirstResponders",
+    "PTSD"
+   ]
+  }
+ },
+ {
+  "id": "cf95f8db6b4d",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 72,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 18,
+   "traction": 10,
+   "angle": 9,
+   "timeliness": 13
+  },
+  "score_why": "Developing story: pending federal THC hemp ban hits state licensees and farmers; policy-driven and timely.",
+  "policy": true,
+  "state": "RI",
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/rhode-island-grapples-with-hemp-policy-as-federal-ban-on-thc-products-looms/",
+  "source_title": "Rhode Island Grapples With Hemp Policy As Federal Ban On THC Products Looms",
+  "snippet": "\"We kind of have to wait and see what the federal government does before we can advise our licensees.\" By Christopher Shea, Rhode Island Current On less than an acre of farmland in Hopkinton, rows of hemp plants were nearing harvest. Most of their “colas”—dense clusters of buds prized for smokable flower—had already been cut ahead [ ] The post Rhode Island Grapples With Hemp Policy As Federal Ban On THC Products Looms appeared first on Marijuana Moment .",
+  "published_at": "2026-10-10T12:32:16Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [
+   {
+    "source": "Dailyfly News",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZExZVGdXc3NvSm9uWkxLZVBSSS1WbTJjMmtsMk5rajdpNVBFR2NLZUEwVU1aTE9CQTVmTHhSWUpheXA0LXZFbnpHWDVRSmZfZ1AyWWdweGFPTHRKYnM3eGtZcE56dUZDVjljOW5wZG9Ec2F6U3R3SzctbjVWQng5YmZxVmp4X3ZFNjZaOWFXLXRLYmxFVDRTVVgxUm1IdmpxUjR4cXZjTG9NdDA?oc=5",
+    "title": "New Federal Restrictions Threaten Hemp-Derived THC Products Nationwide"
+   }
+  ],
+  "draft": {
+   "headline": "Rhode Island hemp sellers face a Dec. 11 federal THC cap, with stock on shelves",
+   "summary": "Starting December 11, federal law will bar sales of hemp-derived products with more than 0.4 milligrams of total THC per container. Rhode Island's current rules allow more, so state regulators say they must enforce the lower federal limit and have warned of fines. The state's regulated hemp market took in $2.85 million in 2025, and about 83 percent of that was THC drinks.",
+   "why_it_matters": "Many veterans and first responders buy or sell hemp-derived THC products, and a sudden federal cap could empty shelves and hit small, local businesses, including veteran-owned ones, with little warning.",
+   "take": "We think a hard cap this low, with about two months of notice, is a blanket ban in practice. Hemp rules should come from evidence and a fair process, and the industry should have a real say. Rhode Island's regulators are doing what the law requires, and they deserve credit for warning licensees early. But a farmer with pallets of finished product needs a plan, not just a deadline. Congress owns this problem.",
+   "x_post": "Dec. 11: a federal cap of 0.4 mg total THC per container hits hemp products. Rhode Island's rules allow more, and regulators say they must enforce the federal limit. One farm has pallets of drinks waiting to ship. Who eats that loss?",
+   "fb_post": "A new federal limit on hemp-derived THC products takes effect December 11. After that date, products with more than 0.4 milligrams of total THC per container can't be sold. Rhode Island's current rules allow more than that.\n\nThe state's Cannabis Control Commission has told licensees to check their inventory and plan ahead. Products over the limit will be treated as noncompliant, and the penalties can include fines. Last year the state's regulated hemp market sold $2.85 million, and about 83 percent of that was THC drinks and seltzers. One local farm says it has pallets of lemonade cans ready to ship and no clear answer on what happens to them.\n\nThe state's lawyer says its hands are tied. In her words, \"we can't treat hemp like cannabis because it's not cannabis.\" That's fair, but a deadline this close, with no deeper conversation with the industry, is rough on small businesses. We think hemp policy should rest on evidence and fair regulation, not blanket bans.\n\nIf you buy or sell hemp products, what would a fair transition look like to you?",
+   "open_questions": "Whether Congress or federal agencies will delay, change, or soften the Dec. 11 limit. What licensees may do with existing inventory, and whether any grace period applies. The source text cuts off, so it doesn't explain how the federal law came about or what other states are doing. The source also gives the current Rhode Island limits as per serving and per package without fully explaining how they apply.",
+   "hashtags": [
+    "hemp",
+    "CannabisPolicy"
+   ]
+  }
+ },
+ {
+  "id": "65c8ef2fd616",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 13,
+   "traction": 12,
+   "angle": 9,
+   "timeliness": 13
+  },
+  "score_why": "Pentagon changes to tracking U.S. troop deaths in Iran war; strong relevance and family interest.",
+  "policy": true,
+  "state": null,
+  "flags": [],
+  "source": "Military.com",
+  "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcV8xMTdHRkFXX0pjTmFnVlhWS2FqOUY0eFdkNkI0SFp3Y1VkcG9rQ0ZYM2V3TF92c0M3dTd6MGNQMjNHbkI2QlE4RGhicjA3MVkyUzdyN2xNRDFrYmhYNXlsNHN1UnhQM2NMV2FQU25EdzhKcVhlWHd5OFR4MzNaZzY1bnNmY0NRRGVhMU1BUVZXcTRKNDB0THRtYWE1cHVmdU5GNGowekt4Zw?oc=5",
+  "source_title": "Pentagon Unveils 'Two Key Enhancements' to Track American Troop Deaths in Iran War",
+  "snippet": "Pentagon Unveils 'Two Key Enhancements' to Track American Troop Deaths in Iran War Military.com",
+  "published_at": "2026-10-12T15:44:21Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon announces changes to how it tracks U.S. troop deaths in Iran war",
+   "summary": "Military.com reports that the Pentagon has announced what it calls \"two key enhancements\" to how it tracks American troop deaths in the Iran war. The report was published October 12, 2026. The text we have is only a headline and a snippet. It doesn't say what the changes are, who ordered them, or when they start.",
+   "why_it_matters": "How the Department of Defense counts and reports troop deaths affects how quickly families are told, how accurate the public record is, and how well Congress can oversee the war.",
+   "take": "Counting the fallen is not a paperwork exercise. Families need the right information, and the public needs a record it can trust. We're glad the Pentagon is looking at its tracking. But \"enhancements\" is a label, not a result. Until the department shows what changed and why, we'll hold off on praise. Show the details, and show that the numbers get more accurate and more timely.",
+   "x_post": "The Pentagon says it's making \"two key enhancements\" to how it tracks U.S. troop deaths in the Iran war. The details aren't clear yet. We'll be watching for what actually changes, and whether families and the public get better information.",
+   "fb_post": "The Pentagon has announced \"two key enhancements\" to how it tracks American troop deaths in the Iran war, according to Military.com.\n\nWhat we know is thin. The report we have is a headline and a short snippet. It doesn't say what the changes are, who is behind them, or when they take effect.\n\nIt matters because the way deaths are counted and reported shapes how fast families are informed and how well the public and Congress can judge the war. We think any move toward more accurate tracking is worth a look. But a new label doesn't tell us much. We want to see the specifics and the results.\n\nWhat would you want the Pentagon to do better when it tracks and reports casualties?",
+   "open_questions": "What are the two enhancements? Who ordered them and when do they take effect? Do they change how families are notified or only how the Pentagon counts internally? Will the new data be made public? What prompted the change? We need the full Military.com article or a Pentagon release to answer these.",
+   "hashtags": [
+    "Pentagon",
+    "ActiveDuty"
+   ]
+  }
+ },
+ {
+  "id": "d0a67f4d1d0b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 16,
+   "traction": 11,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Pending bill on combat veteran benefits; strong interest but a finance-site framing and unclear status.",
+  "policy": true,
+  "state": null,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "FinanceBuzz",
+  "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qbml6TjhnRnVuQ2FqdmhVMUFJd2ZucVNNcDVCVjBnRlhTSkV2WXA0VXQ0NHQyd21RUmxyLWJhRnNzSjA0dmNnQmVybmpJUUc1WE5DdTBGUWFFWHBENjFxaTJTekhJREVOWHlLd1JMSWJmZnRRVFE?oc=5",
+  "source_title": "This New Bill Could Give 50,000 Combat Veterans Thousands More a Year in Benefits",
+  "snippet": "This New Bill Could Give 50,000 Combat Veterans Thousands More a Year in Benefits FinanceBuzz",
+  "published_at": "2026-10-10T11:05:00Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · toxic exposure",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Bill could add thousands a year in benefits for 50,000 combat vets, report says",
+   "summary": "FinanceBuzz reports that a new bill could raise annual benefits by thousands of dollars for about 50,000 combat veterans. The material we have is only a headline and a short snippet. It doesn't say which benefit would change, who introduced the bill, who would qualify, or whether any vote is scheduled.",
+   "why_it_matters": "If the bill is real and moves forward, it could mean thousands more a year for combat veterans, but eligibility and the benefit involved are still unknown.",
+   "take": "We like the direction. Benefits earned in combat are not handouts, and a raise for those who carried the load is worth taking seriously. But \"could\" is doing a lot of work in that headline. Until we see the bill text, the sponsor, and who actually qualifies, treat this as a lead and not a payday. Don't change any claim plans over a headline.",
+   "x_post": "A report says a new bill could add thousands a year in benefits for about 50,000 combat veterans. Details are thin: the benefit, eligibility and vote timing are all unknown. We're watching for the bill text.",
+   "fb_post": "A new bill could add thousands of dollars a year in benefits for about 50,000 combat veterans, according to FinanceBuzz.\n\nThat's all the source tells us so far. We don't know which benefit would change, who would qualify, who is sponsoring it, or whether it's headed for a vote.\n\nOur view: benefits earned in combat are promises, not handouts, so this is worth watching. But a \"could\" headline is not a check in the mail. We'll want to see the actual bill text before anyone plans around it.\n\nDo you know which benefit this might be? Tell us what you're hearing.",
+   "open_questions": "Which benefit would increase, and by how much? What is the bill's name and number, and who sponsors it? How does it define \"combat veteran,\" and how was the 50,000 figure calculated? Is it scheduled for a committee hearing or a vote? What would it cost, and how would it be funded? The source is a personal-finance site, so we should confirm everything against the bill text.",
+   "hashtags": [
+    "Veterans",
+    "VABenefits"
+   ]
+  }
+ },
+ {
+  "id": "20108fde8ced",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 71,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 18,
+   "traction": 10,
+   "angle": 9,
+   "timeliness": 12
+  },
+  "score_why": "Scheduled federal THC product ban hits hemp businesses and consumers; significant, developing policy story.",
+  "policy": true,
+  "state": "NC",
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/north-carolinas-3-billion-hemp-industry-braces-for-impact-of-scheduled-federal-thc-product-ban/",
+  "source_title": "North Carolina’s $3 Billion Hemp Industry Braces For Impact Of Scheduled Federal THC Product Ban",
+  "snippet": "“Regulation is what we need. Prohibition is just hilarious regression.” By Trevon Spencer, NC Newsline Chris Karazin started Carolindica with his brother and a friend in 2019, making homemade CBD products in a kitchen while working other jobs to pay the bills. “I didn’t even get a paycheck until three years ago,” Karazin said. Seven [ ] The post North Carolina's $3 Billion Hemp Industry Braces For Impact Of Scheduled Federal THC Product Ban appeared first on Marijuana Moment .",
+  "published_at": "2026-10-12T18:05:08Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [
+   {
+    "source": "NC Newsline",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVXp3UFp2RnZIX1dCV3JBR2t2SEFJVmFXN2dxNDBZbW1UeVlmOElLYzNVWURhOU9QRXFfbU1UWmFRU3ZHUW1qTXpBTXFWc2ZwNjlfaVdsSkFVSkNIMnR4QUpweDhQWlZGazJBYXg2SnRXanAydlVuS0VKZHRERFlkOWppeTFnRzdRX2FKODNJbEpWQ1VIRTFBNmo2dENuOGVVT2xR?oc=5",
+    "title": "Federal hemp restrictions poised to upend NC’s $3.2 billion industry"
+   },
+   {
+    "source": "BizTimes - Milwaukee Business News",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckpyVUlSelVIOVZzSUIxTFIxcU50b3RiUEpCVy1WSlRLQVFnSlZDTUlzUDltSlZyRlBLUDZJdE9ybVpnVUU3ZzQyYzA1c3NLX2dKVnBjS1I1OFBGQ3l1VWdKYk14YUgwTkl1T1FqbXNFNmdMWlJqcmpCUUlOQ0RBN1I5WDlfQms?oc=5",
+    "title": "Wisconsin hemp industry braces for impact from federal ban"
+   }
+  ],
+  "draft": {
+   "headline": "NC hemp industry prepares for federal THC limit that starts December 11",
+   "summary": "A federal law passed in 2025 will sharply narrow which hemp products are legal starting December 11. The cap is 0.4 milligrams of THC compounds per consumer container. North Carolina's hemp market is worth about $3 billion and employs about 16,000 people. Some shops are already closing, and others are rethinking inventory and product lines.",
+   "why_it_matters": "Veterans, first responders, and families who buy or sell hemp and CBD products, including those who own small businesses, should expect shelves to change and some stores to close.",
+   "take": "We think a clear rulebook for hemp makes sense, and testing and labeling rules that keep intoxicating products away from kids are a fair ask. This is something else. A cap of 0.4 milligrams per container could sweep up CBD products along with the THC gummies. That looks like a blanket ban, not regulation. Congress had the choice to set evidence-based limits and a licensing system. Instead, small businesses that grew legally after the 2018 farm bill now have weeks to adapt.",
+   "x_post": "A federal hemp rule starts Dec. 11: no more than 0.4 mg of THC compounds per container. North Carolina's $3B hemp industry, with about 16,000 jobs, is bracing. Some shops have already closed. Regulation, yes. Blanket bans, no.",
+   "fb_post": "Starting December 11, a federal law passed in 2025 will narrow which hemp products can be sold legally. The limit is 0.4 milligrams of THC compounds per consumer container. Congress pushed the date back a month from November. One piece, which reclassifies synthetic cannabinoids as marijuana, is still set for November 12.\n\nIn North Carolina, the hemp market is roughly $3 billion and supports about 16,000 jobs. A report that tracked hemp shops in the Triangle found 79 of 82 stores sell at least one product category the rule would affect. One Raleigh shop, Bloom Collective, has announced it is closing. The CBD products many people buy could also exceed the new limit.\n\nOur view: hemp policy should rest on evidence and fair regulation. Safety standards, testing, and age limits are reasonable. A cap this low looks more like a ban, and it lands on small businesses that did what the law allowed in 2018.\n\nIf you buy or sell hemp products, what are you seeing in your area, and what rules would you want instead?",
+   "open_questions": "The source text cuts off, so we don't know what Carolindica plans to sell instead. It doesn't say whether Congress might change the deadline again or how many NC jobs are likely to be lost. It also doesn't say how many affected businesses are veteran-owned.",
+   "hashtags": [
+    "hemp",
+    "HempPolicy"
+   ]
+  }
+ },
+ {
+  "id": "dbdffb5a37c1",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 64,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 6,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 14
+  },
+  "score_why": "Breaking line-of-duty death of a police officer who is also a veteran; likely to drive line-of-duty benefit coverage.",
+  "policy": false,
+  "state": "PA",
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military.com",
+  "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFhvNDltb1QzZGhFcnNoSGozMUk5bmd3MVE5NzhGV3VKb2lHWTBkR1RGNnVvTG9kOHJ5TnlSNFJ3OGtXUnd3NEwtVmVFeExkMVUxSG9BSHUtU05EYjZyb2pjY1RmV0tPSFBzeUJ3UVdrUmc0RUVIaWIxTnJNZ1NsdkV4eG5RSWtCR0kzc3Z1TkY4dUlWSEJmZl9UcWVodnBH?oc=5",
+  "source_title": "Air Force Veteran-Turned-Police Officer Dead in Philadelphia Shooting, Leaving Behind Two Children",
+  "snippet": "Air Force Veteran-Turned-Police Officer Dead in Philadelphia Shooting, Leaving Behind Two Children Military.com",
+  "published_at": "2026-10-12T17:04:06Z",
+  "found_at": "2026-10-13T00:51:35Z",
+  "feed": "News search · veterans and VA",
+  "also_covered_by": [],
+  "draft": null
+ }
+]
