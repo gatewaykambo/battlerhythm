@@ -350,7 +350,7 @@
  },
  {
   "id": "cf95f8db6b4d",
-  "status": "pending",
+  "status": "approved",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -393,6 +393,12 @@
     "hemp",
     "CannabisPolicy"
    ]
+  },
+  "decision": {
+   "status": "approved",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:20:22Z"
   }
  },
  {
