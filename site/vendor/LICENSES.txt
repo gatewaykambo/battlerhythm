@@ -1,0 +1,2 @@
+globe.gl 2.34.1 (MIT License) - https://github.com/vasturiano/globe.gl - bundles three.js (MIT)
+countries.geojson - converted from world-atlas 2.0.2 (ISC), derived from Natural Earth (public domain)

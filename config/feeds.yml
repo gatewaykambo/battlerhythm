@@ -1,14 +1,14 @@
-# Battle Rhythm source list.
-# Each feed has a name, a URL, and a lane hint the scorer uses as a starting point.
-# Lanes: active_duty, veterans, first_responders, plant_medicine, mixed
-# kind: "news" (default) or "policy" (official rulemaking, bills, court and agency actions)
-# weight: multiplies the final score slightly (1.0 = normal). Use 1.1 for sources you trust most.
+# War Party TOC source list.
+# lane: a starting hint for the scorer (active_duty, veterans, first_responders, plant_medicine, mixed)
+#   plant_medicine is the Integrative Health & Policy lane.
+# kind: "news" (default) or "policy" (rulemaking, bills, court and agency actions)
+# weight: nudges the score (1.0 normal, 1.1 for the most trusted outlets)
+# type: "rss" (default) or "gdelt" (a search of the GDELT global news index; returns real article links)
 #
-# Every run logs which feeds failed, so a dead URL shows up in the run summary on GitHub.
-# Add, remove, or reweight sources here; no code changes needed.
+# Every sweep lists failing feeds in its run summary, so a dead address shows up quickly.
 
 feeds:
-  # ---------- Active duty and defense ----------
+  # ---------- Military and defense (covered worldwide) ----------
   - name: Military Times
     url: https://www.militarytimes.com/arc/outboundfeeds/rss/?outputType=xml
     lane: mixed
@@ -16,14 +16,31 @@ feeds:
   - name: Defense News
     url: https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml
     lane: active_duty
+  - name: Stars and Stripes
+    url: https://www.stripes.com/arc/outboundfeeds/rss/?outputType=xml
+    lane: mixed
+    weight: 1.1
   - name: Task & Purpose
     url: https://taskandpurpose.com/feed/
     lane: mixed
-  - name: News search · service members
-    url: https://news.google.com/rss/search?q=%22service+members%22+OR+troops+OR+%22military+families%22+when:1d&hl=en-US&gl=US&ceid=US:en
+  - name: USNI News
+    url: https://news.usni.org/feed
+    lane: active_duty
+  - name: Air & Space Forces Magazine
+    url: https://www.airandspaceforces.com/feed/
+    lane: active_duty
+  - name: Breaking Defense
+    url: https://breakingdefense.com/feed/
+    lane: active_duty
+  - name: Federal News Network
+    url: https://federalnewsnetwork.com/feed/
+    lane: mixed
+  - name: GDELT · U.S. forces worldwide
+    type: gdelt
+    query: '("U.S. troops" OR "service members" OR Pentagon OR "U.S. military" OR "military families") sourcelang:english'
     lane: active_duty
 
-  # ---------- Veterans and the VA ----------
+  # ---------- Veterans and the VA (U.S.) ----------
   - name: The War Horse
     url: https://thewarhorse.org/feed/
     lane: veterans
@@ -35,33 +52,34 @@ feeds:
     url: https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=veterans-affairs-department
     lane: veterans
     kind: policy
-  - name: News search · veterans and VA
-    url: https://news.google.com/rss/search?q=veterans+%28VA+OR+%22Veterans+Affairs%22%29+when:1d&hl=en-US&gl=US&ceid=US:en
-    lane: veterans
-  - name: News search · toxic exposure
-    url: https://news.google.com/rss/search?q=%28%22burn+pits%22+OR+%22PACT+Act%22+OR+%22toxic+exposure%22%29+veterans+when:3d&hl=en-US&gl=US&ceid=US:en
+  - name: GDELT · veterans
+    type: gdelt
+    query: '(veterans OR "Veterans Affairs" OR "PACT Act" OR "burn pits") sourcecountry:US sourcelang:english'
     lane: veterans
 
-  # ---------- First responders ----------
-  - name: News search · firefighters
-    url: https://news.google.com/rss/search?q=firefighters+%28PTSD+OR+cancer+OR+benefits+OR+staffing+OR+legislation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+  # ---------- First responders (U.S.) ----------
+  - name: GDELT · firefighters
+    type: gdelt
+    query: '(firefighters OR "fire department") (cancer OR PTSD OR staffing OR benefits OR union OR bill) sourcecountry:US sourcelang:english'
     lane: first_responders
-  - name: News search · police and EMS wellness
-    url: https://news.google.com/rss/search?q=%28police+OR+EMS+OR+paramedics+OR+dispatchers%29+%28%22mental+health%22+OR+PTSD+OR+%22peer+support%22+OR+benefits%29+when:2d&hl=en-US&gl=US&ceid=US:en
+  - name: GDELT · police, EMS, dispatch
+    type: gdelt
+    query: '(police OR paramedics OR EMS OR dispatchers OR "first responders") ("mental health" OR PTSD OR "peer support" OR benefits OR staffing OR bill) sourcecountry:US sourcelang:english'
     lane: first_responders
-  - name: News search · first responder policy
-    url: https://news.google.com/rss/search?q=%22first+responders%22+%28bill+OR+law+OR+legislation%29+when:2d&hl=en-US&gl=US&ceid=US:en
-    lane: first_responders
-    kind: policy
 
-  # ---------- Plant medicine and policy ----------
+  # ---------- Integrative Health & Policy (U.S.) ----------
   - name: Marijuana Moment
     url: https://www.marijuanamoment.net/feed/
     lane: plant_medicine
-  - name: News search · psychedelic therapy and veterans
-    url: https://news.google.com/rss/search?q=%28psilocybin+OR+MDMA+OR+ibogaine+OR+psychedelic%29+%28veterans+OR+%22first+responders%22+OR+PTSD%29+when:7d&hl=en-US&gl=US&ceid=US:en
+  - name: Lucid News
+    url: https://www.lucid.news/feed/
     lane: plant_medicine
-  - name: News search · hemp and THC law
-    url: https://news.google.com/rss/search?q=hemp+%28THC+OR+ban+OR+law+OR+regulation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+  - name: GDELT · psychedelic therapy
+    type: gdelt
+    query: '(psilocybin OR MDMA OR ibogaine OR psychedelic) (veterans OR PTSD OR "first responders" OR therapy) sourcecountry:US sourcelang:english'
+    lane: plant_medicine
+  - name: GDELT · hemp and cannabis policy
+    type: gdelt
+    query: '(hemp OR cannabis OR THC) (law OR ban OR bill OR regulation OR court) sourcecountry:US sourcelang:english'
     lane: plant_medicine
     kind: policy

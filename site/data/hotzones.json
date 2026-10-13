@@ -1,0 +1,12 @@
+{
+ "note": "Areas with active U.S. operations, shaded red on the map. Edit this list as events change.",
+ "items": [
+  {
+   "name": "Persian Gulf and Iran",
+   "lat": 28.5,
+   "lon": 52.0,
+   "radius_km": 900,
+   "label": "Active U.S. operations"
+  }
+ ]
+}

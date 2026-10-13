@@ -1,4 +1,4 @@
-# Battle Rhythm
+# War Party TOC
 
 A daily news watch for service members, veterans, first responders, and their families.
 AI agents find, score, and draft stories twice a day. An editor approves every item
@@ -6,18 +6,24 @@ before it reaches the public site.
 
 ## How it fits together
 
-Battle Rhythm has two tiers.
+War Party TOC is an operations-center news board with two tiers.
 
 - **The Wire** fills itself. Every sweep (about 4 AM and 2 PM Central), `pipeline/collect.py` reads the
-  feeds in `config/feeds.yml`, scores each new story with Claude, merges duplicates, and posts every story
-  that clears the Wire bar as a headline linking to the original. Wire links show on the map by lane
-  color and drop off after three days.
-- **Battle Rhythm Reports** are ours. The top stories each sweep get a full draft (summary, why it matters,
-  take, X and Facebook posts) and wait in the approval desk. When an editor publishes one, it becomes a
-  featured Report signed by that editor, with a gold ring on the map.
+  sources in `config/feeds.yml` (outlet feeds plus GDELT news searches), scores each new story with Claude,
+  groups the same event from different outlets into one item, and posts every story that clears the Wire bar
+  as a headline linking to the original. Military news is covered worldwide; the other lanes are U.S.-focused.
+- **TOC Reports** are ours. The top stories each sweep get a full draft (summary, why it matters, take,
+  X and Facebook posts), but only when the agents can read the full article. A story they can't read stays a
+  Wire link. Drafts wait on the approval desk; a published Report is signed by its editor.
+- **The Battle Rhythm** is the ranked daily rundown: today's TOC Reports first, then the strongest Wire headlines.
+- **Countdowns:** the drafter suggests deadlines it finds in the reporting. Editors confirm them on the desk.
+- **The globe** plots every story in its lane color, with TOC Reports pulsing gold, active operations
+  (`site/data/hotzones.json`) glowing red, and an optional layer of major U.S. installations.
 - **Held stories:** anything naming a War Party client or the Grunt Style Foundation, or involving suicide
   or graphic violence, never posts automatically. It waits on the desk for a yes or no.
-- **On X:** editors paste links to X posts on the desk's X scroll tab; they show in the "On X" panel.
+- **Pulling:** editors can pull any story from the desk or straight from the public site (editor mode turns
+  on automatically on a device where the desk is connected). Every pull keeps a reason, can be undone from the
+  desk's Pulled tab, and the reasons are fed back to the scorer.
 
 Every editor action writes a small file to `data/decisions/`. `pipeline/publish.py` (run by GitHub Actions
 on every decision) folds them in and rebuilds `site/data/`. Cloudflare redeploys the `site` folder.
@@ -74,6 +80,8 @@ siteUrl: "https://battle-rhythm.pages.dev",
 | Sources | `config/feeds.yml` |
 | Voice, positions, and drafting rules | `config/editorial.md` |
 | Client and Foundation names that trigger disclosures | `config/watchlist.yml` |
+| Active-operations zones on the globe | `site/data/hotzones.json` |
+| Installations layer | `site/data/installations.json` |
 | Thresholds, models, run limits | `config/settings.yml` |
 | Sweep times | `.github/workflows/collect.yml` (times are UTC) |
 

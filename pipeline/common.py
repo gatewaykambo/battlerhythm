@@ -22,13 +22,15 @@ ARCHIVE_DIR = DATA / "archive"
 PUBLISHED_PATH = SITE_DATA / "published.json"
 META_PATH = SITE_DATA / "meta.json"
 WIRE_PATH = SITE_DATA / "wire.json"
-XPOSTS_PATH = SITE_DATA / "xposts.json"
+COUNTDOWNS_PATH = SITE_DATA / "countdowns.json"
+PULLED_PATH = DATA / "pulled.json"
+SUGGESTIONS_PATH = DATA / "countdown_suggestions.json"
 
 LANES = {
     "active_duty": "Active Duty",
     "veterans": "Veterans / VA",
     "first_responders": "First Responders",
-    "plant_medicine": "Plant Medicine & Policy",
+    "plant_medicine": "Integrative Health & Policy",
 }
 
 TRACKING_PARAMS = re.compile(r"^(utm_|fbclid|gclid|mc_|ocid|cmpid|ref$|src$)")

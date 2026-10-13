@@ -6,7 +6,7 @@
     active_duty: "Active Duty",
     veterans: "Veterans / VA",
     first_responders: "First Responders",
-    plant_medicine: "Plant Medicine & Policy"
+    plant_medicine: "Integrative Health & Policy"
   };
 
   BR.store = function (k, v) {
@@ -29,6 +29,12 @@
     return (cfg.siteUrl || location.origin).replace(/\/$/, "");
   };
   BR.storyUrl = function (id) { return BR.siteUrl() + "/story.html?id=" + encodeURIComponent(id); };
+  BR.daysUntil = function (dateStr) {
+    var today = BR.ct(new Date(), { year: "numeric", month: "2-digit", day: "2-digit" }).split("/");
+    var t = Date.UTC(+today[2], +today[0] - 1, +today[1]);
+    var d = dateStr.split("-");
+    return Math.round((Date.UTC(+d[0], +d[1] - 1, +d[2]) - t) / 864e5);
+  };
 
   var MON = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
   function two(n) { return (n < 10 ? "0" : "") + n; }
@@ -52,6 +58,24 @@
     return BR.ct(d, { year: "numeric", month: "2-digit", day: "2-digit" });
   };
 
+  BR.LANE_SHORT = { active_duty: "Active Duty", veterans: "Veterans", first_responders: "Responders", plant_medicine: "Integrative" };
+  BR.laneColor = function (lane) {
+    return getComputedStyle(document.documentElement).getPropertyValue("--lane-" + lane).trim() || "#b88b34";
+  };
+  // Where a story sits on the map: its own coordinates, else its U.S. state's centre.
+  BR.coords = function (x) {
+    if (typeof x.lat === "number" && typeof x.lon === "number") return { lat: x.lat, lon: x.lon };
+    var g = window.BR_GEO && x.state && BR_GEO.states[x.state];
+    if (g && g[1] != null) return { lat: g[2], lon: g[1] };
+    if (x.state === "AK") return { lat: 64.2, lon: -149.5 };
+    if (x.state === "HI") return { lat: 20.8, lon: -156.3 };
+    return null;
+  };
+  BR.placeName = function (x) {
+    if (x.place) return x.place;
+    if (x.state && window.BR_GEO && BR_GEO.states[x.state]) return BR_GEO.states[x.state][0];
+    return "";
+  };
   BR.laneDot = function (lane) {
     return '<i style="background: var(--lane-' + lane + ')"></i>';
   };

@@ -1,0 +1,323 @@
+{
+ "note": "Approximate locations of major U.S. installations, for map markers only.",
+ "items": [
+  {
+   "name": "Pentagon",
+   "where": "VA",
+   "lat": 38.87,
+   "lon": -77.06
+  },
+  {
+   "name": "Fort Bragg",
+   "where": "NC",
+   "lat": 35.14,
+   "lon": -79.0
+  },
+  {
+   "name": "Fort Hood",
+   "where": "TX",
+   "lat": 31.13,
+   "lon": -97.78
+  },
+  {
+   "name": "Fort Benning",
+   "where": "GA",
+   "lat": 32.36,
+   "lon": -84.95
+  },
+  {
+   "name": "Fort Campbell",
+   "where": "KY",
+   "lat": 36.66,
+   "lon": -87.47
+  },
+  {
+   "name": "Fort Stewart",
+   "where": "GA",
+   "lat": 31.87,
+   "lon": -81.61
+  },
+  {
+   "name": "Joint Base Lewis-McChord",
+   "where": "WA",
+   "lat": 47.08,
+   "lon": -122.58
+  },
+  {
+   "name": "Fort Carson",
+   "where": "CO",
+   "lat": 38.74,
+   "lon": -104.79
+  },
+  {
+   "name": "Fort Bliss",
+   "where": "TX",
+   "lat": 31.81,
+   "lon": -106.42
+  },
+  {
+   "name": "Fort Drum",
+   "where": "NY",
+   "lat": 44.05,
+   "lon": -75.72
+  },
+  {
+   "name": "Fort Riley",
+   "where": "KS",
+   "lat": 39.11,
+   "lon": -96.81
+  },
+  {
+   "name": "Fort Leonard Wood",
+   "where": "MO",
+   "lat": 37.74,
+   "lon": -92.13
+  },
+  {
+   "name": "Fort Polk",
+   "where": "LA",
+   "lat": 31.05,
+   "lon": -93.21
+  },
+  {
+   "name": "Fort Wainwright",
+   "where": "AK",
+   "lat": 64.83,
+   "lon": -147.65
+  },
+  {
+   "name": "Schofield Barracks",
+   "where": "HI",
+   "lat": 21.5,
+   "lon": -158.06
+  },
+  {
+   "name": "Camp Lejeune",
+   "where": "NC",
+   "lat": 34.67,
+   "lon": -77.35
+  },
+  {
+   "name": "Camp Pendleton",
+   "where": "CA",
+   "lat": 33.38,
+   "lon": -117.42
+  },
+  {
+   "name": "Twentynine Palms",
+   "where": "CA",
+   "lat": 34.23,
+   "lon": -116.06
+  },
+  {
+   "name": "Naval Station Norfolk",
+   "where": "VA",
+   "lat": 36.95,
+   "lon": -76.31
+  },
+  {
+   "name": "Naval Base San Diego",
+   "where": "CA",
+   "lat": 32.68,
+   "lon": -117.13
+  },
+  {
+   "name": "Joint Base Pearl Harbor-Hickam",
+   "where": "HI",
+   "lat": 21.35,
+   "lon": -157.95
+  },
+  {
+   "name": "Naval Base Kitsap",
+   "where": "WA",
+   "lat": 47.56,
+   "lon": -122.66
+  },
+  {
+   "name": "NAS Jacksonville",
+   "where": "FL",
+   "lat": 30.24,
+   "lon": -81.68
+  },
+  {
+   "name": "Nellis AFB",
+   "where": "NV",
+   "lat": 36.24,
+   "lon": -115.03
+  },
+  {
+   "name": "Eglin AFB",
+   "where": "FL",
+   "lat": 30.48,
+   "lon": -86.53
+  },
+  {
+   "name": "Wright-Patterson AFB",
+   "where": "OH",
+   "lat": 39.82,
+   "lon": -84.05
+  },
+  {
+   "name": "Joint Base San Antonio",
+   "where": "TX",
+   "lat": 29.38,
+   "lon": -98.58
+  },
+  {
+   "name": "Scott AFB",
+   "where": "IL",
+   "lat": 38.54,
+   "lon": -89.85
+  },
+  {
+   "name": "Whiteman AFB",
+   "where": "MO",
+   "lat": 38.73,
+   "lon": -93.55
+  },
+  {
+   "name": "Peterson SFB",
+   "where": "CO",
+   "lat": 38.82,
+   "lon": -104.7
+  },
+  {
+   "name": "Vandenberg SFB",
+   "where": "CA",
+   "lat": 34.74,
+   "lon": -120.57
+  },
+  {
+   "name": "Naval Station Guantanamo Bay",
+   "where": "Cuba",
+   "lat": 19.9,
+   "lon": -75.1
+  },
+  {
+   "name": "Ramstein Air Base",
+   "where": "Germany",
+   "lat": 49.44,
+   "lon": 7.6
+  },
+  {
+   "name": "USAG Wiesbaden",
+   "where": "Germany",
+   "lat": 50.05,
+   "lon": 8.33
+  },
+  {
+   "name": "Grafenw\u00f6hr Training Area",
+   "where": "Germany",
+   "lat": 49.7,
+   "lon": 11.94
+  },
+  {
+   "name": "Camp Humphreys",
+   "where": "South Korea",
+   "lat": 36.96,
+   "lon": 127.03
+  },
+  {
+   "name": "Osan Air Base",
+   "where": "South Korea",
+   "lat": 37.09,
+   "lon": 127.03
+  },
+  {
+   "name": "Kadena Air Base",
+   "where": "Japan",
+   "lat": 26.36,
+   "lon": 127.77
+  },
+  {
+   "name": "Fleet Activities Yokosuka",
+   "where": "Japan",
+   "lat": 35.28,
+   "lon": 139.67
+  },
+  {
+   "name": "Misawa Air Base",
+   "where": "Japan",
+   "lat": 40.7,
+   "lon": 141.37
+  },
+  {
+   "name": "Andersen AFB",
+   "where": "Guam",
+   "lat": 13.58,
+   "lon": 144.93
+  },
+  {
+   "name": "Al Udeid Air Base",
+   "where": "Qatar",
+   "lat": 25.12,
+   "lon": 51.32
+  },
+  {
+   "name": "Naval Support Activity Bahrain",
+   "where": "Bahrain",
+   "lat": 26.21,
+   "lon": 50.61
+  },
+  {
+   "name": "Camp Arifjan",
+   "where": "Kuwait",
+   "lat": 28.93,
+   "lon": 48.1
+  },
+  {
+   "name": "Al Dhafra Air Base",
+   "where": "UAE",
+   "lat": 24.25,
+   "lon": 54.55
+  },
+  {
+   "name": "Incirlik Air Base",
+   "where": "Turkey",
+   "lat": 37.0,
+   "lon": 35.43
+  },
+  {
+   "name": "Camp Lemonnier",
+   "where": "Djibouti",
+   "lat": 11.55,
+   "lon": 43.15
+  },
+  {
+   "name": "NAS Sigonella",
+   "where": "Italy",
+   "lat": 37.4,
+   "lon": 14.92
+  },
+  {
+   "name": "Aviano Air Base",
+   "where": "Italy",
+   "lat": 46.03,
+   "lon": 12.6
+  },
+  {
+   "name": "RAF Lakenheath",
+   "where": "United Kingdom",
+   "lat": 52.41,
+   "lon": 0.56
+  },
+  {
+   "name": "Naval Station Rota",
+   "where": "Spain",
+   "lat": 36.64,
+   "lon": -6.35
+  },
+  {
+   "name": "Pituffik Space Base",
+   "where": "Greenland",
+   "lat": 76.53,
+   "lon": -68.7
+  },
+  {
+   "name": "Diego Garcia",
+   "where": "British Indian Ocean Territory",
+   "lat": -7.31,
+   "lon": 72.41
+  }
+ ]
+}

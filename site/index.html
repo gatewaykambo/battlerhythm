@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Battle Rhythm</title>
-<meta name="description" content="A daily news watch for service members, veterans, first responders, and their families. Every story reviewed by a veteran editor.">
-<meta property="og:title" content="Battle Rhythm">
-<meta property="og:description" content="The daily news watch for those who served and serve. Every story reviewed by a veteran editor.">
+<title>War Party TOC</title>
+<meta name="description" content="The daily operations-center watch for service members, veterans, first responders, and their families. TOC Reports reviewed and signed by veteran editors.">
+<meta property="og:title" content="War Party TOC">
+<meta property="og:description" content="The daily watch for those who served and serve. Every TOC Report reviewed by a veteran editor.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#141112">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,93 +14,107 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body data-tab="briefing">
 <header class="topbar">
-  <div class="wrap">
+  <div class="in">
     <a class="brand" href="./">
-      <span class="wordmark">BATTLE <span>RHYTHM</span></span>
+      <span class="wordmark">WAR PARTY <span>TOC</span></span>
       <span class="tagline">The daily watch for those who served and serve</span>
     </a>
+    <div class="status" role="status">
+      <span class="live">ON WATCH</span>
+      <span>LAST SWEEP <b id="lastSweep">--</b></span>
+      <span>WIRE <b id="wireCount">--</b></span>
+      <span>TOC REPORTS <b id="repCount">--</b></span>
+    </div>
     <div class="clocks" aria-label="Current time">
       <div class="clock z"><span class="lbl">ZULU · DTG</span><span class="t" id="cz">--</span></div>
       <div class="clock ct"><span class="lbl">CENTRAL</span><span class="t" id="cc">--</span></div>
     </div>
     <div class="tools">
+      <a class="editor-badge" href="admin.html">EDITOR MODE · DESK</a>
       <a class="btn-ghost" href="about.html">About</a>
       <button class="btn-ghost" id="hcBtn" type="button" aria-pressed="false">High contrast</button>
     </div>
   </div>
+  <div class="ticker" id="ticker" hidden>
+    <span class="tag">TOP OF THE WATCH</span>
+    <div class="track"><div class="move" id="tickMove"></div></div>
+  </div>
 </header>
-<div class="statusline" role="status">
-  <div class="wrap">
-    <span class="live">ON WATCH</span>
-    <span>Last sweep <b id="lastSweep">--</b></span>
-    <span>On the Wire <b id="wireCount">--</b></span>
-    <span>Battle Rhythm Reports <b id="repCount">--</b></span>
-  </div>
-</div>
 
-<main>
-  <section class="sitrep wrap" aria-labelledby="sitrepTitle">
-    <div class="sitrep-head">
-      <div>
-        <p class="label">Daily Sitrep</p>
-        <h1 class="sitrep-title" id="sitrepTitle">What you need to know today</h1>
-      </div>
-      <span class="sitrep-date" id="sitrepDate"></span>
-    </div>
-    <ol class="sitrep-list" id="sitrep"></ol>
-  </section>
-
-  <section class="reports wrap" aria-labelledby="repTitle">
-    <h2 class="label" id="repTitle">Battle Rhythm Reports <small>written with our editors, signed by them</small></h2>
-    <div class="report-grid" id="reports"></div>
-  </section>
-
-  <div class="board wrap">
-    <section class="panel" aria-labelledby="wireTitle">
-      <h2 class="label" id="wireTitle">The Wire <small id="feedCount"></small></h2>
-      <p class="wire-note">Headlines from across the news, sorted by lane. Each one links to the original story.</p>
-      <div class="tabs" id="laneTabs" role="group" aria-label="Filter by lane"></div>
+<main class="ops">
+  <section class="col col-wire" aria-labelledby="wireTitle">
+    <div class="head">
+      <h2 class="label" id="wireTitle">The Wire <small id="wireMeta"></small></h2>
+      <div class="chips" id="laneChips" role="group" aria-label="Filter the Wire by lane"></div>
       <p class="filter-note" id="filterNote" hidden></p>
-      <ul class="wire" id="wire"></ul>
-      <div class="row-more" id="wireMoreWrap" hidden><button type="button" class="btn-ghost" id="wireMore">Show more</button></div>
-    </section>
-
-    <div class="side">
-      <section class="panel" aria-labelledby="mapTitle">
-        <h2 class="label" id="mapTitle">Map <small>stories by state</small></h2>
-        <div class="map-wrap">
-          <canvas id="map" width="800" height="500" role="img" aria-label="Map of the United States with a marker for each state that has stories"></canvas>
-          <div class="map-tip" id="mapTip" hidden></div>
-        </div>
-        <div class="legend" id="legend"></div>
-        <p class="map-note">Tap a marker to see that state's stories. A gold ring means a Battle Rhythm Report.</p>
-      </section>
-
-      <section class="panel" aria-labelledby="xTitle">
-        <h2 class="label" id="xTitle">On X <small>picked by our editors</small></h2>
-        <ul class="xlist" id="xlist"></ul>
-      </section>
-
-      <section class="panel" aria-labelledby="policyTitle">
-        <h2 class="label" id="policyTitle">Policy Watch <small>bills, rules, rulings</small></h2>
-        <ul class="policy-list" id="policy"></ul>
-      </section>
     </div>
-  </div>
+    <ul class="wire" id="wire"></ul>
+    <div class="more-row" id="moreRow" hidden><button type="button" class="btn-ghost" id="moreBtn">Show more</button></div>
+  </section>
+
+  <section class="col col-center" aria-labelledby="rhythmTitle">
+    <div class="panel">
+      <div class="rhythm-head">
+        <h2 class="label" id="rhythmTitle">The Battle Rhythm <span>· what you need to know today</span></h2>
+        <span class="label"><small id="rhythmDate"></small></span>
+      </div>
+      <ol class="rhythm" id="rhythm"></ol>
+    </div>
+    <div id="hero"></div>
+    <h2 class="label" id="moreReports" hidden>More TOC Reports <small>written with our editors, signed by them</small></h2>
+    <div class="report-grid" id="reports"></div>
+    <div class="panel phone-only" id="phoneCountdowns" hidden></div>
+  </section>
+
+  <aside class="col col-side" aria-label="Map, countdowns, and policy watch">
+    <section class="panel" aria-labelledby="mapTitle">
+      <div class="map-head"><h2 class="label" id="mapTitle">The Globe</h2>
+        <span class="chips" role="group" aria-label="Map layers"><button type="button" class="chip" aria-pressed="true" disabled>Stories</button><button type="button" class="chip" id="instBtn" aria-pressed="false">Installations</button></span></div>
+      <div class="globe-wrap" id="mapWrap">
+        <div id="globe" role="img" aria-label="Globe showing where today's stories are"></div>
+        <canvas id="flatmap" role="img" aria-label="World map showing where today's stories are. Drag to move, pinch or use the buttons to zoom."></canvas>
+        <div class="map-tools phone-only">
+          <button type="button" id="zIn" aria-label="Zoom in">+</button>
+          <button type="button" id="zOut" aria-label="Zoom out">−</button>
+          <button type="button" id="zReset" aria-label="Reset the map">⟲</button>
+        </div>
+      </div>
+      <div class="map-legend" id="legend"></div>
+      <div class="loc-list" id="loc" hidden></div>
+    </section>
+    <section class="panel" aria-labelledby="cdTitle">
+      <h2 class="label" id="cdTitle">Countdowns <small>deadlines that matter</small></h2>
+      <div id="countdowns"></div>
+    </section>
+    <section class="panel" aria-labelledby="policyTitle">
+      <h2 class="label" id="policyTitle">Policy Watch <small>bills, rules, rulings</small></h2>
+      <ul class="policy-list" id="policy"></ul>
+    </section>
+  </aside>
 </main>
 
 <footer class="foot">
-  <div class="wrap">
-    <p>Battle Rhythm is a pilot run by veterans. The Wire is gathered automatically and links to the original reporting. Battle Rhythm Reports are drafted with AI help, then edited and approved by a named editor. Takes are opinion.</p>
+  <div class="in">
+    <p>War Party TOC is a pilot run by veterans. The Wire is gathered automatically and links to the original reporting. TOC Reports are drafted with AI help, then edited and signed by a named editor. Takes are opinion.</p>
     <p><a href="about.html">About and disclosures</a></p>
+    <p class="phone-links"><a href="about.html">About</a> <button type="button" class="btn-ghost" onclick="document.getElementById('hcBtn').click()">High contrast</button></p>
   </div>
 </footer>
+
+<nav class="tabbar" aria-label="Sections">
+  <button type="button" data-tab="briefing"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg>BRIEFING</button>
+  <button type="button" data-tab="wire"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5"/></svg>WIRE</button>
+  <button type="button" data-tab="map"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>MAP</button>
+</nav>
 
 <script src="assets/config.js"></script>
 <script src="assets/common.js"></script>
 <script src="assets/geo.js"></script>
+<script src="assets/share.js"></script>
+<script src="assets/editor.js"></script>
+<script src="assets/map.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// Battle Rhythm approval desk.
+// War Party TOC approval desk.
 // Talks to GitHub directly from the browser with each editor's own access token.
 // Approving writes one small decision file; GitHub Actions then publishes it to the site.
 (function () {
@@ -91,7 +91,7 @@
     document.querySelectorAll("[data-view]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.view === v)); });
     flash("");
     if (!ready() && v !== "setup") return renderSetup("Set up this device first. It takes about two minutes.");
-    ({ queue: loadQueue, published: loadPublished, wire: loadWire, xscroll: loadX, sitrep: loadSitrep, run: loadRun, setup: renderSetup })[v]();
+    ({ queue: loadQueue, published: loadPublished, wire: loadWire, countdowns: loadCountdowns, pulled: loadPulled, sitrep: loadSitrep, run: loadRun, setup: renderSetup })[v]();
   }
   document.querySelector(".views").addEventListener("click", function (ev) {
     var b = ev.target.closest("[data-view]"); if (b) setView(b.dataset.view);
@@ -191,7 +191,7 @@
         return '<button type="button" class="tab" data-lf="' + k + '" aria-pressed="' + (S.laneFilter === k) + '">' + (k === "all" ? "" : BR.laneDot(k)) + (k === "all" ? "All" : esc(BR.LANES[k])) + ' <span class="c">' + n + "</span></button>";
       }).join("") +
       '<span class="sep"></span>' +
-      [["all", "Everything"], ["report", "Report candidates"], ["sitrep", "Sitrep candidates"], ["hold", "Held for review"]].map(function (t) {
+      [["all", "Everything"], ["report", "Report candidates"], ["sitrep", "Battle Rhythm candidates"], ["hold", "Held for review"]].map(function (t) {
         return '<button type="button" class="tab" data-tf="' + t[0] + '" aria-pressed="' + (S.tierFilter === t[0]) + '">' + t[1] + "</button>";
       }).join("") +
       '<span class="sep"></span><button type="button" class="btn-ghost" id="refresh">Refresh</button></div>';
@@ -226,14 +226,14 @@
     var foundation = (it.flags || []).some(function (fl) { return fl.type === "foundation"; })
       ? '<div class="notice err">Both pilot editors serve on the Grunt Style Foundation board, so neither can approve this story without a conflict. Recommended: kill it.</div>' : "";
     var where = it.on_wire
-      ? '<div class="why">Already on the Wire as a link. Approving turns it into a Battle Rhythm Report.</div>'
+      ? '<div class="why">Already on the Wire as a link. Approving turns it into a TOC Report.</div>'
       : '<div class="notice warn">Held off the Wire because of the flags above. Post it as a link' + (isReport ? ", publish it as a Report," : "") + " or kill it.</div>";
-    var label = isReport ? (it.sitrep ? "Report candidate · Sitrep" : "Report candidate") : "Held for review";
+    var label = isReport ? (it.sitrep ? "Report candidate · Battle Rhythm" : "Report candidate") : "Held for review";
     var head = '<article class="qcard" id="c-' + id + '">' +
       '<div class="qhead"><span class="score ' + (it.sitrep ? "sitrep" : "draft") + '">' + it.score + "</span>" +
       '<span class="tier">' + label + "</span>" +
       '<span class="lane-chip">' + BR.laneDot(it.lane) + esc(BR.LANES[it.lane] || it.lane) + "</span>" +
-      (it.policy ? '<span class="policy-chip">POLICY</span>' : "") + (it.state ? '<span class="tier">' + esc(it.state) + "</span>" : "") + flags + "</div>" +
+      (it.policy ? '<span class="policy-chip">POLICY</span>' : "") + ((it.place || it.state) ? '<span class="tier">' + esc(it.place || it.state) + "</span>" : "") + (it.country && it.country !== "US" ? '<span class="flag">OUTSIDE THE U.S. · ' + esc(it.country) + "</span>" : "") + flags + "</div>" +
       '<div class="orig"><span class="t">' + esc(it.source_title) + '</span><span class="m">' + esc(it.source) + " · found " + esc(BR.ago(it.found_at)) +
       (it.published_at ? " · published " + esc(BR.ago(it.published_at)) : "") + ' · <a href="' + esc(it.source_url) + '" target="_blank" rel="noopener">Open the source ↗</a></span>' +
       ((it.also_covered_by || []).length ? '<span class="m">Also covered by: ' + it.also_covered_by.map(function (a) { return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.source) + "</a>"; }).join(", ") + "</span>" : "") +
@@ -319,7 +319,7 @@
         edits.lane = f.lane;
         decide(id, "approved", edits, f.headline).then(function () {
           S.decided[id] = true;
-          done(it, f, "Published as a Battle Rhythm Report by " + S.editor + ". It goes live in about two minutes.");
+          done(it, f, "Published as a TOC Report by " + S.editor + ". It goes live in about two minutes.");
         }).catch(fail);
       };
     }
@@ -352,33 +352,60 @@
     document.getElementById("qCount").textContent = String(pendingItems().length || "");
   }
 
-  // ---------------------------------------------------------------- published
+  // ---------------------------------------------------------------- shared pull helpers
+  var REASONS = ["Wrong location", "Inaccurate", "Duplicate", "Off-topic", "Conflict or legal", "Other"];
+  function reasonSelect(id) {
+    return '<select id="' + id + '" aria-label="Reason"><option value="">Reason…</option>' + REASONS.map(function (r) { return "<option>" + r + "</option>"; }).join("") + "</select>";
+  }
+
+  // ---------------------------------------------------------------- published TOC Reports
   function loadPublished() {
-    loading("published stories");
+    loading("published TOC Reports");
     getJSON("site/data/published.json", []).then(function (list) {
       S.published = list || [];
-      if (!S.published.length) { view.innerHTML = '<div class="empty"><b>Nothing published yet.</b><span>Published Reports appear here with copy-ready posts.</span></div>'; return; }
+      if (!S.published.length) { view.innerHTML = '<div class="empty"><b>No TOC Reports published yet.</b><span>Published Reports appear here with copy-ready posts, edit and correct tools, and Pull.</span></div>'; return; }
       view.innerHTML = '<div class="panel">' + S.published.slice(0, 60).map(function (p) {
-        return '<div class="pub" id="p-' + p.id + '"><span class="t">' + esc(p.headline) + '</span>' +
-          '<span class="m">' + esc(p.lane_label) + " · approved by " + esc(p.take_by) + " · " + esc(BR.ct(new Date(p.approved_at), { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + " CT</span>" +
+        var key = "p" + p.id;
+        return '<div class="pub" id="' + key + '"><span class="t">' + esc(p.headline) + '</span>' +
+          '<span class="m">' + esc(p.lane_label) + (p.place ? " · " + esc(p.place) : "") + " · by " + esc(p.take_by) + " · " + esc(BR.ct(new Date(p.approved_at), { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + " CT" + (p.correction ? " · corrected" : "") + "</span>" +
           '<div class="row"><button class="btn" type="button" data-a="x">Copy X post</button><button class="btn" type="button" data-a="fb">Copy Facebook post</button>' +
           '<button class="btn" type="button" data-a="link">Copy link</button><a class="btn-ghost" href="story.html?id=' + encodeURIComponent(p.id) + '" target="_blank" rel="noopener">Open</a>' +
-          '<button class="btn danger" type="button" data-a="unpub">Unpublish</button><span class="status-msg"></span></div></div>';
+          '<button class="btn" type="button" data-a="edit">Edit or correct</button></div>' +
+          '<div class="row">' + reasonSelect(key + "-reason") + '<button class="btn danger" type="button" data-a="pull">Pull from the site</button><span class="status-msg"></span></div>' +
+          '<div class="setup" data-edit hidden style="max-width:none;margin-top:10px">' +
+          field(key, "headline", "Headline", p.headline, "input") +
+          field(key, "summary", "Summary", p.summary, 3) +
+          field(key, "why_it_matters", "Why it matters", p.why_it_matters || "", 2) +
+          field(key, "take", "Our take", p.take || "", 4) +
+          '<label class="field"><span>Correction note <em>shown on the Report; leave empty for a silent fix of a typo</em></span><input type="text" id="' + key + '-correction" maxlength="400" placeholder="Example: An earlier version said the story was in Ohio. It is in England."></label>' +
+          '<div class="row"><button class="btn primary" type="button" data-a="save">Save changes</button><span class="status-msg" data-msg></span></div></div></div>';
       }).join("") + "</div>";
       S.published.slice(0, 60).forEach(function (p) {
-        var row = document.getElementById("p-" + p.id), msg = row.querySelector(".status-msg");
+        var key = "p" + p.id, row = document.getElementById(key), msg = row.querySelector(".row .status-msg");
         row.querySelector('[data-a="x"]').onclick = function () { BR.copy(xPost(p, p), this); };
         row.querySelector('[data-a="fb"]').onclick = function () { BR.copy(fbPost(p, p), this); };
         row.querySelector('[data-a="link"]').onclick = function () { BR.copy(BR.storyUrl(p.id), this); };
-        var un = row.querySelector('[data-a="unpub"]');
-        un.onclick = function () {
-          if (!un.classList.contains("confirm")) { un.classList.add("confirm"); un.textContent = "Click again to unpublish"; return; }
-          un.disabled = true; msg.textContent = "Removing…";
-          decide(p.id, "unpublished", null, p.headline).then(function () {
-            msg.className = "status-msg ok"; msg.textContent = "Removed. It leaves the site in about two minutes.";
-          }).catch(function (e) { un.disabled = false; msg.className = "status-msg err"; msg.textContent = explain(e); });
+        row.querySelector('[data-a="edit"]').onclick = function () { var e = row.querySelector("[data-edit]"); e.hidden = !e.hidden; };
+        row.querySelector('[data-a="save"]').onclick = function () {
+          var b = this, m = row.querySelector("[data-msg]"), edits = {};
+          ["headline", "summary", "why_it_matters", "take"].forEach(function (k) { var v = document.getElementById(key + "-" + k).value.trim(); if (v !== (p[k] || "")) edits[k] = v; });
+          var corr = document.getElementById(key + "-correction").value.trim();
+          if (!Object.keys(edits).length && !corr) { m.className = "status-msg err"; m.textContent = "Nothing has changed."; return; }
+          b.disabled = true; m.className = "status-msg"; m.textContent = "Saving…";
+          decide(p.id, "edited", edits, p.headline, { correction: corr }).then(function () { m.className = "status-msg ok"; m.textContent = "Saved. The Report updates in about two minutes."; })
+            .catch(function (e) { b.disabled = false; m.className = "status-msg err"; m.textContent = explain(e); });
         };
+        var pb = row.querySelector('[data-a="pull"]');
+        confirmClick(pb, "Click again to pull", function () {
+          var reason = document.getElementById(key + "-reason").value;
+          if (!reason) { msg.className = "status-msg err"; msg.textContent = "Pick a reason first."; pb.classList.remove("confirm"); pb.textContent = "Pull from the site"; return; }
+          pb.disabled = true; msg.textContent = "Pulling…";
+          decide(p.id, "pull", null, p.headline, { reason: reason }).then(function () { msg.className = "status-msg ok"; msg.textContent = "Pulled. It leaves the site in about two minutes. Undo from the Pulled tab."; })
+            .catch(function (e) { pb.disabled = false; msg.className = "status-msg err"; msg.textContent = explain(e); });
+        });
       });
+      var q = new URLSearchParams(location.search).get("edit");
+      if (q) { var row = document.getElementById("p" + q); if (row) { row.querySelector("[data-edit]").hidden = false; row.scrollIntoView({ block: "start" }); } }
     }).catch(function (e) { view.innerHTML = '<div class="notice err">' + esc(explain(e)) + "</div>"; });
   }
 
@@ -388,64 +415,102 @@
     getJSON("site/data/wire.json", []).then(function (list) {
       var q = "";
       function draw() {
-        var items = (list || []).filter(function (w) { return !q || (w.headline + " " + w.source).toLowerCase().indexOf(q) > -1; });
+        var items = (list || []).filter(function (w) { return !q || (w.headline + " " + w.source + " " + (w.place || "")).toLowerCase().indexOf(q) > -1; });
         document.getElementById("wList").innerHTML = items.slice(0, 150).map(function (w) {
           return '<div class="pub" id="w-' + w.id + '"><a class="t" href="' + esc(w.url) + '" target="_blank" rel="noopener">' + esc(w.headline) + " ↗</a>" +
-            '<span class="m">' + esc(BR.LANES[w.lane] || "") + " · " + esc(w.source) + " · score " + (w.score || "?") + " · " + esc(BR.ago(w.found_at)) + (w.report ? " · has a Report" : "") + "</span>" +
-            '<div class="row"><button class="btn danger" type="button" data-hide="' + w.id + '">Remove from the Wire</button><span class="status-msg"></span></div></div>';
+            '<span class="m">' + esc(BR.LANES[w.lane] || "") + " · " + esc(w.source) + (w.place ? " · " + esc(w.place) : "") + (w.country && w.country !== "US" ? " · " + esc(w.country) : "") + " · score " + (w.score || "?") + " · " + esc(BR.ago(w.found_at)) + (w.report ? " · has a TOC Report" : "") + "</span>" +
+            '<div class="row">' + reasonSelect("wr-" + w.id) + '<button class="btn danger" type="button" data-hide="' + w.id + '">Pull from the Wire</button><span class="status-msg"></span></div></div>';
         }).join("") || '<p class="help">No matching links.</p>';
         document.querySelectorAll("[data-hide]").forEach(function (b) {
-          confirmClick(b, "Click again to remove", function () {
+          confirmClick(b, "Click again to pull", function () {
             var row = document.getElementById("w-" + b.dataset.hide), msg = row.querySelector(".status-msg"), w = list.filter(function (x) { return x.id === b.dataset.hide; })[0];
-            b.disabled = true; msg.textContent = "Removing…";
-            decide(w.id, "hide_wire", null, w.headline).then(function () { msg.className = "status-msg ok"; msg.textContent = "Removed. It leaves the site in about two minutes."; })
+            var reason = document.getElementById("wr-" + w.id).value;
+            if (!reason) { msg.className = "status-msg err"; msg.textContent = "Pick a reason first."; b.classList.remove("confirm"); b.textContent = "Pull from the Wire"; return; }
+            b.disabled = true; msg.textContent = "Pulling…";
+            decide(w.id, "hide_wire", null, w.headline, { reason: reason }).then(function () { msg.className = "status-msg ok"; msg.textContent = "Pulled. It leaves the site in about two minutes."; })
               .catch(function (e) { b.disabled = false; msg.className = "status-msg err"; msg.textContent = explain(e); });
           });
         });
       }
       view.innerHTML = '<div class="panel">' +
         '<p class="label">The Wire <small>' + (list || []).length + " links live now</small></p>" +
-        '<p class="help">Everything here posted automatically. Remove anything that does not belong.</p>' +
-        '<label class="field" style="margin:12px 0"><span>Search</span><input type="text" id="wSearch" placeholder="Search headlines or outlets"></label>' +
+        '<p class="help">Everything here posted automatically. Pull anything that does not belong; the reason helps the agents learn. You can also pull straight from the public site while editor mode is on.</p>' +
+        '<label class="field" style="margin:12px 0"><span>Search</span><input type="text" id="wSearch" placeholder="Search headlines, outlets, or places"></label>' +
         '<div id="wList"></div></div>';
       document.getElementById("wSearch").addEventListener("input", function () { q = this.value.trim().toLowerCase(); draw(); });
       draw();
     }).catch(function (e) { view.innerHTML = '<div class="notice err">' + esc(explain(e)) + "</div>"; });
   }
 
-  // ---------------------------------------------------------------- X scroll
-  var X_URL = /^https:\/\/(www\.)?(x|twitter)\.com\/([A-Za-z0-9_]{1,15})\/status\/(\d{5,25})/;
-  function loadX() {
-    loading("the X scroll");
-    getJSON("site/data/xposts.json", []).then(function (list) {
-      view.innerHTML = '<div class="panel setup" style="max-width:none">' +
-        '<p class="label">Add a post to the X scroll</p>' +
-        '<p class="help">On X, open the post, tap Share, then Copy link. Paste it here. It shows on the site in about two minutes.</p>' +
-        '<label class="field"><span>Link to the post</span><input type="text" id="xUrl" placeholder="https://x.com/account/status/1234567890" autocomplete="off" spellcheck="false"></label>' +
-        '<label class="field"><span>Why it\'s worth a look <em id="xNoteCount">optional · 200 max</em></span><input type="text" id="xNote" maxlength="200" placeholder="One line in our words"></label>' +
-        '<label class="field"><span>Lane <em>optional</em></span><select id="xLane"><option value="">None</option>' + Object.keys(BR.LANES).map(function (k) { return '<option value="' + k + '">' + esc(BR.LANES[k]) + "</option>"; }).join("") + "</select></label>" +
-        '<div class="row"><button class="btn primary" type="button" id="xAdd">Add to the X scroll</button><span class="status-msg" id="xMsg"></span></div></div>' +
-        '<div class="panel" style="margin-top:20px"><p class="label">In the scroll now <small>' + (list || []).length + " posts</small></p>" +
-        ((list || []).map(function (x) {
-          return '<div class="pub" id="x-' + x.id + '"><a class="t" href="' + esc(x.url) + '" target="_blank" rel="noopener">@' + esc(x.handle) + " ↗</a>" +
-            (x.note ? "<span>" + esc(x.note) + "</span>" : "") + '<span class="m">Added by ' + esc(x.added_by || "") + " · " + esc(BR.ago(x.added_at)) + "</span>" +
-            '<div class="row"><button class="btn danger" type="button" data-xrm="' + x.id + '">Remove</button><span class="status-msg"></span></div></div>';
-        }).join("") || '<p class="help">Nothing in the scroll yet.</p>') + "</div>";
-      document.getElementById("xAdd").onclick = function () {
-        var url = document.getElementById("xUrl").value.trim().split("?")[0], m = url.match(X_URL), msg = document.getElementById("xMsg"), btn = this;
-        if (!m) { msg.className = "status-msg err"; msg.textContent = "That doesn't look like a link to an X post. It should look like x.com/account/status/1234…"; return; }
-        btn.disabled = true; msg.className = "status-msg"; msg.textContent = "Adding…";
-        decide("x" + m[4], "xpost_add", null, "@" + m[3], { url: url, note: document.getElementById("xNote").value.trim(), lane: document.getElementById("xLane").value })
-          .then(function () { msg.className = "status-msg ok"; msg.textContent = "Added. It shows on the site in about two minutes."; document.getElementById("xUrl").value = ""; document.getElementById("xNote").value = ""; btn.disabled = false; })
+  // ---------------------------------------------------------------- countdowns
+  function loadCountdowns() {
+    loading("Countdowns");
+    Promise.all([getJSON("data/countdown_suggestions.json", []), getJSON("site/data/countdowns.json", [])]).then(function (r) {
+      var sug = (r[0] || []).slice().sort(function (a, b) { return a.date.localeCompare(b.date); }), live = r[1] || [];
+      view.innerHTML =
+        '<div class="panel"><p class="label">Suggested by the agents <small>' + sug.length + " waiting</small></p>" +
+        '<p class="help">Dates the agents found in stories. Check the date and the wording, then confirm or dismiss. Only confirmed Countdowns appear on the site.</p>' +
+        (sug.length ? sug.map(function (c) {
+          return '<div class="pub" id="s-' + c.id + '"><div class="grid2">' +
+            '<label class="field"><span>Label</span><input type="text" id="sl-' + c.id + '" maxlength="80" value="' + esc(c.label) + '"></label>' +
+            '<label class="field"><span>Date</span><input type="text" id="sd-' + c.id + '" value="' + esc(c.date) + '" placeholder="YYYY-MM-DD"></label></div>' +
+            '<span class="m">From: <a href="story.html?id=' + encodeURIComponent(c.story_id) + '" target="_blank" rel="noopener">' + esc(c.headline || "the story") + "</a> · " + BR.daysUntil(c.date) + " days out</span>" +
+            '<div class="row"><button class="btn primary" type="button" data-ok="' + c.id + '">Confirm</button><button class="btn danger" type="button" data-no="' + c.id + '">Dismiss</button><span class="status-msg"></span></div></div>';
+        }).join("") : '<p class="help">No suggestions right now. They arrive with TOC Report drafts.</p>') + "</div>" +
+        '<div class="panel" style="margin-top:20px"><p class="label">Live on the site <small>' + live.length + "</small></p>" +
+        (live.length ? live.map(function (c) {
+          return '<div class="pub" id="c-' + c.id + '"><span class="t">' + esc(c.label) + '</span><span class="m">' + esc(c.date) + " · " + BR.daysUntil(c.date) + " days · added by " + esc(c.added_by || "") + "</span>" +
+            '<div class="row"><button class="btn danger" type="button" data-rm="' + c.id + '">Remove</button><span class="status-msg"></span></div></div>';
+        }).join("") : '<p class="help">None yet.</p>') +
+        '<p class="label" style="margin-top:18px">Add one yourself</p><div class="grid2">' +
+        '<label class="field"><span>Label</span><input type="text" id="nl" maxlength="80" placeholder="Federal hemp THC cap takes effect"></label>' +
+        '<label class="field"><span>Date</span><input type="text" id="nd" placeholder="YYYY-MM-DD"></label></div>' +
+        '<div class="row"><button class="btn primary" type="button" id="nAdd">Add Countdown</button><span class="status-msg" id="nMsg"></span></div></div>';
+      function act(btn, run) {
+        var msg = btn.parentNode.querySelector(".status-msg");
+        btn.disabled = true; msg.className = "status-msg"; msg.textContent = "Saving…";
+        run().then(function () { msg.className = "status-msg ok"; msg.textContent = "Done. The site updates in about two minutes."; })
           .catch(function (e) { btn.disabled = false; msg.className = "status-msg err"; msg.textContent = explain(e); });
+      }
+      var okDate = function (d) { return /^\d{4}-\d{2}-\d{2}$/.test(d) && !isNaN(Date.parse(d)); };
+      view.querySelectorAll("[data-ok]").forEach(function (b) {
+        b.onclick = function () {
+          var id = b.dataset.ok, c = sug.filter(function (x) { return x.id === id; })[0];
+          var label = document.getElementById("sl-" + id).value.trim(), date = document.getElementById("sd-" + id).value.trim();
+          if (!label || !okDate(date)) { var m = b.parentNode.querySelector(".status-msg"); m.className = "status-msg err"; m.textContent = "Use a label and a date like 2026-12-11."; return; }
+          act(b, function () { return decide(id, "countdown_add", null, label, { date: date, label: label, suggestion_id: id, story_id: c.story_id, headline: c.headline }); });
+        };
+      });
+      view.querySelectorAll("[data-no]").forEach(function (b) { b.onclick = function () { act(b, function () { return decide(b.dataset.no, "countdown_dismiss", null, "Countdown suggestion"); }); }; });
+      view.querySelectorAll("[data-rm]").forEach(function (b) { confirmClick(b, "Click again to remove", function () { act(b, function () { return decide(b.dataset.rm, "countdown_remove", null, "Countdown"); }); }); });
+      document.getElementById("nAdd").onclick = function () {
+        var label = document.getElementById("nl").value.trim(), date = document.getElementById("nd").value.trim(), b = this;
+        if (!label || !okDate(date)) { var m = document.getElementById("nMsg"); m.className = "status-msg err"; m.textContent = "Use a label and a date like 2026-12-11."; return; }
+        act(b, function () { return decide("cd" + Date.now(), "countdown_add", null, label, { date: date, label: label }); });
       };
-      document.querySelectorAll("[data-xrm]").forEach(function (b) {
-        confirmClick(b, "Click again to remove", function () {
-          var row = document.getElementById("x-" + b.dataset.xrm), msg = row.querySelector(".status-msg");
-          b.disabled = true; msg.textContent = "Removing…";
-          decide(b.dataset.xrm, "xpost_remove", null, "X post").then(function () { msg.className = "status-msg ok"; msg.textContent = "Removed. It leaves the site in about two minutes."; })
+    }).catch(function (e) { view.innerHTML = '<div class="notice err">' + esc(explain(e)) + "</div>"; });
+  }
+
+  // ---------------------------------------------------------------- pulled
+  function loadPulled() {
+    loading("pulled stories");
+    getJSON("data/pulled.json", []).then(function (list) {
+      list = list || [];
+      var byId = {}; list.forEach(function (p) { (byId[p.id] = byId[p.id] || []).push(p); });
+      var ids = Object.keys(byId);
+      view.innerHTML = '<div class="panel"><p class="label">Pulled <small>' + ids.length + " stories</small></p>" +
+        '<p class="help">Everything pulled from the site, newest first. Undo puts it back exactly as it was. The reasons are shared with the agents so they make fewer of the same mistakes.</p>' +
+        (ids.length ? ids.map(function (id) {
+          var p = byId[id][0], kinds = byId[id].map(function (x) { return x.kind === "report" ? "TOC Report" : "Wire link"; }).join(" + ");
+          return '<div class="pub"><span class="t">' + esc(p.headline) + '</span><span class="m">' + esc(kinds) + " · " + esc(p.reason || "no reason given") + " · pulled by " + esc(p.by || "") + " · " + esc(BR.ago(p.at)) + "</span>" +
+            '<div class="row"><button class="btn" type="button" data-undo="' + esc(id) + '">Undo</button><span class="status-msg"></span></div></div>';
+        }).join("") : '<p class="help">Nothing has been pulled.</p>') + "</div>";
+      view.querySelectorAll("[data-undo]").forEach(function (b) {
+        b.onclick = function () {
+          var msg = b.parentNode.querySelector(".status-msg"); b.disabled = true; msg.textContent = "Restoring…";
+          decide(b.dataset.undo, "restore", null, "Restore").then(function () { msg.className = "status-msg ok"; msg.textContent = "Restored. It's back on the site in about two minutes."; })
             .catch(function (e) { b.disabled = false; msg.className = "status-msg err"; msg.textContent = explain(e); });
-        });
+        };
       });
     }).catch(function (e) { view.innerHTML = '<div class="notice err">' + esc(explain(e)) + "</div>"; });
   }
@@ -461,18 +526,18 @@
       var ids = {}; reps.forEach(function (p) { ids[p.id] = 1; });
       var wires = (r[1] || []).filter(function (w) { return !ids[w.id] && Date.now() - Date.parse(w.published_at || w.found_at) < 36 * 3600e3; })
         .sort(function (a, b) { return (b.score || 0) - (a.score || 0); }).slice(0, Math.max(0, 7 - reps.length));
-      if (!reps.length && !wires.length) { view.innerHTML = '<div class="empty"><b>Nothing for a Sitrep yet.</b><span>It builds from today\'s Reports first, then the strongest Wire headlines.</span></div>'; return; }
+      if (!reps.length && !wires.length) { view.innerHTML = '<div class="empty"><b>Nothing for the Battle Rhythm yet.</b><span>It builds from today\'s Reports first, then the strongest Wire headlines.</span></div>'; return; }
       var date = BR.ct(new Date(), { weekday: "long", month: "long", day: "numeric" });
       var n = 0;
-      var text = "BATTLE RHYTHM · DAILY SITREP\n" + date + "\n\n" +
-        reps.map(function (p) { n++; return n + ". " + p.headline + " (Battle Rhythm Report)\n" + firstSentence(p.summary) + "\n" + BR.storyUrl(p.id); })
+      var text = "WAR PARTY TOC · THE BATTLE RHYTHM\n" + date + "\n\n" +
+        reps.map(function (p) { n++; return n + ". " + p.headline + " (TOC Report)\n" + firstSentence(p.summary) + "\n" + BR.storyUrl(p.id); })
           .concat(wires.map(function (w) { n++; return n + ". " + w.headline + " (" + w.source + ")\n" + w.url; })).join("\n\n") +
         "\n\nThe full board: " + BR.siteUrl();
       view.innerHTML = '<div class="panel setup" style="max-width:none">' +
-        '<p class="label">Today\'s Sitrep <small>' + reps.length + " Reports, " + wires.length + " Wire headlines</small></p>" +
+        '<p class="label">Today\'s Battle Rhythm <small>' + reps.length + " Reports, " + wires.length + " Wire headlines</small></p>" +
         '<p class="help">Reports come first, then the strongest headlines from the last 36 hours. Edit below, then copy it into a Facebook post or an email.</p>' +
-        '<label class="field"><span>Sitrep text</span><textarea id="sitText" rows="20">' + esc(text) + "</textarea></label>" +
-        '<div class="row"><button class="btn primary" type="button" id="sitCopy">Copy Sitrep</button></div></div>';
+        '<label class="field"><span>Battle Rhythm text</span><textarea id="sitText" rows="20">' + esc(text) + "</textarea></label>" +
+        '<div class="row"><button class="btn primary" type="button" id="sitCopy">Copy the Battle Rhythm</button></div></div>';
       document.getElementById("sitCopy").onclick = function () { BR.copy(document.getElementById("sitText").value, this); };
     }).catch(function (e) { view.innerHTML = '<div class="notice err">' + esc(explain(e)) + "</div>"; });
   }
@@ -505,5 +570,5 @@
   }
 
   who();
-  setView(ready() ? "queue" : "setup");
+  setView(!ready() ? "setup" : new URLSearchParams(location.search).get("edit") ? "published" : "queue");
 })();

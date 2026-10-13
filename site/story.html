@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Battle Rhythm · Story</title>
+<title>War Party TOC · Report</title>
 <meta name="theme-color" content="#141112">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,9 @@
 </head>
 <body>
 <header class="topbar">
-  <div class="wrap">
+  <div class="in">
     <a class="brand" href="./">
-      <span class="wordmark">BATTLE <span>RHYTHM</span></span>
+      <span class="wordmark">WAR PARTY <span>TOC</span></span>
       <span class="tagline">The daily watch for those who served and serve</span>
     </a>
     <div class="clocks" aria-label="Current time">
@@ -22,19 +22,21 @@
       <div class="clock ct"><span class="lbl">CENTRAL</span><span class="t" id="cc">--</span></div>
     </div>
     <div class="tools">
+      <a class="editor-badge" href="admin.html">EDITOR MODE · DESK</a>
+      <a class="btn-ghost" href="./">The board</a>
       <a class="btn-ghost" href="about.html">About</a>
       <button class="btn-ghost" id="hcBtn" type="button" aria-pressed="false">High contrast</button>
     </div>
   </div>
 </header>
 
-<main class="article" id="article">
+<main class="page" id="article">
   <div class="empty"><b>Loading the story…</b></div>
 </main>
 
-<footer class="foot">
-  <div class="wrap">
-    <p>Battle Rhythm is a pilot run by veterans. AI helps find and draft stories; every item is reviewed, edited, and approved by a named editor. Takes are opinion.</p>
+<footer class="foot" style="display:block">
+  <div class="in">
+    <p>War Party TOC is a pilot run by veterans. TOC Reports are drafted with AI help, then edited and signed by a named editor. Takes are opinion.</p>
     <p><a href="about.html">About and disclosures</a></p>
   </div>
 </footer>
@@ -42,6 +44,8 @@
 <script src="assets/config.js"></script>
 <script src="assets/common.js"></script>
 <script src="assets/geo.js"></script>
+<script src="assets/share.js"></script>
+<script src="assets/editor.js"></script>
 <script>
 (function () {
   var BR = window.BR, esc = BR.esc;
@@ -53,30 +57,30 @@
       main.innerHTML = '<a class="back" href="./">← Back to the board</a><div class="empty"><b>This story is no longer on the board.</b><span>It may have been removed by an editor. Head back to see today\'s Sitrep.</span></div>';
       return;
     }
-    document.title = p.headline + " · Battle Rhythm";
+    document.title = p.headline + " · War Party TOC";
     var url = BR.storyUrl(p.id);
-    var xText = encodeURIComponent(p.headline + " via Battle Rhythm");
+    var place = BR.placeName(p);
     var crisis = p.suicide_safe && !/988/.test(p.summary + p.take)
       ? '<div class="crisis">If you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1. You can also text 838255.</div>' : "";
+    var also = (p.also || []).length ? '<span class="meta">Also covered by ' + p.also.map(function (a) { return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.source) + "</a>"; }).join(", ") + "</span>" : "";
     main.innerHTML =
       '<a class="back" href="./">← Back to the board</a>' +
-      '<div class="story-meta"><span class="lane-chip">' + BR.laneDot(p.lane) + esc(p.lane_label) + "</span>" +
-      (p.policy ? '<span class="policy-chip">POLICY</span>' : "") +
-      (p.state && BR_GEO.states[p.state] ? "<span>" + esc(BR_GEO.states[p.state][0]) + "</span>" : "") +
-      "<span>Approved " + esc(BR.ct(new Date(p.approved_at), { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + " CT</span></div>" +
+      '<div class="report" style="border:0;padding:0;background:none"><div class="meta"><span class="tag-report">TOC REPORT</span><span class="lane-chip"><i class="dot" style="background:var(--lane-' + p.lane + ')"></i>' + esc(p.lane_label) + "</span>" +
+      (p.policy ? '<span class="tag-policy">POLICY</span>' : "") + (place ? "<span>" + esc(place) + "</span>" : "") +
+      "<span>" + esc(BR.ct(new Date(p.approved_at), { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) + " CT</span>" +
+      '<span style="margin-left:auto;position:relative">' + (BR.pullButton ? BR.pullButton("report", p.id, p.headline) : "") + "</span></div></div>" +
       "<h1>" + esc(p.headline) + "</h1>" +
       '<p class="lede">' + esc(p.summary) + "</p>" +
       (p.why_it_matters ? '<div class="wim"><b>Why it matters</b>' + esc(p.why_it_matters) + "</div>" : "") +
       (p.take ? '<div class="take"><span class="take-label">Our take · ' + esc(p.take_by) + " · opinion</span><p>" + esc(p.take) + "</p></div>" : "") +
       crisis +
+      (p.correction ? '<p class="correction">Correction, ' + esc(BR.ct(new Date(p.correction.at), { month: "short", day: "numeric" })) + ": " + esc(p.correction.note) + "</p>" : "") +
       (p.disclosures || []).map(function (d) { return '<p class="disclosure">' + esc(d) + "</p>"; }).join("") +
+      '<span class="byline">By ' + esc(p.take_by) + " · War Party TOC</span>" +
       '<div class="source-card"><span class="take-label">Original reporting</span>' +
-      '<a class="source-link" href="' + esc(p.source_url) + '" target="_blank" rel="noopener">Read the full story at ' + esc(p.source) + " ↗</a>" +
-      '<span class="meta">Battle Rhythm summarizes and links to the original. We do not republish articles.</span></div>' +
-      '<div class="share"><button class="btn-ghost" type="button" id="copyLink">Copy link</button>' +
-      '<a class="btn-ghost" target="_blank" rel="noopener" href="https://x.com/intent/post?text=' + xText + "&url=" + encodeURIComponent(url) + '">Share on X</a>' +
-      '<a class="btn-ghost" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url) + '">Share on Facebook</a></div>';
-    document.getElementById("copyLink").onclick = function () { BR.copy(url, this); };
+      '<a href="' + esc(p.source_url) + '" target="_blank" rel="noopener">Read the full story at ' + esc(p.source) + " ↗</a>" + also +
+      '<span class="meta">War Party TOC summarizes and links to the original. We do not republish articles.</span></div>' +
+      BR.shareRow(url, p.headline);
   }).catch(function () {
     main.innerHTML = '<div class="empty"><b>The board could not be loaded.</b><span>Check your connection and refresh.</span></div>';
   });

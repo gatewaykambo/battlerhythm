@@ -1,6 +1,6 @@
 # Battle Rhythm pipeline settings. Safe to edit.
 
-site_name: Battle Rhythm
+site_name: War Party TOC
 
 # Claude models. The scorer reads every new story, so it uses the faster, cheaper model.
 # The drafter writes only for stories that clear the draft threshold.
@@ -27,7 +27,8 @@ limits:
   max_age_hours: 72             # ignore stories older than this
   max_drafts_per_run: 15        # cost cap: the top N stories get drafted each run
   score_batch_size: 15          # stories per scoring call
-  article_chars: 6000           # how much article text the drafter may read
+  article_chars: 6000           # how much text the drafter may read from each version of a story
+  min_article_chars: 1500       # no TOC Report unless at least this much real article text could be read
 
 queue:
   pending_ttl_hours: 72         # undecided items expire after this
@@ -35,7 +36,7 @@ queue:
   max_published: 500            # newest Reports kept on the public site
   wire_ttl_hours: 72            # Wire links drop off after this
   max_wire: 400                 # newest Wire links kept
-  max_xposts: 30                # hand-picked X posts kept in the scroll
+  max_pulled: 200               # pulled stories kept for undo and for the scorer to learn from
 
 editors:
   - Will Wisner

@@ -1,6 +1,6 @@
 {
- "site_name": "Battle Rhythm",
- "updated_at": "2026-10-13T01:35:04Z",
+ "site_name": "War Party TOC",
+ "updated_at": "2026-10-13T02:29:56Z",
  "last_sweep_at": "2026-10-13T00:55:01Z",
  "report_count": 7,
  "wire_count": 24,
@@ -11,6 +11,12 @@
   "plant_medicine": 4
  },
  "pending_count": 1,
+ "lanes": {
+  "active_duty": "Active Duty",
+  "veterans": "Veterans / VA",
+  "first_responders": "First Responders",
+  "plant_medicine": "Integrative Health & Policy"
+ },
  "editors": [
   "Will Wisner",
   "Anthony Canania"
