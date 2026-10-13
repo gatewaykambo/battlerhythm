@@ -256,7 +256,7 @@
  },
  {
   "id": "15a79f075742",
-  "status": "pending",
+  "status": "killed",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -293,6 +293,12 @@
     "Firefighters",
     "Seattle"
    ]
+  },
+  "decision": {
+   "status": "killed",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:18:53Z"
   }
  },
  {
