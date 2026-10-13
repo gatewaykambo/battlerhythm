@@ -36,8 +36,12 @@ def fetch_entries(feed: dict, fixtures: pathlib.Path | None, limit: int) -> list
         path = fixtures / f"{slug}.xml"
         return rss_entries(feedparser.parse(path.read_bytes()) if path.exists() else feedparser.parse(b""), feed, limit)
     if feed.get("type") == "gdelt":
-        time.sleep(6)  # GDELT asks for at most one request every five seconds
-        r = requests.get(GDELT_URL.format(q=quote(feed["query"]), n=min(limit, 75)), headers={"User-Agent": UA}, timeout=30)
+        url = GDELT_URL.format(q=quote(feed["query"]), n=min(limit, 75))
+        for wait in (6, 20, 45):  # GDELT allows about one request every five seconds; shared servers often need longer
+            time.sleep(wait)
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+            if r.status_code != 429:
+                break
         r.raise_for_status()
         try:
             data = r.json()
@@ -194,7 +198,7 @@ def main() -> int:
                 "id": sid, "title": title, "source": e["source"], "url": e["link"], "snippet": e["summary"],
                 "published_at": iso(e["published"]) if e["published"] else None,
                 "lane_hint": feed.get("lane"), "kind": feed.get("kind", "news"),
-                "weight": float(feed.get("weight", 1.0)), "feed": feed["name"],
+                "weight": float(feed.get("weight", 1.0)), "feed": feed["name"], "wire_only": bool(feed.get("wire_only")),
             })
     run["new"] = len(candidates)
 
@@ -259,7 +263,7 @@ def main() -> int:
     attempts = 0
     for c in keep:
         draft = None
-        if c["score"] >= th["draft"] and attempts < lim["max_drafts_per_run"]:
+        if c["score"] >= th["draft"] and attempts < lim["max_drafts_per_run"] and not (c.get("wire_only") and not c.get("also")):
             attempts += 1
             texts = []
             if args.fixtures:

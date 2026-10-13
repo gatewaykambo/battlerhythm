@@ -4,6 +4,7 @@
 # kind: "news" (default) or "policy" (rulemaking, bills, court and agency actions)
 # weight: nudges the score (1.0 normal, 1.1 for the most trusted outlets)
 # type: "rss" (default) or "gdelt" (a search of the GDELT global news index; returns real article links)
+# wire_only: true for headline-only backup searches; their stories post to the Wire but are never drafted
 #
 # Every sweep lists failing feeds in its run summary, so a dead address shows up quickly.
 
@@ -16,10 +17,6 @@ feeds:
   - name: Defense News
     url: https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml
     lane: active_duty
-  - name: Stars and Stripes
-    url: https://www.stripes.com/arc/outboundfeeds/rss/?outputType=xml
-    lane: mixed
-    weight: 1.1
   - name: Task & Purpose
     url: https://taskandpurpose.com/feed/
     lane: mixed
@@ -83,3 +80,30 @@ feeds:
     query: '(hemp OR cannabis OR THC) (law OR ban OR bill OR regulation OR court) sourcecountry:US sourcelang:english'
     lane: plant_medicine
     kind: policy
+
+  # ---------- Backup news searches (headline only: Wire links, never drafted) ----------
+  - name: News search · service members
+    url: https://news.google.com/rss/search?q=%22service+members%22+OR+troops+OR+%22military+families%22+when:1d&hl=en-US&gl=US&ceid=US:en
+    lane: active_duty
+    wire_only: true
+  - name: News search · veterans and VA
+    url: https://news.google.com/rss/search?q=veterans+%28VA+OR+%22Veterans+Affairs%22%29+when:1d&hl=en-US&gl=US&ceid=US:en
+    lane: veterans
+    wire_only: true
+  - name: News search · firefighters
+    url: https://news.google.com/rss/search?q=firefighters+%28PTSD+OR+cancer+OR+benefits+OR+staffing+OR+legislation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: first_responders
+    wire_only: true
+  - name: News search · police and EMS wellness
+    url: https://news.google.com/rss/search?q=%28police+OR+EMS+OR+paramedics+OR+dispatchers%29+%28%22mental+health%22+OR+PTSD+OR+%22peer+support%22+OR+benefits%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: first_responders
+    wire_only: true
+  - name: News search · psychedelic therapy and veterans
+    url: https://news.google.com/rss/search?q=%28psilocybin+OR+MDMA+OR+ibogaine+OR+psychedelic%29+%28veterans+OR+%22first+responders%22+OR+PTSD%29+when:7d&hl=en-US&gl=US&ceid=US:en
+    lane: plant_medicine
+    wire_only: true
+  - name: News search · hemp and THC law
+    url: https://news.google.com/rss/search?q=hemp+%28THC+OR+ban+OR+law+OR+regulation%29+when:2d&hl=en-US&gl=US&ceid=US:en
+    lane: plant_medicine
+    kind: policy
+    wire_only: true
