@@ -31,6 +31,23 @@
   ]
  },
  {
+  "id": "df735597be49",
+  "headline": "Army sent balloon swarms to Middle East to support CENTCOM operations",
+  "source": "Breaking Defense",
+  "url": "https://breakingdefense.com/2026/10/army-sent-balloon-swarms-to-middle-east-to-support-centcom-operations/",
+  "lane": "active_duty",
+  "state": null,
+  "country": "US",
+  "place": "Middle East",
+  "lat": 27.0,
+  "lon": 45.0,
+  "policy": false,
+  "score": 56,
+  "published_at": "2026-10-12T19:30:00Z",
+  "found_at": "2026-10-13T02:32:17Z",
+  "also": []
+ },
+ {
   "id": "263031bcf2cb",
   "headline": "DOD reveals 21 U.S. service members have died in war with Iran",
   "source": "Central Oregon Daily",

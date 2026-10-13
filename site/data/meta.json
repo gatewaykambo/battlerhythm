@@ -1,11 +1,11 @@
 {
  "site_name": "War Party TOC",
- "updated_at": "2026-10-13T02:29:56Z",
- "last_sweep_at": "2026-10-13T00:55:01Z",
+ "updated_at": "2026-10-13T02:32:31Z",
+ "last_sweep_at": "2026-10-13T02:32:31Z",
  "report_count": 7,
- "wire_count": 24,
+ "wire_count": 25,
  "lane_counts": {
-  "active_duty": 5,
+  "active_duty": 6,
   "veterans": 4,
   "first_responders": 11,
   "plant_medicine": 4
