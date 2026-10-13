@@ -148,7 +148,7 @@
  },
  {
   "id": "0b50627de7b4",
-  "status": "approved",
+  "status": "pulled",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -194,10 +194,11 @@
    ]
   },
   "decision": {
-   "status": "approved",
+   "status": "pull",
    "editor": "Will Wisner",
    "editor_login": "gatewaykambo",
-   "decided_at": "2026-10-13T01:17:10Z"
+   "decided_at": "2026-10-13T02:47:32Z",
+   "reason": "Wrong location"
   }
  },
  {
@@ -601,6 +602,59 @@
    "editor": "system",
    "decided_at": null,
    "reason": "Drafted before the full-article rule"
+  }
+ },
+ {
+  "id": "65c83c3b0855",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 77,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 12,
+   "angle": 12,
+   "timeliness": 10
+  },
+  "score_why": "Hegseth push to testosterone for service members is a policy shift with real health and readiness stakes; veteran editors can weigh in.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon",
+  "lat": 38.872,
+  "lon": -77.056,
+  "flags": [
+   {
+    "type": "medical_claim",
+    "label": "medical claim",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "The War Horse",
+  "source_url": "https://thewarhorse.org/pentagon-testosterone-readiness-troops/",
+  "source_title": "The Pentagon Wants to ‘Optimize’ Service Members. Will Testosterone Make Them Better Warfighters?",
+  "snippet": "Pete Hegseth leaned in toward the camera. Since the early days of his tenure as secretary of defense, the former Fox News host had been posting clips on social media for the public. But this time, with an amber glow illuminating the American flag in the background, he spoke directly to those under his command [ ] The post The Pentagon Wants to ‘Optimize’ Service Members. Will Testosterone Make Them Better Warfighters? appeared first on The War Horse .",
+  "published_at": "2026-10-13T11:00:00Z",
+  "found_at": "2026-10-13T16:51:25Z",
+  "feed": "The War Horse",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon launches testosterone screening for troops 30 and older; experts doubt the need",
+   "summary": "Defense Secretary Pete Hegseth announced yearly testosterone screening for service members 30 and older. Younger troops can request a test, and the Defense Department will offer treatment to those who need it. A 2025 Madigan Army Medical Center review of 2.8 million active-duty men found 0.43% had a low-testosterone diagnosis. The Pentagon released its first guidance on Sept. 2, 2026, then withdrew it within a day, calling it a mistake.",
+   "why_it_matters": "Troops may soon be offered testosterone tests and treatment through military health care, and the program raises questions about readiness, health risks, and pressure to \"optimize.\"",
+   "take": "Screening for a real medical problem is fine. But the Pentagon's own research suggests low testosterone is rare in the ranks, and the cause is often something else, like poor sleep or alcohol use. Selling this as \"optimizing\" risks sending healthy troops after treatment they don't need. A first guidance document that was released and pulled in a day doesn't build confidence either. If leaders want trust, they should show the evidence, the plan, and the cost, and they should apply the same standards to men and women.",
+   "x_post": "The Pentagon will screen troops 30+ for low testosterone yearly. But a 2025 Army review found only 0.43% of 2.8M active-duty men had the diagnosis. Is this readiness policy or hype? Experts have doubts.",
+   "fb_post": "The Pentagon is rolling out testosterone screening. Troops 30 and older will be screened every year, younger troops can ask for a test, and the Defense Department will offer treatment to those who need it. Secretary Pete Hegseth says it's about restoring natural capabilities, not artificial enhancement.\n\nHere's the catch. A 2025 review by Madigan Army Medical Center looked at the records of 2.8 million active-duty men. Only 0.43% had a low-testosterone diagnosis, and for many of them it likely traced back to another issue, like diabetes, poor sleep, or alcohol use. The first formal guidance came out Sept. 2 and was pulled within a day as an error. A federal judge has also ordered the Pentagon to explain why it offers hormone therapy to some troops while restricting it for transgender troops.\n\nWe think testing people who are sick makes sense. We worry that \"optimizing\" sends healthy troops chasing treatment they don't need, with real risks and no clear gain for readiness.\n\nIf you're on active duty, what are you hearing in your unit?",
+   "open_questions": "The source text cuts off mid-sentence (\"Just over two weeks later, the Pentagon issued a re...\"), so we don't know the content of the replacement guidance, its date, or how it treats women versus men. We also lack: the program's cost, the start date and rollout by branch, the name of the federal judge or case and any court deadline, and any Pentagon response to the experts' criticism. The Navy officer is anonymous, so the \"10 times a day\" claim is unverified and was left out. The \"highest male standard\" and women-in-ground-combat study are mentioned only in passing and were left out of the draft. Confirm the Madigan study details against the original before publishing.",
+   "hashtags": [
+    "ActiveDuty",
+    "Pentagon"
+   ],
+   "deadlines": []
   }
  }
 ]

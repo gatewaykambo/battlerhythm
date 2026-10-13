@@ -1,6 +1,63 @@
 [
  {
   "kind": "wire",
+  "id": "0b50627de7b4",
+  "headline": "Cleveland Firefighters' union claims workforce has already been cut by 163 jobs...",
+  "reason": "Wrong location",
+  "note": "",
+  "by": "Will Wisner",
+  "at": "2026-10-13T02:47:32Z",
+  "record": {
+   "id": "0b50627de7b4",
+   "headline": "Cleveland Firefighters' union claims workforce has already been cut by 163 jobs...",
+   "source": "https://www.teesdurhampost.co.uk/",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNajBuaU5LVWh1LWhYTFl5Z3Rka2ZoVDE3eXU5dGZRdjRmT0JLLXBjLW9LUExvaDczbzBJMDZvSEhfclVFQ1BrS2hDaDQzb1ktM3VuVm5fN0dLenZ4T1hFU1pKM0o3dlI5VnE5Q2s1R09WUW1RaVBTNXdmc1FDM2NmamZobGdSWENZLWR2X0RXNHZQWkJrT2ZVYWVNbjFWU1QydXE5OU96djFNZzNTbkZ3Y1ZOdlJLQVk?oc=5",
+   "lane": "first_responders",
+   "state": "OH",
+   "policy": false,
+   "score": 80,
+   "published_at": "2026-10-12T18:29:00Z",
+   "found_at": "2026-10-13T00:51:35Z",
+   "also": [],
+   "report": true
+  }
+ },
+ {
+  "kind": "report",
+  "id": "0b50627de7b4",
+  "headline": "Cleveland firefighters' union says 163 jobs already cut from workforce",
+  "reason": "Wrong location",
+  "note": "",
+  "by": "Will Wisner",
+  "at": "2026-10-13T02:47:32Z",
+  "record": {
+   "id": "0b50627de7b4",
+   "lane": "first_responders",
+   "lane_label": "First Responders",
+   "headline": "Cleveland firefighters' union says 163 jobs already cut from workforce",
+   "summary": "A headline from the Tees Durham Post reports that the Cleveland Firefighters' union claims the workforce has already been cut by 163 jobs. We only have the headline, not the full article. We can't say over what period the cuts happened, what caused them, or how the fire service responds. This is a union claim, not a confirmed figure.",
+   "why_it_matters": "Staffing levels are one of the most basic issues for firefighters and the communities they protect, so a claim of 163 lost jobs deserves a close look.",
+   "take": "We're not ready to draw conclusions from one headline. A union number is a claim, and the fire service's side needs to be heard. But 163 jobs is a large figure for any department, and the public should get a clear, checkable accounting of it. Staffing decisions are made by budget-holders, and they should be able to explain them plainly to the crews who answer the call.",
+   "take_by": "Will Wisner",
+   "source": "https://www.teesdurhampost.co.uk/",
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNajBuaU5LVWh1LWhYTFl5Z3Rka2ZoVDE3eXU5dGZRdjRmT0JLLXBjLW9LUExvaDczbzBJMDZvSEhfclVFQ1BrS2hDaDQzb1ktM3VuVm5fN0dLenZ4T1hFU1pKM0o3dlI5VnE5Q2s1R09WUW1RaVBTNXdmc1FDM2NmamZobGdSWENZLWR2X0RXNHZQWkJrT2ZVYWVNbjFWU1QydXE5OU96djFNZzNTbkZ3Y1ZOdlJLQVk?oc=5",
+   "source_published_at": "2026-10-12T18:29:00Z",
+   "approved_at": "2026-10-13T01:17:10Z",
+   "policy": false,
+   "state": "OH",
+   "score": 80,
+   "hashtags": [
+    "Firefighters",
+    "FirstResponders"
+   ],
+   "x_post": "A Cleveland firefighters' union claims the workforce has already been cut by 163 jobs, per the Tees Durham Post. It's a union claim, and we only have the headline so far.",
+   "fb_post": "A firefighters' union in Cleveland says the workforce has already been cut by 163 jobs. That's the claim in a Tees Durham Post headline.\n\nWe only have the headline for now. We don't know the time frame, the reasons behind the cuts, or what the fire service says in response. So treat the number as a union claim until it's confirmed.\n\nStill, staffing is about as basic as it gets for first responders. Whatever the cause, the people making these decisions owe crews and the public a clear explanation.\n\nIf you've worked in a department that went through staffing cuts, what did you see change on the ground?",
+   "disclosures": [],
+   "suicide_safe": false
+  }
+ },
+ {
+  "kind": "wire",
   "id": "9f79fbf967a4",
   "headline": "After 20 years as a P.E.I. firefighter, something snapped. Now he's teaching others about PTSD",
   "reason": "Wrong location",
