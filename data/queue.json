@@ -202,7 +202,7 @@
  },
  {
   "id": "5fc0b48a676e",
-  "status": "pending",
+  "status": "approved",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -246,6 +246,12 @@
     "Iran",
     "ActiveDuty"
    ]
+  },
+  "decision": {
+   "status": "approved",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:18:19Z"
   }
  },
  {
