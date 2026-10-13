@@ -232,7 +232,9 @@
       '<span class="lane-chip">' + BR.laneDot(it.lane) + esc(BR.LANES[it.lane] || it.lane) + "</span>" +
       (it.policy ? '<span class="policy-chip">POLICY</span>' : "") + (it.state ? '<span class="tier">' + esc(it.state) + "</span>" : "") + flags + "</div>" +
       '<div class="orig"><span class="t">' + esc(it.source_title) + '</span><span class="m">' + esc(it.source) + " · found " + esc(BR.ago(it.found_at)) +
-      (it.published_at ? " · published " + esc(BR.ago(it.published_at)) : "") + ' · <a href="' + esc(it.source_url) + '" target="_blank" rel="noopener">Open the source ↗</a></span></div>' +
+      (it.published_at ? " · published " + esc(BR.ago(it.published_at)) : "") + ' · <a href="' + esc(it.source_url) + '" target="_blank" rel="noopener">Open the source ↗</a></span>' +
+      ((it.also_covered_by || []).length ? '<span class="m">Also covered by: ' + it.also_covered_by.map(function (a) { return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.source) + "</a>"; }).join(", ") + "</span>" : "") +
+      "</div>" +
       '<div class="why">Relevance <b>' + (p.relevance || 0) + "</b>/30 · Impact <b>" + (p.impact || 0) + "</b>/25 · Traction <b>" + (p.traction || 0) + "</b>/15 · Angle <b>" + (p.angle || 0) + "</b>/15 · Timeliness <b>" + (p.timeliness || 0) + "</b>/15<br>" + esc(it.score_why || "") + "</div>" +
       foundation + nodraft + disc +
       (it.draft && it.draft.open_questions ? '<div class="why">Not yet known: ' + esc(it.draft.open_questions) + "</div>" : "") +

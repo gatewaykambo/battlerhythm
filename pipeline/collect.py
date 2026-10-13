@@ -76,6 +76,34 @@ def article_text(url: str, limit: int) -> str:
     return text[:limit]
 
 
+STOP = set("the a an and or of to in on for with at by from as is are was were be after before over into about amid new says say said how what why who its it this that their his her".split())
+
+
+def words(title: str) -> set[str]:
+    return {w for w in re.sub(r"[^a-z0-9 ]", " ", (title or "").lower()).split() if w not in STOP and len(w) > 1}
+
+
+def collapse_duplicates(ranked: list[dict]) -> list[dict]:
+    """Same story from several outlets: keep the best-scored one, note the others."""
+    kept: list[dict] = []
+    for c in ranked:
+        w = words(c["title"])
+        twin = None
+        for k in kept:
+            if k["lane"] != c["lane"]:
+                continue
+            shared = w & k["_words"]
+            if len(shared) >= 4 and len(shared) / max(1, min(len(w), len(k["_words"]))) >= 0.5:
+                twin = k
+                break
+        if twin:
+            twin.setdefault("also", []).append({"source": c["source"], "url": c["url"], "title": c["title"]})
+        else:
+            c["_words"] = w
+            kept.append(c)
+    return kept
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="no API calls: keyword scores and placeholder drafts")
@@ -177,7 +205,9 @@ def main() -> int:
         run["scored"] += len(batch)
 
     # 3. Keep what clears the bar, best first
-    keep = sorted((c for c in scored_ok if c.get("score", 0) >= th["browse"]), key=lambda c: -c["score"])
+    ranked = sorted((c for c in scored_ok if c.get("score", 0) >= th["browse"]), key=lambda c: -c["score"])
+    keep = collapse_duplicates(ranked)
+    run["duplicates_merged"] = len(ranked) - len(keep)
     to_draft = [c for c in keep if c["score"] >= th["draft"]][: lim["max_drafts_per_run"]]
     draft_ids = {c["id"] for c in to_draft}
 
@@ -215,6 +245,7 @@ def main() -> int:
             "published_at": c["published_at"],
             "found_at": stamp,
             "feed": c["feed"],
+            "also_covered_by": c.get("also", [])[:5],
             "draft": draft,
         })
         run["queued"] += 1

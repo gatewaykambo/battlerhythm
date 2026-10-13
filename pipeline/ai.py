@@ -55,6 +55,11 @@ def _call(model: str, system: str, user: str, max_tokens: int = 4000, tool: dict
             last = f"HTTP {r.status_code}: {r.text[:200]}"
             time.sleep(2 ** attempt * 5)
             continue
+        if r.status_code == 400 and tool and "tool_choice" in r.text and body.get("tool_choice", {}).get("type") == "tool":
+            # Some models won't accept a forced form. Ask for it instead; the reader below handles either reply.
+            body["tool_choice"] = {"type": "auto"}
+            body["system"] = system + "\n\nAlways answer by calling the " + tool["name"] + " tool."
+            continue
         if r.status_code != 200:
             raise AIError(f"HTTP {r.status_code}: {r.text[:500]}")
         data = r.json()
@@ -64,7 +69,8 @@ def _call(model: str, system: str, user: str, max_tokens: int = 4000, tool: dict
             for block in data.get("content", []):
                 if block.get("type") == "tool_use":
                     return block.get("input") or {}
-            raise AIError("Claude did not fill in the form")
+            text = "".join(block.get("text", "") for block in data.get("content", []) if block.get("type") == "text")
+            return _json_from(text)
         return "".join(block.get("text", "") for block in data.get("content", []) if block.get("type") == "text")
     raise AIError(f"Claude API failed after retries: {last}")
 
@@ -80,7 +86,7 @@ def _json_from(text: str):
         end = text.rfind(closer)
         if start != -1 and end > start:
             try:
-                return json.loads(text[start:end + 1])
+                return json.loads(text[start:end + 1], strict=False)  # tolerate line breaks inside text
             except json.JSONDecodeError:
                 continue
     raise AIError("Reply was not valid JSON: " + text[:300])
