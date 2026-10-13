@@ -1,0 +1,10 @@
+// Cloudflare settings: publish ONLY the site folder as a static website.
+// Drafts, the queue, and config stay private in the repository.
+{
+  "name": "battlerhythm",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  }
+}
