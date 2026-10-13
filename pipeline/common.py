@@ -21,6 +21,8 @@ DECISIONS_DIR = DATA / "decisions"
 ARCHIVE_DIR = DATA / "archive"
 PUBLISHED_PATH = SITE_DATA / "published.json"
 META_PATH = SITE_DATA / "meta.json"
+WIRE_PATH = SITE_DATA / "wire.json"
+XPOSTS_PATH = SITE_DATA / "xposts.json"
 
 LANES = {
     "active_duty": "Active Duty",

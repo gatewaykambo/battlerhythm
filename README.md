@@ -6,17 +6,21 @@ before it reaches the public site.
 
 ## How it fits together
 
-1. **Sweep** (GitHub Actions, about 4 AM and 2 PM Central). `pipeline/collect.py` reads
-   the feeds in `config/feeds.yml`, drops duplicates and old stories, scores each new
-   story with Claude, and drafts a summary, take, X post, and Facebook post for the best ones.
-   Everything lands in `data/queue.json`.
-2. **Approve** (`/admin.html`). Will and Anthony open the approval desk, edit the drafts,
-   and approve or kill each one. Each decision is saved as a small file in `data/decisions/`.
-3. **Publish** (GitHub Actions, runs on every decision). `pipeline/publish.py` folds the
-   decisions in and rebuilds `site/data/published.json`. Cloudflare Pages redeploys the site,
-   and the story is live about two minutes after approval.
-4. **Distribute.** The desk gives you copy-ready X and Facebook posts and a daily Sitrep.
-   Paste them into the accounts by hand.
+Battle Rhythm has two tiers.
+
+- **The Wire** fills itself. Every sweep (about 4 AM and 2 PM Central), `pipeline/collect.py` reads the
+  feeds in `config/feeds.yml`, scores each new story with Claude, merges duplicates, and posts every story
+  that clears the Wire bar as a headline linking to the original. Wire links show on the map by lane
+  color and drop off after three days.
+- **Battle Rhythm Reports** are ours. The top stories each sweep get a full draft (summary, why it matters,
+  take, X and Facebook posts) and wait in the approval desk. When an editor publishes one, it becomes a
+  featured Report signed by that editor, with a gold ring on the map.
+- **Held stories:** anything naming a War Party client or the Grunt Style Foundation, or involving suicide
+  or graphic violence, never posts automatically. It waits on the desk for a yes or no.
+- **On X:** editors paste links to X posts on the desk's X scroll tab; they show in the "On X" panel.
+
+Every editor action writes a small file to `data/decisions/`. `pipeline/publish.py` (run by GitHub Actions
+on every decision) folds them in and rebuilds `site/data/`. Cloudflare redeploys the `site` folder.
 
 ## One-time setup
 

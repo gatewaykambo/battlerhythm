@@ -19,7 +19,7 @@ import feedparser
 import requests
 
 import ai
-from common import (DATA, LANES, QUEUE_PATH, SEEN_PATH, iso, load_json, load_text, load_yaml,
+from common import (DATA, LANES, QUEUE_PATH, SEEN_PATH, WIRE_PATH, iso, load_json, load_text, load_yaml,
                     make_id, now, parse_iso, save_json, strip_html, title_key, watchlist_flags)
 
 UA = "Mozilla/5.0 (compatible; BattleRhythmBot/0.1; news monitoring for a veterans news digest)"
@@ -104,6 +104,23 @@ def collapse_duplicates(ranked: list[dict]) -> list[dict]:
     return kept
 
 
+def wire_record(c: dict, stamp: str) -> dict:
+    """What the public Wire shows: the outlet's headline and a link. Nothing else from the source."""
+    return {
+        "id": c["id"],
+        "headline": c["title"],
+        "source": c["source"],
+        "url": c["url"],
+        "lane": c["lane"],
+        "state": c["state"],
+        "policy": c["policy"],
+        "score": c["score"],
+        "published_at": c["published_at"],
+        "found_at": stamp,
+        "also": [{"source": a["source"], "url": a["url"]} for a in c.get("also", [])[:4]],
+    }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="no API calls: keyword scores and placeholder drafts")
@@ -124,7 +141,7 @@ def main() -> int:
     queue = load_json(QUEUE_PATH, [])
     seen = load_json(SEEN_PATH, {"ids": {}, "titles": {}})
     run = {"started_at": iso(now()), "dry_run": dry, "feeds_ok": [], "feeds_failed": [],
-           "new": 0, "scored": 0, "queued": 0, "drafted": 0, "errors": []}
+           "new": 0, "scored": 0, "queued": 0, "drafted": 0, "wired": 0, "errors": []}
 
     cutoff = now() - dt.timedelta(hours=lim["max_age_hours"])
     candidates, batch_titles = [], set()
@@ -204,16 +221,27 @@ def main() -> int:
                 seen["titles"][title_key(it["title"])] = stamp[:10]
         run["scored"] += len(batch)
 
-    # 3. Keep what clears the bar, best first
-    ranked = sorted((c for c in scored_ok if c.get("score", 0) >= th["browse"]), key=lambda c: -c["score"])
+    # 3. Sort into tiers.
+    #    Wire:    clears the wire bar, no hold flags -> published right away as a link to the source.
+    #    Report:  top stories over the draft bar -> drafted and queued for an editor (also on the wire meanwhile).
+    #    Hold:    clears the wire bar but carries a hold flag -> waits for an editor's yes or no.
+    hold_types = set(settings.get("hold_flags", []))
+    ranked = sorted((c for c in scored_ok if c.get("score", 0) >= th["wire"]), key=lambda c: -c["score"])
     keep = collapse_duplicates(ranked)
     run["duplicates_merged"] = len(ranked) - len(keep)
+    for c in keep:
+        flags = watchlist_flags(" ".join([c["title"], c["snippet"]]), watchlist)
+        for f in c.get("ai_flags", []):
+            flags.append({"type": f, "label": f.replace("_", " "), "detail": "", "disclosure": ""})
+        c["flags"] = flags
+        c["held"] = any(f["type"] in hold_types for f in flags)
     to_draft = [c for c in keep if c["score"] >= th["draft"]][: lim["max_drafts_per_run"]]
     draft_ids = {c["id"] for c in to_draft}
 
+    wire = load_json(WIRE_PATH, [])
+    wire_ids = {w["id"] for w in wire}
     for c in keep:
-        text = ""
-        draft = None
+        draft, text = None, ""
         if c["id"] in draft_ids:
             text = article_text(c["url"], lim["article_chars"]) if not args.fixtures else ""
             try:
@@ -223,32 +251,40 @@ def main() -> int:
                 run["errors"].append(f"drafting {c['id']}: {e}")
             if not dry:
                 time.sleep(0.5)
-        flags = watchlist_flags(" ".join([c["title"], c["snippet"], text]), watchlist)
-        for f in c.get("ai_flags", []):
-            flags.append({"type": f, "label": f.replace("_", " "), "detail": "", "disclosure": ""})
-        tier = "sitrep" if c["score"] >= th["sitrep"] else ("draft" if draft else "browse")
-        queue.append({
-            "id": c["id"],
-            "status": "pending",
-            "tier": tier,
-            "lane": c["lane"],
-            "score": c["score"],
-            "score_parts": c["score_parts"],
-            "score_why": c["score_why"],
-            "policy": c["policy"],
-            "state": c["state"],
-            "flags": flags,
-            "source": c["source"],
-            "source_url": c["url"],
-            "source_title": c["title"],
-            "snippet": c["snippet"],
-            "published_at": c["published_at"],
-            "found_at": stamp,
-            "feed": c["feed"],
-            "also_covered_by": c.get("also", [])[:5],
-            "draft": draft,
-        })
-        run["queued"] += 1
+            if text:  # the article may name a client the headline did not
+                extra = [f for f in watchlist_flags(text, watchlist) if f["type"] not in {x["type"] for x in c["flags"]}]
+                c["flags"] += extra
+                c["held"] = c["held"] or any(f["type"] in hold_types for f in extra)
+        if not c["held"] and c["id"] not in wire_ids:
+            wire.append(wire_record(c, stamp))
+            wire_ids.add(c["id"])
+            run["wired"] += 1
+        if draft or c["held"]:
+            queue.append({
+                "id": c["id"],
+                "status": "pending",
+                "tier": "report" if draft else "hold",
+                "sitrep": c["score"] >= th["sitrep"],
+                "on_wire": not c["held"],
+                "lane": c["lane"],
+                "score": c["score"],
+                "score_parts": c["score_parts"],
+                "score_why": c["score_why"],
+                "policy": c["policy"],
+                "state": c["state"],
+                "flags": c["flags"],
+                "source": c["source"],
+                "source_url": c["url"],
+                "source_title": c["title"],
+                "snippet": c["snippet"],
+                "published_at": c["published_at"],
+                "found_at": stamp,
+                "feed": c["feed"],
+                "also_covered_by": c.get("also", [])[:5],
+                "draft": draft,
+            })
+            run["queued"] += 1
+    save_json(WIRE_PATH, wire)
 
     # 4. Prune the dedupe memory to 30 days
     prune = (now() - dt.timedelta(days=30)).date().isoformat()
@@ -270,7 +306,7 @@ def report(run: dict) -> None:
     lines = [
         f"## Battle Rhythm sweep {'(dry run)' if run['dry_run'] else ''}",
         f"- New stories found: **{run['new']}**",
-        f"- Scored: {run['scored']} · Added to queue: **{run['queued']}** · Drafted: **{run['drafted']}**",
+        f"- Scored: {run['scored']} · On the Wire: **{run['wired']}** · To the editors: **{run['queued']}** · Drafted: **{run['drafted']}**",
         f"- Feeds working: {len(run['feeds_ok'])} · Feeds failing: {len(run['feeds_failed'])}",
     ]
     if run["feeds_failed"]:

@@ -11,8 +11,16 @@ models:
 # Scoring thresholds (out of 100)
 thresholds:
   sitrep: 85      # tagged as a Sitrep candidate
-  draft: 70       # gets a full draft (summary, take, posts) and enters the approval queue
-  browse: 50      # kept in the queue as a low-priority "browse" item without a draft
+  draft: 70       # drafted as a Battle Rhythm Report and sent to the approval queue
+  wire: 55        # posted automatically to the Wire as a headline linking to the source
+
+# Stories with any of these flags never post automatically. They wait for an editor's yes or no.
+hold_flags:
+  - client_conflict
+  - foundation
+  - war_party
+  - suicide
+  - graphic
 
 limits:
   max_items_per_feed: 25        # newest items read from each feed per run
@@ -24,7 +32,10 @@ limits:
 queue:
   pending_ttl_hours: 72         # undecided items expire after this
   keep_decided_days: 14         # decided items move to the archive after this
-  max_published: 500            # newest approved items kept on the public site
+  max_published: 500            # newest Reports kept on the public site
+  wire_ttl_hours: 72            # Wire links drop off after this
+  max_wire: 400                 # newest Wire links kept
+  max_xposts: 30                # hand-picked X posts kept in the scroll
 
 editors:
   - Will Wisner

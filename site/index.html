@@ -35,8 +35,8 @@
   <div class="wrap">
     <span class="live">ON WATCH</span>
     <span>Last sweep <b id="lastSweep">--</b></span>
-    <span>Stories on the board <b id="pubCount">--</b></span>
-    <span>Every item approved by a named editor</span>
+    <span>On the Wire <b id="wireCount">--</b></span>
+    <span>Battle Rhythm Reports <b id="repCount">--</b></span>
   </div>
 </div>
 
@@ -52,23 +52,35 @@
     <ol class="sitrep-list" id="sitrep"></ol>
   </section>
 
+  <section class="reports wrap" aria-labelledby="repTitle">
+    <h2 class="label" id="repTitle">Battle Rhythm Reports <small>written with our editors, signed by them</small></h2>
+    <div class="report-grid" id="reports"></div>
+  </section>
+
   <div class="board wrap">
-    <section class="panel" aria-labelledby="feedTitle">
-      <h2 class="label" id="feedTitle">The Feed <small id="feedCount"></small></h2>
+    <section class="panel" aria-labelledby="wireTitle">
+      <h2 class="label" id="wireTitle">The Wire <small id="feedCount"></small></h2>
+      <p class="wire-note">Headlines from across the news, sorted by lane. Each one links to the original story.</p>
       <div class="tabs" id="laneTabs" role="group" aria-label="Filter by lane"></div>
       <p class="filter-note" id="filterNote" hidden></p>
-      <div class="feed" id="feed"></div>
+      <ul class="wire" id="wire"></ul>
+      <div class="row-more" id="wireMoreWrap" hidden><button type="button" class="btn-ghost" id="wireMore">Show more</button></div>
     </section>
 
     <div class="side">
       <section class="panel" aria-labelledby="mapTitle">
         <h2 class="label" id="mapTitle">Map <small>stories by state</small></h2>
         <div class="map-wrap">
-          <canvas id="map" width="800" height="500" role="img" aria-label="Map of the United States with a marker for each state that has stories on the board"></canvas>
+          <canvas id="map" width="800" height="500" role="img" aria-label="Map of the United States with a marker for each state that has stories"></canvas>
           <div class="map-tip" id="mapTip" hidden></div>
         </div>
         <div class="legend" id="legend"></div>
-        <p class="map-note">Tap a marker to see that state's stories. National stories are not mapped.</p>
+        <p class="map-note">Tap a marker to see that state's stories. A gold ring means a Battle Rhythm Report.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="xTitle">
+        <h2 class="label" id="xTitle">On X <small>picked by our editors</small></h2>
+        <ul class="xlist" id="xlist"></ul>
       </section>
 
       <section class="panel" aria-labelledby="policyTitle">
@@ -81,7 +93,7 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p>Battle Rhythm is a pilot run by veterans. AI helps find and draft stories; every item is reviewed, edited, and approved by a named editor. Summaries are our own and link to the original reporting. Takes are opinion.</p>
+    <p>Battle Rhythm is a pilot run by veterans. The Wire is gathered automatically and links to the original reporting. Battle Rhythm Reports are drafted with AI help, then edited and approved by a named editor. Takes are opinion.</p>
     <p><a href="about.html">About and disclosures</a></p>
   </div>
 </footer>
