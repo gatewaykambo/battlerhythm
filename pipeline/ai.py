@@ -37,6 +37,9 @@ def _call(model: str, system: str, user: str, max_tokens: int = 4000) -> str:
         "messages": [{"role": "user", "content": user}],
     }
     headers = {"x-api-key": key, "anthropic-version": API_VERSION, "content-type": "application/json"}
+    workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+    if workspace:  # needed only for keys that are not tied to a workspace
+        headers["anthropic-workspace-id"] = workspace
     last = None
     for attempt in range(4):
         try:

@@ -138,14 +138,21 @@ def main() -> int:
     run["new"] = len(candidates)
 
     # 2. Score
+    # A batch that fails to score is skipped, not guessed at: its stories stay unseen
+    # and get another chance on the next sweep.
     stamp = iso(now())
+    scored_ok = []
     for start in range(0, len(candidates), lim["score_batch_size"]):
         batch = candidates[start:start + lim["score_batch_size"]]
         try:
             scores = ai.score_batch(batch, models["scorer"], dry=dry)
         except ai.AIError as e:
             run["errors"].append(f"scoring batch {start}: {e}")
-            scores = [ai._dry_score(i, it, fallback=True) for i, it in enumerate(batch)]
+            if "HTTP 4" in str(e) and "HTTP 429" not in str(e):
+                run["errors"].append("Stopped: the Claude API rejected the request. Check the API key setup (see README).")
+                break
+            continue
+        scored_ok.extend(batch)
         for it, s in zip(batch, scores):
             parts = {k: int(max(0, s.get(k, 0) or 0)) for k in ("relevance", "impact", "traction", "angle", "timeliness")}
             parts["relevance"] = min(parts["relevance"], 30)
@@ -170,7 +177,7 @@ def main() -> int:
         run["scored"] += len(batch)
 
     # 3. Keep what clears the bar, best first
-    keep = sorted((c for c in candidates if c.get("score", 0) >= th["browse"]), key=lambda c: -c["score"])
+    keep = sorted((c for c in scored_ok if c.get("score", 0) >= th["browse"]), key=lambda c: -c["score"])
     to_draft = [c for c in keep if c["score"] >= th["draft"]][: lim["max_drafts_per_run"]]
     draft_ids = {c["id"] for c in to_draft}
 
@@ -222,6 +229,9 @@ def main() -> int:
     run["finished_at"] = iso(now())
     save_json(DATA / "last_run.json", run)
     report(run)
+    if candidates and not scored_ok:
+        print("No stories could be scored. Failing the run so GitHub flags it.", file=sys.stderr)
+        return 1
     return 0
 
 
