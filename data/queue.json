@@ -48,7 +48,7 @@
  },
  {
   "id": "c0fe69f9816f",
-  "status": "pending",
+  "status": "approved",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -91,6 +91,12 @@
     "Pentagon",
     "ActiveDuty"
    ]
+  },
+  "decision": {
+   "status": "approved",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:14:37Z"
   }
  },
  {
