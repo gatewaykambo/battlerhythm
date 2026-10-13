@@ -206,7 +206,7 @@ DRAFT_SYSTEM = """You are the drafting desk for Battle Rhythm. You write the fir
 Follow the editorial guide below exactly. Above all:
 - Use ONLY facts found in the SOURCE MATERIAL. Never invent numbers, names, quotes, dates, or outcomes. If the material is thin, write less and say what is not yet known.
 - Write in your own words. Do not copy sentences from the source. At most one short quote under 15 words, attributed.
-- The take is clearly opinion, follows from the facts, and reflects the positions in the guide.
+- The take is clearly opinion, follows from the facts, and reflects the positions in the guide. Do not start it with "Opinion:"; the site labels it.
 - If the story involves suicide, follow safe messaging and end the summary or take with: "If you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1."
 - No medical advice or treatment claims.
 
@@ -268,4 +268,5 @@ def draft_item(item: dict, article_text: str, guide: str, model: str, dry: bool 
     out["hashtags"] = [re.sub(r"[^A-Za-z0-9_]", "", str(t)) for t in tags][:2]
     for k in ("headline", "summary", "why_it_matters", "take", "x_post", "fb_post", "open_questions"):
         out[k] = str(out.get(k) or "").strip()
+    out["take"] = re.sub(r"^(opinion|our take)\s*[:\-]\s*", "", out["take"], flags=re.I)  # the site labels it already
     return out
