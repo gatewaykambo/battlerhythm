@@ -4,6 +4,6 @@
 window.BR_CONFIG = {
   repo: "gatewaykambo/battlerhythm",
   branch: "main",
-  siteUrl: "",
+  siteUrl: "https://battlerhythm.gatewaykambo.workers.dev",
   editors: ["Will Wisner", "Anthony Canania"]
 };
