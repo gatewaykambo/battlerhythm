@@ -1,7 +1,7 @@
 [
  {
   "id": "a9210863a727",
-  "status": "pending",
+  "status": "killed",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -38,6 +38,12 @@
     "VABenefits",
     "COLA"
    ]
+  },
+  "decision": {
+   "status": "killed_all",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:12:01Z"
   }
  },
  {
