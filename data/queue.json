@@ -450,7 +450,7 @@
  },
  {
   "id": "d0a67f4d1d0b",
-  "status": "pending",
+  "status": "killed",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -494,6 +494,12 @@
     "Veterans",
     "VABenefits"
    ]
+  },
+  "decision": {
+   "status": "killed",
+   "editor": "Will Wisner",
+   "editor_login": "gatewaykambo",
+   "decided_at": "2026-10-13T01:21:09Z"
   }
  },
  {
