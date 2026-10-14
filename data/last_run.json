@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-13T23:11:35Z",
+ "started_at": "2026-10-14T14:21:48Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (25)",
@@ -11,8 +11,7 @@
   "Federal News Network (15)",
   "The War Horse (25)",
   "VA News (25)",
-  "Federal Register · VA documents (15)",
-  "GDELT · veterans (0)",
+  "Federal Register · VA documents (16)",
   "GDELT · police, EMS, dispatch (0)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
@@ -26,17 +25,18 @@
  ],
  "feeds_failed": [
   "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
+  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
   "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
   "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
  ],
- "new": 97,
- "scored": 97,
- "wired": 21,
- "queued": 1,
+ "new": 76,
+ "scored": 76,
+ "wired": 13,
+ "queued": 0,
  "drafted": 0,
- "no_article": 1,
- "duplicates_merged": 3,
+ "no_article": 0,
+ "duplicates_merged": 0,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-10-13T23:20:34Z"
+ "finished_at": "2026-10-14T14:30:44Z"
 }
