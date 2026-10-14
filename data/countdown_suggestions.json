@@ -1,1 +1,42 @@
-[]
+[
+ {
+  "id": "f1ba27e8f4be",
+  "date": "2026-11-03",
+  "label": "Midterm elections affecting reconciliation bill prospects",
+  "story_id": "9ce0345f44e9",
+  "headline": "Hegseth: Pentagon's new drone command depends on unpassed spending bill",
+  "found_at": "2026-10-14T22:12:29Z"
+ },
+ {
+  "id": "718727bbd722",
+  "date": "2027-10-01",
+  "label": "Pentagon's target to establish Autonomous Warfare Command",
+  "story_id": "9ce0345f44e9",
+  "headline": "Hegseth: Pentagon's new drone command depends on unpassed spending bill",
+  "found_at": "2026-10-14T22:12:29Z"
+ },
+ {
+  "id": "4045d5c6ff25",
+  "date": "2026-10-15",
+  "label": "DoD stand down for FPCA filing, no later than",
+  "story_id": "7f54c126fb05",
+  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
+  "found_at": "2026-10-14T22:12:29Z"
+ },
+ {
+  "id": "bacd8e2b437a",
+  "date": "2026-10-19",
+  "label": "California registration deadline (UOCAVA)",
+  "story_id": "7f54c126fb05",
+  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
+  "found_at": "2026-10-14T22:12:29Z"
+ },
+ {
+  "id": "52870dae9cb9",
+  "date": "2026-10-23",
+  "label": "Texas ballot request deadline (UOCAVA)",
+  "story_id": "7f54c126fb05",
+  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
+  "found_at": "2026-10-14T22:12:29Z"
+ }
+]
