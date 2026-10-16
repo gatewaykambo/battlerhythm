@@ -16,14 +16,6 @@
   "found_at": "2026-10-14T22:12:29Z"
  },
  {
-  "id": "4045d5c6ff25",
-  "date": "2026-10-15",
-  "label": "DoD stand down for FPCA filing, no later than",
-  "story_id": "7f54c126fb05",
-  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
-  "found_at": "2026-10-14T22:12:29Z"
- },
- {
   "id": "bacd8e2b437a",
   "date": "2026-10-19",
   "label": "California registration deadline (UOCAVA)",
@@ -62,5 +54,13 @@
   "story_id": "731e7cbbb4ce",
   "headline": "Trump says Pentagon won't livestream Fort Hood shooter Hasan's Dec. 3 execution",
   "found_at": "2026-10-15T22:03:09Z"
+ },
+ {
+  "id": "6eea54a34244",
+  "date": "2026-10-22",
+  "label": "VA union equipment and resources return deadline",
+  "story_id": "d031b81d3e85",
+  "headline": "VA tells staff its union contract with AFGE \"no longer applies\" after court ruling",
+  "found_at": "2026-10-16T13:55:51Z"
  }
 ]

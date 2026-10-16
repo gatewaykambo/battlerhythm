@@ -1264,5 +1264,109 @@
     }
    ]
   }
+ },
+ {
+  "id": "4373b72f14f3",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 12,
+   "traction": 12,
+   "angle": 6,
+   "timeliness": 13
+  },
+  "score_why": "Reported U.S. intelligence sharing cutoff to Ukraine; major alliance news affecting the war, based on anonymous Ukrainian officials.",
+  "policy": false,
+  "state": null,
+  "country": "UA",
+  "place": "Kyiv, Ukraine",
+  "lat": 50.45,
+  "lon": 30.52,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/global/2026/10/15/ukrainian-officials-blame-pentagon-for-withholding-life-saving-intel-from-kyiv/",
+  "source_title": "Ukrainian officials blame Pentagon for withholding life-saving intel from Kyiv",
+  "snippet": "The U.S. appears to have stopped sharing some forms of key intelligence with Kyiv, Ukrainian officials said Wednesday.",
+  "published_at": "2026-10-15T22:00:48Z",
+  "found_at": "2026-10-16T13:55:51Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Ukraine says US intel and Starlink access are slipping as Russian strikes hit Kyiv",
+   "summary": "Ukrainian officials say missile warnings from the U.S. and military Starlink service have stopped flowing freely. President Zelenskyy said Kyiv got no alert before a recent ballistic missile strike. Ukraine's Defense Ministry confirmed SpaceX restricted Starshield without notice. President Trump denies any interruption. Zelenskyy has ended Ukraine's pause on hitting Russian energy sites.",
+   "why_it_matters": "The episode shows how much a partner's defense depends on U.S. intelligence and commercial networks, and how quickly policy disputes can reach the front line.",
+   "take": "Two things can be true here. The facts are still contested, and the stakes are not. A missed ballistic missile warning means people don't reach shelter, and drones that lose their link at speed don't complete the mission. We think the U.S. owes allies and the public a plain answer on whether intelligence sharing changed, and why. We also think a private company should not be able to quietly restrict a military communications service in the middle of a war. Accountability applies to governments and contractors alike.",
+   "x_post": "Ukraine says U.S. missile warnings and military Starlink access are no longer flowing freely. Trump denies any interruption. Kyiv reports no alert before a ballistic strike. Who answers when a warning doesn't come?",
+   "fb_post": "Ukrainian officials say two forms of U.S. help, missile-launch warnings and military Starlink service, are no longer flowing freely to Kyiv. President Zelenskyy said there was no warning before a ballistic missile strike on the city. Ukraine's Defense Ministry said SpaceX restricted Starshield, the military version of Starlink, without notice. It said that complicates drone, interceptor, reconnaissance and logistics missions.\n\nPresident Trump has denied any interruption. The dispute follows his announcement of an energy ceasefire that neither Kyiv nor Moscow confirmed. Ukraine held its fire for several days while Russia kept hitting the power grid. Zelenskyy then ended the pause.\n\nOur view: the facts are contested, but the stakes are clear. Warnings save lives, and a contractor shouldn't be able to cut a wartime link without notice. Washington owes allies and the public a straight answer.\n\nShould private companies have this much control over military communications in a war?",
+   "open_questions": "Trump denies any interruption in Starlink or missile warnings, while Ukrainian officials say both have been disrupted. The sources do not say whether the Pentagon, the White House or SpaceX ordered any change, or why. The source headline blames the Pentagon, but the article text names no Pentagon official and attributes the Starshield restriction to SpaceX. The CNN report that Trump threatened to cut off intelligence and weapons sales is secondhand (\"reportedly\"). The article gives no restoration timeline. The article mentions a Nov. 3 absentee-voting item in its sidebar. It is unrelated, and the year is not stated, so I left deadlines empty. Check exact dates for \"Sunday, Tuesday, Wednesday\" against the publication date before publishing.",
+   "hashtags": [
+    "Ukraine",
+    "Starlink"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "d031b81d3e85",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 71,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 18,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "VA claims it no longer must honor union contract after appeals ruling; developing labor fight affecting VA employees and care.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Federal News Network",
+  "source_url": "https://federalnewsnetwork.com/unions/2026/10/va-says-union-contract-no-longer-applies-after-appeals-court-ruling/",
+  "source_title": "VA says union contract ‘no longer applies’ after appeals court ruling",
+  "snippet": "The American Federation of Government Employees is pushing back, arguing that the ruling does not give VA permission to re-terminate the agreement.",
+  "published_at": "2026-10-15T22:08:43Z",
+  "found_at": "2026-10-16T13:55:51Z",
+  "feed": "Federal News Network",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "VA tells staff its union contract with AFGE \"no longer applies\" after court ruling",
+   "summary": "The Department of Veterans Affairs has again declared its contract with the American Federation of Government Employees (AFGE) over for most covered staff. The Oct. 8 guidance follows an Oct. 2 appeals court order pausing a lower-court ruling that kept the contract alive. The agreement covers more than 320,000 VA employees. AFGE says the appeals court did not authorize ending it.",
+   "why_it_matters": "For VA employees, many of them veterans, the question of whether they have union representation, grievance rights, and a negotiated contract is now unsettled again.",
+   "take": "We have watched this contract get canceled, restored, and canceled again. That is no way to run an agency that employs hundreds of thousands of people, many of them veterans. The appeals court paused one order. It did not decide whether VA can end the contract, and AFGE says as much. Until a court answers that question, VA should be careful about how it describes its authority, and employees deserve clear information about their rights in the meantime.",
+   "x_post": "VA says its union contract with AFGE \"no longer applies\" for most staff after an Oct. 2 appeals court stay. AFGE says the court never OK'd ending it. The contract covers 320,000+ VA employees. The core question is still undecided.",
+   "fb_post": "VA has told its workforce that its collective bargaining agreement with AFGE \"no longer applies\" for most bargaining unit employees.\n\nThe Oct. 8 guidance follows an Oct. 2 federal appeals court order that paused a lower-court ruling keeping the contract in place. The contract covers more than 320,000 VA employees. Negotiations, grievances, and arbitration are to stop. Union-related government equipment must be returned by Oct. 22. Police officers, firefighters, and security guards are exempt.\n\nAFGE disagrees. It says the appeals court did not endorse VA's reading of the contract or give VA permission to end it. The earlier March injunction remains in effect, and the court has not ruled on the underlying question.\n\nOur view: after rounds of canceling and restoring this contract, employees deserve clarity, not whiplash. Where should the line be between agency authority and workers' rights at VA?",
+   "open_questions": "VA declined to comment, citing pending litigation, so its legal reasoning comes only from internal guidance reported by Federal News Network. Unclear: how the still-active March injunction squares with VA's termination; whether AFGE will ask the courts to block the move; how many employees fall under \"most bargaining unit employees\"; what happens to pending grievances. The article gives 320,000+ in one place and 300,000+ in an AFGE quote. The Oct. 22 equipment deadline is assumed to be 2026 based on the publish date. AFGE's claim that a third of federal workers are veterans is the union's, and we haven't verified it.",
+   "hashtags": [
+    "VA",
+    "AFGE"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-10-22",
+     "label": "VA union equipment and resources return deadline"
+    }
+   ]
+  }
  }
 ]
