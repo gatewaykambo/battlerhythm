@@ -606,7 +606,7 @@
  },
  {
   "id": "65c83c3b0855",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1368,5 +1368,91 @@
     }
    ]
   }
+ },
+ {
+  "id": "678b66f0789b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 14,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "About 500 10th Mountain soldiers deploying to Latin America amid cartel operations; direct force deployment news.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Latin America",
+  "lat": -14.0,
+  "lon": -60.0,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/army-10th-mountain-division-latin-america/",
+  "source_title": "Hundreds of 10th Mountain Division soldiers deploying to Latin America",
+  "snippet": "Roughly 500 soldiers will support ongoing exercises with partners as the U.S. expands military operations against cartels. The post Hundreds of 10th Mountain Division soldiers deploying to Latin America appeared first on Task & Purpose .",
+  "published_at": "2026-10-16T18:14:46Z",
+  "found_at": "2026-10-16T22:03:36Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Army sends about 500 10th Mountain soldiers to Latin America, starting in Panama",
+   "summary": "The Army is deploying about 500 soldiers from the 10th Mountain Division's 3rd Brigade, based at Fort Polk, Louisiana, to Latin America for training and security cooperation with partner nations. They head first to Panama for jungle training. About 100 more soldiers will join Joint Task Force-Western Hemisphere in Miami, the command overseeing U.S. anti-cartel operations in the region.",
+   "why_it_matters": "Soldiers and families in light infantry units, especially at Fort Polk, should expect the U.S. anti-cartel campaign in Latin America to pull in more conventional Army forces.",
+   "take": "This is a real shift. Conventional troops are now joining a campaign that began with boat strikes and special operations raids. The Army says the mission is training and security cooperation, and that may be accurate. But troops and their families deserve a clear public account of the mission, the limits on it, and how long it will last. The more places we send soldiers, the more those answers matter.",
+   "x_post": "About 500 10th Mountain Division soldiers are headed to Latin America, first to Panama for jungle training. About 100 more will staff the Miami task force running U.S. anti-cartel operations. Conventional forces are now part of this campaign.",
+   "fb_post": "The Army is sending about 500 soldiers from the 10th Mountain Division's 3rd Brigade, out of Fort Polk, Louisiana, to Latin America. They go first to Panama for jungle warfare training. The Army describes the mission as security cooperation and training with partner nations.\n\nAbout 100 more soldiers from the division will deploy to Miami. They will staff Joint Task Force-Western Hemisphere, which oversees U.S. anti-cartel operations. That task force has carried out boat strikes in the eastern Pacific and Caribbean since this summer.\n\nWhy it matters: this adds conventional Army forces to a campaign that so far leaned on Marines, Navy ships, and special operations units. Our view is that troops and families deserve a clear public account of the mission, its limits, and its timeline.\n\nDo you think the public has been given enough information about this mission?",
+   "open_questions": "Deployment length and exact departure dates are not given. The 500 figure is described as roughly, and the Panama destination comes from the New York Times, not the Army spokesperson. Which other countries the soldiers will go to is not specified. Whether they will support direct action missions against cartels is only reported as a possibility by the NYT, and the Army has not confirmed it. The Task & Purpose lead says \"major escalation\"; that is the outlet's characterization. The source text had some page-code clutter at the start, but the facts appear complete.",
+   "hashtags": [
+    "10thMountainDivision",
+    "SOUTHCOM"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "5e92589c55e8",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 66,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 10,
+   "traction": 13,
+   "angle": 11,
+   "timeliness": 8
+  },
+  "score_why": "Soldiers hit by Iranian missile attack still dealing with effects; strong human angle, veteran-relevant aftermath.",
+  "policy": false,
+  "state": "TX",
+  "country": "US",
+  "place": "Texas",
+  "lat": 31.0,
+  "lon": -100.0,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
+  "source_title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
+  "snippet": "Three Army air defense soldiers received Purple Hearts for a missile attack that knocked them unconscious. Now back in Texas, all three still feel the effects. The post Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home appeared first on Task & Purpose .",
+  "published_at": "2026-10-16T16:39:06Z",
+  "found_at": "2026-10-16T22:03:36Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
