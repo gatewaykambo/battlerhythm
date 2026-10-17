@@ -659,7 +659,7 @@
  },
  {
   "id": "42be8dc742bf",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -1454,5 +1454,51 @@
   "feed": "Task & Purpose",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "84b6c73c1421",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 73,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 14,
+   "traction": 8,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Fresh 3-alarm blaze with union warning of staffing shortages; direct responder workforce issue.",
+  "policy": false,
+  "state": "NY",
+  "country": "US",
+  "place": "Canandaigua, NY",
+  "lat": 42.89,
+  "lon": -77.29,
+  "flags": [],
+  "source": "13wham.com",
+  "source_url": "https://13wham.com/news/local/canandaigua-fire-union-warns-of-staffing-shortages-after-3-alarm-downtown-blaze-beeman-street-critical-safety-ontario-county-latitude-43",
+  "source_title": "Canandaigua fire union warns of staffing shortages after 3 - alarm downtown blaze",
+  "snippet": "",
+  "published_at": "2026-10-17T06:30:00Z",
+  "found_at": "2026-10-17T12:50:33Z",
+  "feed": "GDELT · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Canandaigua firefighters' union says 4 responders met a 3-alarm downtown fire",
+   "summary": "A three-alarm fire hit 5 Beeman St. in downtown Canandaigua, New York, around 3 a.m. The firefighters' union, Local 298, says only four city firefighters arrived first, on a ladder truck and an engine from two stations. The union says a fire like this calls for at least 28. Mutual aid crews from nearby departments helped. No one was hurt, and the cause is under investigation.",
+   "why_it_matters": "Thin staffing at a career fire department affects firefighter safety and how quickly a town can respond, and the same pressure hits many small departments.",
+   "take": "Four people on the first-in trucks at a three-alarm fire is a hard number to wave off. Nobody was hurt this time, and that is the good news. The union says the department has 20 firefighters and no volunteers, so the city should show the public its staffing numbers and explain how it plans to respond. The union is asking for a seat at the table with council, the mayor, and the city manager. That is a fair ask, and the city should take the meeting before a close call turns into a funeral.",
+   "x_post": "Canandaigua, NY: a 3-alarm downtown fire drew just 4 city firefighters at first, says Local 298. The union says 28 are needed. No injuries, cause under investigation. The union wants talks with city leaders. Staffing is a safety issue.",
+   "fb_post": "A three-alarm fire hit 5 Beeman St. in downtown Canandaigua, NY, around 3 a.m. According to the firefighters' union, Local 298, only four city firefighters were first on scene. They came on two trucks, a ladder and an engine, from two different stations. Mutual aid crews from other departments helped. No one was hurt, and the cause is under investigation.\n\nThe union's vice president, Adam Crandall, says a fire this size should have drawn at least 28 firefighters. He says the department has 20 firefighters and no volunteers. He says too few people means each one is juggling too many tasks, and that makes hard decisions harder.\n\nOur view: this is a safety issue for firefighters and for the neighbors they protect. The union is asking to sit down with council, the mayor, and the city manager. We think the city should have that talk in the open and share the numbers.\n\nIf you live in a town with a small fire department, do you know how many people respond to a structure fire?",
+   "open_questions": "No response from the city (mayor, city manager, council) or the fire chief in the source. Is the 28-firefighter figure from a standard, such as NFPA, or only the union's estimate? The source does not say how many firefighters were on duty overall, how many mutual aid crews came, or when they arrived. The cause is unknown. The article says Sunday, but it was published Saturday Oct. 17, so the fire date needs confirming. Related headlines in the source mention an earlier fatal Canandaigua house fire and an earlier staffing push. We have no details on them and did not use them. Confirm the union's current staffing figure (20) against city records.",
+   "hashtags": [
+    "Firefighters",
+    "FireDepartmentStaffing"
+   ],
+   "deadlines": []
+  }
  }
 ]
