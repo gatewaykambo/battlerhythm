@@ -1500,5 +1500,45 @@
    ],
    "deadlines": []
   }
+ },
+ {
+  "id": "360ae63ce0b4",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 57,
+  "score_parts": {
+   "relevance": 18,
+   "impact": 10,
+   "traction": 12,
+   "angle": 9,
+   "timeliness": 8
+  },
+  "score_why": "Lawsuit over police shooting of a man in mental health crisis after hospital discharge; sharp accountability angle.",
+  "policy": false,
+  "state": "PA",
+  "country": "US",
+  "place": "Pennsylvania",
+  "lat": 41.2,
+  "lon": -77.2,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "PennLive.com",
+  "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaUVhUzJYZHdFN0wtbktUNy1kRjZ6M1RCblMtNkJCUkNPZFhITEdQamdYZE1uSE9QbDNqZGk4bkx0cFFPSDl6eDVrRUN0X1dvbkk0OUxUWTV5WmpMS1YyNC1FUUtSOTYzYjc2cUxYTnY0eW9mR2pPMzRnUWdjTkQ3UzRnTTloenlLc1JIUzNYaHpqY245clFiaFJlWW5hTkdfWlZQMnRZb1BROTlhLWUwRDZJYUVGLURBYnpTYUlTQ0tseVI0VWhn0gHbAUFVX3lxTE5IbzNFN1dPTmh5eE1DNFliVC1ybkY1NGdpNUlGYUhLUjBsV2JscWZfdzZXZ0ttYmpxWnFlcWluR1VBZ3pVZUZ1UjhScFBGVXJTWUtFNTZtUy16QnJ1NG1rRGw5OGt5ek9wU0s4UUFLQ2hEZ0V5bFlxYmxVaFloSGRPWnZwLXlFeUJ1WEtqT2IyM1VTUElnVHdXUzdycThwWWpSMVFXeFhkbmV2ZG5HRm4ydlFhWUxsdjQzWWhhWXVNWVdHUlk4ZVJoa2lOU3FsUU5teEEySWpSVVpGVQ?oc=5",
+  "source_title": "Hospital threw out man suffering from mental health crisis. Then cops shot him: lawsuit",
+  "snippet": "Hospital threw out man suffering from mental health crisis. Then cops shot him: lawsuit PennLive.com",
+  "published_at": "2026-10-16T09:00:00Z",
+  "found_at": "2026-10-17T21:20:30Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
