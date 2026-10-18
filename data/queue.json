@@ -699,7 +699,7 @@
  },
  {
   "id": "1954581f153b",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -745,7 +745,7 @@
  },
  {
   "id": "70094832b664",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -791,7 +791,7 @@
  },
  {
   "id": "9ce0345f44e9",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -846,7 +846,7 @@
  },
  {
   "id": "43983b571ba1",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -891,7 +891,7 @@
  },
  {
   "id": "7f54c126fb05",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1538,6 +1538,99 @@
   "published_at": "2026-10-16T09:00:00Z",
   "found_at": "2026-10-17T21:20:30Z",
   "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "6862f92e5e87",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Breaking Gulf shipping mine incident affecting U.S. naval posture and energy markets; single-source Iranian claim.",
+  "policy": false,
+  "state": null,
+  "country": "IR",
+  "place": "Strait of Hormuz",
+  "lat": 26.567,
+  "lon": 56.25,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "hngn.com",
+  "source_url": "https://www.hngn.com/articles/273540/20261018/iran-says-two-supertankers-hit-mines-hormuz.htm",
+  "source_title": "Iran Says Two Supertankers Hit Mines in Hormuz",
+  "snippet": "",
+  "published_at": "2026-10-18T10:00:00Z",
+  "found_at": "2026-10-18T13:08:39Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Iran says two loaded supertankers hit mines in Strait of Hormuz",
+   "summary": "Iran's Revolutionary Guard says two fully loaded supertankers struck naval mines in the Strait of Hormuz within 24 hours. It says the second carried over 2 million barrels of crude. Separately, the UK maritime monitor UKMTO counted at least 10 attacks on ships in or near the strait in the week through Saturday, the most since the Iran war began in February.",
+   "why_it_matters": "U.S. Navy and joint forces escorting tankers through the Gulf are working in a waterway where attacks on shipping are rising and now reach deep inside the Gulf.",
+   "take": "Both sides say they control the strait, and the numbers say neither fully does. UKMTO logged 23 attacks since the start of October, about double the monthly average, while traffic is a fraction of pre-war levels. Tehran's mine claims deserve skepticism, since the U.S. military says one of its earlier \"mine\" stories was really a projectile. The U.S. line that attacks reflect IRGC \"desperation\" is also a talking point, not a measure of safety. Escort crews are standing a long watch in a strait that is neither open nor closed.",
+   "x_post": "Iran's IRGC says two loaded supertankers hit mines in Hormuz in under 24 hours. UKMTO counts 10+ attacks on ships this week, the most since the war began in February. Both Washington and Tehran claim control of the strait.",
+   "fb_post": "Iran's Revolutionary Guard says two fully loaded supertankers hit naval mines in the Strait of Hormuz within 24 hours. It says the second ship carried more than 2 million barrels of crude and lost propulsion.\n\nWhy it matters: UKMTO, the British maritime monitor, counted at least 10 attacks on ships in or near the strait in the week through Saturday. That is the most since the war began in February. It also logged 23 since the start of October, roughly double the monthly average. Attacks have also been reported off Saudi Arabia's eastern coast, far inside the Gulf.\n\nOur view: Both Washington and Tehran say they control the strait, and neither claim tells the whole story. Treat the IRGC's mine claims and the U.S. \"desperation\" line with the same healthy skepticism. The crews running escorts are the ones standing the watch.\n\nWhich claim do you trust more when both sides say they control the strait?",
+   "open_questions": "Neither tanker has been identified: no names, flags, owners or crew details, and no registry or flag administration has confirmed a casualty. CENTCOM and UKMTO had not confirmed either incident as of Saturday night. Unknown whether the two are separate ships, or whether either carried oil transferred ship-to-ship. Nobody has claimed the small-boat and projectile attacks off Jubail. The source text cuts off mid-sentence at the end, so the Houthi/Yanbu pipeline passage is incomplete. Check for CENTCOM or UKMTO updates before publishing. Also confirm whether the U.S. escort barrel totals are available.",
+   "hashtags": [
+    "StraitOfHormuz",
+    "Iran"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "32f54c6e9a41",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 57,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 8,
+   "traction": 11,
+   "angle": 6,
+   "timeliness": 10
+  },
+  "score_why": "Airman killed in demonstration accident at UTSA-Navy game; tragic but no policy or benefit angle.",
+  "policy": false,
+  "state": "TX",
+  "country": "US",
+  "place": "San Antonio, TX",
+  "lat": 29.424,
+  "lon": -98.494,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/airman-dies-utsa-rappelling-incident/",
+  "source_title": "Airman dies after rappelling accident at UTSA-Navy football game",
+  "snippet": "Members of 6th Combat Training Squadron, Detachment 2 were taking part in a demonstration before the game when one service member fell to the ground. The post Airman dies after rappelling accident at UTSA-Navy football game appeared first on Task & Purpose .",
+  "published_at": "2026-10-18T05:45:31Z",
+  "found_at": "2026-10-18T13:08:39Z",
+  "feed": "Task & Purpose",
   "also_covered_by": [],
   "draft": null
  }
