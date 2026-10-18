@@ -950,7 +950,7 @@
  },
  {
   "id": "0d2711f1ad94",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1005,7 +1005,7 @@
  },
  {
   "id": "4361c2c1d947",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -1058,7 +1058,7 @@
  },
  {
   "id": "4c48e99e7146",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1631,6 +1631,46 @@
   "published_at": "2026-10-18T05:45:31Z",
   "found_at": "2026-10-18T13:08:39Z",
   "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "6a7b73eb51c2",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 56,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 6,
+   "traction": 12,
+   "angle": 6,
+   "timeliness": 10
+  },
+  "score_why": "Service member killed in rappelling accident at Salute to Armed Forces event; sad, shareable, breaking.",
+  "policy": false,
+  "state": "TX",
+  "country": "US",
+  "place": "San Antonio, TX",
+  "lat": 29.424,
+  "lon": -98.494,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "kvia.com",
+  "source_url": "https://kvia.com/news/2026/10/18/air-force-member-killed-rappelling-from-alamodomes-ceiling-in-salute-to-armed-forces-ceremony/",
+  "source_title": "Air Force member killed rappelling from Alamodome ceiling in Salute to Armed Forces ceremony",
+  "snippet": "",
+  "published_at": "2026-10-18T21:00:00Z",
+  "found_at": "2026-10-18T21:25:34Z",
+  "feed": "GDELT · firefighters",
   "also_covered_by": [],
   "draft": null
  }
