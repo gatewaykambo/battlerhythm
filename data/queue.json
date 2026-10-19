@@ -1104,7 +1104,7 @@
  },
  {
   "id": "19da0d83b6c6",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1156,7 +1156,7 @@
  },
  {
   "id": "45a113aeaa1d",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1209,7 +1209,7 @@
  },
  {
   "id": "731e7cbbb4ce",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -1267,7 +1267,7 @@
  },
  {
   "id": "4373b72f14f3",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1320,7 +1320,7 @@
  },
  {
   "id": "d031b81d3e85",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1671,6 +1671,336 @@
   "published_at": "2026-10-18T21:00:00Z",
   "found_at": "2026-10-18T21:25:34Z",
   "feed": "GDELT · firefighters",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "3d32ed5148b1",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 12,
+   "traction": 13,
+   "angle": 9,
+   "timeliness": 12
+  },
+  "score_why": "Fatal attack on West Virginia Guard troops in D.C.; directly affects service members and safety.",
+  "policy": false,
+  "state": "WV",
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "WV News",
+  "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQzRtUUF4Y0d5OWphOGpaWnNnWDhPTXRNMmxPWWMtQmtlc3V2V2Q5R2ZxZUNDQ1ZTOWNvOV94aDc3WUlZVzl4U201V3Y4QTk3NzJVYklIXy1DYVN4NE5QNXRibHF2RF96V3BqWk1vcDZaYmgwd3VVcmRQWnh6ZWJhUWo2YS05ZGM1cWFjQXYwOWdYUEF5RGxUT0puZ1N6TFktanl3Qzh0QkJYd2ZUaXF3dlV4NXhWVjRXVVBvUDA1RWJFQVlNdnVKZ3RUbFNMem9EblFHdGx1ejEwRlI3bjcxb0tZYzgzNWRzZW1sdFc5ZkZvbGJLcE5aT05MTQ?oc=5",
+  "source_title": "D.C. shooting renews focus on National Guard safety after fatal attack on WV troops",
+  "snippet": "D.C. shooting renews focus on National Guard safety after fatal attack on WV troops WV News",
+  "published_at": "2026-10-19T12:35:00Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "Task & Purpose",
+    "url": "https://taskandpurpose.com/news/national-guardsman-breaking-up-fight-shot-dc/",
+    "title": "National Guardsman shot while breaking up fight in DC"
+   }
+  ],
+  "draft": {
+   "headline": "National Guardsman shot in leg while breaking up fight in Washington, D.C.",
+   "summary": "A National Guard soldier was shot in the leg Sunday night in Southeast Washington, D.C. Police say seven or eight guardsmen saw a fight and stepped in. A man from the fight drew a gun and fired. Three guardsmen returned fire and hit the man in the abdomen. The soldier has been released from the hospital. D.C. police are investigating.",
+   "why_it_matters": "More than 2,960 Guard troops are serving in the capital, and this shooting shows the risk when they step into street-level policing situations.",
+   "take": "We're glad this soldier is out of the hospital. The outcome could have been far worse. It's also hard to miss that this comes less than a year after two Guardsmen were shot in an \"ambush\" in the same city, and one of them died. When thousands of troops are placed on city streets, with more due this spring for the NFL draft, they need clear rules, proper training for this kind of work, and honest public reporting on what happens. The D.C. police investigation should answer who fired what, and the Guard should share what it can as soon as it can.",
+   "x_post": "A National Guard soldier was shot in the leg Sunday night in Southeast D.C. while helping break up a fight. He has been released from the hospital. D.C. police are investigating who fired what. More than 2,960 Guard troops are in the city.",
+   "fb_post": "A National Guard soldier was shot in the leg Sunday night in Southeast Washington, D.C. Police say seven or eight guardsmen in a van saw a fight on a sidewalk and stepped in. One man in the fight pulled a gun and fired. Guardsmen gave commands to drop it. Police say he then pointed the weapon at them, and three guardsmen fired back. The man was hit in the abdomen. Police don't yet know whose round hit him.\n\nThe soldier was treated and has since been released. D.C. police are leading the investigation.\n\nIt matters because more than 2,960 Guard troops are supporting the D.C. crime mission as of Saturday. Another 2,000 are expected for the NFL draft this spring. Less than a year ago, two Guardsmen were shot in the city, and one of them died.\n\nWe think troops in this role need clear rules, solid training, and plain answers when something goes wrong.\n\nWhat should the Guard and the city be telling the public about how this mission is run?",
+   "open_questions": "The lead source headline refers to \"WV troops\" and a fatal attack. The Task & Purpose text does not mention West Virginia, so we left it out. Please confirm whether the earlier victims were West Virginia Guardsmen. Still unknown: the soldier's name, unit, home state, and service record (JTF-DC did not respond). Also unknown: the suspect's identity and condition, any charges, and which guardsman's round hit him. The 2,000-troop NFL draft deployment comes from an ABC reporter, not an official statement, and the source gives no date. The source describes \"this spring\" without a year. The WV News article itself was not provided, so check for further details there.",
+   "hashtags": [
+    "NationalGuard",
+    "Veterans"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "ee5ab25de4b4",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 12,
+   "traction": 14,
+   "angle": 10,
+   "timeliness": 14
+  },
+  "score_why": "Canadian Forces tragedy at CFB Wainwright; Canadian story, not U.S. force news, so kept modest.",
+  "policy": false,
+  "state": null,
+  "country": "CA",
+  "place": "CFB Wainwright, AB",
+  "lat": 53.8,
+  "lon": -110.8,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "globalnews.ca",
+  "source_url": "https://globalnews.ca/news/12107742/cfb-wainwright-mark-carney-house-of-commons/",
+  "source_title": "Carney expected to speak in House of Commons on CFB Wainwright tragedy",
+  "snippet": "",
+  "published_at": "2026-10-19T15:30:00Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Canada honors four soldiers killed in CFB Wainwright grass fire",
+   "summary": "In Canada, the House of Commons held a moment of silence for four soldiers killed in a fast-moving grass fire at CFB Wainwright, Alberta. Thirty-nine more troops went to hospital, 19 of them in critical condition as of Sunday afternoon. A sudden wind surge pushed a fire that officials had judged under control toward soldiers training nearby.",
+   "why_it_matters": "Training accidents can kill and maim troops far from any battlefield, and this one hit a single Edmonton-based unit hard, so every service member and military family will want to know how it happened and how the wounded are cared for.",
+   "take": "First, the names: Sgt. Morgan Wong, Pte. Shaun Farrell, Pte. Aidan Goulding and Pte. Hayden Lykkemark. They died doing their jobs, and the tributes from the Prime Minister and party leaders were right to say so. Grief comes first. Then comes accountability. Commanders say the fire was known and judged under control, a kilometre away, and the wind changed that. Troops need a clear, public explanation of how that call was made and what changes. The 19 critically wounded need the best burn care the country can give them, and they will need support long after the headlines move on.",
+   "x_post": "Four Canadian soldiers died and 39 more were hospitalized after a wind-driven grass fire hit a training exercise at CFB Wainwright, Alberta. Parliament paused to remember them. Names: Wong, Farrell, Goulding, Lykkemark.",
+   "fb_post": "Canada's House of Commons held a moment of silence for four soldiers killed in a grass fire at CFB Wainwright, Alberta: Sgt. Morgan Wong, Pte. Shaun Farrell, Pte. Aidan Goulding and Pte. Hayden Lykkemark.\n\nAbout 350 soldiers from 3rd Battalion, Princess Patricia's Canadian Infantry were training on the base when a sudden surge of wind drove a nearby grass fire toward them. Officials say that fire was known beforehand and was judged under control. Thirty-nine other troops went to hospital, and 19 were in critical condition as of Sunday afternoon. Many have serious burns.\n\nWe think the first duty is to the wounded and the families. The second is a plain public accounting of how a fire judged under control ended up killing soldiers, and what will change.\n\nHow should militaries decide when a training site is too close to a known hazard?",
+   "open_questions": "The source text appears cut off mid-sentence at the end (Poilievre's remarks about donating to military families), so any donation or support details are missing. Not yet answered: whether a formal investigation or board of inquiry has been announced, who leads it, and when findings are due; the exact date of the fire (sources say Saturday afternoon); the condition of the wounded after Sunday; and how the wind surge compares with the forecast. The pasted text also begins with reader comments, which we ignored as non-factual. Maj.-Gen. Wade Rutland's quote (fire was \"uncommon, rapid\") is available if we want to use it. Remembrance Day was mentioned without a date in the source, so no deadline was listed.",
+   "hashtags": [
+    "CFBWainwright",
+    "CanadianArmedForces"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "5c96d761b45b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 10,
+   "angle": 9,
+   "timeliness": 10
+  },
+  "score_why": "Lawsuit seeking records on Pentagon women-in-combat study tied to Hegseth; developing policy fight affecting service members.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon",
+  "lat": 38.872,
+  "lon": -77.056,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/19/groups-seek-clarity-on-motive-behind-pentagons-study-of-women-in-combat/",
+  "source_title": "Groups seek clarity on motive behind Pentagon’s study of women in combat",
+  "snippet": "Citing concerns about Hegseth’s views on the topic, the lawsuit asks for records showing the scope, purpose, methodology and anticipated use of the study.",
+  "published_at": "2026-10-19T14:00:00Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "ACLU and two groups sue Pentagon for records on women-in-combat study",
+   "summary": "The ACLU, the National Women's Law Center and the Service Women's Action Network sued in federal court. They want Defense Department records on why a study of women in combat was ordered and how it will be used. The study moved from one research group to another in April 2026. The lawsuit says the new lead researcher wrote a criticized 2015 Marine Corps study.",
+   "why_it_matters": "The study could shape how the military talks about women in ground combat roles, so service members want to know who is running it and why.",
+   "take": "A study is not the problem. Asking hard questions about standards is fair. But the public should know the scope, the method and the plan for the results, especially when the person who ordered it has said he opposes women in combat roles. Standards should be job-related and open to anyone who can meet them. We'd like to see the Pentagon answer the records request and show its work.",
+   "x_post": "Three groups are suing the Pentagon for records on a study of women in combat. They want to know its scope, method and purpose, and what the Defense Department plans to do with the results. Standards should be open to all who meet them.",
+   "fb_post": "The ACLU, the National Women's Law Center and the Service Women's Action Network have sued the Pentagon in federal court. They want records showing the scope, purpose, method and planned use of a Defense Department study of women's performance in combat.\n\nThe Defense Department commissioned the Institute for Defense Analyses to run a six-month study in January. According to the lawsuit, it was reassigned in April 2026 to the Johns Hopkins University Applied Physics Laboratory. The lead researcher there, Jane Pinelis, wrote a 2015 Marine Corps study that the lawsuit says was widely criticized for flawed design. Defense Secretary Pete Hegseth has said he opposes women in combat roles, and critics say he still pushes that view in the name of standards.\n\nOur view: studying standards is fair, but the public deserves to know how this one was set up and how the results will be used. Standards should be job-related and open to anyone who can meet them.\n\nShould the Pentagon release the details of this study before it acts on the results?",
+   "open_questions": "Source is a single Military Times piece, and the lawsuit's claims come mostly through ACLU statements. Not stated: the filing date, which court, which law the records request was made under, or the defendants. No Pentagon, Hegseth, JHU/APL or Pinelis response is included. The source does not say when the reassigned study is due, what the 2015 study actually found beyond the quoted phrase, or who the Navy Secretary critic was (Military Times says \"at the time\" without naming). The claim that Hegseth relied on the 2015 study in his book comes via The War Horse. The source says he has softened his rhetoric but gives no detail. The Hegseth statements and his book quotes are not used in the draft, so check whether editors want them. Verify that IDA's role ended and that the dates are correct.",
+   "hashtags": [
+    "WomenInCombat",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "5906122a9f47",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 14,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Purple Heart awards to over 200 troops for Iran war service; strong force-wide interest and a veteran-editor angle on recognition.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military.com",
+  "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONU9wMngtbEJnRXVISm9SREJDRmM0SXk5cG5DVFA4SWRqQVBobS1PQzYxVHZFUUxJWHhKazhKamVmY2RxbmlZRy13RU5HVnJVMGtHOE1iUktHdGZXdUhhbE8ycGEyYU5MU05PcjVzQWhBQnRNZGczVm5vU1h3bGlSTA?oc=5",
+  "source_title": "Over 200 Troops Awarded with Prestigious Purple Heart Award For Service in Iran War",
+  "snippet": "Over 200 Troops Awarded with Prestigious Purple Heart Award For Service in Iran War Military.com",
+  "published_at": "2026-10-19T14:38:59Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "military.com",
+    "url": "https://www.military.com/purple-heart-awarded-to-202-troops-during-iran-war",
+    "title": "Purple Heart Awarded to 202 Troops During Iran War"
+   }
+  ],
+  "draft": {
+   "headline": "Officials: 202 Purple Hearts awarded in the Iran war since Feb. 28",
+   "summary": "Officials told Task & Purpose that the military has awarded 202 Purple Hearts in the Iran war since it began on Feb. 28. The total covers 184 soldiers, 16 airmen, one Marine and one sailor. Eleven were awarded posthumously. The Defense Department's casualty tracking system lists 21 U.S. service member deaths in the conflict.",
+   "why_it_matters": "The Purple Heart opens the door to real benefits, including home loans, compensation, federal hiring preference and Arlington National Cemetery eligibility, so every award marks a service member and family who may rely on those promises.",
+   "take": "Behind 202 awards are 202 people who were wounded by the enemy, and 11 families who received the medal for someone who didn't come home. The medal also carries benefits, and those are earned, not favors. The Pentagon and the VA should make sure every recipient gets them without a paperwork fight. With the war nearing eight months and no end in sight, we expect this number to keep climbing.",
+   "x_post": "202 Purple Hearts have reportedly been awarded in the Iran war since Feb. 28: 184 soldiers, 16 airmen, 1 Marine, 1 sailor. Eleven were posthumous. The award brings real benefits, and those promises must be kept.",
+   "fb_post": "Officials say the military has awarded 202 Purple Hearts in the Iran war since it began on Feb. 28. That includes 184 soldiers, 16 airmen, one Marine and one sailor. Eleven of the awards were given posthumously.\n\nWhy it matters: the Purple Heart is more than a medal. It can bring home loan access, compensation, federal hiring preference and automatic eligibility for Arlington National Cemetery. The Defense Department's casualty system lists 21 U.S. deaths in the conflict so far.\n\nOur view: these benefits are earned. Everyone wounded in this war should get them without a fight, and the families of those who died should get them too.\n\nIf you've received a Purple Heart or helped a family through the process, what do you wish you'd known sooner?",
+   "open_questions": "Figures come from unnamed officials via Task & Purpose, and Military.com says \"reportedly.\" We have not seen the original report or an official DoD release. No recipients are named. The breakdown by branch (only one Marine and one sailor) is not explained. Unclear whether the 11 posthumous awards are included in the 21 deaths on the casualty system. Unclear what the \"updated protocols\" for casualty tracking are, or whether they affect these counts. Military.com's article also covers Strait of Hormuz developments and Vice President Vance's town hall, which we left out of the draft. Photos in the article are file images from 2016 and 2018.",
+   "hashtags": [
+    "PurpleHeart",
+    "IranWar"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "568ba7de2be9",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Gang attack on foreign troops in Haiti is a breaking security story affecting multinational forces, including U.S.-linked personnel.",
+  "policy": false,
+  "state": null,
+  "country": "HT",
+  "place": "Haiti",
+  "lat": 18.97,
+  "lon": -72.29,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "AP News",
+  "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd2Z4eF9VQkszcjYzUUF1S2tZYWdRcGpuWGZjLUY0ejVwMGRYdlJWUkMyVmxzdmEtdGhnaC0zZHlWTENFeFdsbm9YLVFqVVcxd2dPMmpzS1FiNU9fYy1FS2ZDSjNIdnJzcXNSX3pCbTVhZ1BMRGZ5UUtUVnF3SnhMdFBHVWw1UUdEd1hNQ3J2WVVYQWNQSDFzazNDTUo?oc=5",
+  "source_title": "Gangs in Haiti target foreign troops in biggest attack since new force began operations",
+  "snippet": "Gangs in Haiti target foreign troops in biggest attack since new force began operations AP News",
+  "published_at": "2026-10-19T15:41:00Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "67e0dcaa1e85",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 66,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 8,
+   "traction": 15,
+   "angle": 9,
+   "timeliness": 12
+  },
+  "score_why": "Airman died in fatal rappelling incident at a football game; high-traction line-of-duty death story.",
+  "policy": false,
+  "state": "TX",
+  "country": "US",
+  "place": "San Antonio, TX",
+  "lat": 29.424,
+  "lon": -98.494,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/airman-rappel-ian-patterson-identified/",
+  "source_title": "Airman who died in football game rappelling incident identified",
+  "snippet": "Tech. Sgt. Ian Patterson with 6th Combat Training Squadron, Detachment 2, died after falling to the ground at high speed at the Alamodome on Saturday. The post Airman who died in football game rappelling incident identified appeared first on Task & Purpose .",
+  "published_at": "2026-10-19T16:11:50Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "7592dcdf7b14",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 57,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 8,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 7
+  },
+  "score_why": "Police rescue from a burning home; responder heroism with shareable video.",
+  "policy": false,
+  "state": "VA",
+  "country": "US",
+  "place": "Virginia",
+  "lat": 37.43,
+  "lon": -78.66,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "fox13news.com",
+  "source_url": "https://www.fox13news.com/news/watch-virginia-police-officers-rescue-man-in-fire",
+  "source_title": "Watch : Virginia police officers crawl though burning home to rescue man trapped in fire",
+  "snippet": "",
+  "published_at": "2026-10-19T15:45:00Z",
+  "found_at": "2026-10-19T16:20:32Z",
+  "feed": "GDELT · police, EMS, dispatch",
   "also_covered_by": [],
   "draft": null
  }
