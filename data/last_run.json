@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-20T14:08:10Z",
+ "started_at": "2026-10-20T22:05:58Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (25)",
@@ -14,10 +14,10 @@
   "VA News (25)",
   "Federal Register · VA documents (17)",
   "GDELT · veterans (25)",
+  "GDELT · police, EMS, dispatch (25)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
-  "GDELT · psychedelic therapy (5)",
-  "GDELT · hemp and cannabis policy (25)",
+  "GDELT · psychedelic therapy (7)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
   "News search · firefighters (25)",
@@ -27,16 +27,18 @@
  ],
  "feeds_failed": [
   "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
-  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi"
+  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
  ],
- "new": 138,
- "scored": 138,
- "wired": 15,
- "queued": 3,
- "drafted": 3,
- "no_article": 0,
+ "new": 155,
+ "scored": 140,
+ "wired": 13,
+ "queued": 2,
+ "drafted": 1,
+ "no_article": 3,
  "duplicates_merged": 5,
- "deadlines": 1,
- "errors": [],
- "finished_at": "2026-10-20T14:15:45Z"
+ "deadlines": 0,
+ "errors": [
+  "scoring batch 0: Scorer did not return a list"
+ ],
+ "finished_at": "2026-10-20T22:13:41Z"
 }
