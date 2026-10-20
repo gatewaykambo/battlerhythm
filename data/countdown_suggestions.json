@@ -16,14 +16,6 @@
   "found_at": "2026-10-14T22:12:29Z"
  },
  {
-  "id": "bacd8e2b437a",
-  "date": "2026-10-19",
-  "label": "California registration deadline (UOCAVA)",
-  "story_id": "7f54c126fb05",
-  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
-  "found_at": "2026-10-14T22:12:29Z"
- },
- {
   "id": "52870dae9cb9",
   "date": "2026-10-23",
   "label": "Texas ballot request deadline (UOCAVA)",
@@ -62,5 +54,13 @@
   "story_id": "d031b81d3e85",
   "headline": "VA tells staff its union contract with AFGE \"no longer applies\" after court ruling",
   "found_at": "2026-10-16T13:55:51Z"
+ },
+ {
+  "id": "cadd7b582fbb",
+  "date": "2026-12-11",
+  "label": "Federal hemp THC cap enforcement begins",
+  "story_id": "1915bead6578",
+  "headline": "Federal hemp THC cap takes effect Dec. 11, putting Georgia shops at risk",
+  "found_at": "2026-10-20T14:13:35Z"
  }
 ]

@@ -1457,7 +1457,7 @@
  },
  {
   "id": "84b6c73c1421",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2116,6 +2116,173 @@
    "hashtags": [
     "AirForce",
     "TACP"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "b41752858729",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 87,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 18,
+   "traction": 13,
+   "angle": 14,
+   "timeliness": 8
+  },
+  "score_why": "Military family housing child safety and Pentagon protection changes; strong fit for families and an investigative angle veterans can speak to.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "The War Horse",
+  "source_url": "https://thewarhorse.org/military-housing-window-falls-child-safety/",
+  "source_title": "Children Are Falling From Military Housing Windows. Why Did the Pentagon Change How It Protects Them?",
+  "snippet": "It was Jason English’s job as a Naval intelligence officer to mitigate risk. The work suited him. He felt like he was wired to protect the people and country he loved. So when he became a father, English cruised the aisles of Home Depot and Babies “R” Us looking for ways to make his house [ ] The post Children Are Falling From Military Housing Windows. Why Did the Pentagon Change How It Protects Them? appeared first on The War Horse .",
+  "published_at": "2026-10-20T11:00:00Z",
+  "found_at": "2026-10-20T14:13:35Z",
+  "feed": "The War Horse",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon loosens Evan's Law window rules for military family housing",
+   "summary": "The Pentagon has changed how it reads Evan's Law, the 2017 rule on window fall protection in military family housing. A new memo from Dale Marks, an assistant secretary for installations, now allows devices that can be disengaged. The department had rejected those devices as noncompliant. Safety experts say they may not reliably protect children.",
+   "why_it_matters": "Military families living in base housing may have window protection that a child can defeat, even though Congress required devices that fully block a fall.",
+   "take": "Congress did not leave this vague. In 2019 it defined the required device as a screen or guard meeting a specific ASTM standard, which is a fixed, mounted barrier. The Pentagon's own housing office said in 2024 that it lacked the discretion to expand that definition. Now the department has done it anyway, and a former Air Force judge advocate says the new policy contradicts the statute. A promise made to military families should not get cheaper in the fine print. If the department wants a different rule, it should ask Congress, not rewrite the law by memo.",
+   "x_post": "The Pentagon now allows window devices that can be disengaged in military family housing. Last year it said they didn't meet Evan's Law. Experts say passive guards protect kids better. Congress wrote the rule clearly. Why change it?",
+   "fb_post": "The Pentagon has changed how it applies Evan's Law, the 2017 law meant to keep children from falling out of windows in military family housing.\n\nUnder a new memo, the department will accept window opening control devices. These limit how far a window opens, but they can be disengaged. The Pentagon's own housing office said in 2024 that they did not meet the law. In 2019 Congress defined the required device as a window screen or guard that meets a set ASTM standard. Safety experts say passive protection that can't be removed is more reliable. One former Air Force judge advocate says the new policy contradicts the statute.\n\nWe think a promise to military families shouldn't get weaker through a reinterpretation. If the department wants a different rule, it should go to Congress.\n\nDo you live in or have you lived in military housing? What did the windows look like in your home?",
+   "open_questions": "The article text we have cuts off mid-sentence in the 2024 Colón letter, so the Pentagon's stated reasons for the change are not in our material. Still unconfirmed: the exact date of the Marks memo, whether the Pentagon or the housing companies responded to the criticism, how many housing units or families are affected, whether any devices have already been swapped out, and whether Congress has reacted. The headline asks why the policy changed, and we don't yet have the answer. Check the full War Horse article. Also note the memo title says \"assistant secretary of war\"; confirm preferred naming. Jim Graham's claim that manufacturers and builders pressured DoD and lawmakers is his opinion and is not backed by evidence in the text, so we left it out.",
+   "hashtags": [
+    "MilitaryHousing",
+    "EvansLaw"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "1915bead6578",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 75,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 18,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 13
+  },
+  "score_why": "Federal THC limits threaten Georgia hemp shops; hemp regulation with direct business impact and developing timing.",
+  "policy": true,
+  "state": "GA",
+  "country": "US",
+  "place": "Georgia",
+  "lat": 32.16,
+  "lon": -82.9,
+  "flags": [],
+  "source": "fox5atlanta.com",
+  "source_url": "https://www.fox5atlanta.com/news/why-new-federal-thc-limits-could-wipe-out-georgia-hemp-shops-december",
+  "source_title": "Why new federal THC limits could wipe out Georgia hemp shops by December",
+  "snippet": "",
+  "published_at": "2026-10-20T05:00:00Z",
+  "found_at": "2026-10-20T14:13:35Z",
+  "feed": "GDELT · hemp and cannabis policy",
+  "also_covered_by": [
+   {
+    "source": "fox5atlanta.com",
+    "url": "https://www.fox5atlanta.com/news/new-thc-caps-threaten-225800-jobs-nationwide-up-1b-georgia-sales",
+    "title": "New THC caps threaten 225 , 800 jobs nationwide , up to $1B in Georgia sales"
+   },
+   {
+    "source": "FOX 5 Atlanta",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUhnMm43ZjUzOWpVNGhWeFZvZENZMUcxY2RXNnlmeU9ZazBPSHhUckdCVTFVNkZQejNkQU4yWVFUWWFjNGdKdXZmRWxNMkRCaWsyOFYxWkFfUVRVUTIwQUxIVEVXR194SzB6c0c4aEdTUmZBeFlpbG5QdWxXQnpwSmtvbHdxMkJiYzhiOTZFVFFETkZ3cUVyaUIyUFU1eDRLczdHV9IBqgFBVV95cUxPZDBSNFBZeTR6azZDUlBwdElGYUJPQ1l0MDBoSHFtcE8tZ0k5M0hsRHpvbndhTmc2My1pRElTcnNIc0VaWUFWaTdIOFJSUEo1ckZ2VDRNd0k3WjZwMHU5b3dFWFJzdFBVeG53dkRmWk5uaHRGeGtjRHUzd2xPb3FfbTlDU3RvN0MtTkVjWkNSTkcyYXJrLU9ZZW1HYnJ6Q21wWDVXY3RNVDJ4QQ?oc=5",
+    "title": "Federal THC cap threatens shop shutdown in December"
+   }
+  ],
+  "draft": {
+   "headline": "Federal hemp THC cap takes effect Dec. 11, putting Georgia shops at risk",
+   "summary": "A federal spending law rewrites the definition of legal hemp and caps finished consumable products at 0.4 milligrams of total THC per container. Enforcement begins Dec. 11 after a delay from November. Industry analysts say most hemp edibles and drinks on shelves would become illegal. Georgia, with about 4,100 licensed hemp businesses, could lose hundreds of millions of dollars in annual retail sales.",
+   "why_it_matters": "Veterans and first responders who use hemp products, or who own or work in hemp shops and farms, could see products pulled and jobs lost in Georgia and nationwide once the cap takes effect.",
+   "take": "We agree that kids should never get into THC edibles, and the poison-exposure numbers are serious. But a cap of 0.4 milligrams per container, when typical servings run 2.5 to 10, is a ban in everything but name. Georgia's own law already requires age checks, child-resistant packaging and lab testing, and that is the kind of rulebook evidence supports. Congress tucked this into a spending bill, so nobody took a clean vote on it. Set the rules in the open, and set them fairly.",
+   "x_post": "A federal cap of 0.4 mg THC per container hits hemp products Dec. 11. Georgia has about 4,100 licensed hemp businesses, and analysts say most shelf products would become illegal. Child safety and jobs are both at stake.",
+   "fb_post": "A federal rule on hemp products takes effect Dec. 11. It caps finished consumable products at 0.4 milligrams of total THC per container. Typical hemp edibles and drinks have 2.5 to 10 milligrams per serving, so analysts estimate 90% to 95% of products on shelves would lose legal status.\n\nGeorgia has about 4,100 licensed hemp businesses. Estimates put the hit at $600 million to $1 billion in annual retail sales. Supporters of the cap point to child safety. One analysis found a 1,375% jump in accidental pediatric edible exposures from 2017 to 2021.\n\nOur view: protecting kids is a fair goal, but a cap this low works as a ban. Georgia already requires 21+ age checks, child-resistant packaging and lab testing. Rules like that should be debated in the open, not slipped into a spending bill.\n\nShould hemp be regulated with age limits and testing, or is a federal ban the right call?",
+   "open_questions": "Sources do not say whether Congress will pass a compromise before Dec. 11, and the article says negotiations are stalled. They also do not give a count of Georgia retail jobs at risk. The two Fox 5 pieces say \"December\" and \"Dec. 11\"; I used Dec. 11 and inferred 2026 from the publish date, so please confirm the year. The 90%-95% figure is attributed only to \"industry analysts.\" The 68.1% closure and 225,800 job figures come from Whitney Economics modeling, and I left them out of the public text. Please check them before using. The first article cites a \"hundreds of millions\" loss estimate from attorney Tom Church. The second cites $600M-$1B in Georgia retail sales. These are different measures. The second article cuts off mid-sentence in the Georgia Poison Center data, so I did not use it. Please verify the Pediatrics 1,375% figure against the original study. Needs a check on whether any War Party client is involved. None is named.",
+   "hashtags": [
+    "Hemp",
+    "Georgia"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-11",
+     "label": "Federal hemp THC cap enforcement begins"
+    }
+   ]
+  }
+ },
+ {
+  "id": "04b219598227",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 73,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 16,
+   "traction": 10,
+   "angle": 11,
+   "timeliness": 10
+  },
+  "score_why": "VA inspector general pick allegedly weakening oversight; directly affects veterans and VA accountability.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "flags": [
+   {
+    "type": "opinion_source",
+    "label": "opinion source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "govexec.com",
+  "source_url": "https://www.govexec.com/oversight/2026/10/trumps-ig-pick-va-watering-down-oversight-some-employees-allege/416683/",
+  "source_title": "Trump IG pick at the VA is watering down oversight , some employees allege",
+  "snippet": "",
+  "published_at": "2026-10-20T12:00:00Z",
+  "found_at": "2026-10-20T14:13:35Z",
+  "feed": "GDELT · veterans",
+  "also_covered_by": [
+   {
+    "source": "GovExec.com",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObjAtOVhyQ0dQeU45LWtPb0JWWGtndXpfb2tYYVoxdzhKVnRiRW94S3VzaU1PU095djJxOXZfQTkyY2Qwdk1lUXlRV3J5dDJRRmZIeG1qQ3NQWUlidHRuUzlIYVc1ekVzOHdPc3VNT0lmMG9qMmRNQlJ1U3hFcWhrNFM0Mk1pYzFxMGFHaWxnUDVFYklKbzRTUFlPTkhEY2RMZEt4Szc4NW5qZWU2M2JqaXAyeEdXUkxzdVI2UEFuTEtMRXI2RDQtWElKUnA4TVJTdHFkOFhDaw?oc=5",
+    "title": "Trump’s IG pick at the VA is ‘watering down’ oversight, some employees allege"
+   }
+  ],
+  "draft": {
+   "headline": "VA inspector general's office shrinks 20% as employees question its oversight",
+   "summary": "Some employees of the Department of Veterans Affairs Office of Inspector General say cuts under IG Cheryl Mason have weakened its oversight work. The office has lost about 20% of its staff since early 2025 and now has fewer than 950 employees. A nonprofit analysis found 75% fewer audit reports in the first half of fiscal 2026 than the 2020-2024 average.",
+   "why_it_matters": "The VA inspector general is the independent check on how the department spends money and treats veterans, so a weaker office means fewer outside eyes on the care and benefits veterans depend on.",
+   "take": "An inspector general only works if it has the people and money to dig. The VA is asking for more than 8% more funding while the office that audits it would take a 4% cut. That makes no sense on its face. Senate Veterans' Affairs Chairman Jerry Moran, a Republican, called the proposed level too low, and we agree with him. Employees' claims of watered-down work are allegations, and Mason should answer them in public. But the drop in audit reports is a number, and Congress should demand an explanation for it.",
+   "x_post": "The VA's inspector general office has lost about 20% of its staff since early 2025. Audit reports are down 75% versus the 2020-24 average, per a nonprofit analysis. The budget would cut it 4% more while VA's grows 8%+.",
+   "fb_post": "The VA's Office of Inspector General, the independent watchdog over the department, has lost about 20% of its staff since early 2025. It now has fewer than 950 employees.\n\nSome employees say IG Cheryl Mason has overseen cuts that water down the office's work. Experienced staff say they are juggling their own cases while training new hires. A Partnership for Public Service analysis found the office issued 75% fewer audit reports in the first half of fiscal 2026 than its 2020-2024 average.\n\nThe fiscal 2027 budget would cut the OIG's funding 4% while raising VA's appropriation by more than 8%. Senate Veterans' Affairs Chairman Jerry Moran, a Republican, said the lower level looks damaging. VA Secretary Doug Collins said the OIG can do the job and that Mason agreed to the number.\n\nWe think a bigger VA budget calls for more oversight, not less. Should the VA watchdog's funding rise along with the department's?",
+   "open_questions": "The source text cuts off mid-sentence in the section on the administration's fraud-fighting priorities, so the rest of the article is unread. It includes no on-record response from Mason or the OIG to the employees' allegations. The two employee sources are anonymous. The \"75% fewer audit reports\" figure comes from Partnership for Public Service analysis, and we haven't checked its methodology. The article says Mason was confirmed \"last July\" along party lines, and we haven't confirmed the year. The \"20%\" staff loss is attributed to federal workforce data. We need to confirm whether Congress has acted on the FY2027 OIG funding level.",
+   "hashtags": [
+    "VA",
+    "Veterans"
    ],
    "deadlines": []
   }

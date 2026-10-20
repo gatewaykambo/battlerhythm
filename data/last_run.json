@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-19T22:48:28Z",
+ "started_at": "2026-10-20T14:08:10Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (25)",
@@ -9,13 +9,15 @@
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
+  "GDELT · U.S. forces worldwide (25)",
   "The War Horse (25)",
   "VA News (25)",
-  "Federal Register · VA documents (14)",
-  "GDELT · police, EMS, dispatch (25)",
+  "Federal Register · VA documents (17)",
+  "GDELT · veterans (25)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
-  "GDELT · psychedelic therapy (2)",
+  "GDELT · psychedelic therapy (5)",
+  "GDELT · hemp and cannabis policy (25)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
   "News search · firefighters (25)",
@@ -24,19 +26,17 @@
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
-  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
   "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
-  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi"
  ],
- "new": 104,
- "scored": 104,
- "wired": 9,
- "queued": 2,
- "drafted": 2,
+ "new": 138,
+ "scored": 138,
+ "wired": 15,
+ "queued": 3,
+ "drafted": 3,
  "no_article": 0,
- "duplicates_merged": 4,
- "deadlines": 0,
+ "duplicates_merged": 5,
+ "deadlines": 1,
  "errors": [],
- "finished_at": "2026-10-19T22:58:35Z"
+ "finished_at": "2026-10-20T14:15:45Z"
 }
