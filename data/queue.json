@@ -1636,7 +1636,7 @@
  },
  {
   "id": "6a7b73eb51c2",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2520,5 +2520,110 @@
   "feed": "GDELT · veterans",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "4985844f7e3b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 80,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 18,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Bill to let veterans get medical marijuana without a doctor's recommendation; direct veteran benefit and access.",
+  "policy": true,
+  "state": "MA",
+  "country": "US",
+  "place": "Massachusetts",
+  "lat": 42.407,
+  "lon": -71.382,
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/massachusetts-bill-to-let-military-veterans-get-medical-marijuana-without-a-doctors-recommendation-advances/",
+  "source_title": "Massachusetts Bill To Let Military Veterans Get Medical Marijuana Without A Doctor’s Recommendation Advances",
+  "snippet": "Massachusetts lawmakers have given initial approval to legislation containing provisions aimed at increasing military veterans' access to medical marijuana and adding new qualifying conditions to the state's medical cannabis program. The House of Representatives on Wednesday approved on second reading a supplemental budget bill that touches on a number of issues, including one section that [ ] The post Massachusetts Bill To Let Military Veterans Get Medical Marijuana Without A Doctor's Recommendation Advances appeared first on Marijuana Moment .",
+  "published_at": "2026-10-21T16:26:14Z",
+  "found_at": "2026-10-21T22:14:29Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Massachusetts House advances bill to ease veterans' medical cannabis access",
+   "summary": "The Massachusetts House gave second-reading approval to a supplemental budget bill that would let veterans qualify for a state medical cannabis card using Department of Veterans Affairs (VA) diagnosis paperwork, with no certification from a healthcare professional. It would also add PTSD, opioid use disorder and chronic-pain conditions to the qualifying list. A third House reading and Senate action are still pending.",
+   "why_it_matters": "Because the VA bars its providers from completing medical marijuana recommendation forms, Massachusetts veterans now often pay for outside consultations or go without legal medical access, and this bill targets that gap.",
+   "take": "We think this is a practical fix. The VA won't sign the form, so veterans shouldn't have to pay a second doctor to get what their VA diagnosis already documents. Medical patients in Massachusetts also get tax exemptions, higher purchase limits and access to stronger products, so the card has real value. The bill isn't law yet. We'll be watching whether the wording on the Cannabis Control Commission survives the Senate.",
+   "x_post": "Massachusetts House advances a bill letting veterans get a state medical cannabis card with VA diagnosis records, no outside doctor's sign-off. It adds PTSD and opioid use disorder as qualifying conditions. Senate is next.",
+   "fb_post": "The Massachusetts House has given initial approval to a supplemental budget bill that would change how veterans get medical cannabis cards.\n\nUnder the bill, a veteran could register as a patient by giving state officials VA documentation of a diagnosis of a qualifying condition. The state's Cannabis Control Commission could not require a certification from a healthcare professional. That matters because the VA still prohibits its providers from filling out medical marijuana recommendation forms. The bill would also add PTSD, opioid use disorder and conditions that cause chronic pain to the qualifying list.\n\nThe bill started as a proposal from Gov. Maura Healey, and the House Ways and Means Committee changed parts of it. It still needs a third House reading and a Senate vote. We think cutting out the extra, often costly consultation is a sensible step toward care that is easier to reach.\n\nShould veterans be able to use VA records alone to get state medical cannabis access?",
+   "open_questions": "The source text cuts off mid-sentence at the end (\"In April, Healey signed\"), so we are missing whatever context followed. Not stated: the date for the House third reading or any Senate schedule; the exact date of the November election; the exact poll numbers on Question 8. Not clear: how the Cannabis Control Commission would verify VA documentation in practice. Source says the governor's measure would help preserve veterans' access if voters approve the ballot initiative (Question 8) that repeals recreational sales; we left this out of the public text to keep it short, so consider adding it. Only one outlet (Marijuana Moment) is in the material, so the bill text and vote tally should be checked against the Legislature's site.",
+   "hashtags": [
+    "Veterans",
+    "MedicalCannabis"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "76e60397396b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 76,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 20,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Big out-of-pocket TRICARE Young Adult premium increase for 2027 affects military families' costs directly.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Federal News Network",
+  "source_url": "https://federalnewsnetwork.com/pay-benefits/2026/10/tricare-young-adult-premiums-to-hit-nearly-900-a-month-in-2027/",
+  "source_title": "TRICARE Young Adult premiums to hit nearly $900 a month in 2027",
+  "snippet": "Enrollees will dole out about $4,700 for Select or more than $10,700 for Prime over the course of the year, not including additional costs of care.",
+  "published_at": "2026-10-21T19:55:24Z",
+  "found_at": "2026-10-21T22:14:29Z",
+  "feed": "Federal News Network",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "TRICARE Young Adult Prime will cost $893 a month in 2027, up 12.5%",
+   "summary": "The Defense Health Agency has set 2027 premiums for TRICARE Young Adult, the plan for military dependents ages 21 to 26. Select rises 8.5% to $394 a month. Prime rises 12.5% to $893 a month. That works out to roughly $4,700 or $10,700 a year, before any care costs. Coverage starts Jan. 1.",
+   "why_it_matters": "Military families with adult children aging off a sponsor's plan face a big new bill and should compare options before open enrollment closes.",
+   "take": "We think this is a lot to ask of young adults who are still the family of someone serving. Regular TRICARE Prime and Select cost active-duty families nothing, yet this plan gets no government subsidy and the full cost lands on the family. Prime has nearly tripled in ten years, and families deserve a clear account of why. Congress has bipartisan bills that would let dependents stay on a sponsor's plan to age 26, and it should work out how to pay for that. Coverage for the children of service members is part of the deal.",
+   "x_post": "TRICARE Young Adult premiums for 2027: Select $394/mo (+8.5%), Prime $893/mo (+12.5%). Prime has nearly tripled since 2016. Open enrollment runs Nov. 9 to Dec. 8. Compare your options before you lock in.",
+   "fb_post": "TRICARE Young Adult premiums are going up on Jan. 1. Select will cost $394 a month, up 8.5%. Prime will cost $893 a month, up 12.5%. That's about $4,700 or more than $10,700 a year before any care costs.\n\nThis plan covers military dependents ages 21 to 26 who have aged off a sponsor's plan. Regular TRICARE Prime and Select are free for active-duty families, but Young Adult enrollees pay the whole cost with no government subsidy. Prime has nearly tripled since 2016, from $306 to $893 a month. Select went from $228 to $394.\n\nWe think families deserve a clear explanation for the jump, and Congress should take up the bipartisan bills that would let dependents stay on a sponsor's plan until 26. Open enrollment runs Nov. 9 to Dec. 8, so it's worth comparing a parent's employer plan, a marketplace plan, or Medicaid.\n\nIs your family weighing options for a young adult this year?",
+   "open_questions": "DHA did not respond to questions about why Young Adult Prime premiums are rising so fast, and the National Military Family Association says it has not gotten clear data from the agency. The cause of the increase is unknown. Check the exact deductible for 2027 (the article gives only the 2026 figure of up to $198). Confirm the year of the open enrollment dates; the article gives Nov. 9 to Dec. 8 without a year, and we assumed 2026. Consider linking the bill numbers for the House and Senate legislation, which the article does not name.",
+   "hashtags": [
+    "TRICARE",
+    "MilitaryFamilies"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-09",
+     "label": "TRICARE open enrollment begins"
+    },
+    {
+     "date": "2026-12-08",
+     "label": "TRICARE open enrollment ends"
+    },
+    {
+     "date": "2027-01-01",
+     "label": "New TRICARE Young Adult premiums take effect"
+    }
+   ]
+  }
  }
 ]

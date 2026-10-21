@@ -78,5 +78,29 @@
   "story_id": "88658ae664a7",
   "headline": "VA disability pay rises 3.6% in 2027; new rates take effect Dec. 1",
   "found_at": "2026-10-21T14:28:30Z"
+ },
+ {
+  "id": "fd200bce7e70",
+  "date": "2026-11-09",
+  "label": "TRICARE open enrollment begins",
+  "story_id": "76e60397396b",
+  "headline": "TRICARE Young Adult Prime will cost $893 a month in 2027, up 12.5%",
+  "found_at": "2026-10-21T22:14:29Z"
+ },
+ {
+  "id": "823701682fa7",
+  "date": "2026-12-08",
+  "label": "TRICARE open enrollment ends",
+  "story_id": "76e60397396b",
+  "headline": "TRICARE Young Adult Prime will cost $893 a month in 2027, up 12.5%",
+  "found_at": "2026-10-21T22:14:29Z"
+ },
+ {
+  "id": "e1d9a8db3135",
+  "date": "2027-01-01",
+  "label": "New TRICARE Young Adult premiums take effect",
+  "story_id": "76e60397396b",
+  "headline": "TRICARE Young Adult Prime will cost $893 a month in 2027, up 12.5%",
+  "found_at": "2026-10-21T22:14:29Z"
  }
 ]
