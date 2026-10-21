@@ -1543,7 +1543,7 @@
  },
  {
   "id": "6862f92e5e87",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1596,7 +1596,7 @@
  },
  {
   "id": "32f54c6e9a41",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2369,6 +2369,154 @@
   "snippet": "",
   "published_at": "2026-10-20T21:15:00Z",
   "found_at": "2026-10-20T22:12:06Z",
+  "feed": "GDELT · veterans",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "5dc7ac1cf007",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 100,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 25,
+   "traction": 15,
+   "angle": 15,
+   "timeliness": 15
+  },
+  "score_why": "Indictment of a woman accused of stealing $864K from 11 disabled veterans; direct harm to veterans and a fresh case.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "military.com",
+  "source_url": "https://www.military.com/woman-stole-more-than-864000-from-11-disabled-veterans-indictment",
+  "source_title": "Woman Stole More Than $864 , 000 from 11 Disabled Veterans : Indictment",
+  "snippet": "",
+  "published_at": "2026-10-21T14:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "feed": "GDELT · veterans",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Ohio woman indicted for allegedly stealing $864,000 from 11 disabled veterans",
+   "summary": "Federal prosecutors say Darlene Toman, 64, an office manager at Kabb Law Firm in Beachwood, Ohio, took $864,380 from 11 disabled veterans whose finances the firm managed as a fiduciary. She is charged with bank fraud, wire fraud and aggravated identity theft. She pleaded not guilty Monday in Cleveland and was released on a $20,000 unsecured bond.",
+   "why_it_matters": "Many disabled veterans rely on a fiduciary to manage their benefits, so this case shows what is at stake when that trust is broken.",
+   "take": "Fiduciaries exist to protect veterans who need help managing their money. Taking from those same people would be a betrayal of the worst kind, and the indictment says the money was meant for basic living costs. Ms. Toman is innocent until proven guilty, but the allegation of a scheme running from 2018 to 2024 raises a fair question: who was checking the books? Accountability has to reach the people and firms that hold veterans' money, and not only the person charged.",
+   "x_post": "An Ohio law firm office manager is accused of stealing $864,380 from 11 disabled veterans the firm served as fiduciary. She has pleaded not guilty. Who checks the people who manage a veteran's benefits?",
+   "fb_post": "A federal indictment accuses Darlene Toman, 64, of stealing $864,380 from 11 disabled veterans. She was office manager at Kabb Law Firm in Beachwood, Ohio. The firm serves as a fiduciary for veterans who need help managing their money. One alleged victim is a veteran who received a Purple Heart after being shot in the head by a sniper in Iraq.\n\nProsecutors say she wrote checks to herself from client accounts and the firm's pro bono account between February 2018 and December 2024. They say most of the money went to gambling and some to credit card debt. She pleaded not guilty to bank fraud, wire fraud and aggravated identity theft charges. She has not been convicted.\n\nThis matters because these benefits are meant to cover basic living costs. A fiduciary is supposed to protect that money. Another Ohio fiduciary pleaded guilty in February 2026 to stealing more than $158,000 from elderly and ill veterans. The Federal Trade Commission says military members, veterans and their families reported losing $684 million to fraud in 2025.\n\nWho should be checking the people who manage a veteran's money, and how often?",
+   "open_questions": "Sources do not say: (1) whether the $77,051 from the firm's pro bono account is part of the $864,380 total or separate; the article is unclear. (2) Which fiduciary program or benefit was involved (VA-appointed fiduciary, court-appointed guardian, or other) and what oversight applied. (3) Whether the firm or its owners face any scrutiny or have commented. (4) Next court date and trial schedule. (5) Place of the Cincinnati fiduciary case is described only as Cincinnati; the FB post says \"Another Ohio fiduciary,\" which assumes Cincinnati is in Ohio, so editors should confirm. (6) Details on Toman's background (work release since 2010, prior Lake County Probate Court conviction, per Cleveland.com) were left out of public copy; editors should decide whether to include them. (7) Original reporting is Cleveland.com via Military.com; consider checking the indictment or DOJ release directly.",
+   "hashtags": [
+    "VeteransFraud",
+    "VA"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "88658ae664a7",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 100,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 25,
+   "traction": 15,
+   "angle": 15,
+   "timeliness": 15
+  },
+  "score_why": "Annual VA COLA increase to disability compensation takes effect Dec. 1; affects millions of veterans' pay.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "kdhnews.com",
+  "source_url": "https://kdhnews.com/fort_hood_herald/va-disability-compensation-to-increase-starting-dec-1/article_3f2b6acb-bece-42bd-b603-1ad2ea82bf38.html",
+  "source_title": "VA disability compensation to increase starting Dec . 1",
+  "snippet": "",
+  "published_at": "2026-10-21T14:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "feed": "GDELT · veterans",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "VA disability pay rises 3.6% in 2027; new rates take effect Dec. 1",
+   "summary": "Veterans who receive VA disability compensation will get a 3.6% increase, matching the 2027 Social Security cost-of-living adjustment (COLA) set on Oct. 14. The new rates legally take effect Dec. 1. The VA applies the raise automatically, so veterans don't need to file anything. It also covers military retirees and people on VA pension or survivor benefits.",
+   "why_it_matters": "Millions of disabled veterans, retirees, and survivors will see a larger monthly payment without having to apply, and they can check the new amount in the VA's online portals starting in late November.",
+   "take": "We're glad to see the raise arrive on its own. Veterans shouldn't have to chase paperwork to get the pay they've already earned. Keep the context in view, though. A COLA doesn't make anyone better off. It only keeps checks from losing ground to higher prices. The real test is whether the VA keeps promises like this one every year, and keeps them without a fight.",
+   "x_post": "VA disability pay goes up 3.6% in 2027, matching the Social Security COLA. New rates take effect Dec. 1. No action needed; the VA applies it automatically. A 100% rated vet with no dependents gains over $130 a month.",
+   "fb_post": "VA disability compensation is going up 3.6% in 2027. That matches the Social Security cost-of-living adjustment, which was announced Oct. 14. The new rates legally take effect Dec. 1.\n\nYou don't need to do anything. The VA applies the increase automatically. For a veteran rated 100% with no dependents, it adds more than $130 a month. Veterans with eligible dependents will get higher rates. Military retirees and people on VA pension or survivor benefits are covered too. Updated notices go out by mail in December, and the online portals should show your new amount starting in late November.\n\nOur view: this is a promise kept, and it shouldn't take paperwork or a fight. But a COLA only keeps pace with prices. It isn't a windfall.\n\nWill this change how you budget for the new year?",
+   "open_questions": "1) The headline says increase \"starting Dec. 1,\" but the article says veterans will see it in their first check of the new year, deposited Dec. 31. Check with the VA which payment date reflects the new rate. 2) The article's 90% rating example ($2,362 now, about $2,447 after the increase) may use an outdated base rate. We left it out of the public copy. Verify against the official 2027 VA rate tables. 3) The article says the 3.6% is \"a notable increase from the previous year\" but gives no prior-year figure. 4) The article says Congress routinely passes the annual COLA act. It doesn't say whether the 2027 act has passed. 5) The article doesn't give exact dependent rates or the exact late-November portal date. 6) The place of publication is unknown. The outlet is local (Killeen-Fort Hood), so look for a VA or SSA primary source.",
+   "hashtags": [
+    "VA",
+    "Veterans"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-01",
+     "label": "New VA compensation rates take effect"
+    },
+    {
+     "date": "2026-12-31",
+     "label": "First deposit reflecting 3.6% increase"
+    }
+   ]
+  }
+ },
+ {
+  "id": "1dbfc893b340",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "veterans",
+  "score": 63,
+  "score_parts": {
+   "relevance": 12,
+   "impact": 6,
+   "traction": 15,
+   "angle": 15,
+   "timeliness": 15
+  },
+  "score_why": "Execution of a Vietnam veteran; veteran identity is the hook but the story is mainly capital punishment.",
+  "policy": false,
+  "state": "FL",
+  "country": "US",
+  "place": "Florida State Prison, FL",
+  "lat": 30.0,
+  "lon": -84.0,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "aol.com",
+  "source_url": "https://www.aol.com/articles/cold-last-four-words-vietnam-080120000.html",
+  "source_title": "Cold last four words of Vietnam veteran , 77 , put to death in Florida 18th execution this year",
+  "snippet": "",
+  "published_at": "2026-10-21T13:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
   "feed": "GDELT · veterans",
   "also_covered_by": [],
   "draft": null

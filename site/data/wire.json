@@ -1,5 +1,142 @@
 [
  {
+  "id": "5dc7ac1cf007",
+  "headline": "Woman Stole More Than $864 , 000 from 11 Disabled Veterans : Indictment",
+  "source": "military.com",
+  "url": "https://www.military.com/woman-stole-more-than-864000-from-11-disabled-veterans-indictment",
+  "lane": "veterans",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": false,
+  "score": 100,
+  "published_at": "2026-10-21T14:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
+  "id": "88658ae664a7",
+  "headline": "VA disability compensation to increase starting Dec . 1",
+  "source": "kdhnews.com",
+  "url": "https://kdhnews.com/fort_hood_herald/va-disability-compensation-to-increase-starting-dec-1/article_3f2b6acb-bece-42bd-b603-1ad2ea82bf38.html",
+  "lane": "veterans",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": true,
+  "score": 100,
+  "published_at": "2026-10-21T14:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
+  "id": "5223f3024582",
+  "headline": "Russia releases imprisoned American man during visit by US envoy",
+  "source": "4029tv.com",
+  "url": "https://www.4029tv.com/article/russia-releases-imprisoned-american-envoy-witkoff-says/74201767",
+  "lane": "active_duty",
+  "state": null,
+  "country": "US",
+  "place": "Russia",
+  "lat": 61.5,
+  "lon": 105.3,
+  "policy": false,
+  "score": 57,
+  "published_at": "2026-10-21T14:00:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": [
+   {
+    "source": "winknews.com",
+    "url": "https://www.winknews.com/news/russia-frees-american-stephen-hubbard-after-over-4-years-in-prison-during-a-visit-by/article_b7870abf-47e4-4aad-ac51-f694de6b74ba.html"
+   },
+   {
+    "source": "knoe.com",
+    "url": "https://www.knoe.com/2026/10/21/russia-releases-american-man-imprisoned-charges-fighting-mercenary-ukraine/"
+   },
+   {
+    "source": "dailycamera.com",
+    "url": "https://www.dailycamera.com/2026/10/21/russia-releases-stephen-hubbard/"
+   }
+  ]
+ },
+ {
+  "id": "0e00a69b3518",
+  "headline": "Veterans Could Lose Food Assistance Under Confusing SNAP Rules",
+  "source": "DisabledVeterans.org",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2gxSzNnNThZdFFfRlpXTVZEelN6QTd1MmM3RGdnMWJKcDR4V3lYMF8zOFdMdDg3b2dGeS1ObnRnNGhlUkUxaFB1UTMtd0Juam80b2ZCbjl0STZnWHlOXzNoNHRkeVZGS3RSVlpmdDR1azh3NUREM2xiNmtIbDR0VFJCcThqMC14Zko4NGJvdDBuLVd0NUd1X1h5WGo?oc=5",
+  "lane": "veterans",
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "policy": true,
+  "score": 78,
+  "published_at": "2026-10-21T09:05:09Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
+  "id": "4223fb42e7dc",
+  "headline": "North Korea to activate anti-South loudspeakers along border",
+  "source": "Reuters",
+  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdHllSVpuQVItNDhYcW9GeTVrUkJHVngxel9VR20xQnZVLUlJcHYxYktzQjFoNEpMWkFLcmlWZS1HU2dFMTFSaDZjX3NrNlNQT2ZFS0JqeGJkZ25lREY0ZUZNbVp6clBlbmg4Y1dDMUlyT0RxajZYMTdZU1VUaW9NbjFURGtPbjB0X09ScFJ4UWVnMFRxMFd6VGRFdTBMeDJlQV83NE94SUFFZzJVeGRuVzlndEpMNUIydDRZcXQ0OVlPTFIwQ2RIV1lpeWxZbzB3?oc=5",
+  "lane": "active_duty",
+  "state": null,
+  "country": "KP",
+  "place": "Korean DMZ",
+  "lat": 37.95,
+  "lon": 127.0,
+  "policy": false,
+  "score": 58,
+  "published_at": "2026-10-21T06:34:00Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": [
+   {
+    "source": "CNN",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVU9KbkdQcTc1Q1lQenBCSERBaG5ZcnRBQldmNUotSldmNVJNaHhHcjBRVmNHMk85cXk3RnppNURidlZ5MDNTN2t1bG8tZDlrbFRhUnBfX19Yc0RQVy1XbHFSZExzR2JTUjRBUGVBeXlrMF9GZ0RoOHllNVhHdE1seTZ6YTU2MEE5YVdJ?oc=5"
+   }
+  ]
+ },
+ {
+  "id": "cb84539decf5",
+  "headline": "Wisconsin cannabis businesses weigh options as a federal hemp law change looms",
+  "source": "NBC26",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXhaSHJxOU50WS1XSzNzSkZsWEtVNGtpNjROWXhROFNsYU9ZYVV5NHJHUE9lZ09uTm15MEhNVXlPbms1RzRGc2ltaGdwZUxfY1ZPczVXTGRwdFdkRnZZNzJ6V1NkMmxXVGUxWW5xY09jS1pNTjk0WlgzbnRoYnAzNDJYNldkY3B6QjF3UHIwR2ZrRl9kdC1MR1FhNVctM1E1NEtNbGZONmwweG9PWFlB?oc=5",
+  "lane": "plant_medicine",
+  "state": "WI",
+  "country": "US",
+  "place": "Wisconsin",
+  "lat": 44.5,
+  "lon": -89.5,
+  "policy": true,
+  "score": 58,
+  "published_at": "2026-10-21T04:42:03Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
+  "id": "3762f6e7ee5e",
+  "headline": "Military spouse commission weighs expanding employment programs across services",
+  "source": "Military Times",
+  "url": "https://www.militarytimes.com/news/your-military/2026/10/21/military-spouse-commission-weighs-expanding-employment-programs-across-services/",
+  "lane": "active_duty",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": true,
+  "score": 61,
+  "published_at": "2026-10-21T00:37:18Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
   "id": "e6a4ac1589e3",
   "headline": "U . S . ramps up warnings to Americans in Middle East after deadly Houthi strikes",
   "source": "cbsnews.com",
@@ -51,6 +188,23 @@
   "also": []
  },
  {
+  "id": "db3062c6bcfb",
+  "headline": "Navy establishes dedicated rating for submarine Chiefs of the Boat",
+  "source": "Military Times",
+  "url": "https://www.militarytimes.com/news/your-military/2026/10/20/navy-establishes-dedicated-rating-for-submarine-chiefs-of-the-boat/",
+  "lane": "active_duty",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": false,
+  "score": 57,
+  "published_at": "2026-10-20T21:01:50Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
   "id": "72049f79c320",
   "headline": "VA pilot program targets food insecurity among veterans with diabetes",
   "source": "Bay News 9",
@@ -88,6 +242,23 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTR0tYbk5ubEpxYTNQbVJTMkhjNXlPWmYwWENTTlFDWExOSlNYdlA2d29sYlJ0ajNRV3dXM1lhRTJCVklkMmwzUS1ONVBVWjgwRllkbjVCZk9LR2poUU9r0gFcQVVfeXFMTVpWZ3FMMjAzcWhmZG9fcC1YZzlGcjVhYnI4QlBzTFJBZ0FDWlB2d08xRFdrZXhhdGV1NlZ0X05yMC1PekVjSFFTeWJpQ3lFWXJ4UnNneHBqLUh2dHA?oc=5"
    }
   ]
+ },
+ {
+  "id": "dedaae52a76f",
+  "headline": "Hegseth’s plan to restore Confederate memorial at Arlington expected to cost taxpayers $9 million",
+  "source": "Task & Purpose",
+  "url": "https://taskandpurpose.com/news/hegseth-orders-confederate-statue-restoration/",
+  "lane": "active_duty",
+  "state": "VA",
+  "country": "US",
+  "place": "Arlington National Cemetery, VA",
+  "lat": 38.88,
+  "lon": -77.07,
+  "policy": false,
+  "score": 62,
+  "published_at": "2026-10-20T19:18:15Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
  },
  {
   "id": "f64cfc53ebde",
@@ -154,6 +325,23 @@
   "also": []
  },
  {
+  "id": "15596e90b827",
+  "headline": "Why the Army only has one Security Force Assistance Brigade left",
+  "source": "Task & Purpose",
+  "url": "https://taskandpurpose.com/news/5th-security-force-assistance-brigade/",
+  "lane": "active_duty",
+  "state": null,
+  "country": "US",
+  "place": "Indo-Pacific",
+  "lat": 20.0,
+  "lon": 121.0,
+  "policy": false,
+  "score": 56,
+  "published_at": "2026-10-20T16:25:16Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
   "id": "1b37066a0021",
   "headline": "Turkiye troops to stay in Syria, Iraq ‘until border security ensured’, defense minister tells AFP",
   "source": "Arab News",
@@ -168,6 +356,40 @@
   "score": 57,
   "published_at": "2026-10-20T16:21:38Z",
   "found_at": "2026-10-20T22:12:06Z",
+  "also": []
+ },
+ {
+  "id": "f6f9724014d2",
+  "headline": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
+  "source": "Military Times",
+  "url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
+  "lane": "active_duty",
+  "state": null,
+  "country": "IL",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": false,
+  "score": 55,
+  "published_at": "2026-10-20T15:56:57Z",
+  "found_at": "2026-10-21T14:28:30Z",
+  "also": []
+ },
+ {
+  "id": "78d1988d6650",
+  "headline": "Chinese Navy Shadows USS Charleston Near Contested Sabina Shoal",
+  "source": "USNI News",
+  "url": "https://news.usni.org/2026/10/20/chinese-navy-shadows-uss-charleston-near-contested-sabina-shoal",
+  "lane": "active_duty",
+  "state": null,
+  "country": "PH",
+  "place": "Sabina Shoal, South China Sea",
+  "lat": 9.9,
+  "lon": 115.8,
+  "policy": false,
+  "score": 67,
+  "published_at": "2026-10-20T15:55:24Z",
+  "found_at": "2026-10-21T14:28:30Z",
   "also": []
  },
  {
@@ -241,6 +463,23 @@
   "score": 59,
   "published_at": "2026-10-20T14:02:06Z",
   "found_at": "2026-10-20T14:13:35Z",
+  "also": []
+ },
+ {
+  "id": "e69fe001ee23",
+  "headline": "New Report Challenges Congress’ Hemp Debate: 7 Competing Interests, 1 December Deadline",
+  "source": "Cannabis Business Times",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR2w3NUZKR0FIbkNDOVNPdkNfRGtWcXhpWHY0dDE1Rks0YXU2OFJFOWhTdFppNXJLQktteG9iNGx1TnJ3NjE1ckRsbmJ3M1NYcW9yNFNLVUhlS3lDY1NxRmt6bDA5VjNkSkMyZFp4MHdGeVFjTTJJdDRDX3V1eHNmMGZLMDIwNmhYSlF0QVoyRW03TF9KcXFfaVVnUjZUbmp3MWRRNFk2ZU9lS0RucHBocEpucHlEY1h6WE5HRjBObERnUHZwUGFJNE9qSFJfM0ZHdTlEUnV0UEw?oc=5",
+  "lane": "plant_medicine",
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.907,
+  "lon": -77.037,
+  "policy": true,
+  "score": 66,
+  "published_at": "2026-10-20T14:00:25Z",
+  "found_at": "2026-10-21T14:28:30Z",
   "also": []
  },
  {
@@ -1025,159 +1264,6 @@
   "score": 58,
   "published_at": "2026-10-18T12:01:58Z",
   "found_at": "2026-10-18T21:25:34Z",
-  "also": []
- },
- {
-  "id": "6862f92e5e87",
-  "headline": "Iran Says Two Supertankers Hit Mines in Hormuz",
-  "source": "hngn.com",
-  "url": "https://www.hngn.com/articles/273540/20261018/iran-says-two-supertankers-hit-mines-hormuz.htm",
-  "lane": "active_duty",
-  "state": null,
-  "country": "IR",
-  "place": "Strait of Hormuz",
-  "lat": 26.567,
-  "lon": 56.25,
-  "policy": false,
-  "score": 73,
-  "published_at": "2026-10-18T10:00:00Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "2dd344ec08e2",
-  "headline": "Hochul signs law quadrupling tax credit for volunteer firefighters, EMTs",
-  "source": "13WHAM-TV",
-  "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNbzd5RHFZUnpwZ2FoNFF2QWdUSVJVOXFZOWgwN2pySlNaV1BPOWNvZTJPUTN3MlF2OTBXWllyMVJ3bmtBUEZ2bWJLZ2R3UzFQdnQxc1lHTWNfU2RwSGNEbnE1UkpvbWFhVkhJVzZiUHFHRmduNnNkanF5bzdIckxEMUxRRXBfTEphbzlSZUI1WHNyTjJwNHVvUTVBdnZram5ILU5hakswQV96YWRkSWs0UFlMXy0xdEN0azlEbmhnLXFxRjRra2tSanRMelBEbEhxb2YzUU45QWNqZ2dPajV5WmpReEg4S3NQV2ZlTmw1Q29IT014T2JEMU5n?oc=5",
-  "lane": "first_responders",
-  "state": "NY",
-  "country": "US",
-  "place": "New York",
-  "lat": 42.97,
-  "lon": -75.5,
-  "policy": true,
-  "score": 69,
-  "published_at": "2026-10-18T03:22:24Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": [
-   {
-    "source": "Syracuse.com",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjgwOG91bDYyNG92a0xzdUdFUno4ZC1OdDJPRTFXeXJTWXpUdnpCRXNqZWsyZVJ4NzZSX3F1aWYycW53VFJSdDNTeURXeUlUQXZrSnN3Nnh1WjVVQU9wcTIwS19HT1A3OEdxR2dKWTNEVU5XM1E3bEg0akoyeExOR0FLSGV3LXZYWjQ4eEVMQVBfa2R2Ym1oUTZkLUlLdGVmbldnQWhKX181Xzk3cncyNHc1a3FFMkp0Qmdz?oc=5"
-   },
-   {
-    "source": "Orleans Hub",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUw0d19yV2xoSkNFcjZJTmktZTIybm5qQ1JNamFuYS1LNjVaQWo3ZmJBR2w3MDN6bm5yNVZ1a2JJNXVYSGdueC0xU2tHa2xDOFpHNGNqZVN6dDhqSlVEczR2OWJ5dmJ2czhONDJHM1NxNzE5YnBQMGV1alZGdHBRR1hWenlJVkxMcHh1ekdmNmZLNnU2YmlSbVpfRklFMEZiTmhVUGF5bTExRWJWd3FqOFZnNHctM2FYdHlGelU1V2tIdw?oc=5"
-   },
-   {
-    "source": "Talk of the Sound",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbzJOMndaMGZZb1pGRllOdkpNUnRGMHJmbzZId0RYZmNXcDk2d0FpOEpnVF9EQnJMMFJGWXlQZkpXcDFKWU9LQm9DQ2lBcXpkTUZRdHFqN3JtQzR0dnpvSmZ3WjhKU3VHOURuS09DOU5pdi1uZFQxUFg5a2J3aWpPb1JWd1RsSlRLM253RmdTZ0dLTTNuQUJ2VE5xU3Z5MndzNHp4SzVpTkI3alhFT0c3R3pTMjNHVXRR?oc=5"
-   },
-   {
-    "source": "Mid Hudson News",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenVadUx6OGJ0UVB4NkNQVVFNQzZzTEZuVEZ4b3F2NE9ON1YzMEtYTU0xWl9Lcmd2LXIwQTRxV0M3clBqUHNCWkV2aUlTemFYcnBiaDhwRm1pQnZENHV3REh5WmV1QVVjN1ZrUFRpS2RWSFYtRVFtOUhqNnNzZy00M19qV3c4T1NJUENaQU9FaTl4d3hpeEtUVUJJQTIyT2xxSGw5bXNsZDlWYXZjUkxsMjVHOWI?oc=5"
-   }
-  ]
- },
- {
-  "id": "93361c0a8210",
-  "headline": "Pentagon plans to keep National Guard in DC into 2029, 2 US officials say",
-  "source": "ABC News - Breaking News, Latest News and Videos",
-  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX2p5bDBock8zT3V3THdCSml4dW9fUEJJamIzcEwwTF9ZYW9veTkyb1Z3TTYwN01lZkhSbUhPb0VyemNTOVQzdVZzbTRSVGdLWks5M21SVlBlRGlKSGxpa2dkMGdib01XVTlDS2lTb1FkWGJFaGtuaUpRV3FkVGFEa1hzR2xBLVI1aUZMb2UxaFIwdG440gGaAUFVX3lxTE5ES1BjTVZfLXhyd1QtQVozSnh1SjJERVc4T2tINkJiRzVVaFc1UGNhdmtjRmpNVW84RklCTUJqN0tUYjBieWxPci05MHhQX3BvNVBPbXoxYldmbnRkLUQtX3ZOQmRxNENZODEzRUtRNlFpZVVZQ2RLQUx5WFEtb2RSV1JwV0R5OUFya0t3TGZSZXUxeHNsVDV0bmc?oc=5",
-  "lane": "active_duty",
-  "state": null,
-  "country": "US",
-  "place": "Washington, DC",
-  "lat": 38.9,
-  "lon": -77.04,
-  "policy": true,
-  "score": 72,
-  "published_at": "2026-10-17T20:29:36Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "ba3de81b6573",
-  "headline": "Flu outbreak among Air Force recruits at Joint Base San Antonio after Hegseth ends mandatory flu vaccine",
-  "source": "ABC News - Breaking News, Latest News and Videos",
-  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3RuWm5QWnJ4YUJLTDhaQWtIeVlqZG9TaDMwUnlvU0psOWFyaTh4c3J4X25OaW5SZGVUTTJxbEhDc1BvX214UFAwZG9GNno0VkhMNkp0ZTJrR18yb1FadU8zaFA2WjBJOFFyWElBdnNsMG1ReXZlMnI4dWFyajNZU0t1U1ZVU19xQjYtdW5fdER3RnhPbUZJ?oc=5",
-  "lane": "active_duty",
-  "state": "TX",
-  "country": "US",
-  "place": "Joint Base San Antonio, TX",
-  "lat": 29.38,
-  "lon": -98.58,
-  "policy": false,
-  "score": 85,
-  "published_at": "2026-10-17T19:50:23Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "12ffdbe36850",
-  "headline": "A $28B hemp THC industry is fighting to save itself from a looming federal ban",
-  "source": "ABC News - Breaking News, Latest News and Videos",
-  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSXV2WmhrcTZWbHFvQWNNR0ZKdXZ6M3JySkh1X005R3VsbFVkVzE0WF9sOUpEVEg5SFlFVHFHVFdIeUM0Y2FJWl90X0MyTFV6SnlvdjhmbE5RT1NSVGF6X3J4a1VFUVJaQUxIWWhpdWlDeGhmOVVjaGRDYzFZUVJLT2hNcm1kaXNVMTQ4dU1HaHNNRnFaQWJnMldmSHpmMzhDYWfSAacBQVVfeXFMTTQ2b1BONnBsc0JJaU1QLXNMX3I0Q1VPclFleFNUc2U3M21fQWdIWnpSMWUtQmJvcGhtZmhpbS0wMVdlajBIbVVzYXBlRlkxdWFxVENpUzNobHdGT0hGRm9TSHBXR0VtVDFudWcwZ0FpTU9jYWlEUlNTZWxJcThkRWVTLXdlalMxbDc4TWFiNEtVTzZsa2J2cDR0RUxNYmkzYkh6OWtOVGM?oc=5",
-  "lane": "plant_medicine",
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "policy": true,
-  "score": 70,
-  "published_at": "2026-10-17T19:15:53Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "4c022fd7188d",
-  "headline": "VA Disability COLA 2027: Biggest Raise In 4 Years — Here's The Exact Dollar Amount Scores (HkdZqWPyZi)",
-  "source": "Unisba Media",
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwY29WSTRkZFgwaVZJT3V5ZUlFNzU3Z3lMSzJoeUF0MDdNNGptSzhTY1J5ck5VaHFBckFuSWVSbExORDhPM0ZlVElNX0JZWGdBTHd5cWJ3bGFVYk1kU3J5MDRyc0xxUQ?oc=5",
-  "lane": "veterans",
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "policy": false,
-  "score": 70,
-  "published_at": "2026-10-17T18:20:21Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "9f61ae59a9a7",
-  "headline": "Heroes Get Their Shield: Senate Passes Lifesaving Cancer Screenings as Occupational Cancer Claims 80% of Fallen Firefighters",
-  "source": "New Bedford Guide",
-  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORHJhNW9HaC02SjNIeGx5bGRvdEZnTGcxd0NOMjZKemMtS3UzWVNjRGh1dHJRZzliVXNFeFRkUzdsUENqUnBxeVZNOHRldk9uRndVbHZWZ0p1c0JDOTBMV05TVUprZ2x3R1JEMDJjeU51TWlEU0pseEtLVFZpVTVSU3VGRFdQM2sweTlseEhzeEdQUElXVVhxTmVsaE1zQkdZbjJpZExGWXhiNWJMZDRuLTNRVU1ZTUpwdTVRSVpwVE9OLWNBNE9rUERwZGJENzNSWEpqTE0zUWVXbFFzcFpOS0FvdGVScDFRVXI1NA?oc=5",
-  "lane": "first_responders",
-  "state": null,
-  "country": "US",
-  "place": "Washington, DC",
-  "lat": 38.907,
-  "lon": -77.037,
-  "policy": true,
-  "score": 79,
-  "published_at": "2026-10-16T20:39:11Z",
-  "found_at": "2026-10-18T13:08:39Z",
-  "also": []
- },
- {
-  "id": "58bb803d45fe",
-  "headline": "Pittsburgh dropping residency requirement for paramedics and EMTs",
-  "source": "Audacy",
-  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeWt1LUdPT2tlMDZaR0dkZDVsWnByRVl5OHZSM2xYeDNhRnJKZTR5MG1DM19KSk9pbjhUN25nSzZyMGJuZnUxcHRrQ2M3Z3pLLWN0eW10TGtsRHNKVW1mRm1ZSG4xYVhfNnBpNDdudGVmM1ZIc2xJaENuR2lHZGtSeWpR?oc=5",
-  "lane": "first_responders",
-  "state": "PA",
-  "country": "US",
-  "place": "Pittsburgh, PA",
-  "lat": 40.441,
-  "lon": -79.996,
-  "policy": true,
-  "score": 62,
-  "published_at": "2026-10-16T15:48:00Z",
-  "found_at": "2026-10-18T13:08:39Z",
   "also": []
  }
 ]
