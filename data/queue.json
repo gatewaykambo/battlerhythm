@@ -2625,5 +2625,200 @@
     }
    ]
   }
+ },
+ {
+  "id": "1aa72a0a7f1b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 78,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 11,
+   "angle": 8,
+   "timeliness": 10
+  },
+  "score_why": "Marines sue over DMDC data breach; affects service members' personal data and is a developing legal story.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon",
+  "lat": 38.872,
+  "lon": -77.056,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/22/pentagon-ignored-cybersecurity-flaws-before-data-breach-marines-lawsuit-says/",
+  "source_title": "Pentagon ignored cybersecurity flaws before data breach, Marines’ lawsuit says",
+  "snippet": "A pair of Marines filed a class-action lawsuit Tuesday against the Pentagon over a data breach at the Defense Manpower Data Center.",
+  "published_at": "2026-10-22T13:03:46Z",
+  "found_at": "2026-10-22T14:26:39Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Two Marines sue Pentagon over data breach, citing ignored cybersecurity warnings",
+   "summary": "Two Marines, one veteran and one on active duty, have sued the Defense Department in federal court in Washington, D.C. They say a breach at DMDC exposed their personal data. The suit alleges the system leaked millions of files for about nine months and that officials ignored internal warnings. The department has offered affected people 12 months of credit monitoring.",
+   "why_it_matters": "If your name, Social Security number, birth date or job code sat in a DMDC file-sharing system, your data may be exposed, and you should watch your accounts closely.",
+   "take": "We think the most serious claim here is the paper trail. The suit says the Defense Department's own Inspector General found the department short on 14 of 20 core security metrics, and the breach followed. These are allegations, and a court will test them. Still, a Social Security number doesn't expire in 12 months, and the lawsuit warns of misuse \"in the coming months and years.\" Those who gave their data to serve should get protection that lasts as long as the risk. Someone should answer for the gap between those two timelines.",
+   "x_post": "Two Marines sued the Pentagon over a DMDC data breach. The suit alleges millions of files sat exposed for about 9 months, despite Inspector General warnings. DOD is offering 12 months of credit monitoring. Is that enough?",
+   "fb_post": "Two Marines, one veteran and one active duty, have filed a lawsuit against the Defense Department over a data breach. They say they saw fraudulent charges on their accounts and more spam after their information was exposed.\n\nIn September, DMDC said it found a vulnerability on July 16 in a file-sharing system. Unauthorized users could reach unencrypted files with names, Social Security numbers, birth dates and military occupations. The suit alleges millions of files were exposed for about nine months before anyone caught it. It also says some people weren't told until two or three months after the discovery.\n\nThe suit leans on Defense Department Inspector General reports. One, published days after the breach, said officials hadn't shown that they met 14 of 20 core federal security metrics. These are allegations, not court findings. DOD is offering 12 months of credit monitoring and identity-restoration services.\n\nWe think the people who handed over this data to serve deserve protection that lasts as long as the risk does. If you got a notice, did the 12-month offer feel like enough? Tell us in the comments.",
+   "open_questions": "The source does not give the filing date, case name or court docket number. It does not say how many people were affected beyond \"millions of files,\" or whether DOD or DMDC has responded to the suit. It doesn't spell out DMDC (Defense Manpower Data Center is our understanding, but verify before using the full name). It is unclear whether the OIG report was published days after the breach was found or days after it was announced, so check that. The source doesn't say how affected people can enroll in the credit monitoring or how to confirm whether they were affected. The FBI personnel-file cyberattack is not linked to this breach, per the source. Is the suit seeking class-action status? The plaintiffs refer to \"Class members,\" but the source does not say it has been certified.",
+   "hashtags": [
+    "DataBreach",
+    "Marines"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "6ffde4d7c2e5",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 16,
+   "traction": 14,
+   "angle": 8,
+   "timeliness": 15
+  },
+  "score_why": "Breaking Hormuz tanker damage with fears of renewed war affecting U.S. forces.",
+  "policy": false,
+  "state": null,
+  "country": "IR",
+  "place": "Strait of Hormuz",
+  "lat": 26.6,
+  "lon": 56.3,
+  "flags": [],
+  "source": "union-bulletin.com",
+  "source_url": "https://www.union-bulletin.com/news/national/iran-says-7-oil-tankers-are-on-fire-or-damaged-in-a-key-strait-as/article_1f893367-0f25-585b-8cc3-22a5d8350ba9.html",
+  "source_title": "Iran says 7 oil tankers are on fire or damaged in a key strait as fears grow of a return to war",
+  "snippet": "",
+  "published_at": "2026-10-22T11:15:00Z",
+  "found_at": "2026-10-22T14:26:39Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [
+   {
+    "source": "wlky.com",
+    "url": "https://www.wlky.com/article/iran-oil-tankers-fire-damaged-fears-return-war/74213820",
+    "title": "Iran : Oil tankers on fire , damaged as fears grow over return to war"
+   },
+   {
+    "source": "wsbradio.com",
+    "url": "https://www.wsbradio.com/news/world/iran-says-7-oil/4XT3675AEM725CIFQCCZRG5HLA/",
+    "title": "Strait of Hormuz sees spike in oil tanker incidents amid rising tensions"
+   }
+  ],
+  "draft": {
+   "headline": "Iran says 7 oil tankers hit or damaged in Strait of Hormuz as war fears rise",
+   "summary": "Iran says seven oil tankers caught fire or were damaged overnight in the Strait of Hormuz, hit by Iranian fire or naval mines. Iran's Revolutionary Guard navy again threatened U.S. bases if the U.S. keeps helping guide ships through. The U.S. is sending a third aircraft carrier and thousands more troops, while mediators push for talks.",
+   "why_it_matters": "U.S. forces in the region face a growing risk of renewed fighting, with more troops and ships heading in and Iran threatening American bases.",
+   "take": "We see a dangerous setup. More carriers, more troops and open threats against U.S. bases leave little room for error in a crowded strait. Iran's claims come from its own state TV, so they need independent confirmation. But the pattern is clear: attacks on shipping are up, and a proposal to end the war sits rejected. Service members will be asked to carry out whatever comes next. Leaders owe them a clear goal and a real diplomatic push before anyone chooses escalation.",
+   "x_post": "Iran says 7 oil tankers were hit or damaged in the Strait of Hormuz. Its navy again threatens U.S. bases. The U.S. is sending a third carrier and thousands more troops. Mediators are still trying to restart talks.",
+   "fb_post": "Iran says seven oil tankers caught fire or were damaged overnight in the Strait of Hormuz. It blames Iranian strikes and naval mines. The Associated Press could not independently confirm the claim, and Iranian state TV did not mention casualties.\n\nWhy it matters: Iran's Revolutionary Guard navy again threatened to hit U.S. bases if the U.S. keeps helping guide commercial ships through the strait. The U.S. is sending a third aircraft carrier and thousands more troops. That joins the largest American force in the Middle East in decades.\n\nOur view: when this many forces share a tight stretch of water, a miscalculation can start a war. Troops deserve a clear mission and a serious diplomatic effort before any escalation.\n\nDo you think more forces in the region make a deal more likely or less likely?",
+   "open_questions": "Iran's claims about the seven tankers are unconfirmed. AP could not verify them, and the UK Maritime Trade Operations monitor did not report them. Which ships were hit, and whether it was mines or direct strikes, is not stated. No casualty information. The sources do not say how many troops are deploying or when they arrive. The sources do not list Iran's conditions beyond ending the U.S. blockade. Oct. 27 Israeli election is mentioned as context, but it is not a U.S. audience deadline; I left it out of deadlines.",
+   "hashtags": [
+    "StraitOfHormuz",
+    "Iran"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "138b1fd3460c",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 13,
+   "angle": 10,
+   "timeliness": 14
+  },
+  "score_why": "U.S. troop movements toward Iran as Trump weighs a new operation; breaking and directly affects the force.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Persian Gulf",
+  "lat": 26.5,
+  "lon": 52.0,
+  "flags": [],
+  "source": "Caspian Post",
+  "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjlDdEFyd1hDLTRpSGdpY3VBTlUzVkdHcmo4cHNIY19xTlRHRzBFUnZ4d1A3THFiOWdXWHZRbGpwVW5vV2h5N2xDa1lXblVYYkZSSmNQWVF2VFF3NzB2NmNBVnMza1k3c0h0andPcTlLNVBSemo5N3FLQnA2dVVlQW5IS0RZNUdVX2FMRFBYbGNpOVhqVU1lendaX2M2N1BYeUhXbDBpbw?oc=5",
+  "source_title": "Pentagon Moves Troops Closer to Iran as Trump Weighs New Military Operation",
+  "snippet": "Pentagon Moves Troops Closer to Iran as Trump Weighs New Military Operation Caspian Post",
+  "published_at": "2026-10-22T11:19:02Z",
+  "found_at": "2026-10-22T14:26:39Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "irishtimes.com",
+    "url": "https://www.irishtimes.com/world/us/2026/10/22/us-and-israel-draw-up-plans-for-renewed-strikes-on-iran-after-elections/",
+    "title": "US and Israel draw up plans for renewed strikes on Iran after elections"
+   }
+  ],
+  "draft": {
+   "headline": "US masses forces near Iran as Trump weighs a new round of strikes",
+   "summary": "US officials say the Pentagon is building up forces, including three aircraft carriers and thousands of Marines, for a possible short, intense strike campaign against Iran. The buildup should be complete by early November. Trump has not approved an attack and has called off earlier plans at the last minute. Talks with Iran on its nuclear program and the Strait of Hormuz continue.",
+   "why_it_matters": "Troops in the Gulf region and their families could face a new round of fighting, with Iran vowing to retaliate against a wider set of targets.",
+   "take": "We have heard \"one more round will break them\" before, and Iran's government has so far outlasted the pressure. Nearly eight months of strikes, sanctions and a naval blockade have not produced the concessions Washington wants. The people who carry out any new campaign are the ones who live with the consequences, including drained interceptor stocks and an enemy promising to hit more targets. Before anyone sends them back into major combat, leaders owe the troops and the public a clear, honest answer on what it would achieve.",
+   "x_post": "US forces are massing near Iran for a possible short, intense strike campaign. Full buildup lands in early November. Trump hasn't approved it and has pulled back before. Talks go on. Troops and families should watch this closely.",
+   "fb_post": "The Pentagon is moving more forces toward Iran. US officials say planners are preparing for a short, intense campaign. The buildup includes three aircraft carriers, thousands of Marines, fighter jets and Special Operations forces. It should be fully in place by early November.\n\nNothing is approved. Trump has repeatedly called off plans for major combat this year, including earlier this month. Talks over Iran's nuclear program and the Strait of Hormuz are still going, and the threat of strikes is being used as leverage. Iran has promised to retaliate against a wider list of targets, including data centers and undersea internet cables.\n\nOur view: officials have predicted Iran's collapse before, and it hasn't happened. The first phase of fighting, February to April, pushed up energy prices and strained the Pentagon's supply of missile interceptors. Anyone asking troops to go back in owes them a clear case for what more force would accomplish.\n\nWhat would you want to hear from leadership before a new round of strikes begins?",
+   "open_questions": "The source text cuts off mid-sentence at the end, so the account of the early-October near-strike is incomplete. Nearly all claims rest on anonymous US officials, and the lead outlet (Caspian Post) is republishing Irish Times text that appears to originate elsewhere, so original reporting should be confirmed. The source says Israel's election is \"Tuesday next\" but gives no exact date, and \"early November\" has no specific day, so no deadlines are listed. It also refers to the \"US election\" and a Trump promise not to strike before the vote without giving a date. The piece says a strike this month is a small possibility, but the timing is unclear. The Moab (bomb) details come from unnamed officials and weapons specialists. Check whether there is any confirmed Pentagon or White House statement beyond the \"no comment on plans\" line. Also check for current casualty or troop-number figures.",
+   "hashtags": [
+    "Iran",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "75be77ffae41",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 73,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 12,
+   "traction": 14,
+   "angle": 9,
+   "timeliness": 12
+  },
+  "score_why": "Two Suffolk County police officers died by suicide; responder mental health with strong sharing potential.",
+  "policy": false,
+  "state": "NY",
+  "country": "US",
+  "place": "Suffolk County, NY",
+  "lat": 40.87,
+  "lon": -72.98,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "News12 | Long Island",
+  "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMG9DRjdpYUFOOWxuaGFyZHJXMkZ6Z2hCTzFxVkstUklWckV5cEdhbHFDclFFNmpoNXMwaUhXd1Z2eDJWNVQ0UVJJMjdRVm5aMmp6ME56Z2NoWlRBX0dQWkUwVXVJNGMtOTczZG5RX0hfZklHSjAzVmcwc1NGSVdONDdtUlp3QlczVnVkaVhqNWdCTGRRTV92M3M3Q2pYMThkSEZ1LTNTNVVaeE5mVE9zZTJ6eDA1azlJWWR1Y2twSWNFZ0hwUkJaLUU4OUNaaXdsZ2c?oc=5",
+  "source_title": "'More must be done.' SCPD mourns the loss of 2 officers who died by suicide",
+  "snippet": "'More must be done.' SCPD mourns the loss of 2 officers who died by suicide News12 | Long Island",
+  "published_at": "2026-10-21T21:49:11Z",
+  "found_at": "2026-10-22T14:26:39Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
