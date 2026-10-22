@@ -1676,7 +1676,7 @@
  },
  {
   "id": "3d32ed5148b1",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -1735,7 +1735,7 @@
  },
  {
   "id": "ee5ab25de4b4",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -1788,7 +1788,7 @@
  },
  {
   "id": "5c96d761b45b",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1834,7 +1834,7 @@
  },
  {
   "id": "5906122a9f47",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1886,7 +1886,7 @@
  },
  {
   "id": "568ba7de2be9",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -1926,7 +1926,7 @@
  },
  {
   "id": "67e0dcaa1e85",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -1966,7 +1966,7 @@
  },
  {
   "id": "7592dcdf7b14",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2820,5 +2820,319 @@
   "feed": "News search · police and EMS wellness",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "90a2b934d7ca",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 92,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 13,
+   "angle": 10,
+   "timeliness": 13
+  },
+  "score_why": "Camp Lejeune water settlements tied to midterm politics; major toxic-exposure story for veterans and families.",
+  "policy": true,
+  "state": "NC",
+  "country": "US",
+  "place": "Camp Lejeune, NC",
+  "lat": 34.6,
+  "lon": -77.35,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/22/no-money-for-camp-lejeune-toxic-water-victims-unless-gop-wins-midterms-trump-says/",
+  "source_title": "No money for Camp Lejeune toxic water victims unless GOP wins midterms, Trump says",
+  "snippet": "Trump said the DOJ would settle claims with victims of the base's contaminated water if the GOP wins the midterms. \"If we don't win, there's no money.\"",
+  "published_at": "2026-10-22T18:57:24Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "witn.com",
+    "url": "https://www.witn.com/2026/10/22/trump-no-money-camp-lejeune-toxic-water-victims-if-gop-loses-midterms/",
+    "title": "Trump : No money for Camp Lejeune toxic water victims if GOP loses midterms"
+   }
+  ],
+  "draft": {
+   "headline": "Trump ties Camp Lejeune water settlements to GOP winning Congress in midterms",
+   "summary": "At a rally in Greenville, North Carolina, President Trump said he would direct the Justice Department to settle all remaining legitimate Camp Lejeune water claims if Republicans win the House and Senate. Otherwise, he said, \"there's no money.\" The Justice Department says settlement offers topped $1.1 billion as of Sept. 18, and the Navy says more than 550,000 claims have been filed.",
+   "why_it_matters": "Veterans, family members, and civilian workers who were exposed to Camp Lejeune's contaminated water between 1953 and 1987 now hear their payouts tied to an election, even though the claims process is set in law.",
+   "take": "Compensation Congress already wrote into law should not depend on who wins an election. The Camp Lejeune Justice Act is on the books, and the people filing under it drank poisoned water on a base where they were told they were safe. Moving claims faster is the right goal. Making it conditional on votes turns an earned remedy into a campaign promise, and the people waiting have waited long enough. We will be watching to see whether the Justice Department's pace changes either way.",
+   "x_post": "Trump says Camp Lejeune water claims get settled if the GOP wins Congress: \"If we don't win, there's no money.\" The claims process is already set in law. Earned compensation shouldn't ride on an election.",
+   "fb_post": "President Trump told a Greenville, North Carolina rally this week that if Republicans win the House and Senate, he will direct the Justice Department to settle all remaining legitimate Camp Lejeune water claims quickly. If they don't, he said, \"there's no money.\"\n\nWhy it matters: the Camp Lejeune Justice Act, part of the 2022 PACT Act, lets veterans, family members, and civilian workers exposed from 1953 to 1987 seek compensation. The Navy says more than 550,000 claims have been filed. The Justice Department says settlement offers topped $1.1 billion as of Sept. 18, with individual payments from $100,000 to $550,000.\n\nOur view: this is a legal remedy for people who were exposed to contaminated water on a military base. It should move faster, and it should not hinge on election results.\n\nShould compensation owed under an existing law ever be tied to politics? Tell us what you think.",
+   "open_questions": "1) No Justice Department or Navy statement yet on whether settlements would slow or stop based on the election; unclear what Trump means by \"legitimate\" claims. 2) Trump claimed $1 billion already distributed; DOJ figures cited (as of Sept. 18) are offers over $1.1 billion and payouts over $879 million. Military Times cited an earlier March DOJ figure of 2,500+ offers worth about $706 million. Figures differ by date and by offers vs. payouts. 3) Sources disagree on when the Elective Option started (Military Times says 2022, WITN says 2023). Left out of public copy. 4) WITN says bench trials for remaining claims in the Eastern District of North Carolina were expected to begin within the week; no specific date given. 5) Trump's remarks about trial lawyers and \"families, not lawyers\" not addressed in the draft; check whether to cover. 6) Whether the president can legally direct settlement decisions, and what Congress's role would be, is not answered in the sources.",
+   "hashtags": [
+    "CampLejeune",
+    "PACTAct"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-03",
+     "label": "Midterm election day"
+    }
+   ]
+  }
+ },
+ {
+  "id": "185fb7357669",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": true,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 88,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 18,
+   "traction": 15,
+   "angle": 10,
+   "timeliness": 15
+  },
+  "score_why": "Breaking U.S.-Iran war shipping attacks peaking in October; direct force and safety impact.",
+  "policy": false,
+  "state": null,
+  "country": "IR",
+  "place": "Strait of Hormuz",
+  "lat": 26.56,
+  "lon": 56.25,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "USNI News",
+  "source_url": "https://news.usni.org/2026/10/22/october-marks-highest-number-of-strait-of-hormuz-attacks",
+  "source_title": "October Marks Highest Number of Strait of Hormuz Attacks",
+  "snippet": "NEW YORK — October has had the highest number of ship attacks since the war between Iran and the U.S. began in late February. There have been 27 attacks on commercial ships so far in October, according to the International Maritime Organization. There were 22 in March, as well as attacks on an offshore rig and two tugs, according to a list of attacks compiled by USNI News. Despite the number of attacks, ships are continuing to sail through the strait. There were 104 non-Iranian-linked vessels that sailed through between Oct. 5-11, during which there were 12 attacks, according to",
+  "published_at": "2026-10-22T21:23:38Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "USNI News",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "b5fe55e73238",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 73,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 8,
+   "angle": 8,
+   "timeliness": 8
+  },
+  "score_why": "VA watchdog finds disability-rating errors affecting 17,900 veterans' cases; direct claims impact.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/22/errors-in-disability-cases-for-painful-scars-resulted-in-overpayment-va-watchdog/",
+  "source_title": "Errors in disability cases for ‘painful scars’ resulted in overpayment: VA watchdog",
+  "snippet": "During a review period from June 1, 2024, through May 31, 2025, the VA made at least one error in 17,900 cases regarding disability decisions.",
+  "published_at": "2026-10-22T19:50:46Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "navytimes.com",
+    "url": "https://www.navytimes.com/news/pentagon-congress/2026/10/22/errors-in-disability-cases-for-painful-scars-resulted-in-overpayment-va-watchdog/",
+    "title": "Errors in disability cases for painful scar resulted in overpayment : VA watchdog"
+   }
+  ],
+  "draft": {
+   "headline": "VA watchdog finds errors in about 38% of painful-scar disability decisions",
+   "summary": "The VA Office of Inspector General estimates the VA made at least one error in 17,900 painful-scar disability decisions between June 2024 and May 2025. About 920 of those led to overpayments totaling millions of dollars. The OIG blames a vague exam form and double-rating of the same symptoms. The VA agrees with many fixes but disputes how the sample was used.",
+   "why_it_matters": "More than half a million veterans draw disability pay for painful scars, so changes to the exam form and to how claims are rated could affect many future and current claims.",
+   "take": "A form that doesn't clearly separate objective findings from subjective ones is an agency problem, and the agency owns it. Veterans who filed in good faith shouldn't be the ones who pay for it. Both sides have a point on the numbers: the OIG's estimate is a projection from a small sample, and the VA is right to say so. But the VA also agreed to rewrite the form and retrain staff, and that is the real test. We'll be watching to see whether the fix is clear rules for everyone or a squeeze on people already rated.",
+   "x_post": "VA watchdog: about 38% of painful-scar disability decisions had at least one error, and an estimated 920 led to overpayments. VA agrees to rewrite the exam form but disputes the sample. Fix due by Feb 2027 at the latest.",
+   "fb_post": "The VA Inspector General says the VA made at least one error in an estimated 17,900 disability decisions for painful scars. That is about 38% of the cases reviewed from June 2024 through May 2025. About 920 of those errors led to overpayments, which the report says total millions and will keep growing without corrective action.\n\nThe OIG points to two causes. The exam form doesn't clearly define objective versus subjective evidence. And the same symptoms were often rated under two separate diagnostic codes, a practice called \"pyramiding.\"\n\nThe VA agrees with many of the recommendations, including rewriting the scars section of the form and retraining staff. It disputes the sample size and says most of the errors it found were technical and did not affect payments. It aims to finish the work by February 2027 at the latest.\n\nWe think clear rules on the form are overdue, and veterans shouldn't be penalized for the VA's own paperwork. What would you want the VA to fix first?",
+   "open_questions": "1) Sample size conflict: the article says the OIG took a random sample of 70 decisions, then 30 more from January 2026 (43% error rate), which adds up to 100. The VA's response quotes 130 decisions and 60 errors. Check the OIG report directly. 2) The VA's math is unclear: it says 7 of 60 errors caused improper payments and calls that 5.4% of the sample (7/130), and says 53 errors are \"more than 88 percent of the sample\" (53/60 is 88% of errors, not of the sample). Its 0.015% figure compares 7 sample cases to the whole population, while the OIG projects about 920. Get the report's own figures before running any of this. 3) The overpayment total is only described as \"millions.\" Find the exact dollar estimate. 4) Does the report say anything about veterans' existing ratings being reviewed or reduced, or about underpayments? The article doesn't say. 5) The VA's completion target is given only as \"February 2027 at the latest,\" with no exact day, so it is not listed under deadlines. 6) The article gives no OIG report number or link. The place is listed as unknown.",
+   "hashtags": [
+    "VA",
+    "VeteransBenefits"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "82a0e60edda5",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 11,
+   "angle": 7,
+   "timeliness": 12
+  },
+  "score_why": "Ten-year F-35 buy framework affects force procurement; pending congressional approval.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/",
+  "source_title": "Pentagon, Lockheed agree to 10-year deal for 850 F-35 jets",
+  "snippet": "The decade-long framework guarantees at least 850 F-35 Lightning II fighters for the U.S. military, pending congressional approval and funding.",
+  "published_at": "2026-10-22T17:15:33Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "Air & Space Forces Magazine",
+    "url": "https://www.airandspaceforces.com/pentagon-lockheed-10-year-framework-buying-f-35/",
+    "title": "Pentagon, Lockheed Agree on 10-Year Framework for Buying F-35s"
+   }
+  ],
+  "draft": {
+   "headline": "Pentagon, Lockheed outline 10-year F-35 buy that still needs Congress",
+   "summary": "The Pentagon and Lockheed Martin announced a framework on Oct. 22 to buy F-35 fighters over 10 years. Lockheed would build 156 jets a year for U.S. and foreign customers, with the U.S. taking at least 850 of 1,560. Lockheed would also spend at least $7 billion of its own money. It is not a contract yet. Congress must authorize a multiyear buy and fund it.",
+   "why_it_matters": "The F-35 is a core fighter for the Air Force, Navy and Marine Corps, and its readiness affects the crews and maintainers who fly and fix it.",
+   "take": "Steady orders can help a strained supply chain, and that is a fair goal. But a framework is a promise, not a contract. It has no price, no schedule and no public definition of the \"performance\" incentives. Mission-capable rates fell from 67% to 44% in four years, and the people keeping these jets flying need real fixes. Lockheed and the Pentagon should publish what they will be held to, and Congress should hold them to it.",
+   "x_post": "Pentagon and Lockheed announce a 10-year F-35 framework: 156 jets a year, at least 850 for the U.S., $7B of Lockheed's own money. No price yet, and it needs Congress to approve and fund a multiyear buy first.",
+   "fb_post": "The Pentagon and Lockheed Martin announced a 10-year framework to buy F-35s. Lockheed would build 156 jets a year for U.S. and foreign customers. The U.S. would take at least 850 over the decade. Lockheed says it will put in at least $7 billion of its own money.\n\nIt is not a done deal. Congress has to authorize a multiyear buy and then pay for it. The stopgap funding law runs through Dec. 11 and generally bars new multiyear buys. Neither side has given a total value, a per-jet price, or details on the performance-based incentives.\n\nLockheed says steady orders will improve readiness. A June GAO report found the F-35 mission-capable rate fell from 67% in fiscal 2021 to 44% in fiscal 2025. We think predictability helps, but readiness gains have to show up on the flight line, not just in a press release.\n\nDo you think long-term deals like this will fix F-35 readiness, or does the problem go deeper?",
+   "open_questions": "Total dollar value and per-jet price are not given. The performance-based incentives are not described by the Pentagon or Lockheed. Split by variant and by service (Air Force, Navy, Marine Corps) is unclear. Military Times says the deal averages 85 U.S. jets a year, matching the FY2027 request. Air & Space says \"at least 850\" of 1,560. The GAO report is described only as \"June\"; confirm it is June 2026. Lockheed's claim of 317,000 jobs and $79 billion a year in economic activity is the company's own figure, so it is not used. Military Times says the Senate defense bill is delayed until after the November midterms. Confirm that before publishing. The Air & Space text was cut off, so check for anything after the Sanchez quote.",
+   "hashtags": [
+    "F35",
+    "Pentagon"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-11",
+     "label": "Stopgap funding law expires"
+    }
+   ]
+  }
+ },
+ {
+  "id": "087b55a4091e",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 72,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 18,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 10
+  },
+  "score_why": "Union lawsuit over contaminated SCBA breathing gear affects firefighter safety; snippet is empty, so sourcing is thin.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Huntsville, AL",
+  "lat": 34.73,
+  "lon": -86.586,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "firerescue1.com",
+  "source_url": "https://www.firerescue1.com/legal/ala-firefighters-union-sues-city-over-scba-contamination",
+  "source_title": "Huntsville firefighters union sues city over contaminated SCBA",
+  "snippet": "",
+  "published_at": "2026-10-22T17:30:00Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "GDELT · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Alabama firefighters union sues Huntsville over records on breathing air problems",
+   "summary": "The Professional Fire Fighters of Alabama has sued the city of Huntsville, alleging it illegally withheld public records about contaminated air in firefighters' breathing apparatus. More than 80 employees have filed grievances, and the union says more than 50 firefighters got sick. The city denied the grievances but acknowledged that multiple firefighters reported respiratory symptoms this summer.",
+   "why_it_matters": "Firefighters depend on clean air from their breathing gear on every call, so questions about how it was tested and maintained matter to every department and every family waiting at home.",
+   "take": "When a firefighter straps on a breathing apparatus, the air in that bottle is the whole plan. If the lawsuit's claims hold up, there are serious gaps in testing and upkeep. Even if they don't, the city should release the records and let the facts speak. Hiding paperwork about air that people breathe on the job isn't how you build trust. Accountability starts with showing your work.",
+   "x_post": "Huntsville firefighters' union is suing the city, alleging it withheld records about contaminated breathing air. More than 80 employees filed grievances. The city denies them but says firefighters reported symptoms.",
+   "fb_post": "The Professional Fire Fighters of Alabama has sued the city of Huntsville. The union says the city illegally withheld public records about contaminated air in the breathing apparatus (SCBA) that firefighters use inside burning buildings.\n\nMore than 80 department employees have filed grievances. Many reported coughing, throat irritation and chest discomfort during and after a fitness test held Aug. 3-7. The suit also alleges a June air test on a fill trailer failed for oil and particulate, that some storage cylinders had not been pressure-tested since 2013, and that rusted cylinders went back into service. A department memo dated Oct. 2 found no specific root cause. The city denied the grievances but acknowledged that firefighters reported symptoms.\n\nThese are allegations in a lawsuit, not court findings. Still, air supply is not a place for gaps. We think the city should release the records and let people see what was tested and when.\n\nIf you've worked a department with SCBA concerns, how should crews get answers about their air?",
+   "open_questions": "1) The article text starts mid-story, so we don't have the opening paragraph or when the suit was filed, which court, or who the named plaintiffs and city officials are. 2) The \"more than 50 sickened\" figure comes from the union's allegation via WAFF. We don't know of any independent confirmation or medical findings. 3) The timeline in the suit looks odd: the trailer returned to service July 2, but the retest passing is dated July 8 (retest conducted June 30). Check the filing. 4) The article doesn't say what the Open Records Act request asked for or when it was made. 5) No city response to the lawsuit itself, only to the grievances. 6) Source article included a \"PT Incentive\" memo title; not clear what the fitness test involved. 7) Cascade systems, hydrostatic testing and the federal five-year requirement are described only in brief; confirm which rule applies if we cite it further.",
+   "hashtags": [
+    "firefighters",
+    "SCBA"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "51c983a45b41",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "first_responders",
+  "score": 72,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 20,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 12
+  },
+  "score_why": "State bill restricting PFAS in firefighting foam directly affects firefighter health and gear; new legislation.",
+  "policy": true,
+  "state": "PA",
+  "country": "US",
+  "place": "Pennsylvania",
+  "lat": 40.591,
+  "lon": -77.21,
+  "flags": [],
+  "source": "fox56.com",
+  "source_url": "https://fox56.com/news/local/pennsylvania-lawmakers-pass-bill-restricting-toxic-chemicals-in-firefighting-foam",
+  "source_title": "Pennsylvania lawmakers pass bill restricting toxic chemicals in firefighting foam",
+  "snippet": "",
+  "published_at": "2026-10-22T16:15:00Z",
+  "found_at": "2026-10-22T22:13:31Z",
+  "feed": "GDELT · firefighters",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
+   "summary": "Pennsylvania's General Assembly passed Senate Bill 804, which would ban Class B firefighting foam with intentionally added PFAS. Making and selling it would end July 1, 2027. Fire departments could not use it after January 1, 2028. Airports and oil refineries would keep some exceptions. The bill awaits Gov. Josh Shapiro's signature.",
+   "why_it_matters": "Firefighters handle PFAS in both foam and turnout gear, so this bill would cut one source of exposure and require warnings on gear that contains it.",
+   "take": "We think this is the right direction. Firefighters have carried these chemicals on the job for decades, and research links certain PFAS to kidney and testicular cancers. The bill sets clear dates and gives the State Fire Commissioner a job helping departments switch and dispose of old stock. The test now is whether small and volunteer departments get real help to make the change. A ban with no support behind it puts the cost on the people who were exposed.",
+   "x_post": "Pennsylvania lawmakers passed SB 804 to phase out PFAS firefighting foam. Sales end July 1, 2027, and department use ends Jan. 1, 2028. It also requires warnings on gear with added PFAS. It now goes to Gov. Shapiro.",
+   "fb_post": "Pennsylvania lawmakers have passed Senate Bill 804, a bill to phase out firefighting foam made with PFAS, the \"forever chemicals.\"\n\nIf Gov. Josh Shapiro signs it, making and selling Class B foam with intentionally added PFAS would be banned starting July 1, 2027. Fire departments could not use it after January 1, 2028. Airports and oil refineries would keep some exceptions. Manufacturers would also have to warn buyers when protective gear contains added PFAS. The State Fire Commissioner would help departments move to fluorine-free foam and dispose of old supplies.\n\nWe think this is overdue. Firefighters have been exposed through both foam and turnout gear, and research links some PFAS to kidney and testicular cancers. The hard part will be helping smaller departments pay for the switch.\n\nDoes your department have a plan for replacing its foam?",
+   "open_questions": "Has Gov. Shapiro said whether he will sign it? The article does not say when the governor must act. It does not say whether any funding is attached for departments to buy replacement foam or dispose of old stock. The exact exceptions for airports and refineries are not detailed. The article does not say whether the bill restricts PFAS in turnout gear beyond the warning requirement. The article gives no vote counts. The source is a local TV site, so the bill text or legislative record should be checked.",
+   "hashtags": [
+    "PFAS",
+    "FirefighterSafety"
+   ],
+   "deadlines": [
+    {
+     "date": "2027-07-01",
+     "label": "PA ban on making and selling PFAS foam begins"
+    },
+    {
+     "date": "2028-01-01",
+     "label": "PA fire departments barred from using PFAS foam"
+    }
+   ]
+  }
  }
 ]

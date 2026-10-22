@@ -102,5 +102,37 @@
   "story_id": "76e60397396b",
   "headline": "TRICARE Young Adult Prime will cost $893 a month in 2027, up 12.5%",
   "found_at": "2026-10-21T22:14:29Z"
+ },
+ {
+  "id": "b7409ddd8449",
+  "date": "2026-11-03",
+  "label": "Midterm election day",
+  "story_id": "90a2b934d7ca",
+  "headline": "Trump ties Camp Lejeune water settlements to GOP winning Congress in midterms",
+  "found_at": "2026-10-22T22:13:31Z"
+ },
+ {
+  "id": "786e5645e7eb",
+  "date": "2026-12-11",
+  "label": "Stopgap funding law expires",
+  "story_id": "82a0e60edda5",
+  "headline": "Pentagon, Lockheed outline 10-year F-35 buy that still needs Congress",
+  "found_at": "2026-10-22T22:13:31Z"
+ },
+ {
+  "id": "4befa52f48da",
+  "date": "2027-07-01",
+  "label": "PA ban on making and selling PFAS foam begins",
+  "story_id": "51c983a45b41",
+  "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
+  "found_at": "2026-10-22T22:13:31Z"
+ },
+ {
+  "id": "2960b7b8523c",
+  "date": "2028-01-01",
+  "label": "PA fire departments barred from using PFAS foam",
+  "story_id": "51c983a45b41",
+  "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
+  "found_at": "2026-10-22T22:13:31Z"
  }
 ]
