@@ -2006,7 +2006,7 @@
  },
  {
   "id": "fab80ec54dff",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2063,7 +2063,7 @@
  },
  {
   "id": "641021c43fec",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -2122,7 +2122,7 @@
  },
  {
   "id": "b41752858729",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -2168,7 +2168,7 @@
  },
  {
   "id": "1915bead6578",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2230,7 +2230,7 @@
  },
  {
   "id": "04b219598227",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -3134,5 +3134,45 @@
     }
    ]
   }
+ },
+ {
+  "id": "fbec47ba89fe",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 57,
+  "score_parts": {
+   "relevance": 18,
+   "impact": 10,
+   "traction": 10,
+   "angle": 6,
+   "timeliness": 13
+  },
+  "score_why": "Israeli military operation after attack on troops; major conflict news with indirect U.S. force relevance.",
+  "policy": false,
+  "state": null,
+  "country": "IL",
+  "place": "West Bank",
+  "lat": 32.22,
+  "lon": 35.25,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "CBS News",
+  "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjlVSnk4cXVrLWdvcnU1Nk1henA5RFJIYXNnMTVWc2NoQnVEcTkyUUtXUE04Y2ZGNEVJekxUVkhDREwwLXg5UTZ6ODBLcWJrVV9vMV8yVk1VUnd5WHBHQjF6UWR5dGIzQTgwZTVUS3hWbkU0R0lGM19xcWVwQ0Myd0p1MTh1ZVROeFJkRUlYVUhTNWdsbkVWdm1PNA?oc=5",
+  "source_title": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops",
+  "snippet": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops CBS News",
+  "published_at": "2026-10-23T13:29:51Z",
+  "found_at": "2026-10-23T14:13:53Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
