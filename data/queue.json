@@ -3174,5 +3174,64 @@
   "feed": "News search · service members",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "d2ec119821f5",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 12,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Airman death in training demonstration; safety issue that leads to training pause, fresh and relevant.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/23/air-force-unit-halts-rappelling-ropes-training-after-airman-dies-during-public-demonstration/",
+  "source_title": "Air Force unit halts rappelling, ropes training after airman dies during public demonstration",
+  "snippet": "After Tech. Sgt. Ian Patterson died from injuries sustained during a public demonstration, his squadron ceased all rappel and rope training events.",
+  "published_at": "2026-10-23T18:29:56Z",
+  "found_at": "2026-10-23T21:58:34Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "Task & Purpose",
+    "url": "https://taskandpurpose.com/news/air-force-suspends-rappel-training/",
+    "title": "Air Force suspends rappelling events for special ops training unit after fatal fall"
+   }
+  ],
+  "draft": {
+   "headline": "Air Force training squadron pauses rappel and ropes events after instructor's fatal fall",
+   "summary": "The Air Force's 6th Combat Training Squadron has paused all rappel and ropes training and demonstrations until further notice. Tech. Sgt. Ian Patterson, an instructor in the unit, fell about 160 feet from the Alamodome rafters in San Antonio during a demonstration before the Oct. 17 UTSA-Navy football game. He died at a hospital. The cause is under investigation.",
+   "why_it_matters": "Rappelling is a core skill for tactical air control party (TACP) airmen, so a pause in this squadron's training touches the pipeline that prepares them, and it raises fair questions about safety at public demonstrations.",
+   "take": "Pausing the ropes work is the right call while an airman's death is being investigated. A stand-down costs some training time. Skipping one can cost far more. We'll be watching for a clear public account of what went wrong and what changes before rappelling resumes, especially for demonstrations in front of crowds. Until then, the best thing anyone can do is avoid guessing about the cause and keep Tech. Sgt. Patterson's family in mind.",
+   "x_post": "An Air Force training squadron that prepares TACP airmen has paused all rappel and ropes training and demos after Tech. Sgt. Ian Patterson died in a fall at a San Antonio stadium demonstration. The cause is under investigation.",
+   "fb_post": "The Air Force's 6th Combat Training Squadron has paused all rappel and ropes training events and demonstrations until further notice. The unit's instructor, Tech. Sgt. Ian Patterson, died after falling from the Alamodome rafters during a demonstration before the Oct. 17 UTSA-Navy football game in San Antonio.\n\nPatterson was a 15-year airman assigned to the squadron's detachment at Joint Base San Antonio. That detachment selects and trains candidates for tactical air control party (TACP) jobs, and rappelling is a core skill for them. He is survived by his wife and two young sons.\n\nThe cause of the fall is under investigation. We think a pause is the right move while that work goes on. The people who train our airmen, and the families who wait for them at home, deserve a clear account of what happened and what changes.\n\nShould public demonstrations like this have a different safety standard than regular training?",
+   "open_questions": "Task & Purpose reports the Air Force did not say when the suspension began, who ordered it, what conditions must be met to resume, or whether it applies beyond the 6th CTS. The Air Force has not explicitly said the fatal fall prompted the pause, so the public copy avoids stating a cause-and-effect link. The cause of the fall is under investigation, and Nellis AFB officials declined to discuss details. The Military Times text we received was unusable (page code only), so all facts come from Task & Purpose. Please confirm with a second outlet if possible. Patterson's family has a GoFundMe organized by his brother-in-law; we left it out and the editor should decide whether to mention it after vetting it. Whether the Alamodome or UTSA has commented is not in the sources.",
+   "hashtags": [
+    "AirForce",
+    "MilitaryTraining"
+   ],
+   "deadlines": []
+  }
  }
 ]
