@@ -2375,7 +2375,7 @@
  },
  {
   "id": "5dc7ac1cf007",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -2428,7 +2428,7 @@
  },
  {
   "id": "88658ae664a7",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -2483,7 +2483,7 @@
  },
  {
   "id": "1dbfc893b340",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -3389,5 +3389,143 @@
   "feed": "News search · service members",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "d5e08850ed6f",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": true,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 87,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 14,
+   "angle": 10,
+   "timeliness": 15
+  },
+  "score_why": "Six U.S. troops killed in Kuwait amid Iran war; breaking and directly affects the force.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Kuwait",
+  "lat": 29.31,
+  "lon": 47.48,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "ABC News - Breaking News, Latest News and Videos",
+  "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORmp2d20zWUowWS1zZzhIR2hIaC1VLVdzYXgwMDFaMzB3ZHI0YzlyUUpTQmtLeGJDVTJuZnBsaVJvdFp5bUZxbXg5RkxpV1B3LU0weGpvU2FnOW90aE9sYW1CTEhZR3RITEtEUXVCZDQwVjlVZXhVc0hhckFnOVZoeV9nOVh4czlXNFg00gGQAUFVX3lxTE4zYk5MNVJ5RTh3OWEzSjUzTlZuLXh1Z1ptMVY2cVgwSVpBRDlYUWZQdzdFNWFvbDdITk5XWTk0WVhYYld3ZUhoWGo2UjBRbk5lTFJKM0NuZXpfVEQ3UkdfWmtmSmdMU2dDRmFYWC1nSGZNYVVOV3ptdzRPY19BaHJubWVvNzcyR1RGcFJkN0pKYg?oc=5",
+  "source_title": "Pentagon identifies all 6 American troops killed in Kuwait amid Iran war",
+  "snippet": "Pentagon identifies all 6 American troops killed in Kuwait amid Iran war ABC News - Breaking News, Latest News and Videos",
+  "published_at": "2026-10-24T03:21:54Z",
+  "found_at": "2026-10-24T21:33:53Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "ebea6832192f",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 76,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 16,
+   "traction": 12,
+   "angle": 11,
+   "timeliness": 13
+  },
+  "score_why": "New DoD policy banning troops from betting on prediction markets with nonpublic info; timely and debatable.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon",
+  "lat": 38.87,
+  "lon": -77.06,
+  "flags": [],
+  "source": "KXAN Austin",
+  "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUs4c1FfLWlCTWVVQnpTdGdkdTFZX1k3WkcxY09Zd2czbUVjQ0xqRkszekdsb3JvUzNTd3JnTjBsTGItV1NYVVZROERYMjc4ckN3b0RtWVB5dDVJbktzZ3JpYWNNaF91NjBEUkV4MEdFYWxTNmdOd1pjQk1HRlJBQ2x5UU1uVE43ZUUxQ3p4YXdHdHhKZkRicmpqZzZxUGJIOVMtd9IBqgFBVV95cUxQWnJUbTl6SW1PYUk5N1dsUkdVT0IwSHFucnNDOTlBWjdkYmZVM0M5X0FEM2pNa2FLbjA4bHV3VnlsRm5BNTZfZDdhdXdOWWlkUVhyUEJIT19BZ3pUbnJndWZlTHEzR2xOMjN1TURJRF9kdi13aFg4QjVENjZUaVVVczg1a2lYU0xCUElzTkdZYzhaNHlHWWdvZFBfbG1NSE5HbGtJMTJxcXl5UQ?oc=5",
+  "source_title": "Pentagon bans troops from using nonpublic info to bet in prediction markets",
+  "snippet": "Pentagon bans troops from using nonpublic info to bet in prediction markets KXAN Austin",
+  "published_at": "2026-10-24T18:32:53Z",
+  "found_at": "2026-10-24T21:33:53Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "Task & Purpose",
+    "url": "https://taskandpurpose.com/news/pentagon-hegseth-ban-prediction-markets/",
+    "title": "Pentagon bans troops from betting using insider information"
+   }
+  ],
+  "draft": {
+   "headline": "Hegseth bars Pentagon personnel from betting on insider military information",
+   "summary": "Defense Secretary Pete Hegseth signed an Oct. 20 memo banning troops and Defense Department civilians from using nonpublic information, classified or not, to bet on prediction markets such as Kalshi and Polymarket. Violators could face discipline under the Uniform Code of Military Justice or federal law. It is not a ban on using the markets at all.",
+   "why_it_matters": "Anyone in uniform or working for the Defense Department who knows about operations now has a clear warning: betting on that knowledge can bring criminal charges.",
+   "take": "The rule is narrow, and that is a good thing: it targets the misuse of what you know on the job, not what you do with your own money. The security argument holds up. A bet on an operation's timing can tip off an adversary, and it puts personal profit next to the mission. The Pentagon says violators face prosecution, so it should apply that evenly, from the junior enlisted to the senior officer. We would also like to see clear guidance on what counts as \"nonpublic,\" so no one has to guess.",
+   "x_post": "Hegseth's Oct. 20 memo bars troops and DoD civilians from using nonpublic information, classified or not, to bet on prediction markets like Kalshi and Polymarket. Violators could face UCMJ or federal charges. It is not a ban on all such betting.",
+   "fb_post": "Defense Secretary Pete Hegseth has banned troops and Defense Department civilians from using nonpublic information to bet on prediction markets such as Kalshi and Polymarket. The Oct. 20 memo covers both classified and unclassified information.\n\nWhy it matters: the memo says bets on military outcomes create a \"signal\" that hostile intelligence services could use to anticipate U.S. movements, targets, and timing. Violations could mean discipline under the UCMJ or federal prosecution. This is not a blanket ban on using the markets.\n\nOur view: the focus on insider information is the right target, and the security concern is real. Earlier this year, a Special Forces soldier was indicted for allegedly betting on the timing of the Venezuela raid. Rules only mean something if they are enforced evenly at every rank.\n\nDo you think the memo is clear enough about what counts as \"nonpublic\" information?",
+   "open_questions": "The sources do not say what prompted the memo now. They do not define \"nonpublic information\" beyond classified and unclassified military information, or say how the rule will be enforced. The memo was first reported by CBS News; we have not seen the memo itself. The Van Dyke case is described as allegations in an indictment, so keep it attributed as alleged. The $8 million figure is from the Anti-Corruption Data Collective report, not independently verified.",
+   "hashtags": [
+    "Pentagon",
+    "PredictionMarkets"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "15346f7e0ec8",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 74,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 15,
+   "traction": 14,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Pentagon presenting renewed Iran strike options; major U.S. force decision, developing.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Iran",
+  "lat": 32.43,
+  "lon": 53.69,
+  "flags": [],
+  "source": "themedialine.org",
+  "source_url": "https://themedialine.org/headlines/pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/",
+  "source_title": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
+  "snippet": "",
+  "published_at": "2026-10-24T19:15:00Z",
+  "found_at": "2026-10-24T21:33:53Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon gives Trump options for renewed strikes on Iran, reports say",
+   "summary": "The Wall Street Journal reports the Pentagon has given President Trump several options for new military action against Iran, including strikes on nuclear sites and infrastructure and attacks on Iranian-held islands. Trump has not decided. US warships in the Middle East are reportedly preparing for escalation, and CNN reports the US is pulling some diplomatic staff and families out of the region.",
+   "why_it_matters": "US forces in the Middle East, and the families waiting at home, could face a sudden jump in risk if the White House orders new strikes in the coming weeks.",
+   "take": "We know a planning briefing is not a decision, and officials say none has been made. Still, warships preparing, embassy families leaving, and an intelligence warning about Iranian plans against Americans all point the same way. The people who carry that risk are service members and their families, and they deserve a clear public explanation of the goals before anyone orders a strike. Military decisions should follow the security situation, not the election calendar.",
+   "x_post": "The Pentagon has given President Trump options for renewed Iran strikes, including nuclear sites and islands, WSJ reports. No decision yet. US warships are preparing, and diplomatic families are leaving parts of the region.",
+   "fb_post": "The Pentagon has reportedly given President Trump several options for renewed military action against Iran. The Wall Street Journal says they include strikes on nuclear facilities and infrastructure, and attacks on islands Iran controls. Trump is said to lean toward renewing the fighting but has not decided.\n\nOther signs point to a tense few weeks. US officials say warships in the Middle East are preparing for escalation. The director of national intelligence reportedly warned that Iranian preparations to attack Americans in the region have reached \"advanced stages.\" CNN reports the US has ordered non-essential staff and families out of Saudi Arabia and is quietly cutting personnel at embassies in several other countries.\n\nOur view: a plan on the table is not a decision. But the people who carry the risk are service members and their families, and they should get a clear explanation of the goals before any order is given. Security should drive the timing, not the election calendar.\n\nIf strikes resume, what do you most want leaders to tell the troops and their families first?",
+   "open_questions": "No Pentagon or White House on-record confirmation in the source; WSJ and CNN reports rely on unnamed US officials, and we have not seen the original reports. Source does not explain the earlier \"intense fighting\" or the current status of US-Iran hostilities. Unknown: which units or forces are involved, the specific timeline (\"coming weeks\"), and the content of the DNI memo beyond the \"advanced stages\" language. The report that Hezbollah told Berri it would stay out (Al-Sharq Al-Awsat) is single-sourced, and the Iranian Embassy in Lebanon's denial did not say what it was disputing; we left this out of the public copy. CNN's claim that Israel is pressing for sooner action and that strikes could come after the midterms is also unconfirmed. Consider whether we should confirm with a second outlet before publishing.",
+   "hashtags": [
+    "Iran",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
  }
 ]
