@@ -16,14 +16,6 @@
   "found_at": "2026-10-14T22:12:29Z"
  },
  {
-  "id": "52870dae9cb9",
-  "date": "2026-10-23",
-  "label": "Texas ballot request deadline (UOCAVA)",
-  "story_id": "7f54c126fb05",
-  "headline": "Absentee voting deadlines are close: what service members and families need to do now",
-  "found_at": "2026-10-14T22:12:29Z"
- },
- {
   "id": "258ca65d2c90",
   "date": "2026-12-01",
   "label": "Proposed 2027 VA COLA effective date, if Congress approves",
@@ -126,5 +118,21 @@
   "story_id": "51c983a45b41",
   "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
   "found_at": "2026-10-22T22:13:31Z"
+ },
+ {
+  "id": "db0bd6215ff4",
+  "date": "2026-11-03",
+  "label": "US midterm elections",
+  "story_id": "4d5b019e4ff4",
+  "headline": "Analysts see signs US may resume major strikes on Iran after midterms",
+  "found_at": "2026-10-24T13:13:12Z"
+ },
+ {
+  "id": "e5fb2e018e78",
+  "date": "2027-06-30",
+  "label": "Iraq's target for all weapons under state control",
+  "story_id": "4adc7dde3430",
+  "headline": "Iraq's prime minister says no US troops remain in the country, advisers included",
+  "found_at": "2026-10-24T13:13:12Z"
  }
 ]

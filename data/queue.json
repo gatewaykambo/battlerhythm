@@ -2289,7 +2289,7 @@
  },
  {
   "id": "e6a4ac1589e3",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2335,7 +2335,7 @@
  },
  {
   "id": "0ab3238256cd",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -3233,5 +3233,161 @@
    ],
    "deadlines": []
   }
+ },
+ {
+  "id": "4d5b019e4ff4",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 90,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 22,
+   "traction": 14,
+   "angle": 10,
+   "timeliness": 14
+  },
+  "score_why": "Possible renewed U.S. strikes on Iran would directly affect deployed forces; sourcing is an aggregator's signal, not confirmed.",
+  "policy": false,
+  "state": null,
+  "country": "IR",
+  "place": "Iran",
+  "lat": 32.4,
+  "lon": 53.7,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "naharnet.com",
+  "source_url": "https://www.naharnet.com/stories/en/323319-signs-point-to-renewed-major-us-military-ops-against-iran",
+  "source_title": "Signs point to renewed major US military ops against Iran",
+  "snippet": "",
+  "published_at": "2026-10-24T12:45:00Z",
+  "found_at": "2026-10-24T13:13:12Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Analysts see signs US may resume major strikes on Iran after midterms",
+   "summary": "Analysts say the United States may be preparing to resume large-scale strikes on Iran, possibly after the November 3 midterm elections. Since early September, both sides have mostly hit commercial ships, as the U.S. blockades Iranian ports and Iran presses its control over the Strait of Hormuz. Cited signs include the planned USS Theodore Roosevelt deployment and another Marine Expeditionary Unit headed to the region.",
+   "why_it_matters": "More ships, Marines, and possibly new combat operations in the Middle East could mean longer deployments and greater risk for service members and their families.",
+   "take": "We'd point out that the experts quoted here agree on one thing: more strikes are unlikely to end this war. If the plan is to pressure Iran into talks, sending this much force is a big way to do it. Troops carry out these orders, so they and their families deserve a clear objective and an honest account of what comes next. Their safety shouldn't hinge on a political calendar.",
+   "x_post": "Analysts see signs the US may resume major strikes on Iran after the Nov. 3 midterms. A third carrier and another Marine Expeditionary Unit are part of the picture. Experts doubt more force ends the war. What's the end state?",
+   "fb_post": "Analysts say the United States may be getting ready to resume large-scale strikes on Iran. Since early September, the fighting has mostly been attacks on commercial ships, as the U.S. blockades Iranian ports and Iran tries to control the Strait of Hormuz.\n\nThe signs they point to: the planned deployment of the USS Theodore Roosevelt, which could bring the number of carrier strike groups in the region to three. Another Marine Expeditionary Unit is also being sent. Warnings have gone out to Americans in the region, and Israeli forces are on high alert. President Trump said Friday the U.S. \"may do another little Epic Fury\" if Iran doesn't make a deal, but gave no timing.\n\nHere is our view. The experts quoted say that more strikes are unlikely to end this conflict, and that options are narrower now because U.S. bases in the region have been damaged. Those who carry out these orders deserve a clear objective and a plain explanation of the end state.\n\nWhat do you think the mission should be, and how will you know when it's done?",
+   "open_questions": "Timing of any renewed strikes is unconfirmed; the analysts (Maloney, Campbell) say it is hard to predict, and Maloney's midterm timing is her own forecast. No official U.S. confirmation of the Theodore Roosevelt or Marine Expeditionary Unit deployments beyond the source's description as planned. The source gives no details on the unit or its destination, and no Pentagon statement. Trump's \"little Epic Fury\" quote is from a single outlet (Naharnet, apparently AFP-style wire); verify the wording. Also verify the claims of damage to US bases and the \"first fifty days\" of the war against a second source. Midterm date is given as November 3, with the year inferred as 2026 from the publish date.",
+   "hashtags": [
+    "Iran",
+    "ActiveDuty"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-03",
+     "label": "US midterm elections"
+    }
+   ]
+  }
+ },
+ {
+  "id": "4adc7dde3430",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 14,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 10
+  },
+  "score_why": "Iraqi government claim on U.S. troop withdrawal affects U.S. force posture; source is a forum repost.",
+  "policy": false,
+  "state": null,
+  "country": "IQ",
+  "place": "Iraq",
+  "lat": 33.3,
+  "lon": 44.4,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "peakoil.com",
+  "source_url": "https://peakoil.com/production/iraq-says-no-us-troops-left-in-the-country-not-even-advisers",
+  "source_title": "Iraq says no US troops left in the country , not even advisers | Peak Oil News and Message Boards",
+  "snippet": "",
+  "published_at": "2026-10-24T12:30:00Z",
+  "found_at": "2026-10-24T13:13:12Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Iraq's prime minister says no US troops remain in the country, advisers included",
+   "summary": "Iraq's prime minister, Ali Faleh Al-Zaidi, said Friday that no US troops are left in Iraq, including advisers. He told the Iraqi News Agency that Baghdad will bring all weapons under state control by June 30, 2027. The coalition's military mission ended Sept. 30, and the Pentagon confirmed forces and equipment left Erbil Air Base. Al-Zaidi said Iraq still wants a strategic partnership with Washington.",
+   "why_it_matters": "After years of US-led operations against ISIS in Iraq, the mission has shifted from combat-era presence to security cooperation, and that changes what American forces in the region may be asked to do.",
+   "take": "We would take a prime minister's headline claim as a starting point, not the last word. The coalition mission is over, and the Pentagon has confirmed the exit from Erbil Air Base. That is a real milestone for the many troops who rotated through Iraq. Al-Zaidi's pledge to put every weapon under state control by June 30, 2027, is a promise we can check. We'll be watching whether the date holds, and what the shift to training and intelligence sharing looks like in practice.",
+   "x_post": "Iraq's prime minister says no US troops remain in the country, advisers included. The coalition mission ended Sept. 30. He also vows all weapons will be under state control by June 30, 2027. That's a date we can hold him to.",
+   "fb_post": "Iraq's prime minister, Ali Faleh Al-Zaidi, said Friday that no US troops remain in his country, advisers included. He said Baghdad will bring all weapons under state control by June 30, 2027, and that the government has reached deals with three armed factions and is negotiating with four more.\n\nThis follows the end of the US-led coalition's military mission on Sept. 30. The Pentagon confirmed that coalition forces and equipment left Erbil Air Base. The mission moved from fighting ISIS to security cooperation, including training and intelligence sharing. Al-Zaidi said Iraq still wants a strategic partnership with Washington.\n\nWhy it matters: a lot of service members spent time in Iraq, and the US footprint there has now changed. We treat a government's own claims with some skepticism, but the June 2027 weapons deadline is concrete and we can check it.\n\nWhat do you make of the shift from a combat mission to a training and intelligence role?",
+   "open_questions": "The PM's claim of zero US troops, advisers included, comes from his INA interview and is not independently confirmed here. The Pentagon confirmation in the source covers only departure of coalition forces and equipment from Erbil Air Base. The source also says the mission shifted to security cooperation with training and intelligence sharing. It does not say who carries that out or whether any US personnel are involved, so the two statements may be in tension. We need a US official or DoD statement on the current US troop count in Iraq. We also need to know which armed factions are involved in the weapons agreements. The article text comes from an aggregator (peakoil.com) citing Anadolu and INA, so look for the original reports.",
+   "hashtags": [
+    "Iraq",
+    "USMilitary"
+   ],
+   "deadlines": [
+    {
+     "date": "2027-06-30",
+     "label": "Iraq's target for all weapons under state control"
+    }
+   ]
+  }
+ },
+ {
+  "id": "bd225ad33da4",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 59,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 9,
+   "traction": 12,
+   "angle": 6,
+   "timeliness": 10
+  },
+  "score_why": "Three service members killed in a car crash; affects the force and families, with fresh breaking news.",
+  "policy": false,
+  "state": "FL",
+  "country": "US",
+  "place": "Pensacola, FL",
+  "lat": 30.42,
+  "lon": -87.22,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "WEAR TV",
+  "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVU5xWUFibzhWZXNFb01GWHdnVE1UMUtnTktwZU81LWxWTU5uSFZBS2VpQ0xCbGhVdEtfSmw5MjNIQ3piWFFFYzVEN2l3NlFhMTNMNjBWY21DUDdocTU5OWtETEFmMF9Fc01La1lyMGJya3hmeUxfYWdQanY5U0VKSnJTSQ?oc=5",
+  "source_title": "3 service members killed in Pensacola car crash",
+  "snippet": "3 service members killed in Pensacola car crash WEAR TV",
+  "published_at": "2026-10-24T12:36:57Z",
+  "found_at": "2026-10-24T13:13:12Z",
+  "feed": "News search · service members",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
