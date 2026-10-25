@@ -2628,7 +2628,7 @@
  },
  {
   "id": "1aa72a0a7f1b",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2674,7 +2674,7 @@
  },
  {
   "id": "6ffde4d7c2e5",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2731,7 +2731,7 @@
  },
  {
   "id": "138b1fd3460c",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2783,7 +2783,7 @@
  },
  {
   "id": "75be77ffae41",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,

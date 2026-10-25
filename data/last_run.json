@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-25T13:35:05Z",
+ "started_at": "2026-10-25T21:25:39Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
@@ -14,29 +14,29 @@
   "Federal Register · VA documents (22)",
   "GDELT · veterans (25)",
   "GDELT · firefighters (25)",
-  "GDELT · police, EMS, dispatch (25)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
-  "GDELT · hemp and cannabis policy (25)",
-  "News search · service members (25)",
-  "News search · veterans and VA (25)",
-  "News search · firefighters (25)",
-  "News search · police and EMS wellness (25)",
-  "News search · psychedelic therapy and veterans (25)",
-  "News search · hemp and THC law (25)"
+  "GDELT · psychedelic therapy (1)",
+  "GDELT · hemp and cannabis policy (25)"
  ],
  "feeds_failed": [
   "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
-  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA"
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
+  "News search · service members: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22service+members%22+OR+troops+OR+%",
+  "News search · veterans and VA: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=veterans+%28VA+OR+%22Veterans+Affair",
+  "News search · firefighters: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=firefighters+%28PTSD+OR+cancer+OR+be",
+  "News search · police and EMS wellness: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28police+OR+EMS+OR+paramedics+OR+di",
+  "News search · psychedelic therapy and veterans: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28psilocybin+OR+MDMA+OR+ibogaine+OR",
+  "News search · hemp and THC law: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=hemp+%28THC+OR+ban+OR+law+OR+regulat"
  ],
- "new": 109,
- "scored": 109,
- "wired": 5,
+ "new": 8,
+ "scored": 8,
+ "wired": 1,
  "queued": 0,
  "drafted": 0,
  "no_article": 0,
  "duplicates_merged": 0,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-10-25T13:44:28Z"
+ "finished_at": "2026-10-25T21:32:57Z"
 }
