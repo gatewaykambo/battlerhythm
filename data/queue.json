@@ -3177,7 +3177,7 @@
  },
  {
   "id": "d2ec119821f5",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -3527,5 +3527,236 @@
    ],
    "deadlines": []
   }
+ },
+ {
+  "id": "747392a7e889",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 16,
+   "traction": 8,
+   "angle": 10,
+   "timeliness": 8
+  },
+  "score_why": "Supreme Court takes case on military retirement division and VA disability offsets; direct pay impact on service families.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.0,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/10/26/supreme-court-to-hear-case-on-division-of-retirement-disability-pay-in-military-divorces/",
+  "source_title": "Supreme Court to hear case on division of retirement, disability pay in military divorces",
+  "snippet": "The U.S. Supreme Court has agreed to consider a case that challenges whether divorce settlements are enforceable if they agree to protect a former spouse’s share of military retirement pay and the amount is later affected by disability compensation.",
+  "published_at": "2026-10-26T20:54:24Z",
+  "found_at": "2026-10-26T23:08:22Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Supreme Court to hear case on splitting military retirement and disability pay in divorce",
+   "summary": "The U.S. Supreme Court has agreed to take up a case about how military retirement pay and disability pay are divided when a service member divorces. Military Times reported the news on Oct. 26, 2026. The question touches both service members and former spouses who count on those payments.",
+   "why_it_matters": "How courts divide retirement and disability pay in a divorce can shape the finances of service members, retirees, and their former spouses for decades.",
+   "take": "Money after a divorce is not an abstract issue for military families. It is the monthly check people plan their lives around. We want a clear national answer that respects what service members earned and what their spouses sacrificed during a career of moves and deployments. Fuzzy rules help no one, and families should not have to guess how the pay they earned will be treated.",
+   "x_post": "The Supreme Court will hear a case on how military retirement and disability pay are divided in divorce. Clear rules matter to service members, retirees, and former spouses. We're watching this one.",
+   "fb_post": "The U.S. Supreme Court has agreed to hear a case on how military retirement pay and disability pay are divided in a divorce.\n\nWhy it matters: that money is a big part of the financial picture for many service members, retirees, and their former spouses. A ruling could affect how courts treat those payments.\n\nOur view: families deserve clear, consistent rules that respect both what the service member earned and what the spouse gave up over a military career.\n\nHave you or someone you know gone through a military divorce? What do you wish the rules made clearer?",
+   "open_questions": "The source text we received was page code with no article body, so only the headline is confirmed. Still unknown: the case name, the parties, the exact legal question, which court it came from, the date of oral argument, and when a ruling might come. Please pull the Military Times article or the Supreme Court docket to confirm these before publishing. Add a deadline if an argument date is announced.",
+   "hashtags": [
+    "MilitaryDivorce",
+    "SupremeCourt"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "1e6d9a685863",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 10,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Hegseth warning on prediction-market betting; counterintelligence risk directly affects personnel and is timely.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/pentagon/2026/10/26/pentagon-cautions-personnel-against-betting-using-insider-information/",
+  "source_title": "Pentagon cautions personnel against betting using insider information",
+  "snippet": "Hostile foreign intelligence services can track bets made by U.S. military personnel on prediction markets to anticipate American movements, targets and timing, Hegseth warned.",
+  "published_at": "2026-10-26T18:23:22Z",
+  "found_at": "2026-10-26T23:08:22Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon warns personnel not to bet using insider information",
+   "summary": "The Pentagon has cautioned its personnel against placing bets based on insider information, Military Times reported on Oct. 26, 2026. The warning is aimed at people whose jobs give them knowledge the public does not have. The message to the force is simple: what you learn on the job is not a betting tip.",
+   "why_it_matters": "If your job gives you access to information the public doesn't have, the Pentagon is telling you not to use it to place a bet.",
+   "take": "We think this is a fair reminder. Information you get through your duties belongs to the mission, not to your wallet. Service members already know that trust is the currency of the job, and a side bet is a poor reason to spend it. The same standard should apply to everyone with access, from the E-3 to the senior official.",
+   "x_post": "The Pentagon has warned its personnel not to place bets using insider information. What you learn on the job is for the mission, not for a wager. Same standard for every rank.",
+   "fb_post": "The Pentagon has cautioned its personnel against betting with insider information, according to Military Times.\n\nWhy it matters: many people in the defense workforce know things the public doesn't. Using that knowledge for personal gain is a trust problem, and trust is what the job runs on.\n\nOur view: it's a fair reminder, and the standard should apply equally to every rank and every job, from junior enlisted to senior leaders.\n\nDo you think the rules on this are clear enough for the force? Tell us what you think.",
+   "open_questions": "The source text provided was only page styling code, so only the headline was usable. Not confirmed: who issued the warning (a memo, a policy, an official statement), the date of the warning, which personnel it covers (service members, civilians, contractors), what type of betting it addresses (sports, prediction markets, other), any penalties or enforcement, and what prompted it. Please pull the full Military Times article before publishing and confirm the details. Also confirm whether the Pentagon warning is new or restates existing rules.",
+   "hashtags": [
+    "Pentagon",
+    "ActiveDuty"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "0587ec7ae785",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 11,
+   "angle": 10,
+   "timeliness": 12
+  },
+  "score_why": "Confusing Massachusetts ballot question on rolling back adult-use cannabis; policy with a clear voter-facing angle.",
+  "policy": true,
+  "state": "MA",
+  "country": "US",
+  "place": "Massachusetts",
+  "lat": 42.4,
+  "lon": -71.4,
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/the-super-troopers-guys-help-explain-the-confusing-anti-marijuana-question-on-massachusettss-ballot/",
+  "source_title": "The Super Troopers Guys Help Explain The Confusing Anti-Marijuana Question On Massachusetts’s Ballot",
+  "snippet": "Voters in Massachusetts could be forgiven for being confused about how to cast their November ballots on an initiative that proposes to roll back the state's marijuana legalization law. A \"yes\" vote is really a \"no\" on continued legal adult-use cannabis sales, while a \"no\" vote is a \"yes\" on keeping the state's recreational dispensary [ ] The post The Super Troopers Guys Help Explain The Confusing Anti-Marijuana Question On Massachusetts's Ballot appeared first on Marijuana Moment .",
+  "published_at": "2026-10-26T17:00:45Z",
+  "found_at": "2026-10-26T23:08:22Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Massachusetts Question 8: Comedy Troupe Video Explains Confusing Marijuana Ballot Measure",
+   "summary": "In Massachusetts, the comedy troupe Broken Lizard, known for Super Troopers, released a two-minute video about Question 8 on the November ballot. The measure would roll back legal adult-use marijuana sales. The video says a \"yes\" vote ends legal sales and restores penalties, while a \"no\" vote keeps the current system. It also repeats reports of misleading petition tactics, and its message is simple: vote no.",
+   "why_it_matters": "Massachusetts voters, including veterans and first responders, need to know that a \"yes\" on Question 8 means ending legal marijuana sales, and a \"no\" keeps them.",
+   "take": "A ballot question should not need a comedy sketch to decode it. When \"yes\" means \"no\" and the wording is dense, voters can end up backing something they oppose. The video is advocacy, and it is funny, but its core point holds up: read the question carefully before you mark the ballot. Whatever your view on cannabis policy, you should vote on what the measure does, not on what the petition pitch said.",
+   "x_post": "Massachusetts voters: on Question 8, \"yes\" means ending legal adult-use marijuana sales and \"no\" keeps them. The Super Troopers comedy troupe made a video to explain it. Read the ballot carefully before you vote.",
+   "fb_post": "Heads up, Massachusetts. Question 8 on the November ballot is worded in a way that can trip people up. A \"yes\" vote is a vote to roll back the state's legal adult-use marijuana sales. A \"no\" vote keeps the current dispensary system in place.\n\nThe comedy troupe Broken Lizard, the group behind Super Troopers, made a two-minute video to explain it. It says a \"yes\" vote would end legal sales and bring back penalties for selling marijuana. It also points to earlier Marijuana Moment reporting that petition gatherers used misleading pitches to get signatures.\n\nThe video is advocacy, so weigh it that way. Still, we think the basic lesson is sound. Read the question, know what a \"yes\" or \"no\" actually does, and vote on the substance.\n\nHave you looked at the ballot language yet? Did it make sense to you on the first read?",
+   "open_questions": "The source text cuts off mid-sentence in Soter's closing remarks, so we haven't seen the end of the article. We don't have the exact Election Day date from the source. The petition-tactics claims come from Marijuana Moment's earlier reporting and the pro-\"no\" video; we have no response from the Question 8 campaign or the \"Coalition for a Healthy Massachusetts.\" The article doesn't give the ballot question's official text or who funds either side, beyond saying the funding largely comes from outside the state. Confirm that \"10 years ago\" is right for the voter-approved legalization. Check whether Marijuana Moment, Broken Lizard, or either campaign is a War Party client (disclosure). The source has no veteran or first-responder angle beyond Soter's remarks about law enforcement audiences.",
+   "hashtags": [
+    "Massachusetts",
+    "Question8"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "161862ad6aa2",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 10
+  },
+  "score_why": "Training halt after TACP instructor death in a rappelling demo; safety issue for Airmen, fatal incident, not a policy bill.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Air & Space Forces Magazine",
+  "source_url": "https://www.airandspaceforces.com/air-force-unit-stops-rope-training-tacp-rappelling-death/",
+  "source_title": "Air Force Unit Stops All Rope Training After TACP’s Rappelling Death",
+  "snippet": "The Air Force unit tasked with training Tactical Air Control Party Airmen has halted all rope training events after one of its instructors was killed Oct. 17 in a rappelling demonstration in front of thousands of spectators at a college football game. The post Air Force Unit Stops All Rope Training After TACP's Rappelling Death appeared first on Air & Space Forces Magazine .",
+  "published_at": "2026-10-26T19:18:01Z",
+  "found_at": "2026-10-26T23:08:22Z",
+  "feed": "Air & Space Forces Magazine",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Air Force TACP training unit pauses all rope work after instructor's fatal rappel",
+   "summary": "The Air Force unit that trains Tactical Air Control Party (TACP) Airmen has paused all rappel and rope training and demonstrations. The pause follows the Oct. 17 death of Tech. Sgt. Ian Patterson, an instructor with the 6th Combat Training Squadron, Detachment 2, at Joint Base San Antonio. He fell during a pregame rappel from the Alamodome ceiling, about 180 feet up, before a UTSA-Navy game. The investigation is ongoing.",
+   "why_it_matters": "Airmen in the TACP pipeline and units that run public demonstrations should expect rope training to be on hold while the Air Force looks at what went wrong.",
+   "take": "Pausing training after a loss like this is the right call. You stop, you look hard, and you don't restart until you know why. A 180-foot drop is more than double the height of most military rappel towers, and that is a very different risk from the one the instructors train for every day. Public demonstrations are good for recruiting and community ties, but they should never outrank the risk assessment. We want a clear, public answer on what happened, and we want Patterson's family to get it too.",
+   "x_post": "Air Force TACP training unit has paused all rappel and rope training after Tech. Sgt. Ian Patterson died in a pregame demo at the Alamodome on Oct. 17. The drop was about 180 feet. The investigation continues.",
+   "fb_post": "The Air Force unit that trains Tactical Air Control Party Airmen has paused all rappel and rope training and demonstrations. This follows the death of Tech. Sgt. Ian Patterson on Oct. 17.\n\nPatterson, a 15-year veteran and instructor with the 6th Combat Training Squadron, Detachment 2, at Joint Base San Antonio, died after a rappel from the Alamodome ceiling, about 180 feet up. It was a pregame event at UTSA's Salute to Armed Forces and Veterans night. The Air Force hasn't said how long the pause will last or when the investigation will finish.\n\nOur view: stopping to review is the right call. That height is more than double most military rappel towers, and the risks are not the same as a routine training day. Demonstrations should never outrank safety.\n\nShould units keep doing high-profile demonstrations like this, and what would you want to see in place first?",
+   "open_questions": "Cause of the accident is unknown and the investigation has no completion date. How long the pause will last is unclear. Unknown whether Patterson rehearsed from the Alamodome ceiling beforehand. The article notes heat buildup from friction at great heights in a 2013 Army event, but nothing links it to this accident, so we left it out of the public copy. Details on the equipment used and on the approval and risk review for the event are not in the source. The article says other outlets reported the pause earlier. Patterson's hometown is given as Fort Stewart, Ga. The source is thin on his family and on the Oct. 18 press release. Consider seeking the Air Force release for a fuller tribute.",
+   "hashtags": [
+    "AirForce",
+    "TACP"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "fc07a8ad4682",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 68,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 8
+  },
+  "score_why": "Kadena restricts junior enlisted alcohol and curfew after Marine arrest for murder; affects force discipline and families.",
+  "policy": false,
+  "state": null,
+  "country": "JP",
+  "place": "Kadena Air Base, Okinawa, Japan",
+  "lat": 26.35,
+  "lon": 127.77,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/26/japan-air-base-imposes-junior-enlisted-alcohol-ban-curfew-after-local-murder/",
+  "source_title": "Japan air base imposes junior enlisted alcohol ban, curfew after local murder",
+  "snippet": "After a U.S. Marine was arrested for allegedly murdering a local woman, Kadena Air Base restricted alcohol consumption and implemented a new curfew for E-1 to E-4 personnel.",
+  "published_at": "2026-10-26T16:37:53Z",
+  "found_at": "2026-10-26T23:08:22Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
