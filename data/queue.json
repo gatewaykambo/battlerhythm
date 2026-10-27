@@ -1,58 +1,5 @@
 [
  {
-  "id": "65c83c3b0855",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 77,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 14,
-   "traction": 12,
-   "angle": 12,
-   "timeliness": 10
-  },
-  "score_why": "Hegseth push to testosterone for service members is a policy shift with real health and readiness stakes; veteran editors can weigh in.",
-  "policy": true,
-  "state": null,
-  "country": "US",
-  "place": "Pentagon",
-  "lat": 38.872,
-  "lon": -77.056,
-  "flags": [
-   {
-    "type": "medical_claim",
-    "label": "medical claim",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "The War Horse",
-  "source_url": "https://thewarhorse.org/pentagon-testosterone-readiness-troops/",
-  "source_title": "The Pentagon Wants to ‘Optimize’ Service Members. Will Testosterone Make Them Better Warfighters?",
-  "snippet": "Pete Hegseth leaned in toward the camera. Since the early days of his tenure as secretary of defense, the former Fox News host had been posting clips on social media for the public. But this time, with an amber glow illuminating the American flag in the background, he spoke directly to those under his command [ ] The post The Pentagon Wants to ‘Optimize’ Service Members. Will Testosterone Make Them Better Warfighters? appeared first on The War Horse .",
-  "published_at": "2026-10-13T11:00:00Z",
-  "found_at": "2026-10-13T16:51:25Z",
-  "feed": "The War Horse",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Pentagon launches testosterone screening for troops 30 and older; experts doubt the need",
-   "summary": "Defense Secretary Pete Hegseth announced yearly testosterone screening for service members 30 and older. Younger troops can request a test, and the Defense Department will offer treatment to those who need it. A 2025 Madigan Army Medical Center review of 2.8 million active-duty men found 0.43% had a low-testosterone diagnosis. The Pentagon released its first guidance on Sept. 2, 2026, then withdrew it within a day, calling it a mistake.",
-   "why_it_matters": "Troops may soon be offered testosterone tests and treatment through military health care, and the program raises questions about readiness, health risks, and pressure to \"optimize.\"",
-   "take": "Screening for a real medical problem is fine. But the Pentagon's own research suggests low testosterone is rare in the ranks, and the cause is often something else, like poor sleep or alcohol use. Selling this as \"optimizing\" risks sending healthy troops after treatment they don't need. A first guidance document that was released and pulled in a day doesn't build confidence either. If leaders want trust, they should show the evidence, the plan, and the cost, and they should apply the same standards to men and women.",
-   "x_post": "The Pentagon will screen troops 30+ for low testosterone yearly. But a 2025 Army review found only 0.43% of 2.8M active-duty men had the diagnosis. Is this readiness policy or hype? Experts have doubts.",
-   "fb_post": "The Pentagon is rolling out testosterone screening. Troops 30 and older will be screened every year, younger troops can ask for a test, and the Defense Department will offer treatment to those who need it. Secretary Pete Hegseth says it's about restoring natural capabilities, not artificial enhancement.\n\nHere's the catch. A 2025 review by Madigan Army Medical Center looked at the records of 2.8 million active-duty men. Only 0.43% had a low-testosterone diagnosis, and for many of them it likely traced back to another issue, like diabetes, poor sleep, or alcohol use. The first formal guidance came out Sept. 2 and was pulled within a day as an error. A federal judge has also ordered the Pentagon to explain why it offers hormone therapy to some troops while restricting it for transgender troops.\n\nWe think testing people who are sick makes sense. We worry that \"optimizing\" sends healthy troops chasing treatment they don't need, with real risks and no clear gain for readiness.\n\nIf you're on active duty, what are you hearing in your unit?",
-   "open_questions": "The source text cuts off mid-sentence (\"Just over two weeks later, the Pentagon issued a re...\"), so we don't know the content of the replacement guidance, its date, or how it treats women versus men. We also lack: the program's cost, the start date and rollout by branch, the name of the federal judge or case and any court deadline, and any Pentagon response to the experts' criticism. The Navy officer is anonymous, so the \"10 times a day\" claim is unverified and was left out. The \"highest male standard\" and women-in-ground-combat study are mentioned only in passing and were left out of the draft. Confirm the Madigan study details against the original before publishing.",
-   "hashtags": [
-    "ActiveDuty",
-    "Pentagon"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "42be8dc742bf",
   "status": "expired",
   "tier": "hold",
@@ -2787,7 +2734,7 @@
  },
  {
   "id": "d5e08850ed6f",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": true,
   "on_wire": false,
@@ -2827,7 +2774,7 @@
  },
  {
   "id": "ebea6832192f",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2879,7 +2826,7 @@
  },
  {
   "id": "15346f7e0ec8",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -3237,6 +3184,218 @@
   "published_at": "2026-10-27T09:01:28Z",
   "found_at": "2026-10-27T15:15:34Z",
   "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "04149456383a",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 84,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 12,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Breaking: sailors killed in car crash at NAS Pensacola; direct impact on the force and families.",
+  "policy": false,
+  "state": "FL",
+  "country": "US",
+  "place": "NAS Pensacola, FL",
+  "lat": 30.353,
+  "lon": -87.319,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/2026/10/27/navy-identifies-nas-pensacola-sailors-killed-in-car-crash/",
+  "source_title": "Navy identifies NAS Pensacola sailors killed in car crash",
+  "snippet": "The U.S. Navy shared the names of the service members who died in a Florida car crash early Saturday morning.",
+  "published_at": "2026-10-27T18:56:25Z",
+  "found_at": "2026-10-27T22:57:11Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "fox10tv.com",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTczR0hxdkc3WldDUUUzckQ2QXZURG1zaXdTdm5COHRHbE5fbmVvRzRHaTFHUXpYaXJ0ZzJZWGxxWGFpQ0NOV3M5d0NJUXR6dGJKUG41MlBIbzdWMjN6VDFFSXRfeWNFVloxTVZaN2llZjB5UkhfRi1OLUdnbUJINm9lZFpFX2RnX3kxWnU4U0VlczlILWh6dkdjRF9vUEo0Mi1zeWsydUw3T2NVcHFuX1NvZXFNNWV3MXlN?oc=5",
+    "title": "Navy officials identify NAS Pensacola service members killed in traffic accident"
+   }
+  ],
+  "draft": {
+   "headline": "Navy identifies NAS Pensacola sailors killed in car crash",
+   "summary": "The Navy has released the names of the sailors from Naval Air Station (NAS) Pensacola, Florida, who were killed in a car crash, Military Times reported on Oct. 27, 2026. The deaths are a loss for the base, for their shipmates, and for their families.",
+   "why_it_matters": "Losing sailors off the battlefield hits a unit and a community hard, and it reminds active-duty families how fast a routine day can change.",
+   "take": "We send our condolences to the families, friends, and shipmates of these sailors. A loss like this ripples through a command long after the news cycle moves on. Leaders owe those left behind real support, and the Navy owes them clear, timely information.",
+   "x_post": "The Navy has identified the NAS Pensacola sailors killed in a car crash. Our condolences to their families, friends, and shipmates at Pensacola and across the fleet.",
+   "fb_post": "The Navy has identified the sailors from Naval Air Station Pensacola in Florida who were killed in a car crash, according to Military Times.\n\nEvery loss like this lands on a family first, then on a unit that has to keep standing the watch. Our condolences go out to the families, friends, and shipmates of these sailors.\n\nWe believe the Navy owes grieving families and commands steady support and straight information in the days ahead.\n\nIf you served at Pensacola or knew these sailors, what would you want their shipmates to know right now?",
+   "open_questions": "The source text we received was page code with no article body, so only the headline is confirmed. Still unknown: how many sailors died, their names, ranks, and units, the date, location, and cause of the crash, whether anyone else was hurt, and whether the Navy has said anything about next of kin or support for the command. Please pull the full Military Times article or the Navy release before publishing, and confirm the \"sailors\" wording and the crash details.",
+   "hashtags": [
+    "Navy",
+    "ActiveDuty"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "bbf213ab5bac",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 67,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 10,
+   "traction": 14,
+   "angle": 7,
+   "timeliness": 14
+  },
+  "score_why": "Ongoing SOUTHCOM boat strikes with mounting death toll; major force-employment story with debate.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Caribbean Sea",
+  "lat": 15.0,
+  "lon": -75.0,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/military-drug-boat-240-killed/",
+  "source_title": "US military’s drug boat strikes have now killed at least 240 people",
+  "snippet": "The attack was at least the third deadly strike carried out by U.S. Southern Command this month. The post US military's drug boat strikes have now killed at least 240 people appeared first on Task & Purpose .",
+  "published_at": "2026-10-27T20:31:01Z",
+  "found_at": "2026-10-27T22:57:11Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "fbeb0a6a901f",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 66,
+  "score_parts": {
+   "relevance": 20,
+   "impact": 8,
+   "traction": 14,
+   "angle": 6,
+   "timeliness": 12
+  },
+  "score_why": "Marine indicted for murder in Okinawa; affects US forces abroad and community relations, graphic crime.",
+  "policy": false,
+  "state": null,
+  "country": "JP",
+  "place": "Okinawa, Japan",
+  "lat": 26.5,
+  "lon": 127.95,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/27/us-marine-indicted-over-suspected-murder-robbery-of-woman-in-okinawa/",
+  "source_title": "US Marine indicted over suspected murder, robbery of woman in Okinawa",
+  "snippet": "U.S. Marine Lance Cpl. Devin Jacob Ballard was indicted on Sunday for the murder and robbery of Anna Yagi, a 39-year-old Naha resident.",
+  "published_at": "2026-10-27T17:07:46Z",
+  "found_at": "2026-10-27T22:57:11Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "15c87e06ebee",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "active_duty",
+  "score": 63,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 10,
+   "traction": 12,
+   "angle": 6,
+   "timeliness": 13
+  },
+  "score_why": "Lethal U.S. strike on alleged drug boat; military action with real stakes, but not a force-readiness or personnel story.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Eastern Pacific",
+  "lat": 0.0,
+  "lon": -120.0,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "USNI News",
+  "source_url": "https://news.usni.org/2026/10/27/u-s-forces-kill-5-in-strike-on-suspected-narco-boat",
+  "source_title": "U.S. Forces Kill 5 in Strike on Suspected Narco Boat",
+  "snippet": "Five are dead after U.S. forces struck a suspected narco boat in the Eastern Pacific, U.S. Southern Command announced on Tuesday. “On Oct. 27, under the direction of #SOUTHCOM, Joint Task Force Western Hemisphere executed a lethal, kinetic strike on a go-fast vessel operating along established narco-trafficking routes in the Eastern Pacific,” reads a statement on X. According to SOUTHCOM, unspecified intelligence indicated those operating the boat were trafficking drugs and referred to the individuals killed as “narco-terrorists.” A total of 243 people have been killed as part of the Southern ",
+  "published_at": "2026-10-27T19:42:55Z",
+  "found_at": "2026-10-27T22:57:11Z",
+  "feed": "USNI News",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "11d3a7f08702",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "veterans",
+  "score": 57,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 6,
+   "angle": 5,
+   "timeliness": 10
+  },
+  "score_why": "VA suicide prevention grants to Ohio groups; practical resources for local veterans.",
+  "policy": false,
+  "state": "OH",
+  "country": "US",
+  "place": "Ohio",
+  "lat": 40.4,
+  "lon": -82.9,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "WCPO 9 News",
+  "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYUdKaTZ6TG9va0NLVzhQOVVWRzFkdzMzVEVQZ1NtY09iOEMtWmkwTEg2SkRCY0dKRGF3VndwSjFKRUg2UHkyN2FNQmgzR3YxZENsZl9IUjNReW4yN3A1VlN4SE9OZjJrMTR1V3F3MkNrdE9fbGZ6Uzl1MFdDalZLSXcyajZwMVNSTXRsMzctaUYweDJ0T3hiMHByV2dIU28xLWstcGRyd1hZNUI4a2FoMzNGdHBqRkJsSzFmdDV4aHZ3bVQzVVBJ?oc=5",
+  "source_title": "Six Ohio veteran groups receive $2.5 million in VA grants to boost suicide prevention efforts",
+  "snippet": "Six Ohio veteran groups receive $2.5 million in VA grants to boost suicide prevention efforts WCPO 9 News",
+  "published_at": "2026-10-27T16:37:24Z",
+  "found_at": "2026-10-27T22:57:11Z",
+  "feed": "News search · veterans and VA",
   "also_covered_by": [],
   "draft": null
  }
