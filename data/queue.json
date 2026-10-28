@@ -1,256 +1,5 @@
 [
  {
-  "id": "1954581f153b",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": true,
-  "on_wire": true,
-  "lane": "veterans",
-  "score": 88,
-  "score_parts": {
-   "relevance": 26,
-   "impact": 20,
-   "traction": 13,
-   "angle": 8,
-   "timeliness": 13
-  },
-  "score_why": "COLA increase for retirees and veterans; biggest in four years, direct pay impact.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/pay-benefits/mil-money/2026/10/14/heres-the-2027-cost-of-living-increase-for-retirees-veterans/",
-  "source_title": "Here’s the 2027 cost-of-living increase for retirees, veterans",
-  "snippet": "It’s the biggest increase in four years.",
-  "published_at": "2026-10-14T21:07:42Z",
-  "found_at": "2026-10-14T22:12:29Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "2027 COLA: Military retirees and VA beneficiaries get a bump in January",
-   "summary": "The Social Security Administration announced the 2027 cost-of-living adjustment (COLA) on Wednesday. It also sets the raise for military retirees and veterans' benefits. The increase starts in January and is 0.8 points above 2026's 2.8%. A retiree drawing $2,500 a month gets about $90 more. A veteran receiving $1,500 a month gets about $54 more.",
-   "why_it_matters": "Military retirees and veterans on disability compensation, dependency and indemnity compensation (DIC), or clothing allowances will see a larger monthly payment starting in January.",
-   "take": "A COLA is not a bonus. It is meant to keep a payment from losing ground to rising prices, and that is how we see it. The 2024 law that ties VA benefit increases to the Social Security rate was the right call. It keeps the raise automatic, so veterans don't have to wait on Congress for it. Keep an eye on the CPI, though. If prices outrun the formula, the promise to those who served gets a little thinner.",
-   "x_post": "2027 COLA is set. Military retirees and veterans' benefits rise in January, 0.8 points above 2026's 2.8%. Example: about $90/month more on $2,500 retired pay, about $54 more on $1,500 in VA benefits.",
-   "fb_post": "The 2027 cost-of-living adjustment is out, and it covers more than Social Security. It also sets the raise for military retired pay and for veterans' benefits. That includes VA disability compensation, clothing allowances, and dependency and indemnity compensation.\n\nThe increase starts in January and is 0.8 points above 2026's 2.8%. A military retiree getting $2,500 a month will see about $90 more. A veteran getting $1,500 a month in benefits will see about $54 more. Congress tied VA increases to the Social Security rate in 2024.\n\nOur view: a COLA keeps pay in step with inflation. It isn't a gift. It's the system doing what it promised. If you have a \"my Social Security\" account, you can see your notice online starting in late November.\n\nDoes the new number cover what you're actually paying for groceries, rent, and gas?",
-   "open_questions": "The article says the 2027 COLA is \"0.8% higher than the 2.8% COLA in 2026\" but never states the final percentage. Both dollar examples ($90 on $2,500 and $54 on $1,500) work out to 3.6%, which matches 2.8% + 0.8 points. Please confirm 3.6% against the SSA release before we publish it. The article gives no exact January payment dates for retirees or VA. It says about 72 million Social Security beneficiaries are covered but gives no count of VA or retiree recipients. The average $75 Social Security increase is not in our public copy.",
-   "hashtags": [
-    "VABenefits",
-    "COLA"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "70094832b664",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 79,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 16,
-   "traction": 12,
-   "angle": 8,
-   "timeliness": 12
-  },
-  "score_why": "Soldier pay concern over cyber mastery program; Army says no wage cuts.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/industry/techwatch/2026/10/14/nobodys-losing-pay-army-cyber-command-head-says-new-tech-mastery-program-wont-affect-troop-wages/",
-  "source_title": "‘Nobody’s losing pay’: Army Cyber Command head says new tech mastery program won’t affect troop wages",
-  "snippet": "The head of U.S. Army Cyber Command assured soldiers their pay would be unaffected after a new cyber mastery program reportedly proposed wage cuts.",
-  "published_at": "2026-10-14T15:30:00Z",
-  "found_at": "2026-10-14T22:12:29Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Army says new cyber pay program won't cut soldiers' wages, keeps old incentive for a year",
-   "summary": "Lt. Gen. Christopher Eubank, head of Army Cyber Command, says no soldier will lose pay under the Cyber Mastery Incentive program, which began Oct. 1. Reports had warned that some basic-tier cyber soldiers could lose up to $1,000 a month. Eubank says the Army will keep the existing cyber assignment incentive pay for the next year while it refines the new program.",
-   "why_it_matters": "Cyber soldiers who feared a pay cut under the new system now have the Army's public word that their wages are protected for at least the next year.",
-   "take": "We're glad the Army heard the alarm and backed off. But a one-year fix is a patch, not a promise. Eubank himself said the program put soldiers' wages at risk when it first rolled out. Cyber operators are hard to train and easy to lose to the private sector. Pay should be predictable, and soldiers should get the numbers in writing before they plan a budget around them.",
-   "x_post": "Army Cyber Command's Lt. Gen. Eubank says nobody loses pay under the new Cyber Mastery Incentive program. The Army will keep the older cyber assignment pay for a year while it fixes the new one. A patch, not a permanent answer.",
-   "fb_post": "The Army says its new pay program for cyber soldiers won't cut anyone's wages.\n\nThe Cyber Mastery Incentive program started Oct. 1. Reports said basic-level soldiers could lose as much as $1,000 a month, while master-tier soldiers would gain $100 to $250. Lt. Gen. Christopher Eubank, who leads Army Cyber Command, said at the AUSA conference that the Army will keep paying the existing cyber assignment incentive, which ranges from $200 to $1,500, for the next year. That covers the gap while the new program is refined.\n\nWe're glad the Army responded. But a one-year fix is not a long-term promise, and Eubank acknowledged the rollout put pay at risk. Cyber talent is hard to build and hard to keep, so soldiers deserve clear numbers they can count on.\n\nAre you in a cyber field? Have you seen your new pay numbers in writing yet?",
-   "open_questions": "The source does not say where the money for the new program will come from. It notes the Senate is still working on the National Defense Authorization Act and Congress is in recess. It is also unclear what happens to pay after the one-year extension of cyber assignment incentive pay. The source gives no confirmation of the reported pay-loss figures ($12,000 a year for basic analysts and operators, $850 a month for developers) beyond \"reports.\" It also doesn't say which outlets made those reports. The article uses both \"C-MIP\" and \"CMIC\" for the program, and says the program began Oct. 1 but also that it \"first rolled out in June.\" Eubank's \"wasn't the case\" denial is also unclear: does it mean the cuts were never planned, or that they were averted by the fix? Pugh's quote refers to \"OSW,\" which the source does not spell out. Check the Army's own guidance and a pay chart before publishing.",
-   "hashtags": [
-    "ArmyCyber",
-    "MilitaryPay"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "9ce0345f44e9",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 71,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 16,
-   "traction": 11,
-   "angle": 9,
-   "timeliness": 13
-  },
-  "score_why": "Pentagon drone command and $350B defense push tied to reconciliation bill; developing budget story affecting the force.",
-  "policy": true,
-  "state": null,
-  "country": "US",
-  "place": "Pentagon",
-  "lat": 38.872,
-  "lon": -77.056,
-  "flags": [],
-  "source": "Federal News Network",
-  "source_url": "https://federalnewsnetwork.com/defense-main/2026/10/hegseth-ties-new-drone-command-to-uncertain-reconciliation-bill/",
-  "source_title": "Hegseth ties new drone command to uncertain reconciliation bill",
-  "snippet": "The Pentagon is pursuing at least $350 billion more for defense “regardless of what happens” in the midterm elections on Nov. 3, the secretary said.",
-  "published_at": "2026-10-14T17:58:44Z",
-  "found_at": "2026-10-14T22:12:29Z",
-  "feed": "Federal News Network",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Hegseth: Pentagon's new drone command depends on unpassed spending bill",
-   "summary": "Defense Secretary Pete Hegseth said Oct. 14 that the Pentagon plans to fund its new Autonomous Warfare Command through a Republican reconciliation bill that has no clear path to passage. He wants at least $350 billion in that bill, including more than $50 billion for autonomy and robotics. He said the push continues no matter how the Nov. 3 midterms turn out.",
-   "why_it_matters": "Drones and autonomy are the Pentagon's stated top priority, so whether this money arrives, or gets pulled from other accounts, could shape budgets, programs, and training across the services.",
-   "take": "Building a new command on money Congress hasn't approved is a gamble, and the secretary's own comptroller is already talking about a backup plan. That backup would likely mean cuts elsewhere in the budget, and the people who feel those cuts are usually in the units, not the briefing rooms. We'd like to see the Pentagon say plainly what it would trade away if the bill stalls. Going from 1,000 drones to a million is a big promise, and it needs a funding plan that doesn't hinge on an election.",
-   "x_post": "Hegseth says the Pentagon will fund its new Autonomous Warfare Command through a reconciliation bill that has no clear path to passage. The backup plan would likely mean cuts elsewhere. Who pays if it stalls?",
-   "fb_post": "Defense Secretary Pete Hegseth said Wednesday that the Pentagon plans to stand up its new Autonomous Warfare Command using money from a Republican reconciliation bill. That bill is a large mandatory spending package, and it has no clear path to approval. He wants at least $350 billion in it, including more than $50 billion for autonomy and robotics. He says the Pentagon will keep pushing \"regardless of what happens\" in the Nov. 3 midterms.\n\nWhy it matters: the bill faces headwinds. Fiscal hawks may balk at adding to the debt without offsets. Others point out the Pentagon already has a $1.2 trillion base budget request for 2027 and got $156 billion in last summer's One Big Beautiful Bill. If the bill fails, the Pentagon comptroller says the request could move into the base budget. That would likely mean cuts elsewhere. The command's self-imposed stand-up date is Oct. 1, 2027.\n\nOur view: a new command shouldn't depend on an unpassed bill. The Pentagon should say what it would give up if the money doesn't come through.\n\nShould the services fund a priority like drones by trading away other programs, or should Congress add the money outright?",
-   "open_questions": "The source does not explain what Project Agincourt is beyond being the predecessor to the command, or give a timeline for the reconciliation bill text. It does not say whether the $50B+ for autonomy is part of the $350B minimum or additional. It does not say which areas of the base budget might be cut under the backup plan. The \"1,000 to 100,000 to a million\" drone figures are Hegseth's goals; the source gives no timeframe. The source also contained an unrelated WTOP webinar ad, which was left out.",
-   "hashtags": [
-    "Pentagon",
-    "Drones"
-   ],
-   "deadlines": [
-    {
-     "date": "2026-11-03",
-     "label": "Midterm elections affecting reconciliation bill prospects"
-    },
-    {
-     "date": "2027-10-01",
-     "label": "Pentagon's target to establish Autonomous Warfare Command"
-    }
-   ]
-  }
- },
- {
-  "id": "43983b571ba1",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 70,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 12,
-   "traction": 9,
-   "angle": 11,
-   "timeliness": 10
-  },
-  "score_why": "National Guard leaders on overused Guard activations; useful for a veteran-editor take but not a direct benefit change.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/14/addicted-to-the-guard-generals-call-for-traffic-cop-to-control-state-governors-demands/",
-  "source_title": "‘Addicted to the Guard’: Generals call for ‘traffic cop’ to control state governor’s demands",
-  "snippet": "One National Guard leader proposed a new \"traffic cop\" to filter state and federal activation and employment requests as the Guard faces increasing demand.",
-  "published_at": "2026-10-14T21:00:00Z",
-  "found_at": "2026-10-14T22:12:29Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Florida Guard general: demands on troops are triple what the force can sustain",
-   "summary": "At the Association of the United States Army annual meeting, Florida Guard Maj. Gen. Robert Carruthers said missions at the state and federal levels add up to more than three times the force's true capacity. Funding hasn't kept up, he said, and equipment readiness fell from 90% to 27% in six weeks after a maintenance stand-down. Maj. Gen. Jack James urged a \"traffic cop\" to prioritize requests.",
-   "why_it_matters": "If Guard units are stretched thin by domestic missions, they may not be ready for hurricane response or for a mobilization to a overseas conflict, and that affects every soldier and family tied to them.",
-   "take": "We think these generals are doing something useful: saying out loud what a unit can and can't do. A mission without money for maintenance and training doesn't build readiness. It burns it down. If governors, the Pentagon and the federal agencies all want the Guard, someone has to set priorities and someone has to pay for them. The time to have that argument is now, not on the day of mobilization.",
-   "x_post": "Florida Guard's Maj. Gen. Carruthers says demands on the force run more than 3x its true capacity. After a stand-down, equipment readiness fell from 90% to 27% in six weeks. Other generals want a \"traffic cop\" to prioritize missions.",
-   "fb_post": "Senior Guard leaders used the Association of the United States Army annual meeting to sound an alarm. Florida Guard Maj. Gen. Robert Carruthers said the missions piled on his force add up to more than three times its true capacity. That includes about 800 soldiers on federal orders supporting ICE, plus troops in Washington, D.C.\n\nThe cost shows up in the motor pool. After a maintenance stand-down, he said, equipment readiness for infantry brigade combat team gear dropped from 90% to 27% in six weeks, because units aren't funded to maintain it all the time. He asked what Florida would lose first: transportation companies needed for hurricane relief, or aviation.\n\nMaj. Gen. Jack James proposed a \"traffic cop\" to filter and prioritize requests. Lt. Gen. Jonathan Stubbs, who directs the Army National Guard, said the issue will force hard conversations between adjutants general and governors within the next year.\n\nWe think the generals are right to say it plainly. Missions need funding, and priorities need to be set before a crisis. Should one office decide who gets the Guard when requests collide?",
-   "open_questions": "The article text starts mid-story, so we don't have the opening figures, such as how many Florida Guard members are on state orders, or the exact definition behind \"more than three times capacity.\" The source says the governor is \"presumably\" Ron DeSantis; Carruthers didn't name him in the quoted text, so the draft doesn't name him. Did any state or federal official respond? Who would staff and run the proposed \"traffic cop\" role, and does it need legislation or Pentagon policy? The article cites $1.4 billion for D.C. deployments through January 2029, but not the source of that estimate; it is not in the draft. The \"800 on federal orders\" figure appears to refer to Florida, but the full sentence is cut off; please confirm.",
-   "hashtags": [
-    "NationalGuard"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "7f54c126fb05",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 70,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 10,
-   "traction": 10,
-   "angle": 6,
-   "timeliness": 14
-  },
-  "score_why": "Absentee voting reminder for service members ahead of Nov. 3 election; timely but service-utility content.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/14/voting-by-absentee-ballot-its-time/",
-  "source_title": "Voting by absentee ballot? It’s time.",
-  "snippet": "If you're a service member or military family member and plan to vote by absentee ballot in the Nov. 3 election, it's time to take action.",
-  "published_at": "2026-10-14T20:30:25Z",
-  "found_at": "2026-10-14T22:12:29Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Absentee voting deadlines are close: what service members and families need to do now",
-   "summary": "Mid-October is late, but some states still accept voter registration. The Federal Post Card Application (FPCA) lets service members and families register and request a ballot at once. Anyone who asked for a ballot and hasn't received it can send a Federal Write-In Absentee Ballot. Defense Secretary Pete Hegseth ordered a one-day stand down, no later than Oct. 15, so troops have time to file.",
-   "why_it_matters": "Deadlines differ by state and some fall within days, so a service member or spouse who waits may lose the chance to vote.",
-   "take": "Giving troops a day on duty time to handle voter paperwork is the right call. The right to vote is one of the things service members defend, and it shouldn't hinge on mail delays or a confusing form. Changing the FPCA before asking for public comment was the wrong order. Clear notice to the states that old forms still count helps, but the Defense Department should get this process right the first time.",
-   "x_post": "Absentee deadlines are close. The FPCA registers you and requests a ballot. If your ballot hasn't arrived, use the Federal Write-In Absentee Ballot. Check your state's deadline at FVAP.gov today. Troops get a stand down by Oct. 15 to file.",
-   "fb_post": "Voting absentee this year? Don't wait.\n\nDeadlines vary by state, but some still accept registration in mid-October. The Federal Post Card Application (FPCA) lets you register and request a ballot in one form. If you requested a ballot and it hasn't shown up, the Federal Write-In Absentee Ballot is the backup, and states must accept it if it meets requirements. Secretary of Defense Pete Hegseth has ordered a one-day stand down, no later than Oct. 15, so troops have time to complete the FPCA.\n\nBallots mailed from overseas APO and FPO addresses get free Priority Mail Express with tracking. Your state's rules are at FVAP.gov.\n\nOne more thing: the FPCA was changed this summer, and the update removed the category for citizens who have never lived in the U.S. The old form is still valid, and you don't need to resubmit if yours is on file. The Defense Department is taking public comment on the change through Nov. 9.\n\nDid your unit give you time to handle your ballot? Tell us how it went.",
-   "open_questions": "Source says deadlines are as of mid-October and are only a spot check of five states (CA, ME, MI, MN, TX). The year is not stated in the text, though the \"2027 cost-of-living increase\" link suggests 2026. Confirm the Oct. 15 stand down date has not passed at publication, and update if so. Source does not say what specific reasons DoD gave for removing the FPCA category, or whether DoD responded to the advocates' concerns. Verify the Federal Register comment deadline (Nov. 9) and the state deadlines on FVAP.gov before publishing. Maine says 12 p.m. Nov. 2 and Michigan 2 p.m. Oct. 31, and the time zones are not given.",
-   "hashtags": [
-    "MilitaryVoting",
-    "FVAP"
-   ],
-   "deadlines": [
-    {
-     "date": "2026-10-15",
-     "label": "DoD stand down for FPCA filing, no later than"
-    },
-    {
-     "date": "2026-10-19",
-     "label": "California registration deadline (UOCAVA)"
-    },
-    {
-     "date": "2026-10-23",
-     "label": "Texas ballot request deadline (UOCAVA)"
-    }
-   ]
-  }
- },
- {
   "id": "0d2711f1ad94",
   "status": "expired",
   "tier": "report",
@@ -3358,5 +3107,108 @@
   "feed": "News search · veterans and VA",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "b5ff100fbec7",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 84,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 16,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Iran war cost jumps past $47B per Pentagon data; major force-level news, developing.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Iran",
+  "lat": 32.4,
+  "lon": 53.7,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/video/2026/10/28/cost-estimate-for-iran-war-rises-to-more-than-47-billion/",
+  "source_title": "Cost estimate for Iran war rises to more than $47 billion",
+  "snippet": "The U.S. military has spent about 25% more on the war in Iran than estimates projected in July, according to Pentagon data obtained by Reuters.",
+  "published_at": "2026-10-28T20:16:47Z",
+  "found_at": "2026-10-28T23:04:23Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "Military Times",
+    "url": "https://www.militarytimes.com/news/2026/10/28/us-costs-of-iran-war-rise-to-over-47-billion-according-to-pentagon-estimate/",
+    "title": "US costs of Iran war rise to over $47 billion, according to Pentagon estimate"
+   },
+   {
+    "source": "Federal News Network",
+    "url": "https://federalnewsnetwork.com/defense-news/2026/10/iran-wars-cost-to-american-taxpayers-grows-to-an-estimated-47-1-billion/",
+    "title": "Iran war’s cost to American taxpayers grows to an estimated $47.1 billion"
+   }
+  ],
+  "draft": {
+   "headline": "Pentagon puts Iran war cost at $47.1 billion, up $3.5 billion since September",
+   "summary": "The Pentagon told Congress the war with Iran has cost $47.1 billion as of Oct. 16, up about $3.5 billion since early September, according to U.S. Central Command figures obtained by The Associated Press. About $29 billion is for replacing munitions. The estimate leaves out damage to U.S. bases in the Middle East, which Iran has hit with missiles and drones.",
+   "why_it_matters": "Troops carry the war's human cost, and the bill for replacing weapons and rebuilding bases will shape budget fights over pay, readiness and care for years.",
+   "take": "We want a full count, not a partial one. The $47.1 billion leaves out damage to bases where our people live and work, and the Navy's listed costs fell by about a third while a third carrier is headed to the region. Taxpayers and the troops doing the job are owed numbers that add up. If Congress is asked to fund this war, it should demand the whole bill first.",
+   "x_post": "Iran war cost estimate: $47.1B as of Oct. 16, up $3.5B since early September. About $29B is munitions replacement. Base damage isn't counted. The Pentagon lists 21 service members killed and 865 wounded.",
+   "fb_post": "The Pentagon has told Congress the Iran war has cost $47.1 billion as of Oct. 16. That is about $3.5 billion more than in early September. Most of it, around $29 billion, is for replacing munitions, especially defensive missile interceptors like those fired by Patriot and THAAD systems. Operations account for about $11.9 billion, and equipment losses for about $6 billion.\n\nThe figure does not include damage to U.S. bases in the region. A Pentagon inspector general report last month said Iranian strikes damaged or destroyed hundreds of structures at U.S. bases in eight countries. The official tally lists 21 service members killed and 865 wounded. That count includes some deaths not directly tied to combat. A third aircraft carrier and thousands more troops are also headed to the region.\n\nWe think the public and the troops are owed a complete accounting, base damage included, before Congress is asked to write another check. The White House is seeking a $95 billion package that would help fund the war and other priorities.\n\nWhat should Congress demand to see before it votes on more war funding?",
+   "open_questions": "Military Times source text was unreadable page code, so this draft rests on the AP report (via Federal News Network). Please check Military Times for anything extra. The Pentagon, Navy and CENTCOM did not explain why Navy costs fell from $2.2B to $1.45B; the Pentagon had not responded to AP. The AP says midterms are \"next week\" on a Tuesday but gives no date, so no deadline is listed. Confirm the date before adding one. The source also has a Nov. 9 FEHB/FEDVIP webinar promo, which looks like an ad and is unrelated, so it was left out. The $95B package has no stated timeline or vote date.",
+   "hashtags": [
+    "IranWar",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "abb129b1995b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 80,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 12,
+   "angle": 9,
+   "timeliness": 10
+  },
+  "score_why": "Tricare Young Adult premiums up ~11% in 2027 hits military families directly; cost increase.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/2026/10/28/premiums-for-tricare-young-adult-to-rise-by-an-average-11-in-2027/",
+  "source_title": "Premiums for Tricare Young Adult to rise by an average 11% in 2027",
+  "snippet": "Premiums for a health program that covers military dependents ages 21 to 26 will range from nearly $400 to almost $900 a month next year.",
+  "published_at": "2026-10-28T19:59:35Z",
+  "found_at": "2026-10-28T23:04:23Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Tricare Young Adult premiums to rise 11% on average in 2027",
+   "summary": "Premiums for Tricare Young Adult will rise by an average of 11% in 2027, Military Times reports. The increase takes effect next year. Because the figure is an average, the change for individual plans may be higher or lower than 11%.",
+   "why_it_matters": "Military families who rely on Tricare Young Adult coverage should expect to pay more in 2027 and plan their budgets now.",
+   "take": "An 11% average jump is real money for a family. Health coverage for the children of those who serve is part of the promise, and price changes should come with plain-language notice and a clear explanation. Families should check their own rates as soon as they are posted, and ask questions early rather than after the first bill.",
+   "x_post": "Tricare Young Adult premiums will rise an average of 11% in 2027, per Military Times. Check your family's rate and plan your budget now.",
+   "fb_post": "Tricare Young Adult premiums will go up by an average of 11% in 2027, according to Military Times.\n\nThat matters for military families who count on this coverage. An average means some families may see a bigger change and some a smaller one, so check your own rate when it is posted.\n\nOur view: health coverage for the children of those who serve is part of the promise. Price changes should come with clear, plain-language notice.\n\nDoes your family use Tricare Young Adult? How are you planning for the increase?",
+   "open_questions": "The source text we received was page code with no article body; only the headline facts (average 11% increase, 2027) are confirmed. Still needed from the full Military Times article or Tricare/DHA: current and new dollar premiums for each plan tier, the exact effective date, the reason for the increase, how many people are enrolled, who sets the rate, and whether any enrollment or notice deadlines apply. Also confirm whether the 11% is average across plans or across enrollees. Place of reporting is unknown.",
+   "hashtags": [
+    "Tricare",
+    "MilitaryFamilies"
+   ],
+   "deadlines": []
+  }
  }
 ]
