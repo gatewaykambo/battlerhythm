@@ -656,5 +656,45 @@
    ],
    "deadlines": []
   }
+ },
+ {
+  "id": "42be8dc742bf",
+  "status": "expired",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 60,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 8,
+   "angle": 8,
+   "timeliness": 8
+  },
+  "score_why": "Police restraint death and failure to call mental health team; accountability and crisis-response policy issue for responders.",
+  "policy": false,
+  "state": "CA",
+  "country": "US",
+  "place": "Elk Grove, CA",
+  "lat": 38.409,
+  "lon": -121.372,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Sacramento Bee",
+  "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5STzh5bGlRYWtKbDZzNnA1MWtEVTB6ZUJveGRqV01uRWFwNzFXRkVxWjljalEzX2hLbGtsTlpBaUs5eVJxTDdYekRQOXlWOWR1TzlCV0ZkNkNrck40ZzBqbGhxc0JaZ9IBZkFVX3lxTE9mc0VlVk5rTFpkSGFSOU9kcngwbjdKS0VvVDBPb01BcXFPUHRzTWRLVzVPQTBpNFVvVmUzdG1GX0VFYUZLcVJqNG5PUzV0MnhZSVlGWkM0aXE5WFdGVnVlU2hubjNYdw?oc=5",
+  "source_title": "Elk Grove Police did not call mental health team for man who died after restraint",
+  "snippet": "Elk Grove Police did not call mental health team for man who died after restraint Sacramento Bee",
+  "published_at": "2026-10-13T23:11:31Z",
+  "found_at": "2026-10-13T23:19:36Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
