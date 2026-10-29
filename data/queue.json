@@ -1,159 +1,5 @@
 [
  {
-  "id": "0d2711f1ad94",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "veterans",
-  "score": 78,
-  "score_parts": {
-   "relevance": 26,
-   "impact": 20,
-   "traction": 12,
-   "angle": 10,
-   "timeliness": 10
-  },
-  "score_why": "Direct impact on VA disability pay via projected 2027 COLA; high practical value for veterans and families.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "newsweek.com",
-  "source_url": "https://www.newsweek.com/2027-cola-increase-what-means-va-disability-benefits-12571215",
-  "source_title": "2027 COLA Increase : What It Means for VA Disability Benefits",
-  "snippet": "",
-  "published_at": "2026-10-15T12:30:00Z",
-  "found_at": "2026-10-15T14:10:06Z",
-  "feed": "GDELT · veterans",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "3.6% COLA announced for 2027; VA disability raise still needs Congress",
-   "summary": "The Social Security Administration announced a 3.6 percent cost-of-living adjustment (COLA) for 2027. VA disability compensation is tied to it, and the raise would reach more than 6 million veterans. Congress still has to approve the VA increase. If it does, the new rates start December 1, 2026, and are paid in early January 2027.",
-   "why_it_matters": "If Congress acts, veterans on VA disability compensation get a raise automatically, with no new claim, but the rates are not final until the bill is enacted.",
-   "take": "A 3.6 percent bump is real money, and it is the biggest since 2023. For a veteran rated 100 percent with no dependents, that is about $1,700 over a year. But the raise is not final until Congress passes the bill. This is an earned benefit keeping up with prices, not a gift, and lawmakers should get it done early and without drama. Until then, treat the new numbers as projected.",
-   "x_post": "SSA set the 2027 COLA at 3.6%. VA disability pay is tied to it, but Congress must still approve the raise. If it does, new rates start Dec. 1, 2026. No new claim needed. A 50% rating with no dependents would gain about $40.78 a month.",
-   "fb_post": "The Social Security Administration announced a 3.6 percent cost-of-living adjustment for 2027. That is up from 2.8 percent this year and the largest since 2023.\n\nVA disability compensation follows the COLA, so more than 6 million veterans are in line for a raise. Example: a 50 percent rating with no dependents would go from $1,132.90 to about $1,173.68 a month. At 100 percent, it would go from $3,938.58 to about $4,080.37.\n\nOne catch: Congress still has to approve the VA increase, and as of October 15 the bill had not been enacted. If it passes, the new rates start December 1, 2026, and the higher payment arrives in early January 2027. Veterans already getting compensation do not need to file anything.\n\nWe say this is an earned benefit keeping pace with prices, and it should not be left hanging. Will the raise cover what you are paying for groceries, rent, and fuel?",
-   "open_questions": "Newsweek's story was produced with an AI assistant. The VA has not yet published official 2027 payment tables, so the dollar figures are projections, and we should verify them against official VA rate tables once they are out. We should check the status of the Veterans' Compensation Cost-of-Living Adjustment Act of 2026 and any vote schedule. The source doesn't say when Congress is expected to vote. The source doesn't give a figure for survivor benefits (DIC) either.",
-   "hashtags": [
-    "VADisability",
-    "COLA"
-   ],
-   "deadlines": [
-    {
-     "date": "2026-12-01",
-     "label": "Proposed 2027 VA COLA effective date, if Congress approves"
-    },
-    {
-     "date": "2027-01-01",
-     "label": "Expected start of higher December-rate payments (early January)"
-    }
-   ]
-  }
- },
- {
-  "id": "4361c2c1d947",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "veterans",
-  "score": 76,
-  "score_parts": {
-   "relevance": 26,
-   "impact": 12,
-   "traction": 14,
-   "angle": 14,
-   "timeliness": 3
-  },
-  "score_why": "First-person veteran account of a breast lump found in deployment; strong women-veteran health angle but older story.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Afghanistan",
-  "lat": 33.939,
-  "lon": 67.71,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "The War Horse",
-  "source_url": "https://thewarhorse.org/breast-cancer-afghanistan-mission-nurse/",
-  "source_title": "In Afghanistan, I Put the Mission Ahead of Everything — Even a Lump in My Breast",
-  "snippet": "I was lying on my rack in a crowded tent in Afghanistan, watching an old episode of Project Runway on my computer. I rested my hands on my chest and felt something unfamiliar through my shirt: a lump in my left breast that had seemingly appeared overnight. It was hard, immobile, and painless. As a [ ] The post In Afghanistan, I Put the Mission Ahead of Everything — Even a Lump in My Breast appeared first on The War Horse .",
-  "published_at": "2026-10-15T11:00:00Z",
-  "found_at": "2026-10-15T14:10:06Z",
-  "feed": "The War Horse",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Army nurse in Afghanistan hid a breast lump for months to stay on mission",
-   "summary": "An Army nurse deployed to Afghanistan writes in The War Horse that she found a hard lump in her left breast and told no one for months, fearing she would let her team down. A friend pushed her to get it checked. An ultrasound found a solid mass, and she was evacuated, then treated with chemotherapy and radiation. She later had a child through IVF.",
-   "why_it_matters": "Service members and their families can see how the pull to put the mission first can delay care, and why military medicine and unit culture need to make speaking up feel safe.",
-   "take": "We don't read this as a story about one person's choices. We read it as a story about a culture that trains people to put the mission first, then leaves them afraid that asking for care looks like weakness. She feared being seen as someone \"trying to get out of\" an obligation. Leaders at every level should make it clear that a service member who reports a health problem is not shirking duty. The military also owes its people, women especially, strong cancer care and fertility support, and it should treat that care as earned, not as a favor.",
-   "x_post": "An Army nurse in Afghanistan found a breast lump and told no one for months. She didn't want to let her team down. Her story shows how mission-first culture can delay care, and why leaders must make speaking up safe.",
-   "fb_post": "An Army nurse deployed to Afghanistan found a hard, painless lump in her left breast. She kept quiet about it for months. She feared that leaving would look like she wasn't dedicated enough, and she didn't want to disrupt her team's operations or leave schedules.\n\nA friend finally talked her into getting it checked. A portable ultrasound showed a solid mass. She was evacuated through Camp Dwyer and Bagram Airfield to Germany. Chemotherapy and radiation followed. She was 36 and had planned to start a family. She later had a baby girl through IVF.\n\nHer essay in The War Horse shows how the habits that make good service members can also keep them from asking for help. We think leaders at every level should make it plain that reporting a health problem is not shirking duty. Troops who get sick on deployment have earned strong, timely care.\n\nHave you seen the mission-first mindset get in the way of someone getting care? What would have changed it?",
-   "open_questions": "The article text is cut off partway through, so we have not seen how the essay ends or any policy points the author may make. The author's byline is not in the text we have. Only a photo credit to Ellen Schimmels appears, so please confirm the author's name and rank before we name her. The essay does not say the year of the deployment or her exact Army component. It does not say whether the delay in care affected her treatment outcome, and the draft makes no claim about that. The author's current health status is not stated in the portion we have. No War Party client is named.",
-   "hashtags": [
-    "Veterans",
-    "BreastCancer"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "4c48e99e7146",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 74,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 14,
-   "traction": 10,
-   "angle": 9,
-   "timeliness": 10
-  },
-  "score_why": "Military parents blocked from teens' medical records; family benefit issue with a policy fix in progress.",
-  "policy": true,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/14/us-army-to-address-parents-blocked-access-to-teen-medical-records/",
-  "source_title": "US Army to address parents’ blocked access to teen medical records",
-  "snippet": "Military parents face barriers in getting access to the medical records of their children aged 13 to 18.",
-  "published_at": "2026-10-15T10:00:00Z",
-  "found_at": "2026-10-15T14:10:06Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Military parents lose access to teens' medical records at 13; fix in the works",
-   "summary": "Lt. Gen. Mary K. Izaguirre said at the Association of the United States Army annual meeting that, under current department policy, parents lose access to a child's medical records once the child turns 13. Parents must visit a military treatment facility's patient administration office with their teen to sign a consent form. She called that a barrier and said work with the Defense Health Agency and Health and Human Services is underway.",
-   "why_it_matters": "Military parents managing a teenager's health care now face extra steps in person at a clinic, and a fix could save them that trip.",
-   "take": "We're glad a senior officer said this out loud. A parent who can't see a 14-year-old's records without a trip to the clinic and a signed form is dealing with a paperwork problem, not a privacy one. Privacy rules for teens matter, but the system should let families opt in easily. Talk is cheap, so we'll be watching for a real change, not just another forum answer.",
-   "x_post": "Military parents lose access to a child's medical records at age 13. To get it back, they must go to a clinic with their teen to sign a consent form. Lt. Gen. Izaguirre calls it a barrier and says DHA and HHS are working on it.",
-   "fb_post": "Under current department policy, military parents lose access to a child's medical records when the child turns 13. Lt. Gen. Mary K. Izaguirre said so at the Association of the United States Army annual meeting.\n\nKids also can't get ID cards to log in to DEERS, the enrollment system, until they are 18. So parents have to go to the patient administration office at a military treatment facility, with their teen, and have the teen sign a consent form. Izaguirre called that \"a barrier.\" She said the Army is working with the Defense Health Agency and the Department of Health and Human Services on it.\n\nResearchers at Feedback, who reviewed military family comments sent to the Federal Register, said they were surprised how often the issue came up, and not just from one base.\n\nWe think a parent shouldn't need an in-person visit to see a teen's records. Teen privacy matters, but the process should be simple. Have you run into this? What happened?",
-   "open_questions": "Source does not say: what the fix will be or when; whether this requires a policy change, a DoD change, or a change in law; which privacy laws are involved; Izaguirre's exact title and service; where AUSA was held. Headline from source said \"US Army to address\" but Izaguirre only said work is underway with DHA and HHS, so the commitment level is unclear. The article names 117 Federal Register comments in 2026, but we don't know how many mention medical records. Consider confirming with DHA. Nov. 3 absentee voting appears only as an unrelated teaser, so no deadline was listed.",
-   "hashtags": [
-    "MilitaryFamilies",
-    "Tricare"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "19da0d83b6c6",
   "status": "expired",
   "tier": "report",
@@ -3207,6 +3053,52 @@
    "hashtags": [
     "Tricare",
     "MilitaryFamilies"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "5caf2b0ab4c3",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Hegseth fires Joint Chiefs planner over press leaks; breaking leadership and force-governance story.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/joint-chiefs-planner-ousted/",
+  "source_title": "Hegseth fires top planner on Joint Chiefs over claims he spoke to press",
+  "snippet": "Lt. Gen. Brett Sylvia is under investigation for giving information to the press, a defense official said. The post Hegseth fires top planner on Joint Chiefs over claims he spoke to press appeared first on Task & Purpose .",
+  "published_at": "2026-10-29T13:53:50Z",
+  "found_at": "2026-10-29T16:02:35Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Pentagon fires Joint Chiefs' top planner, citing alleged leaks to the press",
+   "summary": "Defense Secretary Pete Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Chiefs of Staff's director for strategy, plans and policy, this week. A Pentagon official says Sylvia is under investigation for giving reporters information about the Iran and Russia-Ukraine wars, and that he failed three polygraph tests. The case has been referred to the Justice Department. No replacement had been named as of Thursday.",
+   "why_it_matters": "The Joint Chiefs' lead planner job is empty while the U.S. is at war with Iran, and the firing is the latest in a run of senior officers pushed out.",
+   "take": "Protecting classified information is a real duty, and a general who breaks it should answer for it. But so far all we have is the Pentagon's account of the case. An investigation and the courts exist so that accusations get tested, not just announced. We also see a pattern: top officers keep leaving, press access keeps tightening, and the job that matches policy to the force sits open in wartime. The troops carrying out these plans deserve a steady planning shop and a clear explanation.",
+   "x_post": "Hegseth fired Army Lt. Gen. Brett Sylvia, the Joint Chiefs' top planner. A Pentagon official alleges he leaked to the press about the Iran and Ukraine wars. The case is now with DOJ. No replacement named, in wartime.",
+   "fb_post": "The Joint Chiefs of Staff's top planner has been fired. Defense Secretary Pete Hegseth removed Army Lt. Gen. Brett Sylvia, director for strategy, plans and policy (known as J5), this week.\n\nA Pentagon official says Sylvia is under investigation for giving information to the press about the Iran war and the Russia-Ukraine war, and that he failed three polygraph tests. The Pentagon says the case has been referred to the Justice Department. As of Thursday, no replacement had been named, and the U.S. remains at war with Iran.\n\nOur view: leaking classified information is serious and should be answered with a fair process. But these are allegations so far, and Sylvia is the latest of many senior officers pushed out. A war needs a steady planning shop.\n\nDo you think firings like this make the force safer, or just less stable?",
+   "open_questions": "Sylvia's own response or legal counsel is not in the sources. Unclear whether he has been charged with anything; sources only say the matter was referred to DOJ. The Pentagon has not publicly named him; the statement came from an unnamed official, and Parnell's X post did not name him. The official's claims (three failed polygraphs, meeting journalists off-site under the new press policy) are unverified and come from one unnamed official. The Atlantic broke the firing; we have not seen its reporting. Unclear who is filling J5 duties in the meantime. The article says Air Force OSI conducted the investigation; confirm that detail. No exact date given for the midterm elections or for any renewed Iran action.",
+   "hashtags": [
+    "Pentagon",
+    "JointChiefs"
    ],
    "deadlines": []
   }
