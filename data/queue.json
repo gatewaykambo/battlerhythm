@@ -1,168 +1,5 @@
 [
  {
-  "id": "19da0d83b6c6",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "first_responders",
-  "score": 78,
-  "score_parts": {
-   "relevance": 28,
-   "impact": 20,
-   "traction": 10,
-   "angle": 8,
-   "timeliness": 12
-  },
-  "score_why": "Both legislative branches moving on free cancer screenings for firefighters; direct health benefit and developing legislation.",
-  "policy": true,
-  "state": "MA",
-  "country": "US",
-  "place": "Massachusetts State House, Boston, MA",
-  "lat": 42.36,
-  "lon": -71.06,
-  "flags": [],
-  "source": "wgbh.org",
-  "source_url": "https://www.wgbh.org/news/local/2026-10-15/both-mass-legislature-branches-want-free-cancer-screenings-for-firefighters",
-  "source_title": "Both Mass . legislature branches want free cancer screenings for firefighters",
-  "snippet": "",
-  "published_at": "2026-10-15T20:15:00Z",
-  "found_at": "2026-10-15T22:03:09Z",
-  "feed": "GDELT · firefighters",
-  "also_covered_by": [
-   {
-    "source": "wbur.org",
-    "url": "https://www.wbur.org/news/2026/10/15/firefighters-free-cancer-screenings-massachusetts-bill-pfas",
-    "title": "Mass . Legislature works toward free cancer screenings for firefighters"
-   }
-  ],
-  "draft": {
-   "headline": "Massachusetts Senate passes free cancer screenings for firefighters, following House",
-   "summary": "The Massachusetts Senate passed a bill (S 3284) on Thursday by voice vote that requires insurance coverage of cancer screenings for firefighters. A similar House bill (H 5631) passed unanimously on July 31. Public employers' health plans would cover a screening every three years for full-time paid firefighters, for as long as they are employed.",
-   "why_it_matters": "Massachusetts firefighters could get regular cancer screening at no cost, which matters because occupational cancer is the leading cause of line-of-duty death in the fire service.",
-   "take": "This is how it should work. Firefighters breathe diesel exhaust and wear gear treated with PFAS, and the job's cancer risk is well documented. Catching cancer early should not depend on a firefighter's own insurance or their ability to pay. Both chambers are now on record in support, so the next step is to reconcile the two bills and get one to the governor. Unions have pushed for years, and we say finish the job.",
-   "x_post": "Massachusetts Senate passes a bill requiring insurance to cover cancer screenings for firefighters every three years. The House passed a similar bill 31 July. Occupational cancer is the top line-of-duty killer in the fire service, per the IAFF.",
-   "fb_post": "The Massachusetts Senate has passed a bill requiring health insurance offered by public employers to cover cancer screenings for firefighters. Screenings would happen every three years throughout a firefighter's employment.\n\nIt covers full-time, paid firefighters employed by the state, municipalities, and fire and water districts, plus firefighters at some military bases. Screenings must include colon, lung, bladder, oral, thyroid, skin, blood, breast, cervical, testicular and prostate cancers. The House passed a similar bill unanimously on July 31.\n\nWhy it matters: the International Association of Fire Fighters says occupational cancer is the most common cause of line-of-duty death in the fire service. More than 79% of the members it honored at its 2025 memorial died of it.\n\nWe think early detection should never depend on what a firefighter can afford. Now the two chambers need to finish the job. Should every state require this coverage?",
-   "open_questions": "Sources do not say whether the House and Senate versions differ in ways that need reconciling, or when the bill will go to Gov. Healey, or whether she will sign it. No effective date or cost estimate is given. Sources do not say whether the Senate vote was recorded individually (voice vote only). Confirm whether volunteer or call firefighters are excluded (the bill covers full-time, paid firefighters only).",
-   "hashtags": [
-    "firefighters",
-    "PFAS"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "45a113aeaa1d",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 75,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 12,
-   "traction": 14,
-   "angle": 10,
-   "timeliness": 10
-  },
-  "score_why": "Large-scale troop health screening finding with possible follow-on care burden; strong interest and debate potential.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [
-   {
-    "type": "medical_claim",
-    "label": "medical claim",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/15/routine-testosterone-screening-of-us-troops-may-require-extensive-follow-on-care-study-finds/",
-  "source_title": "Routine testosterone screening of US troops may require extensive follow-on care, study finds",
-  "snippet": "One-time testosterone testing of troops found that 100,691 active-duty soldiers had morning screening levels below the medical threshold.",
-  "published_at": "2026-10-15T16:00:00Z",
-  "found_at": "2026-10-15T22:03:09Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Study: Pentagon testosterone screening could flag many male soldiers",
-   "summary": "A JAMA research letter using Army survey data found 20% of male soldiers under 30 and 32.8% of those 30 and older had testosterone below 300 ng/dL, the American Urological Association's cutoff. The authors say the Pentagon's new screening program for men over 30 will likely trigger many follow-up tests and clinical visits. A low reading alone does not mean a medical condition.",
-   "why_it_matters": "Male service members over 30 will be screened under the new Defense Health Agency guidelines, so many could be pulled into repeat testing and medical visits, and they decide whether to pursue treatment.",
-   "take": "Screening is fine. Dumping thousands of troops into a long pipeline of repeat labs and appointments, with no plan to staff it, is not. The researchers themselves warn about excess visits, costs and treatment, and the evidence on testosterone therapy is mixed: a 2018 NIH study found help for libido and mood, but little for fatigue or memory. Treatment is voluntary, and it needs to stay that way. Troops should get straight information, not a \"lethality\" pitch.",
-   "x_post": "A new JAMA study of Army data: 20% of male soldiers under 30 and 32.8% of those 30+ tested below the 300 ng/dL testosterone cutoff. Researchers say the Pentagon's new screening will mean lots of follow-up care. Treatment stays voluntary.",
-   "fb_post": "A new study in JAMA looked at testosterone levels in male soldiers. About 20% of those under 30 and 32.8% of those 30 and older fell below 300 ng/dL, the cutoff used by the American Urological Association. The data came from a survey at five Army bases between August 2024 and January 2026.\n\nWhy it matters: the Pentagon is rolling out screening for all male service members 30 and older. Under the Defense Health Agency guidelines, that means morning blood tests on two separate days, then more evaluation if levels are low. Treatment is not mandatory. The authors warn that a low number alone doesn't mean a diagnosis, and that screening could bring excess visits, costs and treatment.\n\nOur view: testing is reasonable, but the system needs to be ready for the follow-up load, and troops need honest information about what therapy can and can't do. Nobody should feel pressured into long-term treatment.\n\nIf you're 30 or older and in uniform, are you ready for this screening? What questions do you have?",
-   "open_questions": "The 100,691 figure is described as active-duty soldiers with low morning levels. Is that an extrapolation from the five-base survey sample? Confirm in the JAMA letter. The article says Hegseth announced the program in July, but it isn't clear when screening starts or whether any service branches other than the Army are covered. It also doesn't say who pays for follow-up care or how many clinicians are available. The wording \"voluntary for those below 30 request it\" in the source is garbled, so check the DHA guidelines. The 12,112-diagnosis study from last year is not named. Confirm the finding that senior officers had the highest rates before using it.",
-   "hashtags": [
-    "MilitaryHealth",
-    "ActiveDuty"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "731e7cbbb4ce",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 74,
-  "score_parts": {
-   "relevance": 26,
-   "impact": 12,
-   "traction": 14,
-   "angle": 10,
-   "timeliness": 12
-  },
-  "score_why": "Pentagon execution of Fort Hood shooter; reversal after bipartisan backlash, high military and public interest.",
-  "policy": false,
-  "state": "TX",
-  "country": "US",
-  "place": "Fort Hood, TX",
-  "lat": 31.14,
-  "lon": -97.78,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Federal News Network",
-  "source_url": "https://federalnewsnetwork.com/defense-news/2026/10/trump-after-bipartisan-backlash-says-pentagon-wont-livestream-firing-squad-execution-of-fort-hood-shooter/",
-  "source_title": "Trump, after bipartisan backlash, says Pentagon won’t livestream execution of Fort Hood shooter",
-  "snippet": "President Donald Trump has announced the Pentagon will no longer livestream the execution of Fort Hood shooter Nidal Malik Hasan. The decision comes after bipartisan criticism and Vice President JD Vance's comments that he would not watch it. Trump says in a social media post Thursday that airing the execution might deter terrorism but acknowledges many prefer not to see it. The Pentagon has scheduled Hasan’s execution for Dec. 3. Trump states victims' families can attend in person if they choose. Defense Secretary Pete Hegseth’s initial announcement of a public execution faced backlash, with ",
-  "published_at": "2026-10-15T20:11:15Z",
-  "found_at": "2026-10-15T22:03:09Z",
-  "feed": "Federal News Network",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Trump says Pentagon won't livestream Fort Hood shooter Hasan's Dec. 3 execution",
-   "summary": "President Trump said Thursday the Pentagon will not livestream the firing squad execution of Nidal Malik Hasan, the Army psychiatrist who killed soldiers at Fort Hood, Texas, in 2009. The reversal followed criticism from both parties, including concerns that the images could fuel radicalization. The Pentagon has set the execution for Dec. 3. Victims' immediate families can attend in person if they choose.",
-   "why_it_matters": "For the Fort Hood community and the wider force, the decision keeps a long-awaited military execution, the first by firing squad since World War II, from becoming a public broadcast.",
-   "take": "We think this was the right call, and it should not have taken a bipartisan backlash to get there. Hasan murdered soldiers who were lining up for deployment paperwork, and justice in his case is not in doubt. But a military execution is a solemn act carried out in the name of the country. It is not content, and it should not hand extremists a recruiting video. The families who lost people at Fort Hood should decide for themselves whether to attend.",
-   "x_post": "Trump says the Pentagon will not livestream the Dec. 3 firing squad execution of Fort Hood shooter Nidal Hasan after criticism from both parties. Victims' immediate families can attend in person if they choose.",
-   "fb_post": "President Trump said Thursday that the Pentagon will not livestream the firing squad execution of Nidal Malik Hasan, the Army psychiatrist who opened fire at Fort Hood in 2009. The Pentagon has scheduled the execution for Dec. 3.\n\nThe plan drew criticism from Republicans and Democrats alike. Some warned the images could be used to fuel radicalization. Immediate family members of the victims can still attend in person if they choose.\n\nOur view: it was the right call. Hasan's crimes are not in question, but a military execution should be handled with gravity, not turned into a broadcast. The people who lost loved ones on Nov. 5, 2009, should be the ones who decide whether to watch.\n\nDo you think families should be the only ones allowed to witness an execution like this?",
-   "open_questions": "Will Hasan seek a delay of the execution? The AP notes he could, but may not want to. Has the Pentagon issued formal guidance on the revised plan, such as how many family members may attend or where? Who else, if anyone, will be allowed to witness it? The sources do not say whether the final decision changes the \"public\" nature of the execution Hegseth announced earlier this month.",
-   "hashtags": [
-    "FortHood",
-    "Pentagon"
-   ],
-   "deadlines": [
-    {
-     "date": "2026-12-03",
-     "label": "Scheduled Hasan execution date"
-    }
-   ]
-  }
- },
- {
   "id": "4373b72f14f3",
   "status": "expired",
   "tier": "report",
@@ -2427,7 +2264,7 @@
  },
  {
   "id": "747392a7e889",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2473,7 +2310,7 @@
  },
  {
   "id": "1e6d9a685863",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2519,7 +2356,7 @@
  },
  {
   "id": "0587ec7ae785",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2565,7 +2402,7 @@
  },
  {
   "id": "161862ad6aa2",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": false,
@@ -2618,7 +2455,7 @@
  },
  {
   "id": "fc07a8ad4682",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -3099,6 +2936,52 @@
    "hashtags": [
     "Pentagon",
     "JointChiefs"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "01307ce7b97a",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 10,
+   "traction": 13,
+   "angle": 7,
+   "timeliness": 14
+  },
+  "score_why": "Breaking firing of a senior Army general over alleged classified leaks; high interest across the force.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon, Arlington, VA",
+  "lat": 38.87,
+  "lon": -77.06,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/2026/10/29/senior-us-general-fired-accused-of-leaking-classified-information/",
+  "source_title": "Senior US general fired, accused of leaking classified information",
+  "snippet": "U.S. Army Lt. Gen. Brett Sylvia, a senior military planner on the Pentagon's Joint Staff, was fired over accusations he leaked classified information to the public.",
+  "published_at": "2026-10-29T18:52:28Z",
+  "found_at": "2026-10-29T23:14:06Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Senior U.S. general fired and accused of leaking classified information",
+   "summary": "Military Times reported on Oct. 29, 2026, that a senior U.S. general has been fired and accused of leaking classified information. The report is datelined from the Pentagon in Arlington, Virginia. An accusation is not a finding of guilt, and the general's side of the story is not part of what we can confirm today.",
+   "why_it_matters": "Handling classified information is a trust issue for every service member, and how the military treats a general accused of mishandling it shows whether one standard applies at every rank.",
+   "take": "We think accountability has to apply at every rank. If a junior troop would face consequences for leaking classified material, a general should too. The same goes for fairness. An accusation is not a conviction, and the process should be clean and the evidence solid, whoever is involved. We will be watching to see whether the standard holds.",
+   "x_post": "A senior U.S. general has been fired and accused of leaking classified information, Military Times reports. An accusation isn't a verdict. The standard should be the same at every rank, from private to general.",
+   "fb_post": "A senior U.S. general has been fired and accused of leaking classified information, according to Military Times.\n\nIt matters because protecting classified material is a duty every service member signs up for. Troops are held to that standard, and they expect leaders to be held to it too.\n\nOur view: accountability should apply at every rank, and so should due process. An accusation is not a finding of guilt.\n\nShould generals face a tougher standard than junior troops on handling classified information, or the same one?",
+   "open_questions": "The source text we received was only page styling code (CSS). It had no article body, so everything here comes from the headline, outlet, date, and dateline. Still unknown: the general's name, rank, service, and position; who ordered the firing and when; what the leak allegedly involved; whether there is a formal investigation or criminal referral; and any response from the general or counsel. Pull the full Military Times article or a second outlet before publishing. Check that \"fired\" is the right word (versus relieved or removed) and whether the headline claim holds up.",
+   "hashtags": [
+    "Pentagon",
+    "MilitaryNews"
    ],
    "deadlines": []
   }
