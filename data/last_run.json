@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-30T15:35:31Z",
+ "started_at": "2026-10-30T22:46:41Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
@@ -9,34 +9,34 @@
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
-  "GDELT · U.S. forces worldwide (0)",
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (25)",
-  "GDELT · veterans (0)",
-  "GDELT · firefighters (0)",
-  "GDELT · police, EMS, dispatch (0)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
+  "GDELT · hemp and cannabis policy (0)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
-  "News search · firefighters (24)",
-  "News search · police and EMS wellness (20)",
-  "News search · psychedelic therapy and veterans (22)",
+  "News search · firefighters (22)",
+  "News search · police and EMS wellness (25)",
+  "News search · psychedelic therapy and veterans (21)",
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA",
-  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
+  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
+  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
+  "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
+  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA"
  ],
- "new": 75,
- "scored": 75,
- "wired": 11,
- "queued": 1,
- "drafted": 1,
+ "new": 90,
+ "scored": 90,
+ "wired": 15,
+ "queued": 2,
+ "drafted": 2,
  "no_article": 1,
- "duplicates_merged": 4,
+ "duplicates_merged": 1,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-10-30T15:45:12Z"
+ "finished_at": "2026-10-30T22:58:33Z"
 }

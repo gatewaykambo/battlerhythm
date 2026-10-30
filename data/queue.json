@@ -1,91 +1,5 @@
 [
  {
-  "id": "678b66f0789b",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 75,
-  "score_parts": {
-   "relevance": 28,
-   "impact": 14,
-   "traction": 12,
-   "angle": 8,
-   "timeliness": 13
-  },
-  "score_why": "About 500 10th Mountain soldiers deploying to Latin America amid cartel operations; direct force deployment news.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Latin America",
-  "lat": -14.0,
-  "lon": -60.0,
-  "flags": [],
-  "source": "Task & Purpose",
-  "source_url": "https://taskandpurpose.com/news/army-10th-mountain-division-latin-america/",
-  "source_title": "Hundreds of 10th Mountain Division soldiers deploying to Latin America",
-  "snippet": "Roughly 500 soldiers will support ongoing exercises with partners as the U.S. expands military operations against cartels. The post Hundreds of 10th Mountain Division soldiers deploying to Latin America appeared first on Task & Purpose .",
-  "published_at": "2026-10-16T18:14:46Z",
-  "found_at": "2026-10-16T22:03:36Z",
-  "feed": "Task & Purpose",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Army sends about 500 10th Mountain soldiers to Latin America, starting in Panama",
-   "summary": "The Army is deploying about 500 soldiers from the 10th Mountain Division's 3rd Brigade, based at Fort Polk, Louisiana, to Latin America for training and security cooperation with partner nations. They head first to Panama for jungle training. About 100 more soldiers will join Joint Task Force-Western Hemisphere in Miami, the command overseeing U.S. anti-cartel operations in the region.",
-   "why_it_matters": "Soldiers and families in light infantry units, especially at Fort Polk, should expect the U.S. anti-cartel campaign in Latin America to pull in more conventional Army forces.",
-   "take": "This is a real shift. Conventional troops are now joining a campaign that began with boat strikes and special operations raids. The Army says the mission is training and security cooperation, and that may be accurate. But troops and their families deserve a clear public account of the mission, the limits on it, and how long it will last. The more places we send soldiers, the more those answers matter.",
-   "x_post": "About 500 10th Mountain Division soldiers are headed to Latin America, first to Panama for jungle training. About 100 more will staff the Miami task force running U.S. anti-cartel operations. Conventional forces are now part of this campaign.",
-   "fb_post": "The Army is sending about 500 soldiers from the 10th Mountain Division's 3rd Brigade, out of Fort Polk, Louisiana, to Latin America. They go first to Panama for jungle warfare training. The Army describes the mission as security cooperation and training with partner nations.\n\nAbout 100 more soldiers from the division will deploy to Miami. They will staff Joint Task Force-Western Hemisphere, which oversees U.S. anti-cartel operations. That task force has carried out boat strikes in the eastern Pacific and Caribbean since this summer.\n\nWhy it matters: this adds conventional Army forces to a campaign that so far leaned on Marines, Navy ships, and special operations units. Our view is that troops and families deserve a clear public account of the mission, its limits, and its timeline.\n\nDo you think the public has been given enough information about this mission?",
-   "open_questions": "Deployment length and exact departure dates are not given. The 500 figure is described as roughly, and the Panama destination comes from the New York Times, not the Army spokesperson. Which other countries the soldiers will go to is not specified. Whether they will support direct action missions against cartels is only reported as a possibility by the NYT, and the Army has not confirmed it. The Task & Purpose lead says \"major escalation\"; that is the outlet's characterization. The source text had some page-code clutter at the start, but the facts appear complete.",
-   "hashtags": [
-    "10thMountainDivision",
-    "SOUTHCOM"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "5e92589c55e8",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 66,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 10,
-   "traction": 13,
-   "angle": 11,
-   "timeliness": 8
-  },
-  "score_why": "Soldiers hit by Iranian missile attack still dealing with effects; strong human angle, veteran-relevant aftermath.",
-  "policy": false,
-  "state": "TX",
-  "country": "US",
-  "place": "Texas",
-  "lat": 31.0,
-  "lon": -100.0,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Task & Purpose",
-  "source_url": "https://taskandpurpose.com/news/soldiers-account-iranian-missile-attack/",
-  "source_title": "Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home",
-  "snippet": "Three Army air defense soldiers received Purple Hearts for a missile attack that knocked them unconscious. Now back in Texas, all three still feel the effects. The post Army releases rare account of soldiers surviving Iranian missile attack and how life has changed back home appeared first on Task & Purpose .",
-  "published_at": "2026-10-16T16:39:06Z",
-  "found_at": "2026-10-16T22:03:36Z",
-  "feed": "Task & Purpose",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "84b6c73c1421",
   "status": "expired",
   "tier": "report",
@@ -2477,7 +2391,7 @@
  },
  {
   "id": "04149456383a",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2529,7 +2443,7 @@
  },
  {
   "id": "bbf213ab5bac",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2569,7 +2483,7 @@
  },
  {
   "id": "fbeb0a6a901f",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2609,7 +2523,7 @@
  },
  {
   "id": "15c87e06ebee",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2649,7 +2563,7 @@
  },
  {
   "id": "11d3a7f08702",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2930,6 +2844,98 @@
    "hashtags": [
     "IranWar",
     "USCENTCOM"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "170f6b4ba7e1",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 14,
+   "traction": 12,
+   "angle": 6,
+   "timeliness": 13
+  },
+  "score_why": "Two U.S. airmen died in noncombat incidents supporting Iran war operations; new Pentagon disclosure.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/iran-war-death-toll-23-air-force/",
+  "source_title": "2 airmen died in noncombat incidents while supporting Iran war operations",
+  "snippet": "Two airmen died in non-hostile incidents in October, the Pentagon revealed late on Thursday. The post 2 airmen died in noncombat incidents while supporting Iran war operations appeared first on Task & Purpose .",
+  "published_at": "2026-10-30T17:50:06Z",
+  "found_at": "2026-10-30T22:57:11Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Two airmen die in noncombat incidents supporting U.S. operations against Iran",
+   "summary": "Two noncommissioned officers supporting U.S. operations against Iran died in noncombat incidents in October, the Pentagon disclosed through its casualty database on Oct. 29. One was active duty and one was Air National Guard. One died of illness after being medically evacuated to the U.S. The other died in the Middle East command area, and the death is under investigation. The war's toll is now 23.",
+   "why_it_matters": "Service members and families need to know the war's human cost keeps growing, including deaths away from the fighting, and that more forces are heading to the region.",
+   "take": "Noncombat deaths are still deaths in service, and they deserve the same plain accounting as hostile ones. Of the 23 deaths so far, 12 were non-hostile, which is more than half. The Pentagon should name these airmen once families are notified and finish the investigation without delay, because families should not learn the details from a database entry. If you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1.",
+   "x_post": "Two airmen, one active duty and one Air National Guard, died in noncombat incidents in October while supporting operations against Iran. The Pentagon says the war's U.S. military death toll is now 23. 12 of those deaths were non-hostile.",
+   "fb_post": "The Pentagon disclosed Thursday that two airmen supporting U.S. operations against Iran died in noncombat incidents in October. Both were noncommissioned officers. One was active duty and one was Air National Guard. One died of illness after being medically evacuated to the U.S. The other died in the Middle East command area, and that death is under investigation.\n\nThe U.S. military death toll in the war is now 23. Of those, 11 were hostile and 12 were non-hostile. More than 800 service members have been wounded. These are the first Air Force deaths in the war in more than six months. Meanwhile, the USS Theodore Roosevelt and a Marine Expeditionary Force are heading to the region.\n\nWe think non-hostile deaths deserve the same open accounting as combat deaths. Families should hear the facts from the Pentagon, not find them in a database.\n\nHow should the military report and follow up on noncombat deaths in a war zone?",
+   "open_questions": "The Pentagon has not named the two airmen. The Air Force has not said which unit they served in, or the cause or circumstances of the death inside the CENTCOM area, which is under investigation. The sources do not give the illness. The Washington Post reportedly described a separate Navy explosive ordnance disposal sailor's death, added earlier this month, as a suicide. The casualty database lists that cause as pending. We left the cause out of the public fields for that reason, and the crisis line is included per safe messaging rules. Editors should decide whether to mention that case at all. The sources do not say where in the CENTCOM area the second airman died.",
+   "hashtags": [
+    "AirForce",
+    "IranWar"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "ecd34f6b9c5a",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 10,
+   "angle": 11,
+   "timeliness": 8
+  },
+  "score_why": "Veterans waiting for mental health treatment; core issue, though the snippet is a general framing piece without specifics.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Federal News Network",
+  "source_url": "https://federalnewsnetwork.com/commentary/2026/10/the-dangerous-gap-between-veterans-requesting-treatment-and-receiving-it/",
+  "source_title": "The dangerous gap between veterans requesting treatment and receiving it",
+  "snippet": "Right now, as policy arguments continue to flare on national and local stages, a veteran somewhere is ready for treatment and still waiting on it.",
+  "published_at": "2026-10-30T21:06:38Z",
+  "found_at": "2026-10-30T22:57:11Z",
+  "feed": "Federal News Network",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Op-ed: VA wait times miss the real delay between asking for addiction care and getting it",
+   "summary": "A veteran who has treated addiction for 19 years argues in an op-ed that VA wait-time rules measure the wrong stretch. The official clock runs from appointment inquiry to visit, not from a veteran asking for help to starting treatment. He cites an analysis finding about two-thirds of VA facilities missed the 20-day target, which VA disputes, and calls for a time-to-treatment standard.",
+   "why_it_matters": "For a veteran seeking addiction care, the days between asking for help and starting treatment carry real risk, and today nobody officially tracks that full stretch.",
+   "take": "We agree with the core point: a veteran who asks for help should be measured from that moment until treatment starts, not until a visit is booked. The author runs a treatment provider, so weigh his proposals with that in mind. Still, a metric that leaves out referrals, scheduling, and handoffs can't tell us where veterans are getting lost. VA and its critics are arguing over the same narrow number, and the 61% of veterans who died by suicide in 2023 without recent VA care show that the problem also starts before any waitlist. If you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1.",
+   "x_post": "Op-ed: VA wait times start at the appointment inquiry and end at the visit. A veteran treating addiction says the clock should run from the ask for help to the start of treatment. We agree. What gets measured gets fixed.",
+   "fb_post": "A veteran who has spent 19 years treating addiction says the way VA measures wait times misses the delay that matters most. In an op-ed, he notes the official clock runs from the appointment inquiry to the visit. It doesn't track the time spent on scheduling, referrals, and connecting with a provider.\n\nHe points to an analysis of federal data that found about two-thirds of VA facilities went past the 20-day target. At least 22 reported waits beyond three months. VA has pushed back, citing incomplete public data. His argument is that both sides are measuring the same narrow interval. He also says fentanyl makes relapse far deadlier than when the MISSION Act of 2018 set the current access standards.\n\nOur view: measure from the moment a veteran asks for help to the day treatment begins. That would show where the system loses people. He also wants a national provider database and steadier rules for community care referrals. The author leads a treatment provider, so read his proposals with that in mind, but the measurement point holds up.\n\nIf you or someone you know is struggling, call the Veterans Crisis Line: dial 988, then press 1.\n\nIf you've sought addiction care through VA or community care, where did the delay happen for you?",
+   "open_questions": "1) Check whether Guardian Recovery (the author's employer) is a War Party client or has any tie to us. If so, a disclosure is required. 2) The source does not name the \"recent analysis of federal data\" or say who did it. Identify it before we cite the figures as fact; the post currently attributes them to the op-ed. 3) The source does not say whether the 22 facilities with waits over three months and the \"handful approaching five\" are months or something else. We wrote \"beyond three months\" only. 4) The 17-per-day and 61% figures come from the VA 2025 National Veteran Suicide Prevention Annual Report; verify against the report. 5) The article text includes an unrelated ad for a Nov. 9 FEHB/FEDVIP Open Season Exchange. We left it out of deadlines because it isn't part of the story.",
+   "hashtags": [
+    "Veterans",
+    "VA"
    ],
    "deadlines": []
   }
