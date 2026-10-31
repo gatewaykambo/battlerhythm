@@ -1,51 +1,5 @@
 [
  {
-  "id": "84b6c73c1421",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "first_responders",
-  "score": 73,
-  "score_parts": {
-   "relevance": 30,
-   "impact": 14,
-   "traction": 8,
-   "angle": 8,
-   "timeliness": 13
-  },
-  "score_why": "Fresh 3-alarm blaze with union warning of staffing shortages; direct responder workforce issue.",
-  "policy": false,
-  "state": "NY",
-  "country": "US",
-  "place": "Canandaigua, NY",
-  "lat": 42.89,
-  "lon": -77.29,
-  "flags": [],
-  "source": "13wham.com",
-  "source_url": "https://13wham.com/news/local/canandaigua-fire-union-warns-of-staffing-shortages-after-3-alarm-downtown-blaze-beeman-street-critical-safety-ontario-county-latitude-43",
-  "source_title": "Canandaigua fire union warns of staffing shortages after 3 - alarm downtown blaze",
-  "snippet": "",
-  "published_at": "2026-10-17T06:30:00Z",
-  "found_at": "2026-10-17T12:50:33Z",
-  "feed": "GDELT · firefighters",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Canandaigua firefighters' union says 4 responders met a 3-alarm downtown fire",
-   "summary": "A three-alarm fire hit 5 Beeman St. in downtown Canandaigua, New York, around 3 a.m. The firefighters' union, Local 298, says only four city firefighters arrived first, on a ladder truck and an engine from two stations. The union says a fire like this calls for at least 28. Mutual aid crews from nearby departments helped. No one was hurt, and the cause is under investigation.",
-   "why_it_matters": "Thin staffing at a career fire department affects firefighter safety and how quickly a town can respond, and the same pressure hits many small departments.",
-   "take": "Four people on the first-in trucks at a three-alarm fire is a hard number to wave off. Nobody was hurt this time, and that is the good news. The union says the department has 20 firefighters and no volunteers, so the city should show the public its staffing numbers and explain how it plans to respond. The union is asking for a seat at the table with council, the mayor, and the city manager. That is a fair ask, and the city should take the meeting before a close call turns into a funeral.",
-   "x_post": "Canandaigua, NY: a 3-alarm downtown fire drew just 4 city firefighters at first, says Local 298. The union says 28 are needed. No injuries, cause under investigation. The union wants talks with city leaders. Staffing is a safety issue.",
-   "fb_post": "A three-alarm fire hit 5 Beeman St. in downtown Canandaigua, NY, around 3 a.m. According to the firefighters' union, Local 298, only four city firefighters were first on scene. They came on two trucks, a ladder and an engine, from two different stations. Mutual aid crews from other departments helped. No one was hurt, and the cause is under investigation.\n\nThe union's vice president, Adam Crandall, says a fire this size should have drawn at least 28 firefighters. He says the department has 20 firefighters and no volunteers. He says too few people means each one is juggling too many tasks, and that makes hard decisions harder.\n\nOur view: this is a safety issue for firefighters and for the neighbors they protect. The union is asking to sit down with council, the mayor, and the city manager. We think the city should have that talk in the open and share the numbers.\n\nIf you live in a town with a small fire department, do you know how many people respond to a structure fire?",
-   "open_questions": "No response from the city (mayor, city manager, council) or the fire chief in the source. Is the 28-firefighter figure from a standard, such as NFPA, or only the union's estimate? The source does not say how many firefighters were on duty overall, how many mutual aid crews came, or when they arrived. The cause is unknown. The article says Sunday, but it was published Saturday Oct. 17, so the fire date needs confirming. Related headlines in the source mention an earlier fatal Canandaigua house fire and an earlier staffing push. We have no details on them and did not use them. Confirm the union's current staffing figure (20) against city records.",
-   "hashtags": [
-    "Firefighters",
-    "FireDepartmentStaffing"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "360ae63ce0b4",
   "status": "expired",
   "tier": "hold",
@@ -2938,6 +2892,57 @@
     "VA"
    ],
    "deadlines": []
+  }
+ },
+ {
+  "id": "f5b36239de62",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 73,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 18,
+   "traction": 9,
+   "angle": 8,
+   "timeliness": 12
+  },
+  "score_why": "New mandatory flu vaccine requirement for Air Force and Space Force personnel and civilians; readiness policy with direct effect on airmen.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Air & Space Forces Magazine",
+  "source_url": "https://www.airandspaceforces.com/flu-shot-now-required-many-airmen-guardians-civilians/",
+  "source_title": "Flu Vaccine Now Required for Many Airmen, Guardians, and DAF Civilians",
+  "snippet": "Airmen and Guardians in the Active and Reserve component, as well as civilian employees, in “mission critical and high-risk populations” are now required to receive influenza vaccinations annually to “preserve force readiness,” according to a recent Department of the Air Force memo. The post Flu Vaccine Now Required for Many Airmen, Guardians, and DAF Civilians appeared first on Air & Space Forces Magazine .",
+  "published_at": "2026-10-31T12:35:00Z",
+  "found_at": "2026-10-31T15:15:57Z",
+  "feed": "Air & Space Forces Magazine",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Air Force orders annual flu shots for Airmen, Guardians, civilians in high-risk groups",
+   "summary": "The Department of the Air Force has ordered yearly flu shots for Airmen, Guardians, and civilian employees in six \"mission critical and high-risk\" groups, according to an Oct. 20 memo. Most covered personnel must be vaccinated by Dec. 15 each year. Deploying units follow pre-deployment timelines. The order partly reverses Defense Secretary Pete Hegseth's April decision to drop the flu shot mandate. The Pentagon approved the Air Force's exception request on June 11.",
+   "why_it_matters": "If you serve in a covered group, such as recruits, trainees, or those in congregate living, the flu shot is now an order for service members and a condition of employment for civilians, with set paths for religious and medical exemption requests.",
+   "take": "A narrow, defined mandate with exemption paths is easier to defend than a blanket one. The memo's call for commanders to use the lowest level of discipline is the right instinct. But the Air Force needs to tell Airmen, Guardians, and civilians plainly who is covered and how to request an exemption, so nobody finds out from a Facebook page. Leaders should also remember that the 2021 COVID-19 mandate cost about 8,000 people their careers. Trust is earned by explaining the rule, not just enforcing it.",
+   "x_post": "Air Force now requires annual flu shots for Airmen, Guardians, and civilians in six high-risk groups. Most must be done by Dec. 15. Religious and medical exemption requests are allowed. It partly reverses April's DoD rollback.",
+   "fb_post": "The Department of the Air Force is requiring annual flu shots for Airmen, Guardians, and civilian employees in six \"mission critical and high-risk\" groups. An Oct. 20 memo sets the deadline at Dec. 15 each year for most people. Deploying units follow their pre-deployment timelines.\n\nThis partly walks back Defense Secretary Pete Hegseth's April decision to end the flu shot mandate. The Pentagon approved the Air Force's exception request on June 11. The memo comes more than three months after a flu outbreak at Air Force Basic Military Training at Joint Base San Antonio-Lackland left one recruit dead and infected more than 280 others.\n\nService members who don't comply could face administrative or disciplinary action, though commanders are told to use the lowest level of discipline. For civilians, the shot is a condition of employment. Religious accommodation and medical exemption requests are allowed.\n\nWe think a targeted rule with clear exemption paths beats a blanket one, but the Air Force has to communicate it clearly. What do you think: is this the right balance between readiness and individual choice?",
+   "open_questions": "The source article's list of the six population categories did not come through in the text, so we can't name all six. Confirm them before publishing any detail beyond \"recruits, training populations and congregate living.\" It is unclear what share of DAF military and civilian personnel is covered. The Dec. 15 deadline is stated as annual; we assumed the first one is 2026-12-15. The memo was first posted on an unofficial Facebook page; an Air Force spokesperson confirmed it is authentic. The source mentions that a trainee flu shot rate of about 40 percent comes from AP reporting, which we did not verify. Check whether the Air Force has published the memo officially, and whether the Army, Navy, or Marine Corps have sought similar exceptions.",
+   "hashtags": [
+    "AirForce",
+    "SpaceForce"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-15",
+     "label": "Flu vaccination deadline for most covered DAF personnel"
+    }
+   ]
   }
  }
 ]
