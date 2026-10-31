@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-31T15:05:26Z",
+ "started_at": "2026-10-31T22:10:47Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
@@ -9,34 +9,34 @@
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
+  "GDELT · U.S. forces worldwide (0)",
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (24)",
+  "GDELT · veterans (0)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
   "News search · service members (25)",
-  "News search · veterans and VA (25)",
+  "News search · veterans and VA (18)",
   "News search · firefighters (25)",
-  "News search · police and EMS wellness (19)",
+  "News search · police and EMS wellness (25)",
   "News search · psychedelic therapy and veterans (25)",
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
-  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
   "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
   "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
   "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA",
   "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
  ],
- "new": 45,
- "scored": 45,
- "wired": 5,
- "queued": 1,
- "drafted": 1,
+ "new": 39,
+ "scored": 39,
+ "wired": 6,
+ "queued": 0,
+ "drafted": 0,
  "no_article": 0,
  "duplicates_merged": 0,
- "deadlines": 1,
+ "deadlines": 0,
  "errors": [],
- "finished_at": "2026-10-31T15:16:37Z"
+ "finished_at": "2026-10-31T22:19:28Z"
 }
