@@ -1,45 +1,5 @@
 [
  {
-  "id": "6a7b73eb51c2",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 56,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 6,
-   "traction": 12,
-   "angle": 6,
-   "timeliness": 10
-  },
-  "score_why": "Service member killed in rappelling accident at Salute to Armed Forces event; sad, shareable, breaking.",
-  "policy": false,
-  "state": "TX",
-  "country": "US",
-  "place": "San Antonio, TX",
-  "lat": 29.424,
-  "lon": -98.494,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "kvia.com",
-  "source_url": "https://kvia.com/news/2026/10/18/air-force-member-killed-rappelling-from-alamodomes-ceiling-in-salute-to-armed-forces-ceremony/",
-  "source_title": "Air Force member killed rappelling from Alamodome ceiling in Salute to Armed Forces ceremony",
-  "snippet": "",
-  "published_at": "2026-10-18T21:00:00Z",
-  "found_at": "2026-10-18T21:25:34Z",
-  "feed": "GDELT · firefighters",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "3d32ed5148b1",
   "status": "expired",
   "tier": "report",
@@ -2527,7 +2487,7 @@
  },
  {
   "id": "5caf2b0ab4c3",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2811,5 +2771,45 @@
     }
    ]
   }
+ },
+ {
+  "id": "87402368a69a",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 58,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 8,
+   "traction": 10,
+   "angle": 6,
+   "timeliness": 12
+  },
+  "score_why": "Deputy shot in line of duty; recovering, suspect charged. Strong responder interest.",
+  "policy": false,
+  "state": "OH",
+  "country": "US",
+  "place": "Adams County, OH",
+  "lat": 38.836,
+  "lon": -83.493,
+  "flags": [
+   {
+    "type": "graphic",
+    "label": "graphic",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "WLWT",
+  "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWVrN2pENGdNTzJ2UVFXeDFiSW9pRktJRHhCRmR2Z08tSzJ3SlpXbHVwM2RxbFE4M1VaZ0tGRjBtMDVtRDJ6bWk1eUx0TkkyUlZFYzhGNkpickgySzd0S0lFYnYyV2NGTTN5eHBSeGVwZjFjcm40c3RFWmVxM2xpNzFFdTVpOGM?oc=5",
+  "source_title": "Adams County deputy recovering after being shot; suspect identified, charged",
+  "snippet": "Adams County deputy recovering after being shot; suspect identified, charged WLWT",
+  "published_at": "2026-10-30T22:08:00Z",
+  "found_at": "2026-11-01T22:44:59Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
  }
 ]

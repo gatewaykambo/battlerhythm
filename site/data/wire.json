@@ -1,5 +1,78 @@
 [
  {
+  "id": "7bbb19dd4245",
+  "headline": "Senate passes funding bill that includes hemp ban extension",
+  "source": "Brownfield Ag News",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTGtoSHFwZ1RtelZhRi10ODFBX3dqNFFZVktnYVNQaVN0dkE4UnlhMnRSTWhwUmc0U014aXlCMmx1eElvNXFPdTF4STMxTXFkY1ZCS2l0REhWbGNVTGczNTRoaGlDTU9Rd2JwSXFJR1h4NHo2NGV3MTZkTWQxLXVOVjVNdzRxWjhKMEQzaDhLMnRxSHJPUm1nR2xR?oc=5",
+  "lane": "plant_medicine",
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "policy": true,
+  "score": 76,
+  "published_at": "2026-11-01T20:55:13Z",
+  "found_at": "2026-11-01T22:44:59Z",
+  "also": []
+ },
+ {
+  "id": "d9139cfd6047",
+  "headline": "Exclusive: Firefighters Face Rising Mental Health Crisis as Suicide Risks Surge",
+  "source": "조선일보",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZk9XV1RBVklKWFhrWXg4eTBoNUJQZ2NaWVFlZ2RIUFRPZUg4LS1VMzVEVFc0UXE4RVhjVjJ0WUU4MzdUak1MRFVxWVZBeXpXb3UyNFJkRmVyNzFHQVlTRFRUdWVhNFhsOUp2RGNRM3k0V2tTZDdGQ09HS2JuY3FMeE9MZVlxTVZG?oc=5",
+  "lane": "first_responders",
+  "state": null,
+  "country": "KR",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": false,
+  "score": 61,
+  "published_at": "2026-11-01T20:07:01Z",
+  "found_at": "2026-11-01T22:44:59Z",
+  "also": []
+ },
+ {
+  "id": "7c199672d6f3",
+  "headline": "Enrollment surge pushes the VA to expand staff",
+  "source": "Yahoo",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYVFYbFpZcVBfMS1GMGxZcGoyOU1LNTZjVW5STXhsZnFiTmI5dHBCMnFuRWZmN0djSlJTa2FVNnc1QmhiZFNlWTd3eUltX2Rqdi1TTlJHR3pMNFJrc29hZXhiUjVEU01XRmt2VVNjUlU1anA2eGQzb2lfX0oxVTh6QXVCcXZBdUJ3ZjJ5cTJya1I?oc=5",
+  "lane": "veterans",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": false,
+  "score": 62,
+  "published_at": "2026-11-01T16:00:02Z",
+  "found_at": "2026-11-01T22:44:59Z",
+  "also": []
+ },
+ {
+  "id": "afb7afb47536",
+  "headline": "U.S. DEA Issues Federal Registrations For Cannabis Dispensaries",
+  "source": "International Cannabis Business Conference",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX3pJUUlJWU5ZQzZKYXk1MG1HRjJFSFdKWHZRZ1ByRVY2aDNSRmtISUpsc0tMVHhNSjJfcDFqME9WLUZIOU9fWjlxSld3S2MtWWs5U0ZEZkVTTjlIRWFfZEp0VGNKVnN0SzV1ci1EZ09mRS1IVzFObVJTT0wyYnRnQjl3ZGVIMzB0alFGcE5rU3ZMb2kwTlMw?oc=5",
+  "lane": "plant_medicine",
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "policy": true,
+  "score": 68,
+  "published_at": "2026-11-01T15:38:53Z",
+  "found_at": "2026-11-01T22:44:59Z",
+  "also": [
+   {
+    "source": "StratCann",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEYwVmxyd0N4bUJKNGtTdGFEVUpJV083OHRTV2tJUzdLMFJhTU5sSFJpT1Y5b1B4bFdZNzd0dGlfREZQdVFJQlMtTWhIYmo1VjZ5cm96ZldNRE5IMW4wSXJGTzdqd2dHZnNPcHNqMHo0OTgwOF94dnR4SzhKalJTQzJYVDZ6UHBPNzBFMllkU1B5Zk5EMUhDNW1UZWJTZw?oc=5"
+   }
+  ]
+ },
+ {
   "id": "7a25b9929828",
   "headline": "Troops ‘Can’t Feel Genuinely Safe’ as Trump Weighs Iran Escalation",
   "source": "NOTUS",
@@ -1117,40 +1190,6 @@
   "also": []
  },
  {
-  "id": "b987db56106f",
-  "headline": "A Federal Hemp Change Takes Effect Dec. 11. What It Means for the CBD in Your Cabinet",
-  "source": "Money Talks News",
-  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0ZSaWtfVTJacjQ1eXJfVmxPOWZoS182YmtaVTZFY3FYSFpwd2dYU0x4OENlS1drdzZaQmtjaWR5SlNQS1pKR01nNEY0WU9BaXEwNm5IZ2VRby1wQVQxbEtKQVJ2Y1FiSXp5NlM4WlVQdjZBcS1MZ1hqelp2cmp4elNGVHJhdXg5WDBUejlJYWdjMjViNnhkSXUyLXFOaVlNa3hDVGNHMm9mbzMySmhvZl9B?oc=5",
-  "lane": "plant_medicine",
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "policy": true,
-  "score": 56,
-  "published_at": "2026-10-29T15:00:44Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": []
- },
- {
-  "id": "623b69345887",
-  "headline": "Iowa GOP Governor Candidate Has Family Members Who Benefit From Medical Marijuana, But He Opposes ‘Full Legalization’",
-  "source": "Marijuana Moment",
-  "url": "https://www.marijuanamoment.net/iowa-gop-governor-candidate-has-family-members-who-benefit-from-medical-marijuana-but-he-opposes-full-legalization/",
-  "lane": "plant_medicine",
-  "state": "IA",
-  "country": "US",
-  "place": "Iowa",
-  "lat": 41.88,
-  "lon": -93.1,
-  "policy": false,
-  "score": 56,
-  "published_at": "2026-10-29T14:24:07Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": []
- },
- {
   "id": "23e2cf0b9b4f",
   "headline": "Missouri marijuana businesses await IRS rules on promised federal tax relief",
   "source": "Missouri Independent",
@@ -1165,23 +1204,6 @@
   "score": 59,
   "published_at": "2026-10-29T14:07:27Z",
   "found_at": "2026-10-29T23:14:06Z",
-  "also": []
- },
- {
-  "id": "5caf2b0ab4c3",
-  "headline": "Hegseth fires top planner on Joint Chiefs over claims he spoke to press",
-  "source": "Task & Purpose",
-  "url": "https://taskandpurpose.com/news/joint-chiefs-planner-ousted/",
-  "lane": "active_duty",
-  "state": null,
-  "country": "US",
-  "place": "Washington, DC",
-  "lat": 38.9,
-  "lon": -77.04,
-  "policy": false,
-  "score": 71,
-  "published_at": "2026-10-29T13:53:50Z",
-  "found_at": "2026-10-29T16:02:35Z",
   "also": []
  },
  {
@@ -1200,100 +1222,5 @@
   "published_at": "2026-10-29T13:30:00Z",
   "found_at": "2026-10-29T23:14:06Z",
   "also": []
- },
- {
-  "id": "2ec5e4f1ec21",
-  "headline": "Michigan GOP Lieutenant Governor Candidate Files Bill To Suspend Marijuana Tax Increase",
-  "source": "Marijuana Moment",
-  "url": "https://www.marijuanamoment.net/michigan-gop-lieutenant-governor-candidate-files-bill-to-suspend-marijuana-tax-increase/",
-  "lane": "plant_medicine",
-  "state": "MI",
-  "country": "US",
-  "place": "Michigan",
-  "lat": 44.31,
-  "lon": -85.6,
-  "policy": true,
-  "score": 60,
-  "published_at": "2026-10-29T13:15:23Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": []
- },
- {
-  "id": "70f370621540",
-  "headline": "Trump’s VA Eyes Psychedelic Treatments for Millions of Veterans as Safety Questions and Practical Barriers Remain",
-  "source": "GreaterGood",
-  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFhZaVJqdkdQdDhBT0YtamNGbG00SXJxa1dxOWNnX2l6cW14bVdPTVFLSGFIVjlLMTJqa2lHdVlSal85QkpybHN3NEZTRUVHOVF0U2Vnell6MlRXSUFHb0NscUp3VWRGcHBSVTVTYlh4eWJXRVZRdHJybTdVeElZck5IazU1ZFREVzdsU0hIRVNtak9GZTI3b1Vjb0F2QThkOTd5WHZldTdGaEZLOTBER25MTQ?oc=5",
-  "lane": "plant_medicine",
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "policy": false,
-  "score": 81,
-  "published_at": "2026-10-29T12:10:56Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": [
-   {
-    "source": "재경일보",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MekU3cGJsNFZiQ255OG9LdzBCalY0Vy1ZVlp3Z1BRcVBMLTJVQlNHOU1xeFFZd0xpTWJ2MTk0bUdMMFMtUUdNaVNsZFNQelM4TnJaOTdLVWZTOTRpVnF5TEN3?oc=5"
-   }
-  ]
- },
- {
-  "id": "69ba5106fbfa",
-  "headline": "GOP Senators Urge USPS Not To Deliver Medical Marijuana Through The Mail Even Though Trump Federally Rescheduled It",
-  "source": "Marijuana Moment",
-  "url": "https://www.marijuanamoment.net/gop-senators-urge-usps-not-to-deliver-medical-marijuana-through-the-mail-even-though-trump-federally-rescheduled-it/",
-  "lane": "plant_medicine",
-  "state": "GA",
-  "country": "US",
-  "place": "Georgia",
-  "lat": 32.16,
-  "lon": -82.9,
-  "policy": true,
-  "score": 59,
-  "published_at": "2026-10-29T11:46:29Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": []
- },
- {
-  "id": "3a3cff4c186c",
-  "headline": "US Navy reports highest number of Class A aviation, afloat mishaps in 10 years",
-  "source": "Military Times",
-  "url": "https://www.militarytimes.com/news/your-military/2026/10/28/us-navy-reports-highest-number-of-class-a-aviation-afloat-mishaps-in-10-years/",
-  "lane": "active_duty",
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "policy": false,
-  "score": 65,
-  "published_at": "2026-10-28T23:02:31Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": []
- },
- {
-  "id": "4bff41260b41",
-  "headline": "Fallen Hamilton County deputy's family fights to get death benefits 6 months after crash",
-  "source": "WTVC",
-  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQek5jbjBYNllfOVVSb0UxNlk1b2RrQktqV0xPLUpiaGNWMzRwX1pRNk92dW9RcXdWNFBZLTB0ODlOUmpKSlBWNkpvWk9WdXRTYzRzclRqQTExZVhtSGx6c0cxUjlFVXdVZG40MHo4Z0w4NHlST2VnNDZPSHJfVDJDZ1BYSml1VE10ejd0M2locENFRkdrdE9vNUF1R1p1TklMZU9SRS1hZUFyTC1IZkdMX2xlcGZJTUNndzI1M0hYY1c?oc=5",
-  "lane": "first_responders",
-  "state": "TN",
-  "country": "US",
-  "place": "Hamilton County, TN",
-  "lat": 35.1,
-  "lon": -85.2,
-  "policy": false,
-  "score": 81,
-  "published_at": "2026-10-27T20:34:42Z",
-  "found_at": "2026-10-29T16:02:35Z",
-  "also": [
-   {
-    "source": "Chattanooga Times Free Press",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaUE5akhROURZRmhmaW1nZFp5YmZvcW1JZ1lrMlJ3WTNrN21VTVZCTkFOcU5UdlVVV3ZlUVppekFKd28wZkR0WUNRSkQ3NUxxVm9RTHVJaWplZC1iN3RNako5a05yWllLSXlETjROdzhKbEUwUFBHRUNVeHFRbjA4b2YtdDVRV0FTa1lfTGQtMWNqaV9YeGtxM2V6MEtwQ0pUcV9rVWVBaGRjLTVfUGFTSW1qRXFNczhoOU54aHdGR0NvVFJzUmk2eVM0TU0?oc=5"
-   }
-  ]
  }
 ]
