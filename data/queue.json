@@ -1,91 +1,5 @@
 [
  {
-  "id": "e6a4ac1589e3",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 72,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 16,
-   "traction": 12,
-   "angle": 6,
-   "timeliness": 14
-  },
-  "score_why": "Fresh State Dept warnings to Americans after deadly Houthi strikes; directly affects traveling and deployed personnel.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Middle East",
-  "lat": 25.28,
-  "lon": 51.53,
-  "flags": [],
-  "source": "cbsnews.com",
-  "source_url": "https://www.cbsnews.com/news/us-warnings-americans-middle-east-houthis/",
-  "source_title": "U . S . ramps up warnings to Americans in Middle East after deadly Houthi strikes",
-  "snippet": "",
-  "published_at": "2026-10-20T21:30:00Z",
-  "found_at": "2026-10-20T22:12:06Z",
-  "feed": "GDELT · U.S. forces worldwide",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "US embassies across Middle East warn Americans after deadly Houthi strikes on Saudi Arabia",
-   "summary": "U.S. embassies in Saudi Arabia, Bahrain, Qatar, the United Arab Emirates and other countries issued new security warnings Sunday. The alerts follow escalating Houthi attacks on Saudi Arabia, including an Oct. 10 strike on Riyadh's airport that killed at least 13 people, one of them an American, and injured more than 300, per Saudi authorities. The alerts say fighting could spread with no warning and urge Americans to prepare for flight cancellations and airspace closures.",
-   "why_it_matters": "Service members, DoD civilians and families stationed in or traveling through the Gulf region should know that embassies are warning the fighting could spread quickly and disrupt flights and airspace.",
-   "take": "The warnings are the right call, and the \"no double standard\" rule, which says private citizens get the same threat information as embassy staff, is the right policy. But the bigger picture is murkier. Washington is supplying intelligence and targeting help, has not decided on airstrikes, and is short on interceptors that everyone wants. Troops and families in the region deserve a clear answer on what the U.S. role is, and what it will take to protect them. Until then, follow your command's and embassy's guidance.",
-   "x_post": "U.S. embassies across the Middle East warn Americans that Houthi-linked fighting could spread without warning. An Oct. 10 strike on Riyadh's airport killed at least 13, including an American. Expect possible flight and airspace disruptions.",
-   "fb_post": "U.S. embassies in Saudi Arabia, Bahrain, Qatar, the UAE and other countries issued new security alerts Sunday. Reason: escalating attacks by Iran-backed Houthi militants on Saudi Arabia.\n\nThe Oct. 10 strike on Riyadh's international airport killed at least 13 people, including an American, and injured more than 300, according to Saudi authorities. The alerts warn that fighting could spread rapidly and without warning, and that flights and airspace could be disrupted.\n\nWhy it matters: if you or your family are stationed in or traveling through the region, plan for sudden changes and follow official guidance. Meanwhile, the U.S. is giving Saudi Arabia intelligence and targeting support. President Trump has not decided on joining airstrikes, and Secretary of State Rubio says missile interceptors are in huge demand.\n\nWe think the warnings are the right call. Troops and families also deserve a clear public answer on what the U.S. role is and how they will be protected.\n\nWhat questions do you most want answered about U.S. involvement in this conflict?",
-   "open_questions": "Source does not say whether any U.S. military personnel or DoD-affiliated people were affected or whether force protection posture has changed. The identity of the American killed is not given. Whether Trump will decide on U.S. airstrikes is unknown. Source says the U.S. and Israel went to war with Iran in February; the current status of that conflict is not detailed. The Saudi casualty figures are from Saudi authorities and not independently verified here.",
-   "hashtags": [
-    "Houthis",
-    "MiddleEast"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "0ab3238256cd",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "first_responders",
-  "score": 56,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 10,
-   "traction": 8,
-   "angle": 6,
-   "timeliness": 10
-  },
-  "score_why": "Execution of man who killed a sheriff's deputy in 1986; line-of-duty relevance but a routine court event, not a responder policy story.",
-  "policy": false,
-  "state": "FL",
-  "country": "US",
-  "place": "Indian River County, FL",
-  "lat": 27.7,
-  "lon": -80.6,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "wflx.com",
-  "source_url": "https://www.wflx.com/2026/10/20/william-reaves-man-convicted-killing-indian-river-county-deputy-1986-scheduled-be-executed-tuesday/",
-  "source_title": "William Reaves : Man convicted of killing Indian River County deputy in 1986 scheduled to be executed Tuesday",
-  "snippet": "",
-  "published_at": "2026-10-20T21:15:00Z",
-  "found_at": "2026-10-20T22:12:06Z",
-  "feed": "GDELT · veterans",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "5dc7ac1cf007",
   "status": "expired",
   "tier": "report",
@@ -2523,6 +2437,52 @@
    "hashtags": [
     "veterans",
     "midterms"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "9376acb37b9c",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 13,
+   "angle": 7,
+   "timeliness": 14
+  },
+  "score_why": "Undisclosed U.S. strikes on Iran in recent weeks; direct U.S. force action with risk to deployed troops, developing story.",
+  "policy": false,
+  "state": null,
+  "country": "IR",
+  "place": "Iran",
+  "lat": 32.43,
+  "lon": 53.69,
+  "flags": [],
+  "source": "Air & Space Forces Magazine",
+  "source_url": "https://www.airandspaceforces.com/us-conducts-airstrikes-iran-latest-series-undisclosed-attacks/",
+  "source_title": "US Conducts Airstrikes on Iran, Latest in Series of Undisclosed Attacks",
+  "snippet": "The U.S. conducted limited airstrikes against Iran on Nov. 2, the latest in a series of attacks the U.S. military has undertaken in the last few weeks but not publicly disclosed. The strikes occurred just ahead of the U.S. midterm elections. The post US Conducts Airstrikes on Iran, Latest in Series of Undisclosed Attacks appeared first on Air & Space Forces Magazine .",
+  "published_at": "2026-11-03T19:37:35Z",
+  "found_at": "2026-11-03T23:57:06Z",
+  "feed": "Air & Space Forces Magazine",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "US strikes Iran's Qeshm Island, latest in a string of undisclosed attacks",
+   "summary": "The U.S. carried out limited airstrikes on Iran's Qeshm Island on Nov. 2. They were the latest of several recent strikes that were never publicly announced. President Trump confirmed the attack on Nov. 3 and said it hit a newly built anti-aircraft site. U.S. officials say Iranian forces fired at U.S. aircraft. Iran says it remains in a state of war.",
+   "why_it_matters": "U.S. aircrews and other forces in the Central Command region are working under ongoing fire and unannounced strikes, with a possible return to large-scale combat in play after the midterm elections.",
+   "take": "The president called this a minor attack and said it wasn't war. Iran's government says the war never ended. Both can't be right, and the people flying the missions live with the answer. Troops carrying out strikes deserve a public account of what they are doing and under what authority, not a story that comes out only after a newspaper reports it. We'll keep watching for the facts, whichever side is doing the spinning.",
+   "x_post": "US forces struck Iran's Qeshm Island on Nov. 2, the latest in a series of limited strikes not announced at the time. Trump called it \"just a minor attack.\" Iran says it's still at war. Troops deserve a clear public account.",
+   "fb_post": "The U.S. conducted limited airstrikes on Iran's Qeshm Island on Nov. 2. They were the latest in a series of strikes over the past few weeks that the military never announced. The Wall Street Journal reported them first. President Trump confirmed this one on Nov. 3, saying it hit an anti-aircraft site Iran had spent about two months building. \"It was just a minor attack; it wasn't war,\" he said.\n\nU.S. officials say Iranian forces fired at U.S. aircraft during the strike. Iran's Revolutionary Guard claimed to have downed an MQ-9 Reaper drone. A U.S. official says no U.S. aircraft are believed to have been lost. Iran's deputy foreign minister said his country is \"still in a state of war\" and keeps the right to defend itself.\n\nHere's our view: the troops carrying out these missions deserve a clear public account of what they're doing and why. Hitting air defenses is also the kind of step that could come before bigger operations. Trump has signaled he's weighing a return to large-scale combat after the midterms.\n\nShould the public hear about U.S. strikes when they happen, or is it fair to hold them back?",
+   "open_questions": "How many undisclosed strikes have there been since early September, and where exactly? Any U.S. or Iranian casualties on Nov. 2? Is the IRGC's MQ-9 shootdown claim true? The source says only that no U.S. aircraft are believed downed, per one U.S. official. CENTCOM declined comment. Were Congress or allies notified, and under what legal authority are the strikes being conducted? Has the administration decided whether to resume major combat operations? The source does not say. Wall Street Journal original report not reviewed; we have only Air & Space Forces Magazine's account.",
+   "hashtags": [
+    "Iran",
+    "CENTCOM"
    ],
    "deadlines": []
   }
