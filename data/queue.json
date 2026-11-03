@@ -1,121 +1,5 @@
 [
  {
-  "id": "fab80ec54dff",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "first_responders",
-  "score": 82,
-  "score_parts": {
-   "relevance": 28,
-   "impact": 20,
-   "traction": 12,
-   "angle": 10,
-   "timeliness": 12
-  },
-  "score_why": "Signed NY law expanding tax credit for volunteer firefighters and EMS; direct line-of-duty benefit.",
-  "policy": true,
-  "state": "NY",
-  "country": "US",
-  "place": "New York",
-  "lat": 42.97,
-  "lon": -75.5,
-  "flags": [],
-  "source": "wbng.com",
-  "source_url": "https://www.wbng.com/2026/10/19/hochul-signs-bill-boost-tax-credit-volunteer-firefighters-ems-workers/",
-  "source_title": "Hochul signs bill to boost tax credit for volunteer firefighters , EMS workers",
-  "snippet": "",
-  "published_at": "2026-10-19T21:30:00Z",
-  "found_at": "2026-10-19T22:57:11Z",
-  "feed": "GDELT · police, EMS, dispatch",
-  "also_covered_by": [
-   {
-    "source": "Press & Sun-Bulletin",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNemt3NFM0dkRGcEYxUS11UFpJdmRzZUdIZ3NPa2VkaU1ab254UW5zd2hzeTA5c3pDc01lYVhNS1JBcm4wdUFKMnVDM2k2UTZvTjNHM2lOY3d1QWxKNXRnMS14dW5hSWtRWmtiRkNOdTFXazljY1VpcnpOR19lbGhjR0oyZ1g1Tk1yLW5NZ2tZY0tnc1JOM0JDN2cydEZUTWJVWjVNNS1ibkcyNXdNeU1VcGU1ZXEzU1VTVHR3aDNNZWJqeWEtWDV0SER6ZTU4N3BWMW5HdGxVbmtkMlU3Rlk2a1kwSXpwVW9FZjJURA?oc=5",
-    "title": "New York quadruples tax credit for volunteer firefighters, EMS workers"
-   },
-   {
-    "source": "Troy Record",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRnVQbkhJcms2OHpIYlM4cEQxLWNSY0VVdEhDclVUSnVkang5WUhHRWRNRHQwNjNNdnE2T0hfVVk5MWN6LU1tWXdNdmRxQ19fQkJOMldTbDE5VkxGTWtlWjVmTlE5eFk2RlNBVGRaT2dxRE5ZczBrMVc0Z3d2Nlc1QVBWQktuY0tSQXlCUU1KTV9DaG84c2RrSEs1cUVkMDVST05IeGFvNnhfVTY3TmszYVVzRmh5a2RJVDQ1Y2M3U3NmNC1qNU1wR1Zjajh0QXVuUUhGNEJSaWlKQURCenltUTR0SkM?oc=5",
-    "title": "Hochul signs legislation quadrupling New York state tax credit for volunteer firefighters and ambulance workers"
-   }
-  ],
-  "draft": {
-   "headline": "New York quadruples tax credit for volunteer firefighters and EMS workers",
-   "summary": "New York Gov. Kathy Hochul signed bill S6233A on Oct. 17. It raises the state income tax credit for eligible volunteer firefighters and volunteer ambulance workers from $200 to $800 a year. Married couples go from $400 to $1,600. The increase starts with tax year 2027, so volunteers claim it when they file in 2028. Volunteers can take either the credit or a qualifying local property tax exemption.",
-   "why_it_matters": "Volunteer firefighters and EMS crews in New York get a bigger tax break for their service, and departments get another tool to recruit and keep people.",
-   "take": "We're glad to see this move. A $200 credit that sat untouched for nearly 20 years was overdue for a raise, and volunteers give up real time and family life to answer the call. But a bigger credit that doesn't pay out until 2028 is a long wait. Volunteer rosters are shrinking across the country, and tax relief is only one piece of keeping people on the roster. Training, stipends, and respect for the job all matter too.",
-   "x_post": "New York just quadrupled its income tax credit for volunteer firefighters and EMS: $200 to $800 for individuals, $400 to $1,600 for couples. It starts with tax year 2027. Is it enough to help departments recruit and keep volunteers?",
-   "fb_post": "New York Gov. Kathy Hochul signed a bill on Oct. 17 that quadruples the state income tax credit for eligible volunteer firefighters and volunteer ambulance workers.\n\nThe credit goes from $200 to $800 for individuals and from $400 to $1,600 for married couples. It takes effect in tax year 2027, so volunteers will claim it when they file in 2028. Volunteers can choose either the credit or a qualifying local property tax exemption. The Broome County Firefighters Association president says the old $200 amount hadn't changed in nearly 20 years.\n\nWe think it's a good step and a long time coming. Volunteer ranks are shrinking, and this helps with recruiting and retention. But the wait until 2028 is a long one, and money alone won't fill every firehouse.\n\nIf you volunteer or have in the past, what would do the most to keep people on the roster?",
-   "open_questions": "Exact eligibility rules for \"active\" volunteers are not spelled out. The effective date within tax year 2027 is not given. The sources do not say what the change costs the state. It is unclear whether the training stipends Brady cited ($2,000 interior firefighter, $1,000 officers, $250 other courses) are state-funded or come from a county or other program. The source also does not say how the credit interacts with the property tax exemption beyond \"either/or.\" Consider confirming the bill text and Hochul's press release.",
-   "hashtags": [
-    "VolunteerFirefighters",
-    "NewYork"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "641021c43fec",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 70,
-  "score_parts": {
-   "relevance": 20,
-   "impact": 8,
-   "traction": 14,
-   "angle": 8,
-   "timeliness": 14
-  },
-  "score_why": "Airman killed in rappelling fall at Navy game; fatal service member accident, breaking and widely shared.",
-  "policy": false,
-  "state": "TX",
-  "country": "US",
-  "place": "San Antonio, TX",
-  "lat": 29.42,
-  "lon": -98.49,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/19/airman-dies-from-rappelling-fall-before-navy-football-game/",
-  "source_title": "Airman dies from rappelling fall before Navy football game",
-  "snippet": "A Tactical Air Control Party instructor fell from the Alamodome's 170-foot-tall rafters during a pre-game rappelling display.",
-  "published_at": "2026-10-19T16:44:00Z",
-  "found_at": "2026-10-19T22:57:11Z",
-  "feed": "Military Times",
-  "also_covered_by": [
-   {
-    "source": "Air & Space Forces Magazine",
-    "url": "https://www.airandspaceforces.com/air-force-ids-airman-killed-in-alamodome-rappelling-accident/",
-    "title": "Air Force Identifies TACP Airman Killed in Alamodome Rappelling Accident"
-   }
-  ],
-  "draft": {
-   "headline": "Air Force TACP instructor dies after fall during rappelling demo at San Antonio game",
-   "summary": "Tech. Sgt. Ian Patterson, a Tactical Air Control Party instructor at Joint Base San Antonio, fell during a pregame rappelling demonstration at the Alamodome on Oct. 17. Medical staff treated him on the field, and he died at a hospital. He had served 15 years. Four service members were scheduled to take part. The Air Force is investigating.",
-   "why_it_matters": "Service members who train, perform, and support military events at public venues, and the families who wait on news of them, deserve clear answers about how risk is managed.",
-   "take": "We mourn Tech. Sgt. Patterson, a 15-year Airman and a 2022 Air Force Special Warfare Enlisted Instructor of the Year at the headquarters level. The Air Force is investigating, and we won't guess at the cause. But the Alamodome rafters sit roughly 170 to 180 feet up, well above the 34 to 90 feet of most military rappel towers. When a training skill becomes a crowd show, the planning and approvals deserve the same scrutiny as the training itself. His family and his unit are owed a thorough investigation and findings shared in plain language.",
-   "x_post": "Tech. Sgt. Ian Patterson, a 15-year Air Force TACP instructor, died after a fall during a pregame rappelling demo at the Alamodome in San Antonio on Oct. 17. The Air Force is investigating. Our thoughts are with his family and unit.",
-   "fb_post": "Tech. Sgt. Ian Patterson, a Tactical Air Control Party instructor with the 6th Combat Training Squadron, Detachment 2, at Joint Base San Antonio, died after a fall during a rappelling demonstration before the UTSA-Navy game at the Alamodome on Oct. 17. He received care on the field and died at a hospital. He had served 15 years.\n\nPatterson was one of four service members scheduled for the demo. The rafters are about 170 to 180 feet up, more than double the height of most military rappel towers. The Air Force is investigating. Brig. Gen. Scott Mills, 57th Wing commander, said the loss is felt deeply across the wing.\n\nOur view: we won't speculate on the cause, but demonstrations for crowds should get the same careful planning and review as training. His family and unit deserve answers.\n\nDo you think military demonstrations at public events should have an independent safety review first?",
-   "open_questions": "Cause of the fall is not determined; the Air Force is investigating and the 57th Wing declined to discuss specifics. Air & Space Forces Magazine says video appears to show a rapid descent without braking, but this is an unofficial read of social media video and is not in the public copy. Unclear whether Patterson or the team rehearsed from the Alamodome rafters beforehand (KSAT reported this is unclear). Stadium height differs by source: about 170 feet (Military Times) vs 180 feet (Air & Space Forces). Military Times says the team was trained for heights of 100+ feet. Date of death: Air & Space Forces says Oct. 17; Military Times says Nellis confirmed death around 11:40 p.m. Eastern, so local date and time zone should be checked. Who approved the demo, what equipment was used, and when investigation findings will be released are all unknown. Not a suicide story, so no Veterans Crisis Line line added. Editors may want to confirm the Oct. 18 Air Force release directly.",
-   "hashtags": [
-    "AirForce",
-    "TACP"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "b41752858729",
   "status": "expired",
   "tier": "report",
@@ -2301,7 +2185,7 @@
  },
  {
   "id": "170f6b4ba7e1",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2347,7 +2231,7 @@
  },
  {
   "id": "ecd34f6b9c5a",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2524,6 +2408,98 @@
    "hashtags": [
     "cannabis",
     "rescheduling"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "c44d95cda8a0",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 90,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 12
+  },
+  "score_why": "Marine Corps ends extension waivers for transgender troops facing separation; direct impact on service members' careers and rights.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/11/02/marine-corps-removes-extension-waivers-for-transgender-troops-fighting-to-remain-in-the-military/",
+  "source_title": "Marine Corps removes extension waivers for transgender troops fighting to remain in the military",
+  "snippet": "The U.S. Marine Corps announced that it is no longer allowing extension waivers for transgender service members whose service contract is set to expire amid their fight to remain in the military.",
+  "published_at": "2026-11-02T22:31:23Z",
+  "found_at": "2026-11-03T01:35:31Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Marine Corps removes extension waivers for transgender troops seeking to stay in",
+   "summary": "The Marine Corps has removed extension waivers for transgender troops who are fighting to remain in the military, Military Times reported on Nov. 2, 2026. The change affects service members who are still trying to stay in uniform. It adds pressure on those who are contesting the end of their service.",
+   "why_it_matters": "Active-duty members and their families need to know that a waiver option for transgender Marines trying to stay in service is no longer available.",
+   "take": "People who raised their right hand and are still serving deserve clear rules, a fair process, and honest answers about where they stand. Pulling a waiver option while people are fighting to stay in does the opposite. We will be watching for the Corps to explain the reasoning and what options remain for these Marines.",
+   "x_post": "The Marine Corps has removed extension waivers for transgender troops who are fighting to remain in the military, Military Times reports. Those still serving deserve clear rules and a fair process. What options remain for them?",
+   "fb_post": "The Marine Corps has removed extension waivers for transgender troops who are fighting to remain in the military, according to Military Times.\n\nIt matters because it hits service members who are still trying to stay in uniform, and because their families need clear answers about where they stand.\n\nOur view: anyone still serving deserves clear rules, a fair process, and a straight explanation when options are taken away. We will keep watching for what the Corps says and what paths remain.\n\nHow should the services handle service members who are contesting their separation while the rules change?",
+   "open_questions": "The article text we received was page code only, so the only usable source is the headline and metadata. Still unconfirmed: what the extension waivers did, who issued the decision and when it takes effect, how many Marines are affected, the stated reason, and what legal or administrative appeals are pending. Whether this applies only to the Marine Corps or to other services is also unknown. Please pull the full Military Times article and verify before publishing. Also confirm the 'Marines' vs 'troops' wording.",
+   "hashtags": [
+    "MarineCorps",
+    "MilitaryNews"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "b92e86357abf",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Guard activated for ballot security after threats; developing story with domestic deployment angle.",
+  "policy": false,
+  "state": "WA",
+  "country": "US",
+  "place": "Washington state",
+  "lat": 47.4,
+  "lon": -120.5,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/national-guard-washington-state-ballot-boxes/",
+  "source_title": "National Guard troops monitoring ballot boxes in Washington state after threats",
+  "snippet": "At least 100 National Guard members were activated to assist with election security in seven counties. The post National Guard troops monitoring ballot boxes in Washington state after threats appeared first on Task & Purpose .",
+  "published_at": "2026-11-02T20:35:09Z",
+  "found_at": "2026-11-03T01:35:31Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Washington Guard members watch ballot drop boxes in seven counties after threats",
+   "summary": "Washington state has put about 100 National Guard members to work watching ballot drop boxes in seven counties: King, Snohomish, Pierce, Thurston, Clark, Lewis and Island. Gov. Bob Ferguson cited threats to officials, including a letter with white powder sent to the secretary of state. The troops are unarmed and out of uniform. Counties had to opt in.",
+   "why_it_matters": "Guard members are being used in a visible domestic role during an election, so service members and their families should know the mission's limits: voluntary for counties, unarmed, and no contact with voters.",
+   "take": "We think the guardrails here are the right ones. Counties choose whether to take part, the troops are unarmed, and they stay away from voters. That is how a neighborhood watch should work. Guard members are citizen-soldiers with civilian lives, and any domestic mission needs clear limits and a clear end point. Voters should expect to see the election run by election officials, not by the military.",
+   "x_post": "Washington has about 100 National Guard members watching ballot drop boxes in 7 counties after threats to officials. They're unarmed, out of uniform, and counties had to opt in. Clear limits matter for any domestic mission.",
+   "fb_post": "About 100 Washington National Guard members are now helping watch ballot drop boxes in seven counties: King, Snohomish, Pierce, Thurston, Clark, Lewis and Island. Gov. Bob Ferguson calls it an \"Election Neighborhood Watch.\"\n\nThe move follows threats to officials. That includes suspicious envelopes, and one letter with white powder mailed to the secretary of state. The state also activated the Guard in 2024, after ballot boxes on the West Coast were attacked.\n\nThe ground rules: the troops are unarmed and not in uniform. They don't interact with voters. Their main job is making sure the boxes aren't tampered with, mostly during hours when voters aren't using them. Counties decide whether to accept the help.\n\nWe think limits like these are what keep a mission like this appropriate. What do you think: is this a reasonable use of the Guard, or should election security stay entirely with civilian agencies?",
+   "open_questions": "Source says \"at least 100\" in the subhead but \"roughly 100 as of Friday\" in the text. It is unclear if numbers grew over the weekend or will rise on election day. It is also unclear whether the mission ends after Tuesday or runs through the week. The Washington National Guard declined to discuss operational details. The source says \"Tuesday's elections\" without a date. Presumably 2026-11-03, but I did not list it as a deadline because the source does not state the date. Please confirm before adding. Unclear which counties beyond the seven accepted, or whether any declined. The article also mentions a separate, unrelated Washington, D.C. incident: Guard troops photographed near a ballot drop box. JTF-DC said it is not sending troops to election sites. I left it out of the draft.",
+   "hashtags": [
+    "NationalGuard",
+    "ElectionSecurity"
    ],
    "deadlines": []
   }

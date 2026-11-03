@@ -1,10 +1,10 @@
 {
- "started_at": "2026-11-02T19:13:25Z",
+ "started_at": "2026-11-03T01:27:02Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
   "Defense News (10)",
-  "Task & Purpose (25)",
+  "Task & Purpose (24)",
   "USNI News (25)",
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
@@ -13,30 +13,30 @@
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (22)",
-  "GDELT · firefighters (0)",
+  "GDELT · veterans (0)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
-  "GDELT · psychedelic therapy (0)",
+  "GDELT · hemp and cannabis policy (0)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
-  "News search · firefighters (15)",
+  "News search · firefighters (25)",
   "News search · police and EMS wellness (24)",
   "News search · psychedelic therapy and veterans (25)",
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
+  "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
   "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
-  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
+  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA"
  ],
- "new": 126,
- "scored": 126,
- "wired": 18,
- "queued": 1,
- "drafted": 1,
+ "new": 76,
+ "scored": 76,
+ "wired": 9,
+ "queued": 2,
+ "drafted": 2,
  "no_article": 0,
- "duplicates_merged": 0,
+ "duplicates_merged": 1,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-11-02T19:22:48Z"
+ "finished_at": "2026-11-03T01:36:40Z"
 }
