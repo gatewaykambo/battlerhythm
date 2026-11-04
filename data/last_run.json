@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-03T23:51:39Z",
+ "started_at": "2026-11-04T16:52:38Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
@@ -9,34 +9,34 @@
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
+  "GDELT · U.S. forces worldwide (25)",
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (23)",
-  "GDELT · veterans (12)",
-  "GDELT · firefighters (0)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
   "GDELT · psychedelic therapy (0)",
-  "GDELT · hemp and cannabis policy (0)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
-  "News search · firefighters (18)",
-  "News search · police and EMS wellness (25)",
+  "News search · firefighters (16)",
+  "News search · police and EMS wellness (24)",
   "News search · psychedelic therapy and veterans (25)",
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
-  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi"
+  "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
+  "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi",
+  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
  ],
- "new": 93,
- "scored": 93,
- "wired": 9,
+ "new": 113,
+ "scored": 113,
+ "wired": 6,
  "queued": 1,
  "drafted": 1,
  "no_article": 0,
- "duplicates_merged": 0,
+ "duplicates_merged": 1,
  "deadlines": 0,
  "errors": [],
- "finished_at": "2026-11-03T23:58:14Z"
+ "finished_at": "2026-11-04T17:01:28Z"
 }

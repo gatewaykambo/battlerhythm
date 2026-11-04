@@ -1,21 +1,5 @@
 [
  {
-  "id": "e1d0cdeef0dc",
-  "date": "2026-12-01",
-  "label": "New VA compensation rates take effect",
-  "story_id": "88658ae664a7",
-  "headline": "VA disability pay rises 3.6% in 2027; new rates take effect Dec. 1",
-  "found_at": "2026-10-21T14:28:30Z"
- },
- {
-  "id": "34405d6d4456",
-  "date": "2026-12-31",
-  "label": "First deposit reflecting 3.6% increase",
-  "story_id": "88658ae664a7",
-  "headline": "VA disability pay rises 3.6% in 2027; new rates take effect Dec. 1",
-  "found_at": "2026-10-21T14:28:30Z"
- },
- {
   "id": "fd200bce7e70",
   "date": "2026-11-09",
   "label": "TRICARE open enrollment begins",
@@ -40,14 +24,6 @@
   "found_at": "2026-10-21T22:14:29Z"
  },
  {
-  "id": "b7409ddd8449",
-  "date": "2026-11-03",
-  "label": "Midterm election day",
-  "story_id": "90a2b934d7ca",
-  "headline": "Trump ties Camp Lejeune water settlements to GOP winning Congress in midterms",
-  "found_at": "2026-10-22T22:13:31Z"
- },
- {
   "id": "786e5645e7eb",
   "date": "2026-12-11",
   "label": "Stopgap funding law expires",
@@ -70,14 +46,6 @@
   "story_id": "51c983a45b41",
   "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
   "found_at": "2026-10-22T22:13:31Z"
- },
- {
-  "id": "db0bd6215ff4",
-  "date": "2026-11-03",
-  "label": "US midterm elections",
-  "story_id": "4d5b019e4ff4",
-  "headline": "Analysts see signs US may resume major strikes on Iran after midterms",
-  "found_at": "2026-10-24T13:13:12Z"
  },
  {
   "id": "e5fb2e018e78",
