@@ -1,64 +1,5 @@
 [
  {
-  "id": "d2ec119821f5",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 73,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 12,
-   "traction": 10,
-   "angle": 8,
-   "timeliness": 14
-  },
-  "score_why": "Airman death in training demonstration; safety issue that leads to training pause, fresh and relevant.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": null,
-  "lat": null,
-  "lon": null,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/23/air-force-unit-halts-rappelling-ropes-training-after-airman-dies-during-public-demonstration/",
-  "source_title": "Air Force unit halts rappelling, ropes training after airman dies during public demonstration",
-  "snippet": "After Tech. Sgt. Ian Patterson died from injuries sustained during a public demonstration, his squadron ceased all rappel and rope training events.",
-  "published_at": "2026-10-23T18:29:56Z",
-  "found_at": "2026-10-23T21:58:34Z",
-  "feed": "Military Times",
-  "also_covered_by": [
-   {
-    "source": "Task & Purpose",
-    "url": "https://taskandpurpose.com/news/air-force-suspends-rappel-training/",
-    "title": "Air Force suspends rappelling events for special ops training unit after fatal fall"
-   }
-  ],
-  "draft": {
-   "headline": "Air Force training squadron pauses rappel and ropes events after instructor's fatal fall",
-   "summary": "The Air Force's 6th Combat Training Squadron has paused all rappel and ropes training and demonstrations until further notice. Tech. Sgt. Ian Patterson, an instructor in the unit, fell about 160 feet from the Alamodome rafters in San Antonio during a demonstration before the Oct. 17 UTSA-Navy football game. He died at a hospital. The cause is under investigation.",
-   "why_it_matters": "Rappelling is a core skill for tactical air control party (TACP) airmen, so a pause in this squadron's training touches the pipeline that prepares them, and it raises fair questions about safety at public demonstrations.",
-   "take": "Pausing the ropes work is the right call while an airman's death is being investigated. A stand-down costs some training time. Skipping one can cost far more. We'll be watching for a clear public account of what went wrong and what changes before rappelling resumes, especially for demonstrations in front of crowds. Until then, the best thing anyone can do is avoid guessing about the cause and keep Tech. Sgt. Patterson's family in mind.",
-   "x_post": "An Air Force training squadron that prepares TACP airmen has paused all rappel and ropes training and demos after Tech. Sgt. Ian Patterson died in a fall at a San Antonio stadium demonstration. The cause is under investigation.",
-   "fb_post": "The Air Force's 6th Combat Training Squadron has paused all rappel and ropes training events and demonstrations until further notice. The unit's instructor, Tech. Sgt. Ian Patterson, died after falling from the Alamodome rafters during a demonstration before the Oct. 17 UTSA-Navy football game in San Antonio.\n\nPatterson was a 15-year airman assigned to the squadron's detachment at Joint Base San Antonio. That detachment selects and trains candidates for tactical air control party (TACP) jobs, and rappelling is a core skill for them. He is survived by his wife and two young sons.\n\nThe cause of the fall is under investigation. We think a pause is the right move while that work goes on. The people who train our airmen, and the families who wait for them at home, deserve a clear account of what happened and what changes.\n\nShould public demonstrations like this have a different safety standard than regular training?",
-   "open_questions": "Task & Purpose reports the Air Force did not say when the suspension began, who ordered it, what conditions must be met to resume, or whether it applies beyond the 6th CTS. The Air Force has not explicitly said the fatal fall prompted the pause, so the public copy avoids stating a cause-and-effect link. The cause of the fall is under investigation, and Nellis AFB officials declined to discuss details. The Military Times text we received was unusable (page code only), so all facts come from Task & Purpose. Please confirm with a second outlet if possible. Patterson's family has a GoFundMe organized by his brother-in-law; we left it out and the editor should decide whether to mention it after vetting it. Whether the Alamodome or UTSA has commented is not in the sources.",
-   "hashtags": [
-    "AirForce",
-    "MilitaryTraining"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "4d5b019e4ff4",
   "status": "expired",
   "tier": "report",
@@ -1451,7 +1392,7 @@
  },
  {
   "id": "b50e0d1639db",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -1503,7 +1444,7 @@
  },
  {
   "id": "a235c54fd85c",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -1549,7 +1490,7 @@
  },
  {
   "id": "f7b6290a179c",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1595,7 +1536,7 @@
  },
  {
   "id": "c02d238e4b93",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2426,6 +2367,211 @@
      "label": "Guard drill childcare planned in all states"
     }
    ]
+  }
+ },
+ {
+  "id": "392f6c6ad1ce",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 100,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 25,
+   "traction": 15,
+   "angle": 12,
+   "timeliness": 13
+  },
+  "score_why": "Extended curfew and alcohol limits for junior Marines on Okinawa after a murder indictment; directly affects troops' daily life.",
+  "policy": false,
+  "state": null,
+  "country": "JP",
+  "place": "Okinawa, Japan",
+  "lat": 26.33,
+  "lon": 127.8,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/11/06/us-military-extends-restrictions-for-okinawa-personnel-after-marines-indictment/",
+  "source_title": "US military extends restrictions for Okinawa personnel after Marine’s indictment",
+  "snippet": "The new restrictions will begin Sunday and last for around a month, extending a junior enlisted curfew and curbing alcohol consumption past midnight.",
+  "published_at": "2026-11-06T19:20:26Z",
+  "found_at": "2026-11-06T23:45:35Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "USNI News",
+    "url": "https://news.usni.org/2026/11/06/iii-mef-extends-curfew-for-junior-members-in-okinawa-following-murder-indictment",
+    "title": "III MEF Extends Curfew for Junior Members in Okinawa Following Murder Indictment"
+   }
+  ],
+  "draft": {
+   "headline": "US military in Japan extends Okinawa restrictions after Marine indicted",
+   "summary": "In Japan, the U.S. military has extended restrictions on its personnel on Okinawa. The extension comes after a Marine was indicted, according to Military Times. It continues limits that were already in place for U.S. personnel on the island, and the report ties the decision directly to the indictment.",
+   "why_it_matters": "Troops and families stationed on Okinawa live under these limits every day, so any extension changes their off-duty routines and their relationship with the community around the bases.",
+   "take": "An indictment is an accusation, not a verdict, and the Marine is owed due process. Still, when restrictions get extended, the service members who did nothing wrong carry the weight. Commanders should say plainly what the rules are, who they cover, and when they end. Accountability matters, and so does keeping the force informed.",
+   "x_post": "U.S. forces in Japan have extended restrictions on personnel on Okinawa after a Marine was indicted. Troops who did nothing wrong carry the burden. Commanders owe them clear rules and a clear end date.",
+   "fb_post": "The U.S. military has extended restrictions on its personnel on Okinawa, Japan, following the indictment of a Marine, Military Times reports.\n\nThis matters because everyone stationed on the island, and their families, lives under these limits. An extension affects daily routines and how the community sees the bases.\n\nOur view: an indictment is an accusation, not a verdict, and the Marine deserves due process. But the many service members who did nothing wrong shouldn't be left guessing. Commanders should spell out the rules and when they end.\n\nIf you've been stationed on Okinawa, how well did leadership communicate rules like these?",
+   "open_questions": "The source text we received was page code with no readable article body, so only the headline facts are confirmed. Still unanswered: what the Marine is accused of and where the indictment was filed (Japanese or U.S. system); the Marine's name, unit, and branch details; what the restrictions are (curfew, alcohol, liberty limits); who they cover (all U.S. personnel, or specific services); how long they were extended and when they took effect; what prompted them originally; and which command announced the extension. Pull the full Military Times article before publishing. Check whether the take's assumption that restrictions broadly affect troops holds up.",
+   "hashtags": [
+    "Okinawa",
+    "USMC"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "ebe1b5977d51",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 100,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 25,
+   "traction": 15,
+   "angle": 15,
+   "timeliness": 15
+  },
+  "score_why": "Major U.S. force posture change in Somalia after more than a decade; developing and widely debated.",
+  "policy": false,
+  "state": null,
+  "country": "SO",
+  "place": "Somalia",
+  "lat": 2.04,
+  "lon": 45.34,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RU1dYZF9JeVJlTnVkVG44cm13TDdkVGpER0p3dlhqQlJFei0waWM1YTFESUpUOWwxZWtQZ0FudkdfeWY0Unp2OXJscHVDR0ZlUU5ERTA2eVRWWjFQYURTOEtxc1I4aDNwbVFHby1KVlVxek92Ui1MUw?oc=5",
+  "source_title": "US forces leave a major airfield in Somalia after more than a decade",
+  "snippet": "US forces leave a major airfield in Somalia after more than a decade Task & Purpose",
+  "published_at": "2026-11-06T22:01:09Z",
+  "found_at": "2026-11-06T23:45:35Z",
+  "feed": "News search · service members",
+  "also_covered_by": [
+   {
+    "source": "Task & Purpose",
+    "url": "https://taskandpurpose.com/news/us-troops-somalia-baledogle-airfield/",
+    "title": "US forces leave important airfield in Somalia"
+   }
+  ],
+  "draft": {
+   "headline": "US troops leave Baledogle Airfield in Somalia after 14 years, stay in country",
+   "summary": "The U.S. military pulled all its troops from Baledogle Military Airfield in Somalia last month, ending a presence that began in 2012. A military official told Task & Purpose the troops moved to other parts of Somalia and might return. U.S. Africa Command did not confirm the move, saying it repositions forces to fit counterterror needs.",
+   "why_it_matters": "Troops who rotate through the Horn of Africa should expect the Somalia mission to keep shifting locations, even as strikes against al-Shabaab continue.",
+   "take": "We read this as a move, not a withdrawal. Troops are still in Somalia, and airstrikes against al-Shabaab continued in October. Africa Command says it doesn't discuss details for operational security, and that's fair. But a 14-year footprint leaving a base near Mogadishu is worth a plain explanation to the public, and to the troops who served there, when it can be given safely.",
+   "x_post": "US troops have left Baledogle Airfield in Somalia after 14 years, a military official says. They remain in the country and may return. AFRICOM says it repositions forces for counterterror needs. Strikes on al-Shabaab continue.",
+   "fb_post": "U.S. troops pulled out of Baledogle Military Airfield in Somalia last month, after using it since 2012. The base sits about 60 miles southwest of Mogadishu.\n\nA military official told Task & Purpose the troops moved to other parts of Somalia and could return. U.S. Africa Command didn't confirm the move. It said it repositions forces to optimize for counterterror operations and doesn't discuss ongoing operations.\n\nThis isn't an end to the mission. American forces carried out four airstrikes on al-Shabaab in October, and the U.S. is upgrading an air base in Kenya used for Horn of Africa operations.\n\nWe see a shift in posture, not an exit. Troops who served at Baledogle, including the ones who defended it in the 2019 attack, deserve a clear account when security allows.\n\nDid you serve at Baledogle or elsewhere in Somalia? What do you make of the move?",
+   "open_questions": "How many troops were at Baledogle before the move is unknown. Where they relocated in Somalia is not stated. AFRICOM did not confirm the departure; the confirmation comes from an unnamed military official, and Horn Observer first reported it. The reason for the move is not given. Whether any return is planned is unknown. The exact date of departure is not stated beyond \"last month.\"",
+   "hashtags": [
+    "Somalia",
+    "AFRICOM"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "45291703496c",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 80,
+  "score_parts": {
+   "relevance": 27,
+   "impact": 20,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 12
+  },
+  "score_why": "TRICARE 2027 premium changes directly hit service members, retirees, and families.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Federal News Network",
+  "source_url": "https://federalnewsnetwork.com/benefits/2026/11/tricare-costs-remain-mostly-stable-in-2027-but-some-premiums-spike/",
+  "source_title": "TRICARE costs remain mostly stable in 2027, but some premiums spike",
+  "snippet": "Service members and dependents can keep the plan they already have or switch to one that better meets their needs.",
+  "published_at": "2026-11-06T21:33:57Z",
+  "found_at": "2026-11-06T23:45:35Z",
+  "feed": "Federal News Network",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "TRICARE 2027: Prime and Select hold steady, but some premiums jump 10% or more",
+   "summary": "The Defense Department has posted 2027 TRICARE prices. Prime and Select stay largely the same, with small copay increases. Pharmacy costs do not change. Two premium-based plans get hit harder. Young Adult Prime rises more than 12% to nearly $900 a month, and Retired Reserve family coverage rises almost 10% to nearly $1,700 a month. Open enrollment runs Nov. 9 to Dec. 8.",
+   "why_it_matters": "Most active-duty families will see little change, but young adult dependents and retired Reserve families face steep premiums, so everyone should review their plan before Dec. 8.",
+   "take": "Stable is good news, and for most active-duty families that's what this is. But a monthly premium near $900 for a 21-to-26-year-old dependent is not small, and the group paying it is the least likely to have the savings to cover it. Military family advocates want Congress to subsidize these plans, and we agree it deserves a serious look. We also want DoD to show its math on why a small enrollment pool drives the price so high. Health coverage is an earned benefit, not a sales pitch.",
+   "x_post": "TRICARE 2027: Prime and Select stay mostly stable, pharmacy costs don't change. But Young Adult Prime jumps 12%+ to nearly $900/month, and Retired Reserve family plans hit nearly $1,700/month. Open enrollment: Nov. 9-Dec. 8.",
+   "fb_post": "TRICARE prices for 2027 are out, and for most active-duty families the news is calm. Prime and Select stay largely the same. Copays go up by a few dollars, and pharmacy costs hold steady. Open enrollment runs Nov. 9 to Dec. 8.\n\nThe exception is the premium-based plans. Young Adult Prime, for dependents ages 21 to 26, rises more than 12% to nearly $900 a month. Retired Reserve family coverage rises almost 10% to nearly $1,700 a month. The Defense Health Agency says the young adult plan has a small group of members who use a lot of care, and that pushes the price up.\n\nWe think those numbers are hard to justify for people in their early 20s. Advocates want Congress to subsidize these plans, and that idea deserves a hearing. DoD should also explain the pricing in plain terms.\n\nAre you staying with your current plan or switching this year? Tell us why.",
+   "open_questions": "1) The article says Prime and Select see \"slight increases in copays and out-of-pocket cost caps,\" but also lists the caps as $1,000 (Group A) and $1,372 (Group B) without saying whether they changed. Confirm against the DHA release before adding cap figures. 2) Exact copay changes are described only as \"a few dollars,\" with no figures by service. 3) The enrollment dates are given as Nov. 9-Dec. 8 with no year. I assumed 2026 from the publish date. 4) The article says the Young Adult Prime increase is \"more than 12%\" and the Retired Reserve increase is \"almost 10%,\" so exact percentages and dollar amounts are not confirmed. 5) The article names Humana Military, TriWest and Express Scripts. I left them out of the draft. Check the client list for conflicts if the editors add them. 6) Nothing in the article says whether Congress has any pending bill to subsidize premium-based plans.",
+   "hashtags": [
+    "TRICARE",
+    "MilitaryHealth"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-09",
+     "label": "TRICARE open enrollment begins"
+    },
+    {
+     "date": "2026-12-08",
+     "label": "TRICARE open enrollment ends"
+    }
+   ]
+  }
+ },
+ {
+  "id": "703881d489fc",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 12
+  },
+  "score_why": "Air Force chief pushes to take over base control from joint basing, a possible policy shift under internal review.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Air & Space Forces Magazine",
+  "source_url": "https://www.airandspaceforces.com/wilsbach-air-force-own-run-bases-pentagon-joint-basing/",
+  "source_title": "Wilsbach Lays Out Goal for USAF to ‘Own and Run’ All Its Bases",
+  "snippet": "The Air Force wants to “own and run” more of its air bases, Air Force Chief of Staff Gen. Kenneth S. Wilsbach said Nov. 6, in what could be a major potential revamp the military’s joint base program. Speaking at the Airlift/Tanker Association’s 2026 Symposium, Wilsbach said he and the other service chiefs met roughly a year ago and agreed that each service should control its own bases. A Pentagon spokesperson said an internal review is ongoing. The post Wilsbach Lays Out Goal for USAF to ‘Own and Run’ All Its Bases appeared first on Air & Space Forces Magazine .",
+  "published_at": "2026-11-06T23:01:05Z",
+  "found_at": "2026-11-06T23:45:35Z",
+  "feed": "Air & Space Forces Magazine",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Air Force chief says service chiefs want to run their own bases again",
+   "summary": "Air Force Chief of Staff Gen. Kenneth Wilsbach said Nov. 6 that the military service chiefs agree each service should \"own and run\" its own installations. The Pentagon says no decision has been made, but confirms an internal review of joint basing policy. Joint basing, which merged base support across services, was meant to save money but ended up costing more, per the GAO.",
+   "why_it_matters": "If joint basing is rolled back, the services that run your base's housing, childcare, medical, dining, and other support could change, starting at bases shared by the Air Force and Navy.",
+   "take": "We get why the chiefs want this. When another service runs the base, your needs may not be first in line, and the chiefs say as much about themselves too. Joint basing was sold on savings that never showed up, so a review is fair. What matters for families is the handoff: housing, childcare, and clinics can't be allowed to slip while the bureaucrats sort out who holds the keys. The Pentagon says no closures or force structure changes are expected, and we'll hold them to that.",
+   "x_post": "Air Force Chief of Staff Gen. Wilsbach says the service chiefs agree each branch should \"own and run\" its own bases. The Pentagon says no decision yet, but a joint basing review is underway. GAO found joint basing cost more, not less.",
+   "fb_post": "Air Force Chief of Staff Gen. Kenneth Wilsbach said Nov. 6 that the service chiefs agree each service should \"own and run\" its own bases. He hopes to see that happen late this year or early next.\n\nThe Pentagon says no decision has been made, but it confirms an internal review of joint basing. It also says no base closures or force structure changes are expected. Joint basing came out of the 2005 BRAC round and merged base support, such as childcare, housing, medical, and dining, across services at 12 joint installations. The GAO found it produced a net cost increase instead of the promised savings.\n\nWe think the case for a review is solid. But any change has to protect the services families rely on every day.\n\nIf your base is a joint base, what would you want to see stay the same, or change?",
+   "open_questions": "Source does not say which bases would change first beyond Chief Master Sgt. Wolfe's examples (Andrews, Lindsey Graham, Pearl Harbor-Hickam), and gives no timeline for a Pentagon decision beyond Wilsbach's hope for late this year or early next. The article's list of the 12 joint bases is missing from the text. The $25 billion savings projection is described as annual by 2011 in the source, which looks odd and should be checked before we use it. No details on how services' support (housing, childcare, medical) would transition or what it means for families and civilian staff. Source did not say how other services' chiefs see it beyond Wilsbach's account of consensus.",
+   "hashtags": [
+    "AirForce",
+    "JointBasing"
+   ],
+   "deadlines": []
   }
  }
 ]
