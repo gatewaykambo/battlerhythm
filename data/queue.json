@@ -1,45 +1,5 @@
 [
  {
-  "id": "fbec47ba89fe",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 57,
-  "score_parts": {
-   "relevance": 18,
-   "impact": 10,
-   "traction": 10,
-   "angle": 6,
-   "timeliness": 13
-  },
-  "score_why": "Israeli military operation after attack on troops; major conflict news with indirect U.S. force relevance.",
-  "policy": false,
-  "state": null,
-  "country": "IL",
-  "place": "West Bank",
-  "lat": 32.22,
-  "lon": 35.25,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "CBS News",
-  "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjlVSnk4cXVrLWdvcnU1Nk1henA5RFJIYXNnMTVWc2NoQnVEcTkyUUtXUE04Y2ZGNEVJekxUVkhDREwwLXg5UTZ6ODBLcWJrVV9vMV8yVk1VUnd5WHBHQjF6UWR5dGIzQTgwZTVUS3hWbkU0R0lGM19xcWVwQ0Myd0p1MTh1ZVROeFJkRUlYVUhTNWdsbkVWdm1PNA?oc=5",
-  "source_title": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops",
-  "snippet": "Israel's Netanyahu vows major military operation, cordons off West Bank city after deadly attack on troops CBS News",
-  "published_at": "2026-10-23T13:29:51Z",
-  "found_at": "2026-10-23T14:13:53Z",
-  "feed": "News search · service members",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "d2ec119821f5",
   "status": "expired",
   "tier": "report",
@@ -1399,7 +1359,7 @@
  },
  {
   "id": "c44d95cda8a0",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -1445,7 +1405,7 @@
  },
  {
   "id": "b92e86357abf",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2318,5 +2278,154 @@
   "feed": "USNI News",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "9a86ec8a554c",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 16,
+   "traction": 12,
+   "angle": 11,
+   "timeliness": 12
+  },
+  "score_why": "Pentagon expanding Guard deployment in DC amid congressional pushback; policy fight affecting service members.",
+  "policy": true,
+  "state": "DC",
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.907,
+  "lon": -77.037,
+  "flags": [],
+  "source": "news3lv.com",
+  "source_url": "https://news3lv.com/news/nation-world/pentagon-national-guard-expand-operations-dc-lawmaker-law-enforcment-security-washington-plans-pinto-bowser-new-elections-governor-resources-reduce-crime",
+  "source_title": "Pentagon plans to expand National Guard operations in DC as lawmakers try to push them out",
+  "snippet": "",
+  "published_at": "2026-11-06T12:30:00Z",
+  "found_at": "2026-11-06T16:43:32Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [
+   {
+    "source": "WTOP News",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdFUwczlPemtKSDFNajY4WVctaV9UQWxONm9HcGJQd3huakpkSC1YSzlCcjRtVEJ3YVREZ3VJTmxIZ0tOR0Y0X0pkVVlPT1FiNjZ2UndIVWFReWhOQlNOV1hyMFZvVjdQTk5oSlRHTmZmZ1VCQzZ6cWZELXRGZzZaRTV5V0tHaVphSkNCRzJRbmUxTmk5MDdYX29MMW1BT0ZUTGMyYmxCVUpWTTJreDI5OGJwb2pJZ0Rha1lWaWFFRlh2cXNBWEp3?oc=5",
+    "title": "DC lawmakers want to send National Guard troops home, as Trump administration calls for more patrols"
+   }
+  ],
+  "draft": {
+   "headline": "Pentagon memo would add boats and vehicles to National Guard mission in DC",
+   "summary": "An Oct. 29 Pentagon memo outlines plans to give National Guard troops in Washington, DC, more police cars, Humvees, tactical vehicles and boats to support law enforcement. Troops would stay in a support role and would not pursue or arrest suspects on their own. The plan landed as Councilmember Brooke Pinto held a Thursday hearing and pushed to bring troops home. Residents at the hearing were split.",
+   "why_it_matters": "Guard members from many states are serving in the capital, with the broader deployment currently scheduled through January 2029, so changes to their mission and equipment affect them and their families.",
+   "take": "The troops on these streets are following orders, and they deserve clear ones. If the mission is growing to include boats, tactical vehicles and drug-related operations along the Anacostia River, leaders owe the public and the force a plain answer on what the job is, what the limits are, and when it ends. A deployment that could run more than two more years is not a short-term surge. Residents on both sides of this, including veterans, made fair points at the hearing, and they should get straight answers, not spin.",
+   "x_post": "The Pentagon plans to give National Guard troops in DC more vehicles and boats to support law enforcement, per an Oct. 29 memo. A DC councilmember wants troops sent home. The deployment is scheduled through Jan. 2029.",
+   "fb_post": "The Pentagon is planning to expand National Guard operations in Washington, DC. An Oct. 29 memo describes added police cars, Humvees, tactical vehicles and boats to support law enforcement, including possible work on drug trafficking along the Anacostia River. Guard members would stay in a support role and would not pursue or arrest suspects on their own.\n\nIt matters because the broader deployment is currently scheduled to run through January 2029. At a DC Council hearing Thursday, Councilmember Brooke Pinto pushed to bring troops home, and she asked five newly elected governors (Georgia, Iowa, Nevada, Ohio and Texas) to pull their states' troops, about 628 people. Residents split: one Chinatown resident and former Army reservist said the Guard has deterred crime, while a former DC Guard member said the Guard is not trained for local law enforcement.\n\nOur view: the troops are carrying out orders, and they and the public deserve a clear mission, clear limits and an end date. Growing the mission without that is a problem.\n\nWhere do you stand on a long-term Guard presence in the capital?",
+   "open_questions": "Source text cuts off mid-sentence at the court challenges; we do not know what the federal court rulings or pending cases say. We have not seen the Oct. 29 memo itself. Pinto referenced Secretary Hegseth announcing a ramp-up; the article does not say when or how. Unclear whether the five governors can legally withdraw their troops (depends on deployment authority and command status). The 628 figure is from hearing testimony and is approximate. Cost of the expansion and the current total troop count are not given. The Jan. 2029 end date has no specific day, so no deadline listed.",
+   "hashtags": [
+    "NationalGuard",
+    "WashingtonDC"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "7ec98271d323",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 75,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 11,
+   "angle": 12,
+   "timeliness": 10
+  },
+  "score_why": "Massachusetts Senate bill letting veterans get medical marijuana without a doctor's recommendation; direct veteran access and policy change.",
+  "policy": true,
+  "state": "MA",
+  "country": "US",
+  "place": "Massachusetts",
+  "lat": 42.41,
+  "lon": -71.38,
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/massachusetts-senate-passes-bill-to-let-military-veterans-get-medical-marijuana-without-a-doctors-recommendation/",
+  "source_title": "Massachusetts Senate Passes Bill To Let Military Veterans Get Medical Marijuana Without A Doctor’s Recommendation",
+  "snippet": "The Massachusetts Senate has passed a bill containing provisions aimed at increasing military veterans' access to medical marijuana and adding new qualifying conditions to the state's medical cannabis program is advancing in the legislature. The Senate approved an amend version of the House-passed measure on Thursday by a vote of 35 to 4, sending the [ ] The post Massachusetts Senate Passes Bill To Let Military Veterans Get Medical Marijuana Without A Doctor's Recommendation appeared first on Marijuana Moment .",
+  "published_at": "2026-11-06T12:45:48Z",
+  "found_at": "2026-11-06T16:43:32Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Massachusetts Senate Backs Medical Cannabis Cards for Veterans Without Doctor Sign-Off",
+   "summary": "The Massachusetts Senate voted 35 to 4 on Thursday to pass an amended supplemental budget bill. It would let veterans get a state medical cannabis card using VA diagnosis records, with no separate certification from a health professional. It also adds PTSD, opioid use disorder and chronic pain conditions to the qualifying list. The House must still agree to the Senate's changes.",
+   "why_it_matters": "VA providers can't fill out medical cannabis recommendation forms, so Massachusetts veterans often pay for outside doctor visits or go without legal access, and this bill would remove that step.",
+   "take": "We think this is a practical fix. The VA already diagnoses these veterans, and making them pay for a second appointment just to fill out a form is a toll on people who earned their care. The bill isn't law yet, and the wording changed from the governor's original draft, so the final text matters. If it passes, other states should take notes.",
+   "x_post": "Massachusetts Senate passed 35-4 a bill letting veterans get a state medical cannabis card using VA diagnosis records, no extra doctor sign-off. It also adds PTSD and chronic pain as qualifying conditions. The House is next.",
+   "fb_post": "The Massachusetts Senate voted 35 to 4 on Thursday to pass a bill that would change how veterans get into the state's medical cannabis program.\n\nRight now the VA bars its providers from filling out medical marijuana recommendation forms. Many veterans end up paying for outside doctor visits or going without legal access. Under this bill, a veteran could submit official VA documentation of a qualifying diagnosis, and the state couldn't require a separate health professional certification. The bill also adds PTSD, opioid use disorder and chronic-pain conditions to the qualifying list.\n\nOur view: veterans shouldn't have to pay for a second appointment to get paperwork the VA's own diagnosis already covers. It isn't final, though. The House has to agree to the Senate's changes, and then the governor has to sign.\n\nShould other states copy this approach? Tell us what you think.",
+   "open_questions": "The source text cuts off mid-sentence at the end (the 2024 veterans bill and psychedelics working group), so that background is not used. Not confirmed: the exact date of the Senate vote (source says \"Thursday\"); when the House will take up the changes; which parts of Gov. Healey's original proposal the House and Senate removed or changed; what VA documentation will count in practice and how the CCC will handle it; whether chronic pain language has any limits. The bill is a large supplemental budget, so it's unclear if the veterans section could be altered or dropped in reconciliation.",
+   "hashtags": [
+    "veterans",
+    "medicalcannabis"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "0eea45a8b730",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 10,
+   "angle": 9,
+   "timeliness": 10
+  },
+  "score_why": "National Guard drill-weekend childcare expansion affects soldiers and families directly; eligibility caveats add a take.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Task & Purpose",
+  "source_url": "https://taskandpurpose.com/news/national-guard-childcare-drill-weekend/",
+  "source_title": "National Guard expands free childcare program for drill weekends, but with some caveats",
+  "snippet": "The expansion aims to make it easier for soldiers and their families, but one childcare expert argued that some of the eligibility requirements may limit its effectiveness. The post National Guard expands free childcare program for drill weekends, but with some caveats appeared first on Task & Purpose .",
+  "published_at": "2026-11-06T14:58:22Z",
+  "found_at": "2026-11-06T16:43:32Z",
+  "feed": "Task & Purpose",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Army National Guard expands free drill-weekend childcare to all states by Dec. 31",
+   "summary": "The Army National Guard is expanding its free drill-weekend childcare program. It started as a six-state test in 2022 and grew to 20 states in 2024. The Guard plans to reach all 50 states, three territories and D.C. by Dec. 31. The Army pays vetted providers through a network called Upwards. Slots are limited and go first-come, first-served.",
+   "why_it_matters": "Guard families who struggle to find weekend care may soon have a free option, but provider rules, paperwork and limited slots mean not everyone who qualifies will get help.",
+   "take": "Childcare shouldn't decide whether a good soldier stays in uniform. Expanding this program is the right move, and the Army paying providers directly spares families from fronting the cost. But the fine print matters. Providers must be state-licensed, meet Defense Department standards and carry at least $500,000 in liability coverage. Dual-parent households must prove the spouse works or studies during drill. Few providers meeting those rules are open on weekends near bases, so we agree with the advocate's idea of a direct stipend as a fallback. A program that exists on paper but has no open slot isn't keeping a promise.",
+   "x_post": "The Army National Guard is taking free drill-weekend childcare to all 50 states, three territories and D.C. by Dec. 31. Good news. But slots are first-come, first-served, and provider and paperwork rules may shut some families out.",
+   "fb_post": "The Army National Guard is expanding free childcare for drill weekends. The program began as a six-state test in 2022 and reached 20 states in 2024. The Guard plans to cover all 50 states, three territories and D.C. by Dec. 31.\n\nWhy it matters: weekend care is hard to find, and for some Guard families that makes staying in uniform unsustainable. The Army pays vetted providers through a network called Upwards, so soldiers don't have to wait on reimbursement. According to Stars & Stripes, about 650 military families have used it.\n\nThere are limits. Providers must be state-licensed, meet Defense Department minimums and carry at least $500,000 in liability coverage. Dual-parent households must show the spouse works or studies during drill. Slots are first-come, first-served. A military childcare advocate says few qualifying providers are open on weekends near bases.\n\nWe say it's a good step that needs a backup plan. A direct stipend when no provider is available would keep the promise real. Have you used weekend drill childcare, or struggled to find it? Tell us what worked.",
+   "open_questions": "Which states and territories are already covered, and which are still pending before Dec. 31? How many slots are available per state? The article cites about 650 families via Stars & Stripes, but it is unclear whether that is a total or a current count. Does the program cover Air National Guard or Reserve members? The source says only Army National Guard. Is there any official plan for a stipend or other fallback where no eligible provider exists? How do soldiers apply?",
+   "hashtags": [
+    "NationalGuard",
+    "MilitaryFamilies"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-31",
+     "label": "Guard drill childcare planned in all states"
+    }
+   ]
+  }
  }
 ]
