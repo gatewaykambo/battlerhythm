@@ -1,29 +1,5 @@
 [
  {
-  "id": "786e5645e7eb",
-  "date": "2026-12-11",
-  "label": "Stopgap funding law expires",
-  "story_id": "82a0e60edda5",
-  "headline": "Pentagon, Lockheed outline 10-year F-35 buy that still needs Congress",
-  "found_at": "2026-10-22T22:13:31Z"
- },
- {
-  "id": "4befa52f48da",
-  "date": "2027-07-01",
-  "label": "PA ban on making and selling PFAS foam begins",
-  "story_id": "51c983a45b41",
-  "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
-  "found_at": "2026-10-22T22:13:31Z"
- },
- {
-  "id": "2960b7b8523c",
-  "date": "2028-01-01",
-  "label": "PA fire departments barred from using PFAS foam",
-  "story_id": "51c983a45b41",
-  "headline": "Pennsylvania legislature passes bill to phase out PFAS firefighting foam",
-  "found_at": "2026-10-22T22:13:31Z"
- },
- {
   "id": "e5fb2e018e78",
   "date": "2027-06-30",
   "label": "Iraq's target for all weapons under state control",
