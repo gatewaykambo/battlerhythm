@@ -1,143 +1,5 @@
 [
  {
-  "id": "d5e08850ed6f",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": true,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 87,
-  "score_parts": {
-   "relevance": 28,
-   "impact": 20,
-   "traction": 14,
-   "angle": 10,
-   "timeliness": 15
-  },
-  "score_why": "Six U.S. troops killed in Kuwait amid Iran war; breaking and directly affects the force.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Kuwait",
-  "lat": 29.31,
-  "lon": 47.48,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "ABC News - Breaking News, Latest News and Videos",
-  "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORmp2d20zWUowWS1zZzhIR2hIaC1VLVdzYXgwMDFaMzB3ZHI0YzlyUUpTQmtLeGJDVTJuZnBsaVJvdFp5bUZxbXg5RkxpV1B3LU0weGpvU2FnOW90aE9sYW1CTEhZR3RITEtEUXVCZDQwVjlVZXhVc0hhckFnOVZoeV9nOVh4czlXNFg00gGQAUFVX3lxTE4zYk5MNVJ5RTh3OWEzSjUzTlZuLXh1Z1ptMVY2cVgwSVpBRDlYUWZQdzdFNWFvbDdITk5XWTk0WVhYYld3ZUhoWGo2UjBRbk5lTFJKM0NuZXpfVEQ3UkdfWmtmSmdMU2dDRmFYWC1nSGZNYVVOV3ptdzRPY19BaHJubWVvNzcyR1RGcFJkN0pKYg?oc=5",
-  "source_title": "Pentagon identifies all 6 American troops killed in Kuwait amid Iran war",
-  "snippet": "Pentagon identifies all 6 American troops killed in Kuwait amid Iran war ABC News - Breaking News, Latest News and Videos",
-  "published_at": "2026-10-24T03:21:54Z",
-  "found_at": "2026-10-24T21:33:53Z",
-  "feed": "News search · service members",
-  "also_covered_by": [],
-  "draft": null
- },
- {
-  "id": "ebea6832192f",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 76,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 16,
-   "traction": 12,
-   "angle": 11,
-   "timeliness": 13
-  },
-  "score_why": "New DoD policy banning troops from betting on prediction markets with nonpublic info; timely and debatable.",
-  "policy": true,
-  "state": null,
-  "country": "US",
-  "place": "Pentagon",
-  "lat": 38.87,
-  "lon": -77.06,
-  "flags": [],
-  "source": "KXAN Austin",
-  "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUs4c1FfLWlCTWVVQnpTdGdkdTFZX1k3WkcxY09Zd2czbUVjQ0xqRkszekdsb3JvUzNTd3JnTjBsTGItV1NYVVZROERYMjc4ckN3b0RtWVB5dDVJbktzZ3JpYWNNaF91NjBEUkV4MEdFYWxTNmdOd1pjQk1HRlJBQ2x5UU1uVE43ZUUxQ3p4YXdHdHhKZkRicmpqZzZxUGJIOVMtd9IBqgFBVV95cUxQWnJUbTl6SW1PYUk5N1dsUkdVT0IwSHFucnNDOTlBWjdkYmZVM0M5X0FEM2pNa2FLbjA4bHV3VnlsRm5BNTZfZDdhdXdOWWlkUVhyUEJIT19BZ3pUbnJndWZlTHEzR2xOMjN1TURJRF9kdi13aFg4QjVENjZUaVVVczg1a2lYU0xCUElzTkdZYzhaNHlHWWdvZFBfbG1NSE5HbGtJMTJxcXl5UQ?oc=5",
-  "source_title": "Pentagon bans troops from using nonpublic info to bet in prediction markets",
-  "snippet": "Pentagon bans troops from using nonpublic info to bet in prediction markets KXAN Austin",
-  "published_at": "2026-10-24T18:32:53Z",
-  "found_at": "2026-10-24T21:33:53Z",
-  "feed": "News search · service members",
-  "also_covered_by": [
-   {
-    "source": "Task & Purpose",
-    "url": "https://taskandpurpose.com/news/pentagon-hegseth-ban-prediction-markets/",
-    "title": "Pentagon bans troops from betting using insider information"
-   }
-  ],
-  "draft": {
-   "headline": "Hegseth bars Pentagon personnel from betting on insider military information",
-   "summary": "Defense Secretary Pete Hegseth signed an Oct. 20 memo banning troops and Defense Department civilians from using nonpublic information, classified or not, to bet on prediction markets such as Kalshi and Polymarket. Violators could face discipline under the Uniform Code of Military Justice or federal law. It is not a ban on using the markets at all.",
-   "why_it_matters": "Anyone in uniform or working for the Defense Department who knows about operations now has a clear warning: betting on that knowledge can bring criminal charges.",
-   "take": "The rule is narrow, and that is a good thing: it targets the misuse of what you know on the job, not what you do with your own money. The security argument holds up. A bet on an operation's timing can tip off an adversary, and it puts personal profit next to the mission. The Pentagon says violators face prosecution, so it should apply that evenly, from the junior enlisted to the senior officer. We would also like to see clear guidance on what counts as \"nonpublic,\" so no one has to guess.",
-   "x_post": "Hegseth's Oct. 20 memo bars troops and DoD civilians from using nonpublic information, classified or not, to bet on prediction markets like Kalshi and Polymarket. Violators could face UCMJ or federal charges. It is not a ban on all such betting.",
-   "fb_post": "Defense Secretary Pete Hegseth has banned troops and Defense Department civilians from using nonpublic information to bet on prediction markets such as Kalshi and Polymarket. The Oct. 20 memo covers both classified and unclassified information.\n\nWhy it matters: the memo says bets on military outcomes create a \"signal\" that hostile intelligence services could use to anticipate U.S. movements, targets, and timing. Violations could mean discipline under the UCMJ or federal prosecution. This is not a blanket ban on using the markets.\n\nOur view: the focus on insider information is the right target, and the security concern is real. Earlier this year, a Special Forces soldier was indicted for allegedly betting on the timing of the Venezuela raid. Rules only mean something if they are enforced evenly at every rank.\n\nDo you think the memo is clear enough about what counts as \"nonpublic\" information?",
-   "open_questions": "The sources do not say what prompted the memo now. They do not define \"nonpublic information\" beyond classified and unclassified military information, or say how the rule will be enforced. The memo was first reported by CBS News; we have not seen the memo itself. The Van Dyke case is described as allegations in an indictment, so keep it attributed as alleged. The $8 million figure is from the Anti-Corruption Data Collective report, not independently verified.",
-   "hashtags": [
-    "Pentagon",
-    "PredictionMarkets"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "15346f7e0ec8",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 74,
-  "score_parts": {
-   "relevance": 24,
-   "impact": 15,
-   "traction": 14,
-   "angle": 8,
-   "timeliness": 13
-  },
-  "score_why": "Pentagon presenting renewed Iran strike options; major U.S. force decision, developing.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Iran",
-  "lat": 32.43,
-  "lon": 53.69,
-  "flags": [],
-  "source": "themedialine.org",
-  "source_url": "https://themedialine.org/headlines/pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/",
-  "source_title": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
-  "snippet": "",
-  "published_at": "2026-10-24T19:15:00Z",
-  "found_at": "2026-10-24T21:33:53Z",
-  "feed": "GDELT · U.S. forces worldwide",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Pentagon gives Trump options for renewed strikes on Iran, reports say",
-   "summary": "The Wall Street Journal reports the Pentagon has given President Trump several options for new military action against Iran, including strikes on nuclear sites and infrastructure and attacks on Iranian-held islands. Trump has not decided. US warships in the Middle East are reportedly preparing for escalation, and CNN reports the US is pulling some diplomatic staff and families out of the region.",
-   "why_it_matters": "US forces in the Middle East, and the families waiting at home, could face a sudden jump in risk if the White House orders new strikes in the coming weeks.",
-   "take": "We know a planning briefing is not a decision, and officials say none has been made. Still, warships preparing, embassy families leaving, and an intelligence warning about Iranian plans against Americans all point the same way. The people who carry that risk are service members and their families, and they deserve a clear public explanation of the goals before anyone orders a strike. Military decisions should follow the security situation, not the election calendar.",
-   "x_post": "The Pentagon has given President Trump options for renewed Iran strikes, including nuclear sites and islands, WSJ reports. No decision yet. US warships are preparing, and diplomatic families are leaving parts of the region.",
-   "fb_post": "The Pentagon has reportedly given President Trump several options for renewed military action against Iran. The Wall Street Journal says they include strikes on nuclear facilities and infrastructure, and attacks on islands Iran controls. Trump is said to lean toward renewing the fighting but has not decided.\n\nOther signs point to a tense few weeks. US officials say warships in the Middle East are preparing for escalation. The director of national intelligence reportedly warned that Iranian preparations to attack Americans in the region have reached \"advanced stages.\" CNN reports the US has ordered non-essential staff and families out of Saudi Arabia and is quietly cutting personnel at embassies in several other countries.\n\nOur view: a plan on the table is not a decision. But the people who carry the risk are service members and their families, and they should get a clear explanation of the goals before any order is given. Security should drive the timing, not the election calendar.\n\nIf strikes resume, what do you most want leaders to tell the troops and their families first?",
-   "open_questions": "No Pentagon or White House on-record confirmation in the source; WSJ and CNN reports rely on unnamed US officials, and we have not seen the original reports. Source does not explain the earlier \"intense fighting\" or the current status of US-Iran hostilities. Unknown: which units or forces are involved, the specific timeline (\"coming weeks\"), and the content of the DNI memo beyond the \"advanced stages\" language. The report that Hezbollah told Berri it would stay out (Al-Sharq Al-Awsat) is single-sourced, and the Iranian Embassy in Lebanon's denial did not say what it was disputing; we left this out of the public copy. CNN's claim that Israel is pressing for sooner action and that strikes could come after the midterms is also unconfirmed. Consider whether we should confirm with a second outlet before publishing.",
-   "hashtags": [
-    "Iran",
-    "Pentagon"
-   ],
-   "deadlines": []
-  }
- },
- {
   "id": "747392a7e889",
   "status": "expired",
   "tier": "report",
@@ -1472,7 +1334,7 @@
  },
  {
   "id": "c5bc74665180",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -2416,6 +2278,114 @@
     "JointBasing"
    ],
    "deadlines": []
+  }
+ },
+ {
+  "id": "bd103b23f78c",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 75,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 12,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Breaking U.S. naval action firing on a vessel in the blockade; direct force-level news, source is a syndicated wire.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Gulf of Oman",
+  "lat": 24.5,
+  "lon": 58.5,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "wral.com",
+  "source_url": "https://www.wral.com/news/ap/bc902-us-military-says-it-fired-on-commercial-vessel-in-gulf-of-oman-after-it-attempted-to-breach-blockade/",
+  "source_title": "US military says it fired on commercial vessel in Gulf of Oman after it attempted to breach blockade",
+  "snippet": "",
+  "published_at": "2026-11-07T22:00:00Z",
+  "found_at": "2026-11-07T22:37:30Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "CENTCOM says it disabled a ship that tried to leave Iran blockade",
+   "summary": "U.S. Central Command said late Saturday it disabled a St. Kitts-flagged commercial ship in the Gulf of Oman. The vessel ignored repeated warnings and tried to leave the region after visiting an Iranian port. U.S. forces have enforced a naval blockade on Iran around the Strait of Hormuz for months. The last confirmed U.S. strike on a cargo ship came nearly a month ago.",
+   "why_it_matters": "Sailors and other troops enforcing the Iran blockade are working in a theater where incidents are rising and the war, now over eight months old, could escalate again.",
+   "take": "The blockade is a long, grinding mission, and the crews enforcing it are the ones who carry the risk. Warnings first and disabling fire second is the right order of operations. But the public should not learn about U.S. strikes from the president's remarks or from local reports. Central Command has stayed quiet on at least two strikes, and that kind of gap breeds rumor. Clear, timely reporting is part of keeping faith with the troops and the people who send them.",
+   "x_post": "CENTCOM says it disabled a St. Kitts-flagged ship in the Gulf of Oman after it ignored warnings and tried to leave following a stop at an Iranian port. The U.S. blockade of Iran is now months old. Clear reporting matters.",
+   "fb_post": "U.S. Central Command says it disabled a St. Kitts-flagged commercial ship late Saturday in the Gulf of Oman. According to CENTCOM, the ship ignored multiple warnings and tried to leave the region after visiting an Iranian port.\n\nU.S. forces have been enforcing a naval blockade on Iran in and around the Strait of Hormuz for months. The last confirmed U.S. strike on a cargo vessel was nearly a month ago. Iran's military also said two tankers hit mines in the Hormuz area and caught fire, and Iranian state media reported explosions on Qeshm Island and at the port of Jask. President Trump said Friday that U.S. forces carried out new limited strikes on an Iranian air defense system.\n\nWe think the troops enforcing this blockade deserve straight, timely information from their own chain of command. CENTCOM has stayed silent on at least two earlier strikes. Silence leaves room for rumor.\n\nHow much should the military tell the public about operations like this, and how quickly?",
+   "open_questions": "Source does not give the ship's name, cargo, or owner. It does not say how the ship was disabled, what damage it took, or whether anyone was hurt. It does not say which U.S. units were involved. The cause of the explosions on Qeshm Island and at Jask is unknown, and so is whether the U.S. was behind them. Iran's claim that two tankers hit mines is unverified, and the tankers were not identified. CENTCOM has not confirmed Trump's Friday strikes. Trump has said he is weighing a new wave of strikes after the Nov. 3 midterms. Check CENTCOM's own statement before publishing; the source is AP via WRAL.",
+   "hashtags": [
+    "CENTCOM",
+    "StraitOfHormuz"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "b81f52f1980b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "plant_medicine",
+  "score": 74,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 18,
+   "traction": 11,
+   "angle": 10,
+   "timeliness": 13
+  },
+  "score_why": "Developing Missouri hemp crackdown and court ruling affecting cannabis access and enforcement.",
+  "policy": true,
+  "state": "MO",
+  "country": "US",
+  "place": "Missouri",
+  "lat": 38.577,
+  "lon": -92.174,
+  "flags": [],
+  "source": "Marijuana Moment",
+  "source_url": "https://www.marijuanamoment.net/missouri-attorney-general-cracks-down-on-unlicensed-cannabis-sales-as-judge-dismisses-challenge-to-hemp-restrictions/",
+  "source_title": "Missouri Attorney General Cracks Down On Unlicensed Cannabis Sales As Judge Dismisses Challenge To Hemp Restrictions",
+  "snippet": "\"The bottom line is: marijuana is legal in Missouri. Great, just comply with the law.\" By Rebecca Rivas, Missouri Independent Missouri’s crackdown on intoxicating hemp products is already underway, a week before a new state law threatens to push thousands of businesses out of the market. Attorney General Catherine Hanaway (R) announced four new lawsuits [ ] The post Missouri Attorney General Cracks Down On Unlicensed Cannabis Sales As Judge Dismisses Challenge To Hemp Restrictions appeared first on Marijuana Moment .",
+  "published_at": "2026-11-07T18:12:14Z",
+  "found_at": "2026-11-07T22:37:30Z",
+  "feed": "Marijuana Moment",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Missouri sues four hemp retailers as new intoxicating-hemp law nears Nov. 12",
+   "summary": "Missouri Attorney General Catherine Hanaway filed four new lawsuits against retailers she says sold marijuana disguised as hemp without state licenses. The same day, a federal judge dismissed a hemp industry challenge to the state's new law, which takes effect November 12. It limits intoxicating hemp products to Missouri's licensed marijuana system.",
+   "why_it_matters": "Veterans who run or shop at hemp businesses in Missouri, including some who chose hemp to protect their disability payments, face new rules in days and a federal change on December 11.",
+   "take": "Testing and licensing are fair things to demand of anyone selling an intoxicating product, and the attorney general's contamination concern is a reasonable one. But the new rules are tough. Products over 0.3 percent total THC, counting THCA, fall outside the hemp definition, and finished products are capped at 0.4 milligrams of THC per container. Veterans like John Grady say they picked hemp to avoid putting their disabled veterans payments at risk, and that tension is real. Hemp policy should rest on evidence and fair regulation, and this one will be judged by how it is enforced.",
+   "x_post": "Missouri's AG filed four new lawsuits against shops accused of selling marijuana as hemp. A federal judge also tossed a hemp industry challenge. The state's new intoxicating-hemp rules start Nov. 12.",
+   "fb_post": "Missouri is moving fast on intoxicating hemp. Attorney General Catherine Hanaway announced four new lawsuits against retailers accused of selling marijuana disguised as hemp, including THCA flower, without state licenses. The same day, a federal judge dismissed a hemp industry challenge to the new law.\n\nThe law takes effect November 12. Products over 0.3 percent total THC, including THCA, generally fall outside the state's hemp definition. Intoxicating products can only be sold through the licensed marijuana system. The state health department estimated 40,000 food establishments and smoke shops and 1,800 food manufacturers could be affected, though it said most are low-risk for investigation.\n\nOur view: testing and licensing are fair asks, but the limits are tight. Veterans like John Grady, who owns a hemp shop in Rosebud, say they chose hemp to protect their disability payments. Rules should follow evidence and be enforced fairly.\n\nDo you think Missouri's approach protects consumers, or does it go too far?",
+   "open_questions": "The source text cuts off mid-quote from John Grady, so his full position is missing. The article says hemp beverages stay on shelves until December 11 under Missouri's law and that the federal ban is delayed to December 11. Please verify how those two dates relate, and what the pending federal restrictions are and who delayed them. The source does not say which retailers were sued, which court, or the judge's reasoning. Check whether the Veterans Day protest went ahead after the permit denial. The statement that Congress could pass looser rules is only speculation in the source.",
+   "hashtags": [
+    "hemp",
+    "Missouri"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-12",
+     "label": "Missouri intoxicating hemp restrictions take effect"
+    },
+    {
+     "date": "2026-12-11",
+     "label": "Federal hemp ban date; hemp drinks allowed until then"
+    }
+   ]
   }
  }
 ]
