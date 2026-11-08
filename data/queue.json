@@ -1387,7 +1387,7 @@
  },
  {
   "id": "67db37947072",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -1433,7 +1433,7 @@
  },
  {
   "id": "78278dcda680",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -2387,5 +2387,45 @@
     }
    ]
   }
+ },
+ {
+  "id": "bd4014c4d3aa",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "veterans",
+  "score": 61,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 8,
+   "traction": 12,
+   "angle": 9,
+   "timeliness": 8
+  },
+  "score_why": "Study on VA care and lower suicide rates among Army veterans; strong interest, but a single study and suicide topic.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Medical Daily",
+  "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOFhPOVJVTVlROUZRX0VNVUNtRUctTC1vanItTXdrY0lzWlpiUFRNQ2h1OVE2S3F6S2NwM01yUXJYOEVPWHVndXYza2FnaXhOLTBYbEoxUzh3eXkwQXNJRmNKUTFCMll4MHEzYWcyeE15a2lTXzJMdTZwbTEyYUVxcFln?oc=5",
+  "source_title": "Study finds Army veterans using VA care had a 20% lower suicide rate, with the biggest gap soon after leaving service",
+  "snippet": "Study finds Army veterans using VA care had a 20% lower suicide rate, with the biggest gap soon after leaving service Medical Daily",
+  "published_at": "2026-11-08T00:01:02Z",
+  "found_at": "2026-11-08T15:57:58Z",
+  "feed": "News search · veterans and VA",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
