@@ -1697,7 +1697,7 @@
  },
  {
   "id": "2c5a8221d7f9",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": true,
   "on_wire": true,
@@ -1750,7 +1750,7 @@
  },
  {
   "id": "5cce76f0c39b",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1796,7 +1796,7 @@
  },
  {
   "id": "05d83f1976a6",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1842,7 +1842,7 @@
  },
  {
   "id": "2ec36a636310",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1888,7 +1888,7 @@
  },
  {
   "id": "1f48e6803006",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -1928,7 +1928,7 @@
  },
  {
   "id": "9a86ec8a554c",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -1980,7 +1980,7 @@
  },
  {
   "id": "7ec98271d323",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2026,7 +2026,7 @@
  },
  {
   "id": "0eea45a8b730",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2529,6 +2529,151 @@
    "hashtags": [
     "Hegseth",
     "Pentagon"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "52ea286786de",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 81,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 11,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Tricare fee increases for families during open season; direct pay impact, timely.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/pay-benefits/military-benefits/health-care/2026/11/09/check-out-new-costs-for-military-families-as-tricare-open-season-starts/",
+  "source_title": "Check out new costs for military families as Tricare open season starts",
+  "snippet": "Generally, beneficiaries paying out-of-pocket for healthcare under Tricare in 2026 will pay extra in 2027, according to new fee schedules.",
+  "published_at": "2026-11-09T19:24:35Z",
+  "found_at": "2026-11-09T19:39:56Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Tricare open season starts, and military families face new costs",
+   "summary": "Tricare open season has started, and Military Times reports that military families will see new costs in their health coverage. Families should look closely at what has changed for them and compare it against their current plan before they make any choices this open season. The full cost details are in the Military Times report.",
+   "why_it_matters": "Active-duty families who rely on Tricare health coverage need to check the new costs now, while open season is underway, so a change in price doesn't catch them off guard.",
+   "take": "Health care is part of the deal made with those who serve, and families shouldn't have to dig to learn what it costs. We'd rather see changes spelled out in plain language, early and in one place. Until then, treat open season like any other pre-deployment checklist: read the details, run your own numbers, and don't assume last year's plan still fits.",
+   "x_post": "Tricare open season is underway, and Military Times reports new costs for military families. Check your plan and your numbers before you lock in anything this year.",
+   "fb_post": "Tricare open season has started, and Military Times reports that military families are facing new costs.\n\nFor many households, health coverage is one of the biggest line items in the family budget. A change in cost can ripple through everything else.\n\nOur view: earned health care benefits should come with clear, early, plain-language information. Families shouldn't have to hunt for what changed. Read the details and run your own numbers before you decide.\n\nAre you planning to change anything this open season, or staying with what you have?",
+   "open_questions": "The source text we received was page code only, with no article body. We only have the headline, which says there are new costs for military families and that Tricare open season has started. Still needed from the Military Times article: which specific costs changed (premiums, enrollment fees, copays, pharmacy), by how much, and which plans or beneficiary groups are affected. Also needed: open season start and end dates and the date the changes take effect. No deadlines are listed because no dates appeared in the source. Please verify against the full article or Tricare's official announcement before publishing.",
+   "hashtags": [
+    "Tricare",
+    "MilitaryFamilies"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "84e1438996ae",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "New U.S. military task force targeting land routes into Iran; major developing force-level story, sourced from a thin Danish outlet.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Iran",
+  "lat": 32.4,
+  "lon": 53.7,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "cphpost.dk",
+  "source_url": "https://cphpost.dk/2026-11-09/global/u-s-military-forms-new-task-force-to-disrupt-land-routes-into-iran/",
+  "source_title": "U . S . military forms new task force to disrupt land routes into Iran",
+  "snippet": "",
+  "published_at": "2026-11-09T07:00:00Z",
+  "found_at": "2026-11-09T19:39:56Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "US Central Command creates Task Force Iron Gate to target land routes into Iran",
+   "summary": "U.S. Central Command (Centcom) has announced Task Force Iron Gate, a new unit that will work with other U.S. agencies to target land routes officials say carry weapons and illegal goods into Iran. It builds on the existing U.S. sea blockade of Iranian trade. Centcom says that blockade has kept more than $25 billion in Iranian crude oil off the market. Iran's Revolutionary Guard says the effort will fail.",
+   "why_it_matters": "For service members, this widens a pressure campaign on Iran from the sea to the land, which can mean new tasks, new partners, and more risk for units in the region.",
+   "take": "We'll watch this one closely. Moving from a sea blockade to land routes is a bigger job, and Centcom's $25 billion figure is its own estimate, so treat it as a claim, not a scoreboard. The Revolutionary Guard's promise that the effort \"will fail\" is also spin from the other side. The people carrying out the mission deserve clear goals and honest reporting on what it costs and what it achieves.",
+   "x_post": "Centcom has stood up Task Force Iron Gate to target land routes into Iran, adding to the existing sea blockade. Centcom claims the blockade has blocked $25B+ in oil exports. Iran's Revolutionary Guard says it will fail.",
+   "fb_post": "U.S. Central Command has announced a new unit, Task Force Iron Gate. Its job is to work with other U.S. government agencies to go after land routes that officials say are used to move weapons and other illegal goods into Iran.\n\nIt adds to the U.S. maritime blockade of Iranian trade. Centcom says that blockade has kept more than $25 billion worth of Iranian crude oil from being exported. Iran's Islamic Revolutionary Guard Corps says the new effort will fail and that Washington can't enforce an effective blockade.\n\nOur view: going from the sea to land routes is a bigger mission. The $25 billion number is Centcom's own estimate, and the Guard's response is its own kind of spin. Troops carrying this out deserve clear goals and straight answers about results.\n\nWhat do you want to know about how this mission will work for the people carrying it out?",
+   "open_questions": "Sources do not say: the date of the announcement; which U.S. agencies are involved; which units or how many personnel are assigned to Iron Gate; which land routes or neighboring countries are targeted; or what authorities or rules of engagement apply. The $25 billion oil figure is Centcom's estimate and was not independently verified. The lead source (Copenhagen Post) is secondary and cites AFP, Fars, and Centcom's post on X; consider checking the primary Centcom post and the AFP report. The article text also included unrelated Danish news items, which were ignored.",
+   "hashtags": [
+    "Centcom",
+    "Iran"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "a854679dac42",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 18,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 8
+  },
+  "score_why": "Military health system access problems affect service members and families directly.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "marinecorpstimes.com",
+  "source_url": "https://www.marinecorpstimes.com/pay-benefits/military-benefits/health-care-benefits/2014/10/05/military-health-system-patients-say-they-cant-get-in-to-see-their-doctors/",
+  "source_title": "Military health system : Patients say they cant get in to see their doctors",
+  "snippet": "",
+  "published_at": "2026-11-09T05:30:00Z",
+  "found_at": "2026-11-09T19:39:56Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Military health system patients say they can't get in to see their doctors",
+   "summary": "Marine Corps Times reports that patients in the U.S. military health system say they are having trouble getting appointments with their doctors. The complaints are about access to care for people who depend on military medicine. The report ran on Nov. 9, 2026.",
+   "why_it_matters": "If you or your family get care through the military health system, trouble booking an appointment can delay care you have earned.",
+   "take": "Health care is part of the deal made with those who serve. A benefit you can't use when you need it isn't much of a benefit. We want to see real numbers on wait times, and clear answers from the Defense Department on what it is doing about access. Patients shouldn't have to fight just to get on the schedule.",
+   "x_post": "Patients in the military health system say they can't get in to see their doctors, per Marine Corps Times. Care you've earned only counts if you can actually book it. Having trouble getting an appointment? Tell us.",
+   "fb_post": "Marine Corps Times reports that patients in the military health system say they are having trouble getting in to see their doctors.\n\nFor service members and families who rely on military medical care, access is the whole point. An appointment you can't get is care delayed.\n\nHealth care is an earned benefit, and we think it should work the way it was promised. We'll keep watching for hard numbers and answers from the Defense Department.\n\nHave you had trouble getting an appointment through the military health system? What happened?",
+   "open_questions": "The article text we received was page code (CSS) with no readable story, so this draft rests only on the headline and publication details. Before publishing, an editor should read the full Marine Corps Times piece and confirm: which clinics, bases, or TRICARE regions are affected; any wait-time figures or survey data; who is quoted; causes cited (staffing, referrals, contractors, etc.); any Defense Health Agency or DoD response; and whether any dates or fixes are announced. Also check the exact headline wording, and consider whether the 'Active Duty' lane fits if the story covers retirees and families.",
+   "hashtags": [
+    "MilitaryHealth",
+    "Tricare"
    ],
    "deadlines": []
   }
