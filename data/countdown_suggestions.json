@@ -16,14 +16,6 @@
   "found_at": "2026-11-06T16:43:32Z"
  },
  {
-  "id": "99c2002906e4",
-  "date": "2026-11-09",
-  "label": "TRICARE open enrollment begins",
-  "story_id": "45291703496c",
-  "headline": "TRICARE 2027: Prime and Select hold steady, but some premiums jump 10% or more",
-  "found_at": "2026-11-06T23:45:35Z"
- },
- {
   "id": "b51de0e23575",
   "date": "2026-12-08",
   "label": "TRICARE open enrollment ends",
@@ -46,5 +38,29 @@
   "story_id": "b81f52f1980b",
   "headline": "Missouri sues four hemp retailers as new intoxicating-hemp law nears Nov. 12",
   "found_at": "2026-11-07T22:37:30Z"
+ },
+ {
+  "id": "6c7ab4818bd3",
+  "date": "2026-11-10",
+  "label": "Hegseth press conference at the Pentagon",
+  "story_id": "3761e04b590b",
+  "headline": "House expected to vote this week on impeaching Defense Secretary Hegseth over Iran war",
+  "found_at": "2026-11-10T01:59:19Z"
+ },
+ {
+  "id": "fc869d631034",
+  "date": "2026-11-11",
+  "label": "House impeachment vote expected by this date",
+  "story_id": "3761e04b590b",
+  "headline": "House expected to vote this week on impeaching Defense Secretary Hegseth over Iran war",
+  "found_at": "2026-11-10T01:59:19Z"
+ },
+ {
+  "id": "89ab13b14bd1",
+  "date": "2027-01-03",
+  "label": "Democrats take control of the House",
+  "story_id": "3761e04b590b",
+  "headline": "House expected to vote this week on impeaching Defense Secretary Hegseth over Iran war",
+  "found_at": "2026-11-10T01:59:19Z"
  }
 ]
