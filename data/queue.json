@@ -1,91 +1,5 @@
 [
  {
-  "id": "711bfa2f9270",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": true,
-  "on_wire": true,
-  "lane": "veterans",
-  "score": 87,
-  "score_parts": {
-   "relevance": 26,
-   "impact": 20,
-   "traction": 13,
-   "angle": 12,
-   "timeliness": 8
-  },
-  "score_why": "VA denying coverage for birth defects of Vietnam veterans' children; strong benefits story, Nevada focus.",
-  "policy": false,
-  "state": "NV",
-  "country": "US",
-  "place": "Nevada",
-  "lat": 39.5,
-  "lon": -116.9,
-  "flags": [],
-  "source": "The War Horse",
-  "source_url": "https://thewarhorse.org/vietnam-veteran-children-va-benefits/",
-  "source_title": "Their Fathers Served in Vietnam. Why Won’t VA Cover Their Birth Defects?",
-  "snippet": "Scott Davidson has always liked a challenge. This year, the 46-year-old ultramarathoner ran 100 continuous miles through his home state of Nevada, racing over roads and trails through the wind and darkness. He did it on two prosthetic legs. Davidson was born with severe birth defects, including deformities of his lower limbs and jaw that [ ] The post Their Fathers Served in Vietnam. Why Won't VA Cover Their Birth Defects? appeared first on The War Horse .",
-  "published_at": "2026-10-27T11:00:00Z",
-  "found_at": "2026-10-27T15:15:34Z",
-  "feed": "The War Horse",
-  "also_covered_by": [],
-  "draft": {
-   "headline": "Children of male Vietnam vets are denied VA birth defect benefits; a bill is in the works",
-   "summary": "VA covers many birth defects in children of women who served in Vietnam, but children of male Vietnam veterans generally qualify only for spina bifida. Nevada ultramarathoner Scott Davidson, denied in 2023, is working with lawmakers on the Children of Toxic Exposure Relief Act. It has not been introduced. Yale Law School lawyers estimate about 350,000 new claims if eligibility expands.",
-   "why_it_matters": "Adult children of Vietnam veterans who were exposed to Agent Orange, and the veterans themselves, could see eligibility change only if Congress acts, because the limit is written into federal law.",
-   "take": "We think this rule is hard to defend. VA pays mothers' children without proving Agent Orange caused the defect, and it pays fathers' children only for spina bifida. The science is unsettled, and a 2018 National Academies review found insufficient evidence on paternal exposure. But that is a reason to fund more research, not to leave families without help in the meantime. The cost, which could reach tens of millions of dollars, is real. A promise to those who served should not depend on which parent wore the uniform. Congress should take this up and let the evidence guide the final scope.",
-   "x_post": "VA covers many birth defects in children of women Vietnam vets. Children of male Vietnam vets generally get benefits only for spina bifida. Federal law sets that split. A Nevada vet's child is pushing Congress to change it.",
-   "fb_post": "If your mother served in Vietnam, VA covers many birth defects in her children. If your father served, it generally covers only spina bifida.\n\nThat split is written into federal law, so VA can't change it alone. Scott Davidson, a 46-year-old Nevada ultramarathoner born with severe limb and jaw defects, was denied in 2023. He is now working with lawmakers on the Children of Toxic Exposure Relief Act. It hasn't been introduced yet. Sens. Richard Blumenthal and Jacky Rosen have voiced support, and sponsors are still seeking Republican backers.\n\nYale Law School lawyers estimate expanding eligibility could bring about 350,000 new claims. Science on fathers' exposure is unsettled: a 2018 National Academies review found insufficient evidence. We think families shouldn't wait on that, and the benefit shouldn't depend on which parent served.\n\nShould VA cover children of male Vietnam vets the same way it covers children of female vets?",
-   "open_questions": "Article text was cut off mid-sentence at the 2020 Nwanaji-Enwerem study, so its findings are not included. Not confirmed: bill text, sponsors, introduction date, cost estimate, and details of the litigation mentioned. The 350,000 figure comes from Yale Law School lawyers; cost is described only as \"tens of millions of dollars\". Confirm whether the Yale figure is annual or one-time.",
-   "hashtags": [
-    "AgentOrange",
-    "VeteransBenefits"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "265340724092",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "first_responders",
-  "score": 80,
-  "score_parts": {
-   "relevance": 28,
-   "impact": 20,
-   "traction": 12,
-   "angle": 12,
-   "timeliness": 8
-  },
-  "score_why": "Officer suicide on duty and ongoing fight for survivor benefits; core line-of-duty benefits issue.",
-  "policy": false,
-  "state": "CT",
-  "country": "US",
-  "place": "Connecticut",
-  "lat": 41.603,
-  "lon": -73.088,
-  "flags": [
-   {
-    "type": "suicide",
-    "label": "suicide",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Hartford Courant",
-  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUU1Lel9PSjZ6ZUFIRWVHa0pTOUIxWjJ1R2oyaGNQZkJaekJtVlVITk5LdUZNcXkzcW9RRVlrWS1ScU1EZHNyM1JCX1BOYmVVSmpMRWthRDEwTEU1MXVXQVl2bnE5Vnd1TURTdjd5WS1tbkowck9MQ0RfWmRIMTRHTmY1OEtUOGtkWGlRWFhDeWNHaGZmYThuckE3US05ZDdxRmlOUWFwd21rNXllVzI4NV83bTN0M3lRWXo1U1lLcEVVVVFTNldXRGM0WTN2S3QxU043bk9xa2VaQnM?oc=5",
-  "source_title": "A CT police officer took his life on the job more than a decade ago. His wife is still fighting for benefits.",
-  "snippet": "A CT police officer took his life on the job more than a decade ago. His wife is still fighting for benefits. Hartford Courant",
-  "published_at": "2026-10-27T09:01:28Z",
-  "found_at": "2026-10-27T15:15:34Z",
-  "feed": "News search · police and EMS wellness",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "04149456383a",
   "status": "expired",
   "tier": "report",
@@ -2768,6 +2682,229 @@
    "hashtags": [
     "MilitaryEducation",
     "ActiveDuty"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "654ad641d740",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 79,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 16,
+   "traction": 11,
+   "angle": 13,
+   "timeliness": 6
+  },
+  "score_why": "Veterans paying for free claims help, a real consumer-protection angle veteran editors can explain; evergreen rather than breaking.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "The War Horse",
+  "source_url": "https://thewarhorse.org/veterans-disability-claims-paid-help/",
+  "source_title": "Veterans Can Get Free Help With Disability Claims. So Why Are So Many Paying for It?",
+  "snippet": "Five years after former Army Ranger Casey Kraft first sought help obtaining veterans disability benefits, he was still waiting. Kraft’s benefits representative says he repeatedly asked his local county veterans service office for help but was told he was not eligible for benefits, according to a complaint recently submitted to the Department of Veterans Affairs’ [ ] The post Veterans Can Get Free Help With Disability Claims. So Why Are So Many Paying for It? appeared first on The War Horse .",
+  "published_at": "2026-11-10T12:00:00Z",
+  "found_at": "2026-11-10T16:58:06Z",
+  "feed": "The War Horse",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "VA paid $400M+ to claims attorneys and agents last year, though free help exists",
+   "summary": "Congress built a system where veterans can get free, accredited help with disability claims. Yet VA data shows it sent more than $400 million in the past year to accredited attorneys and claims agents through direct-pay fee agreements. Unaccredited consultants add more spending on top. The War Horse reports that a former Army Ranger's claim, allegedly never filed by a county office, shows why some veterans look elsewhere.",
+   "why_it_matters": "Veterans filing or appealing a disability claim should know that free accredited help exists, and that paid options and unaccredited consultants work under very different rules.",
+   "take": "Free, accredited help is the promise Congress made, and it has to work well enough that no veteran feels pushed to pay. When a veteran says a county office never filed his claim, the answer is better service, not a shrug. We also know some paid help is legal and useful, and some companies blur the line between coaching and representation. Veterans should ask who is accredited before they sign anything or pay a dime.",
+   "x_post": "Veterans can get free, accredited help with VA disability claims. Still, VA sent $400M+ last year to paid attorneys and claims agents. Know the three types of help before you sign anything or pay anyone.",
+   "fb_post": "Veterans can get free help with VA disability claims from accredited representatives, including county and state veterans service officers, DAV, and VFW. Even so, VA data shows it sent more than $400 million last year to accredited attorneys and claims agents under direct-pay agreements. That figure leaves out attorneys who bill veterans separately and payments to unaccredited consulting companies.\n\nWhy it matters: accredited attorneys and claims agents may charge fees only after VA issues an initial decision. Private consultants often operate outside VA accreditation, and VA has warned many of them their work may violate federal law. Demand also jumped after the PACT Act, which expanded benefits for veterans exposed to burn pits and other toxic substances.\n\nOur view: the free system has to work, or veterans will go looking elsewhere. One former Army Ranger's representative alleges a county office never filed his claim. Another office's filing reportedly won a 100% rating within six months. The reasons for the gap are disputed. Before you pay anyone, check whether they are accredited.\n\nDid you know free accredited help was available when you filed? Tell us how it went.",
+   "open_questions": "The source text cut off mid-article, in the history section on attorney fee limits, so we have not seen the rest of the reporting, any VA or county office response, or any recommendations. Please read the full War Horse piece before publishing. The Kraft case rests on his representative's account and a complaint to VA's Office of General Counsel; the article says the reasons for the different outcomes remain in dispute. We do not know whether the county office responded. The $400M figure covers only direct-pay agreements in the last year, and the exact period is not specified. Not confirmed whether the original byline or other outlets add detail.",
+   "hashtags": [
+    "VeteransBenefits",
+    "VA"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "d320cdce5dbd",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 78,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Hegseth responds to impeachment filing; major DoD leadership story, developing, but heavy on politics.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Pentagon, Washington DC",
+  "lat": 38.87,
+  "lon": -77.06,
+  "flags": [
+   {
+    "type": "opinion_source",
+    "label": "opinion source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/",
+  "source_title": "Hegseth says impeachment filing against him is ‘sabotage’ and political ‘farce’",
+  "snippet": "The Secretary of Defense defended his record in his first press conference since May, and said attacks on him disrespect troops, and are a preamble for trying service members for war crimes.",
+  "published_at": "2026-11-10T16:35:30Z",
+  "found_at": "2026-11-10T16:58:06Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "Military Times",
+    "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/hegseth-denounces-farce-impeachment-in-first-briefing-since-may/",
+    "title": "Hegseth denounces ‘farce’ impeachment in first briefing since May"
+   },
+   {
+    "source": "Breaking Defense",
+    "url": "https://breakingdefense.com/2026/11/hegseth-vows-to-fight-impeachment-spectacle/",
+    "title": "Hegseth vows to fight impeachment ‘spectacle’"
+   },
+   {
+    "source": "Federal News Network",
+    "url": "https://federalnewsnetwork.com/defense-news/2026/11/hegseth-is-set-for-his-first-pentagon-news-briefing-since-may-as-he-faces-possible-impeachment/",
+    "title": "Hegseth slams his potential impeachment as a ‘political spectacle’ that undermines US troops"
+   },
+   {
+    "source": "Breaking Defense",
+    "url": "https://breakingdefense.com/2026/11/a-pentagon-impeachment-showdown-plus-defense-funding-in-limbo/",
+    "title": "A Pentagon impeachment showdown, plus defense funding in limbo"
+   },
+   {
+    "source": "ABC News - Breaking News, Latest News and Videos",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMmt3eGdDMWZDTmxsWDBCLXhBMnZDNUJfLWhRdl9UQ0R1RzdJbW16UlVGRWRyNzBFVnJuMHcwdHdiNEl6RDZRVFRaTE5sdktPalg5a1dEbURoTGlqMm45N3oyUkM3bnZUb2ZsY3FoeXV6Z0xzS1RZTlNwRS1GWlRFSFhySWJnOVZycDVMeGtkbkpZVUVJbXV4d19PS0ZyRDDSAaQBQVVfeXFMUHUzX3ZXYzhYYWpuNFlEMi1MUTVzOXhvaFVqUkVaUmZCaElUcFN6RC1kekU4d3gwdm9nSDdsUGp6Z0gyaHpadjdBUjU5Y2p1WUhjRHNrc0tVNkszZFlGTmwzWVM1Q1JMWTNXamJITk9nY0pFd3p1SzN0cm9FYWNUNU41U3BYcFl3SnFUTXZGVHRUOHBtWG10Xy1TMlBDbUtKQ183YnU?oc=5",
+    "title": "Defiant Hegseth blasts impeachment effort as 'political spectacle,' saying it puts 'target' on troops"
+   }
+  ],
+  "draft": {
+   "headline": "Hegseth calls Massie's eight impeachment articles a \"political spectacle\"",
+   "summary": "Rep. Thomas Massie, a Kentucky Republican, filed eight articles of impeachment against Defense Secretary Pete Hegseth on Monday. Hegseth answered at the Pentagon, calling the effort political theater and saying he stands behind every operation he ordered. One article centers on lethal force against suspected criminals without judicial process. The House could vote soon, and President Trump is backing Hegseth.",
+   "why_it_matters": "The person at the top of the Defense Department is facing a formal impeachment push over how lethal force has been used, and that affects the troops carrying out those orders.",
+   "take": "Both sides here are doing some spinning. Massie lost his primary in May and has criticized Hegseth for a long time, so his motives will be questioned. Hegseth calling serious legal charges \"policy disagreements\" doesn't answer them either. The charges are about who gets to decide when lethal force is used and under what authority. Troops who carry out those orders deserve a clear answer, not a shield held up by either side.",
+   "x_post": "Rep. Thomas Massie filed eight articles of impeachment against Defense Secretary Hegseth. Hegseth calls it a \"political spectacle\" and says he'd run the operations again. One charge targets lethal force without judicial process.",
+   "fb_post": "Rep. Thomas Massie, R-Ky., filed eight articles of impeachment against Defense Secretary Pete Hegseth on Monday. The 34-page resolution charges \"high crimes and misdemeanors.\" One article says Hegseth subjected people suspected of crimes to lethal military force without judicial process or congressional authorization.\n\nHegseth took questions at the Pentagon and called the effort a \"political spectacle.\" He said he is proud of the operations, called them lawful and successful, and said he'd do them again. President Trump publicly backed him. The House could vote soon. A simple majority would send the articles to the Senate for trial. Only two cabinet secretaries have ever been impeached by the House.\n\nOur view: Massie's record as a critic is fair to weigh, and so is Hegseth's tone. Neither one answers the core question of who has the authority to order lethal force, and under what rules. The troops carrying out those orders deserve that answer.\n\nShould the House take up a question like this on the merits, whatever the politics around it?",
+   "open_questions": "The Military Times source text was unusable (page code only), so this draft rests on Breaking Defense alone. Please verify against Military Times or another outlet. Still unclear: the other seven articles of impeachment beyond the extrajudicial killings article; whether and when the House votes (the report says \"as soon as today\"); the article says both \"Monday\" and \"Tuesday's briefing\" for Hegseth's remarks, which looks like a dating inconsistency, though the briefing appears to be Tuesday, Nov. 10; details of the operations at issue (the \"Iran war,\" vessels, and Massie's claim about seizing oil) and whether the administration disputes those characterizations; whether Hegseth's job status has changed since the reports of jeopardy cited in the article.",
+   "hashtags": [
+    "Hegseth",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "6c98a48918b4",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 74,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 8,
+   "traction": 12,
+   "angle": 7,
+   "timeliness": 14
+  },
+  "score_why": "US tankers evacuated from UK base; breaking U.S. force posture news, reasons unclear.",
+  "policy": false,
+  "state": null,
+  "country": "GB",
+  "place": "RAF Mildenhall, England",
+  "lat": 52.36,
+  "lon": 0.49,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/11/10/britain-says-its-bases-are-safe-after-us-refueling-planes-evacuated/",
+  "source_title": "Britain says its bases are safe after US refueling planes evacuated",
+  "snippet": "Commercially available flight tracking data showed at least 10 Boeing KC-135R Stratotanker refueling planes left the Royal Air Force base in Mildenhall, eastern England, on Monday.",
+  "published_at": "2026-11-10T14:11:56Z",
+  "found_at": "2026-11-10T16:58:06Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Britain says its bases are safe after US refueling planes evacuated",
+   "summary": "The British government says its military bases are safe after US aerial refueling aircraft were evacuated. The report is tied to RAF Mildenhall in England, a base that hosts American air units. Britain's message is meant to reassure the public and allies, even though American aircraft were moved out in the meantime.",
+   "why_it_matters": "US airmen and families stationed in England, and anyone who depends on tanker support, will want clear word on whether the bases they live and work on are secure.",
+   "take": "When aircraft get moved out and officials say \"all is well\" in the same breath, people deserve specifics. Reassurance is not the same as an explanation. We want the Pentagon and the British government to tell US service members and their families what happened and what changes, plainly and soon.",
+   "x_post": "Britain says its bases are safe after US refueling planes were evacuated. The report centers on RAF Mildenhall in England. Reassurance is fine. Service members and families need specifics too.",
+   "fb_post": "Britain says its military bases are safe after US aerial refueling planes were evacuated. The report is tied to RAF Mildenhall in England.\n\nIt matters because American airmen and their families live and work at bases like this one. When aircraft are moved, people want to know why.\n\nOur view: a \"bases are safe\" statement is a start, not an answer. Troops and families deserve plain details from both governments.\n\nWhat would you want to hear first if you were stationed there?",
+   "open_questions": "The source text we received was only page code plus the headline; no article body came through. Still unconfirmed: why the tankers were evacuated, which units and how many aircraft, where they went, whether the evacuation happened at RAF Mildenhall or elsewhere (the dateline says Mildenhall), who in the British government made the statement and what exactly it said, and whether US officials commented. Please pull the full Military Times article before publishing and fix the summary, why-it-matters and take as needed.",
+   "hashtags": [
+    "RAFMildenhall",
+    "USAF"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "184376f572b3",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 14,
+   "traction": 8,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "GAO finds DoD cannot account for F-35 parts; oversight and readiness issue with real cost.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/pentagon-cant-track-millions-of-f-35-spare-parts-watchdog-finds/",
+  "source_title": "Pentagon can’t track millions of F-35 spare parts, watchdog finds",
+  "snippet": "The GAO reported that while the DoD's F-35 program \"is the costliest in its history,\" the department \"struggles to account\" for its parts.",
+  "published_at": "2026-11-10T15:41:12Z",
+  "found_at": "2026-11-10T16:58:06Z",
+  "feed": "Military Times",
+  "also_covered_by": [
+   {
+    "source": "USNI News",
+    "url": "https://news.usni.org/2026/11/10/gao-report-on-the-defense-departments-f-35-program",
+    "title": "GAO Report on the Defense Department’s F-35 Program"
+   }
+  ],
+  "draft": {
+   "headline": "Watchdog: Pentagon can't track millions of F-35 spare parts",
+   "summary": "A watchdog review has found that the Pentagon cannot keep track of millions of spare parts for the F-35 fighter jet, Military Times reports. Spare parts are what keep aircraft flying, and knowing where they are is basic supply discipline. The finding raises questions about how the department manages one of its most expensive weapons programs.",
+   "why_it_matters": "Troops who fly, maintain, and supply the F-35 depend on parts being where the records say they are, and taxpayers are owed an accurate count.",
+   "take": "Every supply sergeant knows the rule: if you can't account for it, you don't control it. Millions of untracked parts on a single aircraft is not a rounding error. We want the department to answer plainly how this happened and who is fixing it, and we want contractors held to the same standard of accountability as the services.",
+   "x_post": "A watchdog finds the Pentagon can't track millions of F-35 spare parts. If you can't account for it, you don't control it. Agencies and contractors both owe a straight answer on how this happened.",
+   "fb_post": "A watchdog has found that the Pentagon cannot track millions of spare parts for the F-35 fighter jet, according to Military Times.\n\nSpare parts are what keep aircraft ready to fly. The people who maintain and supply them need records they can trust, and taxpayers need an honest count of what they paid for.\n\nOur view: if you can't account for it, you don't control it. The department and its contractors owe a clear explanation and a fix.\n\nHave you worked supply or maintenance on a big program? What did parts tracking look like where you served?",
+   "open_questions": "The source text we received was page code only. The only usable content was the headline, so everything here comes from that headline and the byline info. Still needed: which watchdog issued the report (GAO, DoD Inspector General, or another); the exact number of parts and their dollar value; the cause (who holds the parts: government, Lockheed Martin, or other contractors); the Pentagon's response; any recommendations and deadlines; and any readiness impact. Please check the full Military Times article before publishing. Also confirm whether any War Party client is named, since a disclosure would be needed.",
+   "hashtags": [
+    "F35",
+    "Pentagon"
    ],
    "deadlines": []
   }

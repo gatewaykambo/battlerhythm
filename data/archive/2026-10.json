@@ -3758,5 +3758,91 @@
   "feed": "Military Times",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "711bfa2f9270",
+  "status": "expired",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "veterans",
+  "score": 87,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 20,
+   "traction": 13,
+   "angle": 12,
+   "timeliness": 8
+  },
+  "score_why": "VA denying coverage for birth defects of Vietnam veterans' children; strong benefits story, Nevada focus.",
+  "policy": false,
+  "state": "NV",
+  "country": "US",
+  "place": "Nevada",
+  "lat": 39.5,
+  "lon": -116.9,
+  "flags": [],
+  "source": "The War Horse",
+  "source_url": "https://thewarhorse.org/vietnam-veteran-children-va-benefits/",
+  "source_title": "Their Fathers Served in Vietnam. Why Won’t VA Cover Their Birth Defects?",
+  "snippet": "Scott Davidson has always liked a challenge. This year, the 46-year-old ultramarathoner ran 100 continuous miles through his home state of Nevada, racing over roads and trails through the wind and darkness. He did it on two prosthetic legs. Davidson was born with severe birth defects, including deformities of his lower limbs and jaw that [ ] The post Their Fathers Served in Vietnam. Why Won't VA Cover Their Birth Defects? appeared first on The War Horse .",
+  "published_at": "2026-10-27T11:00:00Z",
+  "found_at": "2026-10-27T15:15:34Z",
+  "feed": "The War Horse",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Children of male Vietnam vets are denied VA birth defect benefits; a bill is in the works",
+   "summary": "VA covers many birth defects in children of women who served in Vietnam, but children of male Vietnam veterans generally qualify only for spina bifida. Nevada ultramarathoner Scott Davidson, denied in 2023, is working with lawmakers on the Children of Toxic Exposure Relief Act. It has not been introduced. Yale Law School lawyers estimate about 350,000 new claims if eligibility expands.",
+   "why_it_matters": "Adult children of Vietnam veterans who were exposed to Agent Orange, and the veterans themselves, could see eligibility change only if Congress acts, because the limit is written into federal law.",
+   "take": "We think this rule is hard to defend. VA pays mothers' children without proving Agent Orange caused the defect, and it pays fathers' children only for spina bifida. The science is unsettled, and a 2018 National Academies review found insufficient evidence on paternal exposure. But that is a reason to fund more research, not to leave families without help in the meantime. The cost, which could reach tens of millions of dollars, is real. A promise to those who served should not depend on which parent wore the uniform. Congress should take this up and let the evidence guide the final scope.",
+   "x_post": "VA covers many birth defects in children of women Vietnam vets. Children of male Vietnam vets generally get benefits only for spina bifida. Federal law sets that split. A Nevada vet's child is pushing Congress to change it.",
+   "fb_post": "If your mother served in Vietnam, VA covers many birth defects in her children. If your father served, it generally covers only spina bifida.\n\nThat split is written into federal law, so VA can't change it alone. Scott Davidson, a 46-year-old Nevada ultramarathoner born with severe limb and jaw defects, was denied in 2023. He is now working with lawmakers on the Children of Toxic Exposure Relief Act. It hasn't been introduced yet. Sens. Richard Blumenthal and Jacky Rosen have voiced support, and sponsors are still seeking Republican backers.\n\nYale Law School lawyers estimate expanding eligibility could bring about 350,000 new claims. Science on fathers' exposure is unsettled: a 2018 National Academies review found insufficient evidence. We think families shouldn't wait on that, and the benefit shouldn't depend on which parent served.\n\nShould VA cover children of male Vietnam vets the same way it covers children of female vets?",
+   "open_questions": "Article text was cut off mid-sentence at the 2020 Nwanaji-Enwerem study, so its findings are not included. Not confirmed: bill text, sponsors, introduction date, cost estimate, and details of the litigation mentioned. The 350,000 figure comes from Yale Law School lawyers; cost is described only as \"tens of millions of dollars\". Confirm whether the Yale figure is annual or one-time.",
+   "hashtags": [
+    "AgentOrange",
+    "VeteransBenefits"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "265340724092",
+  "status": "expired",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 80,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 12,
+   "angle": 12,
+   "timeliness": 8
+  },
+  "score_why": "Officer suicide on duty and ongoing fight for survivor benefits; core line-of-duty benefits issue.",
+  "policy": false,
+  "state": "CT",
+  "country": "US",
+  "place": "Connecticut",
+  "lat": 41.603,
+  "lon": -73.088,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Hartford Courant",
+  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUU1Lel9PSjZ6ZUFIRWVHa0pTOUIxWjJ1R2oyaGNQZkJaekJtVlVITk5LdUZNcXkzcW9RRVlrWS1ScU1EZHNyM1JCX1BOYmVVSmpMRWthRDEwTEU1MXVXQVl2bnE5Vnd1TURTdjd5WS1tbkowck9MQ0RfWmRIMTRHTmY1OEtUOGtkWGlRWFhDeWNHaGZmYThuckE3US05ZDdxRmlOUWFwd21rNXllVzI4NV83bTN0M3lRWXo1U1lLcEVVVVFTNldXRGM0WTN2S3QxU043bk9xa2VaQnM?oc=5",
+  "source_title": "A CT police officer took his life on the job more than a decade ago. His wife is still fighting for benefits.",
+  "snippet": "A CT police officer took his life on the job more than a decade ago. His wife is still fighting for benefits. Hartford Courant",
+  "published_at": "2026-10-27T09:01:28Z",
+  "found_at": "2026-10-27T15:15:34Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
  }
 ]
