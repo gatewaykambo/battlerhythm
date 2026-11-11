@@ -1,217 +1,5 @@
 [
  {
-  "id": "04149456383a",
-  "status": "expired",
-  "tier": "report",
-  "sitrep": false,
-  "on_wire": true,
-  "lane": "active_duty",
-  "score": 84,
-  "score_parts": {
-   "relevance": 30,
-   "impact": 12,
-   "traction": 12,
-   "angle": 8,
-   "timeliness": 14
-  },
-  "score_why": "Breaking: sailors killed in car crash at NAS Pensacola; direct impact on the force and families.",
-  "policy": false,
-  "state": "FL",
-  "country": "US",
-  "place": "NAS Pensacola, FL",
-  "lat": 30.353,
-  "lon": -87.319,
-  "flags": [],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/2026/10/27/navy-identifies-nas-pensacola-sailors-killed-in-car-crash/",
-  "source_title": "Navy identifies NAS Pensacola sailors killed in car crash",
-  "snippet": "The U.S. Navy shared the names of the service members who died in a Florida car crash early Saturday morning.",
-  "published_at": "2026-10-27T18:56:25Z",
-  "found_at": "2026-10-27T22:57:11Z",
-  "feed": "Military Times",
-  "also_covered_by": [
-   {
-    "source": "fox10tv.com",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTczR0hxdkc3WldDUUUzckQ2QXZURG1zaXdTdm5COHRHbE5fbmVvRzRHaTFHUXpYaXJ0ZzJZWGxxWGFpQ0NOV3M5d0NJUXR6dGJKUG41MlBIbzdWMjN6VDFFSXRfeWNFVloxTVZaN2llZjB5UkhfRi1OLUdnbUJINm9lZFpFX2RnX3kxWnU4U0VlczlILWh6dkdjRF9vUEo0Mi1zeWsydUw3T2NVcHFuX1NvZXFNNWV3MXlN?oc=5",
-    "title": "Navy officials identify NAS Pensacola service members killed in traffic accident"
-   }
-  ],
-  "draft": {
-   "headline": "Navy identifies NAS Pensacola sailors killed in car crash",
-   "summary": "The Navy has released the names of the sailors from Naval Air Station (NAS) Pensacola, Florida, who were killed in a car crash, Military Times reported on Oct. 27, 2026. The deaths are a loss for the base, for their shipmates, and for their families.",
-   "why_it_matters": "Losing sailors off the battlefield hits a unit and a community hard, and it reminds active-duty families how fast a routine day can change.",
-   "take": "We send our condolences to the families, friends, and shipmates of these sailors. A loss like this ripples through a command long after the news cycle moves on. Leaders owe those left behind real support, and the Navy owes them clear, timely information.",
-   "x_post": "The Navy has identified the NAS Pensacola sailors killed in a car crash. Our condolences to their families, friends, and shipmates at Pensacola and across the fleet.",
-   "fb_post": "The Navy has identified the sailors from Naval Air Station Pensacola in Florida who were killed in a car crash, according to Military Times.\n\nEvery loss like this lands on a family first, then on a unit that has to keep standing the watch. Our condolences go out to the families, friends, and shipmates of these sailors.\n\nWe believe the Navy owes grieving families and commands steady support and straight information in the days ahead.\n\nIf you served at Pensacola or knew these sailors, what would you want their shipmates to know right now?",
-   "open_questions": "The source text we received was page code with no article body, so only the headline is confirmed. Still unknown: how many sailors died, their names, ranks, and units, the date, location, and cause of the crash, whether anyone else was hurt, and whether the Navy has said anything about next of kin or support for the command. Please pull the full Military Times article or the Navy release before publishing, and confirm the \"sailors\" wording and the crash details.",
-   "hashtags": [
-    "Navy",
-    "ActiveDuty"
-   ],
-   "deadlines": []
-  }
- },
- {
-  "id": "bbf213ab5bac",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 67,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 10,
-   "traction": 14,
-   "angle": 7,
-   "timeliness": 14
-  },
-  "score_why": "Ongoing SOUTHCOM boat strikes with mounting death toll; major force-employment story with debate.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Caribbean Sea",
-  "lat": 15.0,
-  "lon": -75.0,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Task & Purpose",
-  "source_url": "https://taskandpurpose.com/news/military-drug-boat-240-killed/",
-  "source_title": "US military’s drug boat strikes have now killed at least 240 people",
-  "snippet": "The attack was at least the third deadly strike carried out by U.S. Southern Command this month. The post US military's drug boat strikes have now killed at least 240 people appeared first on Task & Purpose .",
-  "published_at": "2026-10-27T20:31:01Z",
-  "found_at": "2026-10-27T22:57:11Z",
-  "feed": "Task & Purpose",
-  "also_covered_by": [],
-  "draft": null
- },
- {
-  "id": "fbeb0a6a901f",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 66,
-  "score_parts": {
-   "relevance": 20,
-   "impact": 8,
-   "traction": 14,
-   "angle": 6,
-   "timeliness": 12
-  },
-  "score_why": "Marine indicted for murder in Okinawa; affects US forces abroad and community relations, graphic crime.",
-  "policy": false,
-  "state": null,
-  "country": "JP",
-  "place": "Okinawa, Japan",
-  "lat": 26.5,
-  "lon": 127.95,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "Military Times",
-  "source_url": "https://www.militarytimes.com/news/your-military/2026/10/27/us-marine-indicted-over-suspected-murder-robbery-of-woman-in-okinawa/",
-  "source_title": "US Marine indicted over suspected murder, robbery of woman in Okinawa",
-  "snippet": "U.S. Marine Lance Cpl. Devin Jacob Ballard was indicted on Sunday for the murder and robbery of Anna Yagi, a 39-year-old Naha resident.",
-  "published_at": "2026-10-27T17:07:46Z",
-  "found_at": "2026-10-27T22:57:11Z",
-  "feed": "Military Times",
-  "also_covered_by": [],
-  "draft": null
- },
- {
-  "id": "15c87e06ebee",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "active_duty",
-  "score": 63,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 10,
-   "traction": 12,
-   "angle": 6,
-   "timeliness": 13
-  },
-  "score_why": "Lethal U.S. strike on alleged drug boat; military action with real stakes, but not a force-readiness or personnel story.",
-  "policy": false,
-  "state": null,
-  "country": "US",
-  "place": "Eastern Pacific",
-  "lat": 0.0,
-  "lon": -120.0,
-  "flags": [
-   {
-    "type": "graphic",
-    "label": "graphic",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "USNI News",
-  "source_url": "https://news.usni.org/2026/10/27/u-s-forces-kill-5-in-strike-on-suspected-narco-boat",
-  "source_title": "U.S. Forces Kill 5 in Strike on Suspected Narco Boat",
-  "snippet": "Five are dead after U.S. forces struck a suspected narco boat in the Eastern Pacific, U.S. Southern Command announced on Tuesday. “On Oct. 27, under the direction of #SOUTHCOM, Joint Task Force Western Hemisphere executed a lethal, kinetic strike on a go-fast vessel operating along established narco-trafficking routes in the Eastern Pacific,” reads a statement on X. According to SOUTHCOM, unspecified intelligence indicated those operating the boat were trafficking drugs and referred to the individuals killed as “narco-terrorists.” A total of 243 people have been killed as part of the Southern ",
-  "published_at": "2026-10-27T19:42:55Z",
-  "found_at": "2026-10-27T22:57:11Z",
-  "feed": "USNI News",
-  "also_covered_by": [],
-  "draft": null
- },
- {
-  "id": "11d3a7f08702",
-  "status": "expired",
-  "tier": "hold",
-  "sitrep": false,
-  "on_wire": false,
-  "lane": "veterans",
-  "score": 57,
-  "score_parts": {
-   "relevance": 22,
-   "impact": 14,
-   "traction": 6,
-   "angle": 5,
-   "timeliness": 10
-  },
-  "score_why": "VA suicide prevention grants to Ohio groups; practical resources for local veterans.",
-  "policy": false,
-  "state": "OH",
-  "country": "US",
-  "place": "Ohio",
-  "lat": 40.4,
-  "lon": -82.9,
-  "flags": [
-   {
-    "type": "suicide",
-    "label": "suicide",
-    "detail": "",
-    "disclosure": ""
-   }
-  ],
-  "source": "WCPO 9 News",
-  "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYUdKaTZ6TG9va0NLVzhQOVVWRzFkdzMzVEVQZ1NtY09iOEMtWmkwTEg2SkRCY0dKRGF3VndwSjFKRUg2UHkyN2FNQmgzR3YxZENsZl9IUjNReW4yN3A1VlN4SE9OZjJrMTR1V3F3MkNrdE9fbGZ6Uzl1MFdDalZLSXcyajZwMVNSTXRsMzctaUYweDJ0T3hiMHByV2dIU28xLWstcGRyd1hZNUI4a2FoMzNGdHBqRkJsSzFmdDV4aHZ3bVQzVVBJ?oc=5",
-  "source_title": "Six Ohio veteran groups receive $2.5 million in VA grants to boost suicide prevention efforts",
-  "snippet": "Six Ohio veteran groups receive $2.5 million in VA grants to boost suicide prevention efforts WCPO 9 News",
-  "published_at": "2026-10-27T16:37:24Z",
-  "found_at": "2026-10-27T22:57:11Z",
-  "feed": "News search · veterans and VA",
-  "also_covered_by": [],
-  "draft": null
- },
- {
   "id": "b5ff100fbec7",
   "status": "expired",
   "tier": "report",
@@ -1965,7 +1753,7 @@
  },
  {
   "id": "bd103b23f78c",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2018,7 +1806,7 @@
  },
  {
   "id": "b81f52f1980b",
-  "status": "pending",
+  "status": "expired",
   "tier": "report",
   "sitrep": false,
   "on_wire": true,
@@ -2908,5 +2696,327 @@
    ],
    "deadlines": []
   }
+ },
+ {
+  "id": "a02af7b383de",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": true,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 90,
+  "score_parts": {
+   "relevance": 30,
+   "impact": 20,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "Marine barracks housing standards let Marines refuse unsafe rooms; direct quality-of-life change for troops.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-marine-corps/2026/11/10/marines-new-housing-bill-of-rights-defines-when-they-can-refuse-a-barracks-room/",
+  "source_title": "Marines’ new housing bill of rights defines when they can refuse a barracks room",
+  "snippet": "Marines can refuse uninhabitable barracks under new Marine Corps standards that define unsafe conditions and establish minimum housing requirements.",
+  "published_at": "2026-11-10T20:44:53Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Marines get new housing bill of rights covering when they can refuse a barracks room",
+   "summary": "Military Times reports that Marines now have a new housing bill of rights. The document defines the situations in which a Marine can refuse a barracks room. That speaks to a practical question for anyone living in the barracks: when can I say no to the room I was assigned, and what backs me up if I do?",
+   "why_it_matters": "Marines who live in the barracks now have written rules on when they can turn down a room.",
+   "take": "Putting a Marine's right to refuse a room in writing is a good step. A place to live is part of the deal for those who serve, not a favor. But a right on paper only counts if Marines know about it and can use it without worrying about their careers. We will be watching how it works in the barracks, not just how it reads.",
+   "x_post": "Marines now have a new housing bill of rights that spells out when they can refuse a barracks room, per Military Times. Rights on paper are a start. What matters is whether Marines can use them.",
+   "fb_post": "Marines have a new housing bill of rights, and it defines when a Marine can refuse a barracks room, according to Military Times.\n\nWhere you sleep is part of the deal for those who serve. Having the rules written down means a Marine doesn't have to guess what they can say no to.\n\nOur view: a right only helps if people know it exists and can use it without fear of blowback. Writing it down is the first step. Making it work is the second.\n\nIf you've lived in the barracks, what's the one housing rule you wish had been in writing?",
+   "open_questions": "The source text provided was only page styling code with no article body, so only the headline and publication date (2026-11-10) are confirmed. Still unknown: who issued the bill of rights (Marine Corps, Department of the Navy, or Congress); the actual conditions under which a Marine may refuse a room; the effective date and which installations it covers; how refusals are handled and whether there is protection from retaliation; how it is enforced; and whether it applies to unaccompanied or all barracks residents. The take's point about retaliation is an opinion not backed by source detail. Pull the full Military Times article before publishing and check the summary against it.",
+   "hashtags": [
+    "Marines",
+    "MilitaryHousing"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "af2dc722feed",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 81,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 12,
+   "traction": 14,
+   "angle": 8,
+   "timeliness": 14
+  },
+  "score_why": "Senior US soldier arrested in UK for suspected Russian espionage; breaking counterintelligence story affecting the force.",
+  "policy": false,
+  "state": null,
+  "country": "GB",
+  "place": "United Kingdom",
+  "lat": 54.0,
+  "lon": -2.0,
+  "flags": [
+   {
+    "type": "thin_source",
+    "label": "thin source",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/your-military/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia/",
+  "source_title": "US soldier arrested in UK for suspected ‘espionage’ for Russia",
+  "snippet": "A senior U.S. soldier was arrested in Britain on suspicion of assisting Russian ​intelligence, British police said on Tuesday.",
+  "published_at": "2026-11-10T21:24:11Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "US soldier arrested in United Kingdom on suspicion of spying for Russia",
+   "summary": "Military Times reports that a U.S. soldier has been arrested in the United Kingdom on suspicion of espionage on behalf of Russia. An arrest on suspicion is not a finding of guilt, and the allegation has not been tested in court. Any case of this kind raises hard questions about trust and the protection of sensitive information among allied forces.",
+   "why_it_matters": "Espionage allegations against a service member go to the core of trust in the ranks and the security of information shared with allies, which affects everyone who serves.",
+   "take": "We will wait for facts before drawing conclusions about this soldier. Suspicion is not proof, and the accused is owed due process like anyone else. If the allegation holds up, it is a serious breach of the oath and of the trust of fellow soldiers and allies. The vast majority of troops stand their watch honorably, and they should not be tarred by one case.",
+   "x_post": "A U.S. soldier has been arrested in the United Kingdom on suspicion of spying for Russia, Military Times reports. Suspicion is not guilt, and due process applies. We are watching for confirmed details.",
+   "fb_post": "A U.S. soldier has been arrested in the United Kingdom on suspicion of espionage on behalf of Russia, according to Military Times.\n\nAn arrest on suspicion is not a conviction. The soldier is owed due process, and the facts need to come out through the proper channels.\n\nStill, an allegation like this touches trust within the ranks and the security of information shared with allies. Most troops serve honorably, and one case should not stain all of them.\n\nHow much confidence do you have that the services can catch insider threats without eroding trust in their own people?",
+   "open_questions": "The source text provided was only the headline and page code (CSS), with no article body. Not yet confirmed: the soldier's name, rank, unit, and base; which UK agency made the arrest and when; the exact legal basis or charges; whether the U.S. Army or DoD has commented; what information, if any, was allegedly shared; and where the case will be prosecuted (UK or U.S. jurisdiction). Please pull the full Military Times article or other outlets before publishing. Also confirm the wording \"on suspicion of\" matches the original reporting.",
+   "hashtags": [
+    "Espionage",
+    "ActiveDuty"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "ca6e825b3679",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 76,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 13,
+   "angle": 7,
+   "timeliness": 13
+  },
+  "score_why": "Poll on Congress ending the Iran conflict; big force-relevant political debate but a poll story.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
+  "source_title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+  "snippet": "A new Reuters/Ipsos poll found that 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
+  "published_at": "2026-11-10T19:29:39Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Poll: Most Americans want new Democratic Congress to end Trump's Iran war",
+   "summary": "A new poll, reported by Military Times on Nov. 10, 2026, finds that most Americans want the new Democratic Congress to bring the U.S. war with Iran under President Trump to an end. A poll measures public opinion. It is not a vote, and it is not a change in policy or orders.",
+   "why_it_matters": "Active-duty troops and their families carry the weight of any war, so shifts in public and congressional pressure over the Iran conflict are worth watching.",
+   "take": "Polls come and go, but the people in uniform stay on the job until someone changes the orders. Whatever your politics, a war this big deserves open debate and a clear definition of the mission and the end state. We'll be watching what the new Congress does, not just what it says. Troops and their families should get straight answers.",
+   "x_post": "New poll: most Americans want the new Democratic Congress to end the Iran war. A poll isn't a policy change, but the pressure on Washington matters to troops and families carrying the load. Via Military Times.",
+   "fb_post": "A new poll reported by Military Times finds that most Americans want the new Democratic Congress to end the Iran war under President Trump.\n\nWhy it matters: troops and their families live with the results of these decisions. Public opinion can shape what Congress takes up, but a poll is not a vote and it does not change anyone's orders.\n\nOur view: a war needs a clearly stated mission and a clear end state, and the people carrying it out deserve straight answers. We'll be watching what Congress does, not only what it says.\n\nWhat do you want to hear from Congress about the Iran war?",
+   "open_questions": "The article text we received was only website CSS code, so we have just the headline. Before publishing, confirm: who ran the poll, sample size, margin of error, field dates, and the exact share of respondents who said Congress should end the war. Also confirm how the article describes the Iran war and the \"new Democratic Congress\" (when it is seated, which chambers). Check whether any troop-specific or veteran-specific polling is included. Nothing in the source states any deadline or vote date.",
+   "hashtags": [
+    "Iran",
+    "Congress"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "d7dff621c1e7",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 72,
+  "score_parts": {
+   "relevance": 22,
+   "impact": 10,
+   "traction": 12,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "House procedural vote on impeachment of the Defense Secretary; political, moderate force relevance.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.9,
+  "lon": -77.04,
+  "flags": [],
+  "source": "Military Times",
+  "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/10/house-republicans-sidestep-effort-to-impeach-hegseth/",
+  "source_title": "House Republicans sidestep effort to impeach Hegseth",
+  "snippet": "In a 211 to 204 vote, House Republicans sent proposed impeachment articles against Hegseth to the Judiciary Committee, quashing the effort.",
+  "published_at": "2026-11-10T23:31:53Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "Military Times",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "House Republicans sidestep effort to impeach Hegseth",
+   "summary": "Military Times reported on Nov. 10, 2026, that House Republicans sidestepped an effort to impeach Hegseth. The story comes out of Washington, DC. It lands in our Active Duty lane because it concerns the leadership of the force.",
+   "why_it_matters": "Decisions about who answers to Congress, and how, shape the leadership that service members and their families live under.",
+   "take": "We believe accountability applies to everyone, including people at the top. When Congress steps around a move like this, the public is owed a plain explanation of why. Service members follow the chain of command every day, and they deserve to see leaders held to the same standard.",
+   "x_post": "House Republicans have sidestepped an effort to impeach Hegseth, Military Times reports. Accountability should apply at every level, and Congress owes the public a clear explanation of its choices.",
+   "fb_post": "House Republicans have sidestepped an effort to impeach Hegseth, according to a Military Times report published Nov. 10, 2026.\n\nWhy it matters: how Congress handles questions about leadership affects the force and the families who depend on it.\n\nOur view: accountability applies to everyone, agencies and leaders included. If Congress chooses to step around a question like this, it should explain that choice in plain language.\n\nWhere do you think the line on leadership accountability belongs?",
+   "open_questions": "The supplied article text was only web page styling code, so the sources give us just the Military Times headline and publish date. Still unknown: Hegseth's title as stated in the story; who introduced the impeachment effort and what it alleged; what procedural move Republicans used to sidestep it (tabling, referral, or something else); the vote count, if any; what happens next; and any reaction from Hegseth, the Pentagon, or Democrats. Please pull the full Military Times article before approving. The take is deliberately general because the grounds for impeachment are not known.",
+   "hashtags": [
+    "Hegseth",
+    "Congress"
+   ],
+   "deadlines": []
+  }
+ },
+ {
+  "id": "19b19f554590",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "first_responders",
+  "score": 72,
+  "score_parts": {
+   "relevance": 26,
+   "impact": 12,
+   "traction": 12,
+   "angle": 12,
+   "timeliness": 10
+  },
+  "score_why": "Cluster of first responder suicides drives a wellness and support debate; strong angle for our editors",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "MPR News",
+  "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmhJS1ZJV2VZU2tWTnRXTE5ka0c0dVpUcGhiZENlekNlS2ZROGNwS0dITkNlUjRxekFIQlNlSmJGbThrRTg4Y3RFa0E1aV9HVkJZeHZyZWJYSEtWWmxDd1d3WVEydkRwUTlSSXY2ZUdWS0lHbFU5ZW95bjRqWHhZVV9wcXFmd3VpRUxkb3g2UE5lQVctR19rME1XcUVPaGQyMFQ5d3NGQlhpdUIwSWUwOHVadjU?oc=5",
+  "source_title": "String of first responder suicides highlights growing need for mental health support",
+  "snippet": "String of first responder suicides highlights growing need for mental health support MPR News",
+  "published_at": "2026-11-10T20:29:00Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "News search · police and EMS wellness",
+  "also_covered_by": [],
+  "draft": null
+ },
+ {
+  "id": "d3dad6a93a05",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 71,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 16,
+   "traction": 10,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Defense budget uncertainty before Dec. 11 funding lapse; direct pay and readiness stakes.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": null,
+  "lat": null,
+  "lon": null,
+  "flags": [],
+  "source": "Air & Space Forces Magazine",
+  "source_url": "https://www.airandspaceforces.com/congress-pentagons-defense-budget-drills-think-tanks/",
+  "source_title": "With $1.5 Trillion Defense Bill Unlikely, Congress Weighs Options",
+  "snippet": "As Congress gets back to business after the midterm elections, uncertainty swirls over the state of government funding that runs out Dec. 11, especially for the Pentagon. New reports from leading defense think tank experts illustrate just how wide the range of outcomes could be. The post With $1.5 Trillion Defense Bill Unlikely, Congress Weighs Options appeared first on Air & Space Forces Magazine .",
+  "published_at": "2026-11-10T23:17:14Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "Air & Space Forces Magazine",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Congress faces Dec. 11 funding deadline as $1.5 trillion defense plan fades",
+   "summary": "Congress has until Dec. 11 to pass a fiscal 2027 spending bill or another stopgap, or government funding runs out. Experts say the White House's $1.5 trillion defense request is dead. Pentagon money is frozen at about $858 billion a year under the current continuing resolution. Analysts at CSBA and AEI are mapping budgets from $1 trillion to $1.25 trillion. All four agree a full-year stopgap would be the worst outcome.",
+   "why_it_matters": "The size of the final defense budget, or a stopgap that leaves spending at last year's level, will decide which aircraft, missiles and programs the Air Force and Space Force can fund in fiscal 2027.",
+   "take": "We agree with the analysts on one point: a full-year stopgap is the worst answer. Units can't plan, buy or build on last year's numbers. Pentagon leaders are right to make their case, but $1.5 trillion now looks like an opening bid, not a plan. Congress should decide which cuts it can defend, and tell the force plainly what it chose.",
+   "x_post": "Government funding runs out Dec. 11. Experts say the $1.5T defense request is dead. Analysts are weighing $1T–$1.25T options, and all four agree a full-year stopgap would be the worst outcome. What should Congress protect?",
+   "fb_post": "Congress is back from the midterms with just weeks to settle the fiscal 2027 budget. Government funding runs out Dec. 11 unless lawmakers pass a spending bill or another continuing resolution. Pentagon money is frozen at about $858 billion a year until then.\n\nExperts say the White House's $1.5 trillion defense plan won't clear Congress. Pentagon leaders are still pushing for it. Think-tank analysts at CSBA and AEI have laid out options between $1 trillion and $1.25 trillion. Their picks differ on F-35 and F-47 fighters, Golden Dome missile defense and munitions. Some cuts to F-35 purchases show up in every AEI plan.\n\nOur view: the one thing all four analysts agree on is that a full-year stopgap is the worst outcome, and we agree. The force can't plan on last year's numbers.\n\nIf you had to choose, what should Congress protect first?",
+   "open_questions": "The article text was cut off mid-sentence in the final quote from CSBA's Travis Sharp, so the rest of the piece is missing, including any detail on a full-year CR. Sources don't say whether Congress is likely to pass a full bill or another CR before Dec. 11. They don't address effects on pay, personnel, or military construction. The article mentions \"the Iran conflict\" only in passing, with no background. The stated House committee figure ($1.07 trillion) and the \"base\" request ($1.15 trillion) should be checked against a second source. Also check the AEI and CSBA reports directly for exact figures before publishing.",
+   "hashtags": [
+    "DefenseBudget",
+    "Congress"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-12-11",
+     "label": "Government funding runs out without new bill or CR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "644fdc5a6995",
+  "status": "pending",
+  "tier": "hold",
+  "sitrep": false,
+  "on_wire": false,
+  "lane": "veterans",
+  "score": 70,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 14,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "VA data showing elevated veteran suicide risk in Maine; important, shareable, with a local angle",
+  "policy": false,
+  "state": "ME",
+  "country": "US",
+  "place": "Maine",
+  "lat": 45.3,
+  "lon": -69.2,
+  "flags": [
+   {
+    "type": "suicide",
+    "label": "suicide",
+    "detail": "",
+    "disclosure": ""
+   }
+  ],
+  "source": "WMTW",
+  "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMW5fYnF2UzFjLThoWlg2cVpDZHB5Z0dOTXdJbEdBaTRfSW41eXNuNW5CTnQ1OHlTSTBXT1hrclY4bTA1UlliaWh1OVZMOG5kbXB1UDVLY3luMnBsNmd1SnphWm16V3BSZFo4TnQ2S2hySk9qX3VRcnVvODRkaFJxTk9lUHJ2RWZSUkVSZ3lpMA?oc=5",
+  "source_title": "VA data shows Maine veterans face a higher risk of suicide than others across the country",
+  "snippet": "VA data shows Maine veterans face a higher risk of suicide than others across the country WMTW",
+  "published_at": "2026-11-10T20:22:00Z",
+  "found_at": "2026-11-11T00:03:14Z",
+  "feed": "News search · veterans and VA",
+  "also_covered_by": [],
+  "draft": null
  }
 ]

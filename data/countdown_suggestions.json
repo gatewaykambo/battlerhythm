@@ -40,14 +40,6 @@
   "found_at": "2026-11-07T22:37:30Z"
  },
  {
-  "id": "6c7ab4818bd3",
-  "date": "2026-11-10",
-  "label": "Hegseth press conference at the Pentagon",
-  "story_id": "3761e04b590b",
-  "headline": "House expected to vote this week on impeaching Defense Secretary Hegseth over Iran war",
-  "found_at": "2026-11-10T01:59:19Z"
- },
- {
   "id": "fc869d631034",
   "date": "2026-11-11",
   "label": "House impeachment vote expected by this date",
@@ -62,5 +54,13 @@
   "story_id": "3761e04b590b",
   "headline": "House expected to vote this week on impeaching Defense Secretary Hegseth over Iran war",
   "found_at": "2026-11-10T01:59:19Z"
+ },
+ {
+  "id": "fe18247b90b0",
+  "date": "2026-12-11",
+  "label": "Government funding runs out without new bill or CR",
+  "story_id": "d3dad6a93a05",
+  "headline": "Congress faces Dec. 11 funding deadline as $1.5 trillion defense plan fades",
+  "found_at": "2026-11-11T00:03:14Z"
  }
 ]

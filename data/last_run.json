@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-10T16:48:25Z",
+ "started_at": "2026-11-10T23:54:14Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
@@ -12,12 +12,13 @@
   "The War Horse (25)",
   "VA News (25)",
   "Federal Register · VA documents (19)",
+  "GDELT · firefighters (19)",
   "GDELT · police, EMS, dispatch (25)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
-  "News search · firefighters (11)",
+  "News search · firefighters (13)",
   "News search · police and EMS wellness (25)",
   "News search · psychedelic therapy and veterans (19)",
   "News search · hemp and THC law (25)"
@@ -25,18 +26,17 @@
  "feeds_failed": [
   "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
   "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
-  "GDELT · firefighters: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28firefighters%20OR%20%2",
-  "GDELT · psychedelic therapy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28psilocybin%20OR%20MDMA",
+  "GDELT · psychedelic therapy: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30)",
   "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
  ],
- "new": 115,
- "scored": 115,
- "wired": 15,
- "queued": 4,
- "drafted": 4,
+ "new": 108,
+ "scored": 108,
+ "wired": 18,
+ "queued": 7,
+ "drafted": 5,
  "no_article": 0,
- "duplicates_merged": 8,
- "deadlines": 0,
+ "duplicates_merged": 1,
+ "deadlines": 1,
  "errors": [],
- "finished_at": "2026-11-10T16:59:58Z"
+ "finished_at": "2026-11-11T00:05:26Z"
 }
