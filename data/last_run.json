@@ -1,42 +1,44 @@
 {
- "started_at": "2026-11-10T23:54:14Z",
+ "started_at": "2026-11-11T16:54:50Z",
  "dry_run": false,
  "feeds_ok": [
   "Military Times (10)",
   "Defense News (10)",
-  "Task & Purpose (22)",
+  "Task & Purpose (23)",
   "USNI News (25)",
   "Air & Space Forces Magazine (9)",
   "Breaking Defense (15)",
   "Federal News Network (15)",
+  "GDELT · U.S. forces worldwide (25)",
   "The War Horse (25)",
   "VA News (25)",
-  "Federal Register · VA documents (19)",
-  "GDELT · firefighters (19)",
-  "GDELT · police, EMS, dispatch (25)",
+  "Federal Register · VA documents (20)",
+  "GDELT · firefighters (25)",
   "Marijuana Moment (10)",
   "Lucid News (10)",
+  "GDELT · psychedelic therapy (4)",
+  "GDELT · hemp and cannabis policy (19)",
   "News search · service members (25)",
   "News search · veterans and VA (25)",
-  "News search · firefighters (13)",
+  "News search · firefighters (22)",
   "News search · police and EMS wellness (25)",
-  "News search · psychedelic therapy and veterans (19)",
+  "News search · psychedelic therapy and veterans (15)",
   "News search · hemp and THC law (25)"
  ],
  "feeds_failed": [
-  "GDELT · U.S. forces worldwide: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22U.S.%20troops%22%20",
   "GDELT · veterans: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28veterans%20OR%20%22Vet",
-  "GDELT · psychedelic therapy: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30)",
-  "GDELT · hemp and cannabis policy: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28hemp%20OR%20cannabis%2"
+  "GDELT · police, EMS, dispatch: HTTPError: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28police%20OR%20paramedi"
  ],
- "new": 108,
- "scored": 108,
- "wired": 18,
- "queued": 7,
- "drafted": 5,
+ "new": 158,
+ "scored": 158,
+ "wired": 21,
+ "queued": 2,
+ "drafted": 2,
  "no_article": 0,
- "duplicates_merged": 1,
+ "duplicates_merged": 0,
  "deadlines": 1,
- "errors": [],
- "finished_at": "2026-11-11T00:05:26Z"
+ "errors": [
+  "grouping: Grouping did not return a list"
+ ],
+ "finished_at": "2026-11-11T17:02:43Z"
 }

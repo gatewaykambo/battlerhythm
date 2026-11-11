@@ -1861,7 +1861,7 @@
  },
  {
   "id": "bd4014c4d3aa",
-  "status": "pending",
+  "status": "expired",
   "tier": "hold",
   "sitrep": false,
   "on_wire": false,
@@ -3018,5 +3018,102 @@
   "feed": "News search · veterans and VA",
   "also_covered_by": [],
   "draft": null
+ },
+ {
+  "id": "f024016233db",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 80,
+  "score_parts": {
+   "relevance": 28,
+   "impact": 20,
+   "traction": 12,
+   "angle": 10,
+   "timeliness": 10
+  },
+  "score_why": "House bill would give medically retired veterans both retirement and disability pay; direct pay impact on service members.",
+  "policy": true,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.907,
+  "lon": -77.037,
+  "flags": [],
+  "source": "kwtx.com",
+  "source_url": "https://www.kwtx.com/2026/11/11/medically-retired-veterans-could-receive-retirement-disability-benefits-under-house-bill/",
+  "source_title": "Medically retired veterans could receive retirement and disability benefits under House bill",
+  "snippet": "",
+  "published_at": "2026-11-11T05:30:00Z",
+  "found_at": "2026-11-11T17:00:52Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "Takano aims to force House vote on Major Richard Star Act for medically retired vets",
+   "summary": "Rep. Mark Takano, D-Calif., says he will use House rules to force a vote on the Major Richard Star Act, with the vote set for Veterans Day. The bill would end the practice of cutting retirement pay by the amount of VA disability pay, so medically retired veterans could collect both. More than 150 veterans and Veterans of Foreign Wars (VFW) leaders backed the push.",
+   "why_it_matters": "Troops who are medically retired after an injury, and the families who depend on that income, could see a large increase in monthly pay if the bill passes.",
+   "take": "We think this is a promise-kept issue. A service member who is injured and forced out should not have one earned benefit cancel out another. Willie Keller, a VFW post commander, says the change would be worth almost $3,000 a month to him. Floor votes make good headlines, so the real test is whether the bill passes both chambers and gets signed. Watch for that, not the speeches.",
+   "x_post": "Medically retired vets often lose retirement pay dollar for dollar when they get VA disability pay. Rep. Takano says he'll force a House vote on the Major Richard Star Act, which would let them keep both. One Texas vet says that's ~$3,000 a month.",
+   "fb_post": "A bill to let medically retired veterans collect both their military retirement pay and their VA disability pay is headed for a House vote push. Rep. Mark Takano, D-Calif., says he will use House rules to force a vote on the Major Richard Star Act on Veterans Day.\n\nToday, disability benefits offset retirement benefits. In many cases, that means the veteran gets only the larger of the two. Willie Keller, who commands VFW Post 12209 in Texas, was medevaced out of Afghanistan after a combat injury. He says getting both would mean almost $3,000 more a month. He also says he knows hundreds of local vets this could affect, and some don't realize they might qualify.\n\nWe see this as a basic question of keeping promises. If you were hurt in service and forced out before you were ready, your earned benefits shouldn't cancel each other out. A forced vote is a start, though. It still has to pass and become law.\n\nDo you or someone in your family have a medical retirement? How does the offset affect your household?",
+   "open_questions": "Date: the article says the forced vote would come on Veterans Day (Nov. 11). It was published Nov. 11, 2026, so confirm whether the vote has happened or is still pending, and what the result was. The source does not give the bill number, the House procedure being used, the cosponsors, or the cost estimate. It also does not give the eligibility rules (years of service, disability rating, combat-related or not), whether a Senate companion exists, or what Takano means by a \"real\" Star Act. Takano's claim about \"the largest cuts to veterans benefits in history\" is unsourced, so we left it out. Check the bill text and the Congress.gov record before publishing.",
+   "hashtags": [
+    "VeteransDay",
+    "MajorRichardStarAct"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-11",
+     "label": "Takano's planned House vote on Star Act"
+    }
+   ]
+  }
+ },
+ {
+  "id": "eb067656163b",
+  "status": "pending",
+  "tier": "report",
+  "sitrep": false,
+  "on_wire": true,
+  "lane": "active_duty",
+  "score": 70,
+  "score_parts": {
+   "relevance": 24,
+   "impact": 12,
+   "traction": 13,
+   "angle": 8,
+   "timeliness": 13
+  },
+  "score_why": "Developing House vote on impeaching the Defense Secretary; political fight with direct Pentagon leadership implications.",
+  "policy": false,
+  "state": null,
+  "country": "US",
+  "place": "Washington, DC",
+  "lat": 38.907,
+  "lon": -77.037,
+  "flags": [],
+  "source": "dailymaverick.co.za",
+  "source_url": "https://www.dailymaverick.co.za/article/2026-11-11-us-house-blocks-bid-to-impeach-defense-secretary-hegseth/",
+  "source_title": "US House blocks bid to impeach Defense Secretary Hegseth",
+  "snippet": "",
+  "published_at": "2026-11-11T05:30:00Z",
+  "found_at": "2026-11-11T17:00:52Z",
+  "feed": "GDELT · U.S. forces worldwide",
+  "also_covered_by": [],
+  "draft": {
+   "headline": "House votes 211-204 to shelve Massie's bid to impeach Defense Secretary Hegseth",
+   "summary": "On Nov. 10, the US House voted 211 to 204 to send eight articles of impeachment against Defense Secretary Pete Hegseth to the Judiciary Committee, which sponsor Rep. Thomas Massie said would kill them. No other Republicans backed Massie. Eleven Democrats, including Nancy Pelosi, did not vote. Democrats take control of Congress in January and could try again.",
+   "why_it_matters": "The person running the Pentagon stays in place for now, but a Democratic-led House in January could reopen the fight over the Iran war, firings of senior officers, and a proposed jump in the defense budget.",
+   "take": "The vote was close, and attendance decided it. Eight of the 11 Democrats who skipped it would have flipped the result, and that is a hard thing to explain to voters who say they want oversight. Whatever you think of Hegseth, a war, a budget request of $1.5 trillion and the firing of senior officers all deserve real hearings, not a procedural shelf. Troops carry out these decisions, so Congress owes them scrutiny of the people who make them.",
+   "x_post": "House votes 211-204 to refer impeachment articles against Defense Secretary Hegseth to committee, a move sponsor Rep. Massie says kills them. 11 Democrats didn't vote. Democrats take over Congress in January and could try again.",
+   "fb_post": "The House has blocked an effort to impeach Defense Secretary Pete Hegseth. On Nov. 10, members voted 211 to 204 to refer eight articles of impeachment to the Judiciary Committee. Rep. Thomas Massie, the Kentucky Republican who brought them, said that move would kill them.\n\nNo other Republicans joined Massie. Eleven Democrats, including Nancy Pelosi, did not vote. If eight of them had, the motion would have failed and the House could have held a full impeachment vote.\n\nWhy it matters: Democrats take control of Congress in January. House Democratic leader Hakeem Jeffries said they will discuss a new effort \"at the appropriate time.\" Hegseth called the push a farce and said his orders were lawful. Issues like the Iran war, fired senior officers, and a proposed defense budget of $1.5 trillion could come up.\n\nOur view: a war, a budget and leadership firings all deserve real oversight, in public. Do you think Congress is doing enough to oversee the Pentagon?",
+   "open_questions": "Why did the 11 Democrats, including Pelosi, miss the vote? Pelosi's office had not responded. Whether Democrats will actually refile in the next Congress is undecided. The source is a Reuters story carried by Daily Maverick; consider checking Reuters directly. Hegseth's claims about Iran and Trump's \"exoneration\" comment are their own characterizations, and we have not independently verified them.",
+   "hashtags": [
+    "Hegseth",
+    "Pentagon"
+   ],
+   "deadlines": []
+  }
  }
 ]
